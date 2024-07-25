@@ -24,8 +24,14 @@ Therefore I decided to fork their archived chart repository and manually push so
             - **Repository:** https://github.com/v3DJG6GL/truecharts_archive
             - **Preferred Trains:** incubator, premium, stable, system
             - **Branch:** main
-    3.  Now you should be able to update your applications again. I currently manually push updates for these applications:
-        - **premium train:**
+
+Now you should be able to update your applications again.
+
+&nbsp;
+
+- ### I currently manually push updates for these applications:
+    
+- - - **premium train:**
             - authelia: v4.38.9 *(Updated: 2024.07.24)*
             - Nextcloud: v29.0.4 *(Updated: 2024.07.24)*
         - **stable train**
