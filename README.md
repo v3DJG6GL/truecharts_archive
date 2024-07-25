@@ -1,7 +1,43 @@
-# catalog
+# TrueNAS SCALE catalog
 
-This is just the TrueNAS SCALE App Catalog.
-It's not being maintained anymore, as iX-Systems, in all their "wisdom" decided to sunset/deprecate TrueNAS SCALE Apps based on kubernets/helm.
+This is a fork of the archived TrueCharts App Catalog for TrueNAS SCALE.  
+Since iX-Systems will deprecate their Kubernets/Helm-based GUI app plattform in Q4 2024, TrueCharts already deprecated their TrueNAS catalog. Thus, you cannot update your already installed applications anymore although there's currently no migration to another Kubernetes plattform available. There will be a migration to their new Kubernetes-based plattform(s).  
+But for now, you have to wait.
 
-We will soon release a smooth migration path for current users.
-This catalog will likely be moved to https://github.com/truecharts/archive 01-01-2025
+Therefore I decided to fork their archived chart repository and manually push some updates for applications I personally use. Feel free to use this chart to update your own TrueCharts applications on TrueNAS SCALE.
+
+**Be aware that I won't continue pushing updates as soon as there's a stable migration to a new Kubernetes/Helm plattform available!**
+
+## **!!! I am not responsible for any issues that might occur. Always backup your data! !!!**
+
+- **How to change your TrueCharts catalog:**
+    1.  Remove your already old/deprecated TrueCharts catalog: *Apps* --> *Discover Apps* --> *Manage Catalogs* --> *TRUECHARTS* --> *Delete* (don't worry, this won't delete any of your already installed applications)
+    2.  Add this repository as a new Catalog:
+        1.  *Add Catalog* --> *Continue*
+            - **Catalog Name:** TrueCharts
+            - **Repository:** https://github.com/v3DJG6GL/truecharts_archive
+            - **Preferred Trains:** incubator, premium, stable, system
+            - **Branch:** main
+    3.  Now you should be able to update your applications again. I currently manually push updates for these applications:
+        - **premium train:**
+            - authelia: v4.38.9 *(Updated: 2024.07.24)*
+            - Nextcloud: v29.0.4 *(Updated: 2024.07.24)*
+        - **stable train**
+            - anything-llm: latest *(Updated: 2024.07.24)*
+            - audiobookshelf: v2.11.0 *(Updated: 2024.07.24)*
+            - autobrr: v1.44.0 *(Updated: 2024.07.24)*
+            - code-server: v4.91.1 *(Updated: 2024.07.24)*
+            - flaresolverr: v3.3.21 *(Updated: 2024.07.24)*
+            - immich: *v1.109.2 *(Updated: 2024.07.24)**
+            - jellyfin: v10.9.8 *(Updated: 2024.07.24)*
+            - jellystat: v1.1.0 *(Updated: 2024.07.24)*
+            - Lidarr: v2.5.0.4277 *(Updated: 2024.07.24)*
+            - meshcentral: *v1.1.27 *(Updated: 2024.07.24)**
+            - minio: *v2024.07.16 *(Updated: 2024.07.24)**
+            - Prowlarr: v1.21.1.4631 *(Updated: 2024.07.24)*
+            - Radarr: v5.8.3.8933 *(Updated: 2024.07.24)*
+            - Readarr: v0.3.32.2587 *(Updated: 2024.07.24)*
+            - sftpgo: v2.6.2 *(Updated: 2024.07.24)*
+            - Sonarr: v4.0.8.1874 *(Updated: 2024.07.24)*
+            - stun-turn-server: latest *(Updated: 2024.07.24)*
+            - unpackerr: *v0.14.0 *(Updated: 2024.07.24)**a
