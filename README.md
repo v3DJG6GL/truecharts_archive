@@ -42,4 +42,4 @@ Therefore I decided to fork their archived chart repository and manually push so
             - sftpgo: v2.6.2 *(Updated: 2024.07.24)*
             - Sonarr: v4.0.8.1874 *(Updated: 2024.07.24)*
             - stun-turn-server: latest *(Updated: 2024.07.24)*
-            - unpackerr: \*v0.14.0 \*(Updated: 2024.07.24)\*\*a
+            - unpackerr: *v0.14.0 *(Updated: 2024.07.24)*
