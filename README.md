@@ -32,6 +32,7 @@ Now you should be able to update your applications again.
     - **premium train:**
         - authelia: v4.38.9 *(Updated: 2024.07.24)*
         - Nextcloud: v29.0.4 *(Updated: 2024.07.24)*
+        - traefik: v3.1.0 ***(Updated: 2024.07.25)***
     - **stable train**
         - anything-llm: latest *(Updated: 2024.07.24)*
         - audiobookshelf: v2.11.0 *(Updated: 2024.07.24)*
@@ -42,7 +43,7 @@ Now you should be able to update your applications again.
         - jellyfin: v10.9.8 *(Updated: 2024.07.24)*
         - jellystat: v1.1.0 *(Updated: 2024.07.24)*
         - Lidarr: v2.5.0.4277 *(Updated: 2024.07.24)*
-		- local-ai: v2.19.2 ***(Updated: 2024.07.25)***
+	- local-ai: v2.19.2 ***(Updated: 2024.07.25)***
         - meshcentral: v1.1.27 *(Updated: 2024.07.24)*
         - minio: v2024.07.16 *(Updated: 2024.07.24)*
         - Prowlarr: v1.21.1.4631 *(Updated: 2024.07.24)*
