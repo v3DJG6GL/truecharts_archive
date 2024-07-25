@@ -38,12 +38,13 @@ Now you should be able to update your applications again.
         - autobrr: v1.44.0 *(Updated: 2024.07.24)*
         - code-server: v4.91.1 *(Updated: 2024.07.24)*
         - flaresolverr: v3.3.21 *(Updated: 2024.07.24)*
-        - immich: *v1.109.2 *(Updated: 2024.07.24)**
+        - immich: v1.109.2 *(Updated: 2024.07.24)**
         - jellyfin: v10.9.8 *(Updated: 2024.07.24)*
         - jellystat: v1.1.0 *(Updated: 2024.07.24)*
         - Lidarr: v2.5.0.4277 *(Updated: 2024.07.24)*
-        - meshcentral: *v1.1.27 *(Updated: 2024.07.24)**
-        - minio: *v2024.07.16 *(Updated: 2024.07.24)**
+		- local-ai: v2.19.2 ***(Updated: 2024.07.25)***
+        - meshcentral: v1.1.27 *(Updated: 2024.07.24)**
+        - minio: v2024.07.16 *(Updated: 2024.07.24)**
         - Prowlarr: v1.21.1.4631 *(Updated: 2024.07.24)*
         - Radarr: v5.8.3.8933 *(Updated: 2024.07.24)*
         - Readarr: v0.3.32.2587 *(Updated: 2024.07.24)*
