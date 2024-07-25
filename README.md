@@ -27,12 +27,10 @@ Therefore I decided to fork their archived chart repository and manually push so
 
 Now you should be able to update your applications again.
 
-&nbsp;
-
 - ### I currently manually push updates for these applications:
     
-- - - **premium train:**
-            - authelia: v4.38.9 *(Updated: 2024.07.24)*
+    - - **premium train:**  
+            - authelia: v4.38.9 *(Updated: 2024.07.24)*  
             - Nextcloud: v29.0.4 *(Updated: 2024.07.24)*
         - **stable train**
             - anything-llm: latest *(Updated: 2024.07.24)*
