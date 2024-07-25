@@ -1,12 +1,14 @@
 # TrueNAS SCALE catalog
 
-This is a fork of the archived TrueCharts App Catalog for TrueNAS SCALE.  
+This is a fork of the archived TrueCharts App Catalog for TrueNAS SCALE.
+
+  
 Since iX-Systems will deprecate their Kubernets/Helm-based GUI app plattform in Q4 2024, TrueCharts already deprecated their TrueNAS catalog. Thus, you cannot update your already installed applications anymore although there's currently no migration to another Kubernetes plattform available. There will be a migration to their new Kubernetes-based plattform(s).  
 But for now, you have to wait.
 
 Therefore I decided to fork their archived chart repository and manually push some updates for applications I personally use. Feel free to use this chart to update your own TrueCharts applications on TrueNAS SCALE.
 
-**Be aware that I won't continue pushing updates as soon as there's a stable migration to a new Kubernetes/Helm plattform available!**
+### **Be aware that I won't continue pushing updates as soon as there's a stable migration to a new Kubernetes/Helm plattform available!**
 
 ## **!!! I am not responsible for any issues that might occur. Always backup your data! !!!**
 
@@ -40,4 +42,4 @@ Therefore I decided to fork their archived chart repository and manually push so
             - sftpgo: v2.6.2 *(Updated: 2024.07.24)*
             - Sonarr: v4.0.8.1874 *(Updated: 2024.07.24)*
             - stun-turn-server: latest *(Updated: 2024.07.24)*
-            - unpackerr: *v0.14.0 *(Updated: 2024.07.24)**a
+            - unpackerr: \*v0.14.0 \*(Updated: 2024.07.24)\*\*a
