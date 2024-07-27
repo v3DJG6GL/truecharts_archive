@@ -45,7 +45,7 @@ Now you should be able to update your applications again.
 		- local-ai: v2.19.2 ***(Updated: 2024.07.25)***
         - meshcentral: v1.1.27 *(Updated: 2024.07.24)*
         - minio: v2024.07.16 *(Updated: 2024.07.24)*
-        - Prowlarr: v1.21.1.4631 *(Updated: 2024.07.24)*
+        - Prowlarr: v1.21.2.4649 ***(Updated: 2024.07.27)***
         - Radarr: v5.8.3.8933 *(Updated: 2024.07.24)*
         - Readarr: v0.3.32.2587 *(Updated: 2024.07.24)*
         - sftpgo: v2.6.2 *(Updated: 2024.07.24)*
