@@ -38,7 +38,7 @@ Now you should be able to update your applications again.
         - audiobookshelf: v2.11.0 *(Updated: 2024.07.24)*
         - autobrr: v1.44.0 *(Updated: 2024.07.24)*
         - code-server: v4.91.1 *(Updated: 2024.07.24)*
-		- crafty-4: v4.4.0 ***(Updated: 2024.08.02)*** ***(Requested)***
+		- crafty-4: v4.4.0 ***(Updated: 2024.08.02)***
         - flaresolverr: v3.3.21 *(Updated: 2024.07.24)*
         - immich: v1.109.2 *(Updated: 2024.07.24)*
         - jellyfin: v10.9.8 *(Updated: 2024.07.24)*
@@ -55,7 +55,7 @@ Now you should be able to update your applications again.
         - sftpgo: v2.6.2 *(Updated: 2024.07.24)*
         - Sonarr: v4.0.8.1874 *(Updated: 2024.07.24)*
         - stun-turn-server: latest *(Updated: 2024.07.24)*
-		- Tautulli: v2.14.3 ***(Updated: 2024.08.02)***
+		- Tautulli: v2.14.3 ***(Updated: 2024.08.02)*** ***(Requested)***
         - unpackerr: v0.14.0 *(Updated: 2024.07.24)*
 
 
