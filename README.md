@@ -46,10 +46,46 @@ Now you should be able to update your applications again.
 		- local-ai: v2.19.2 ***(Updated: 2024.07.25)***
         - meshcentral: v1.1.27 *(Updated: 2024.07.24)*
         - minio: v2024.07.16 *(Updated: 2024.07.24)*
+		- Plex: v1.40.4.8679 ***(Updated: 2024.08.02)***
         - Prowlarr: v1.21.2.4649 ***(Updated: 2024.07.27)***
         - Radarr: v5.8.3.8933 *(Updated: 2024.07.24)*
         - Readarr: v0.3.32.2587 *(Updated: 2024.07.24)*
+		- SABnzbd: v4.3.2 ***(Updated: 2024.08.02)***
         - sftpgo: v2.6.2 *(Updated: 2024.07.24)*
         - Sonarr: v4.0.8.1874 *(Updated: 2024.07.24)*
         - stun-turn-server: latest *(Updated: 2024.07.24)*
+		- Tautulli: v2.14.3 ***(Updated: 2024.08.02)***
         - unpackerr: v0.14.0 *(Updated: 2024.07.24)*
+
+
+- ### Changelog:
+
+	- 2024.08.02:
+		- Plex: v1.40.4.8679
+		- SABnzbd: v4.3.2
+		- Tautulli: v2.14.3
+	- 2024.07.27:
+		- Prowlarr: v1.21.2.4649
+	- 2024.07.25:
+		- traefik: v3.1.0
+		- local-ai: v2.19.2
+	- 2024.07.24:
+		- authelia: v4.38.9
+		- Nextcloud: v29.0.4
+		- anything-llm: latest
+		- audiobookshelf: v2.11.0
+		- autobrr: v1.44.0
+		- code-server: v4.91.1
+		- flaresolverr: v3.3.21
+		- immich: v1.109.2
+		- jellyfin: v10.9.8
+		- jellystat: v1.1.0
+		- Lidarr: v2.5.0.4277
+		- meshcentral: v1.1.27
+		- minio: v2024.07.16
+		- Radarr: v5.8.3.8933
+		- Readarr: v0.3.32.2587
+		- sftpgo: v2.6.2
+		- Sonarr: v4.0.8.1874
+		- stun-turn-server: latest
+		- unpackerr: v0.14.0
