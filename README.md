@@ -38,7 +38,7 @@ Now you should be able to update your applications again.
         - audiobookshelf: v2.11.0 *(Updated: 2024.07.24)*
         - autobrr: v1.44.0 *(Updated: 2024.07.24)*
         - code-server: v4.91.1 *(Updated: 2024.07.24)*
-		- crafty-4: v4.4.0 ***(Updated: 2024.08.02)*** (**Requested**)
+		- crafty-4: v4.4.0 ***(Updated: 2024.08.02)*** (***Requested***)
         - flaresolverr: v3.3.21 *(Updated: 2024.07.24)*
         - immich: v1.109.2 *(Updated: 2024.07.24)*
         - jellyfin: v10.9.8 *(Updated: 2024.07.24)*
@@ -47,11 +47,11 @@ Now you should be able to update your applications again.
 		- local-ai: v2.19.2 *(Updated: 2024.07.25)*
         - meshcentral: v1.1.27 *(Updated: 2024.07.24)*
         - minio: v2024.07.16 *(Updated: 2024.07.24)*
-		- Plex: v1.40.4.8679 ***(Updated: 2024.08.02)*** (**Requested**)
+		- Plex: v1.40.4.8679 ***(Updated: 2024.08.02)*** (***Requested***)
         - Prowlarr: v1.21.2.4649 *(Updated: 2024.07.27)*
         - Radarr: v5.8.3.8933 *(Updated: 2024.07.24)*
         - Readarr: v0.3.32.2587 *(Updated: 2024.07.24)*
-		- SABnzbd: v4.3.2 ***(Updated: 2024.08.02)*** (**Requested**)
+		- SABnzbd: v4.3.2 ***(Updated: 2024.08.02)*** (***Requested***)
         - sftpgo: v2.6.2 *(Updated: 2024.07.24)*
         - Sonarr: v4.0.8.1874 *(Updated: 2024.07.24)*
         - stun-turn-server: latest *(Updated: 2024.07.24)*
