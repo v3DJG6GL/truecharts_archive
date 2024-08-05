@@ -30,7 +30,7 @@ Now you should be able to update your applications again.
 - ### I currently manually push updates for these applications:
     
     - **premium train:**
-        - authelia: v4.38.9 *(Updated: 2024.07.24)*
+        - authelia: v4.38.10 ***(Updated: 2024.08.02)***
         - Nextcloud: v29.0.4 *(Updated: 2024.07.24)*
         - traefik: v3.1.1 ***(Updated: 2024.08.02)***
     - **stable train**
