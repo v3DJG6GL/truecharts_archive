@@ -51,6 +51,7 @@ Now you should be able to update your applications again.
         - Prowlarr: v1.21.2.4649 *(Updated: 2024.07.27)*
         - Radarr: v5.8.3.8933 *(Updated: 2024.07.24)*
         - Readarr: v0.3.32.2587 *(Updated: 2024.07.24)*
+		- recyclarr: v7.2.1 ***(Updated: 2024.08.05)***
 		- SABnzbd: v4.3.2 ***(Updated: 2024.08.02)*** ***(Requested)***
         - sftpgo: v2.6.2 *(Updated: 2024.07.24)*
         - Sonarr: v4.0.8.1874 *(Updated: 2024.07.24)*
@@ -64,6 +65,7 @@ Now you should be able to update your applications again.
 	- 2024.08.05:
 		- audiobookshelf: v2.12.0
 		- jellyfin: v10.9.9
+		- recyclarr: v7.2.1
 	- 2024.08.02:
 		- crafty-4: v4.4.0
 		- Plex: v1.40.4.8679
