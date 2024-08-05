@@ -40,6 +40,7 @@ Now you should be able to update your applications again.
         - code-server: v4.91.1 *(Updated: 2024.07.24)*
 		- crafty-4: v4.4.0 *(Updated: 2024.08.02)*
         - flaresolverr: v3.3.21 *(Updated: 2024.07.24)*
+		- gamevault-backend: v12.2.0 ***(Updated: 2024.08.06)***
         - immich: v1.109.2 *(Updated: 2024.07.24)*
         - jellyfin: v10.9.9 ***(Updated: 2024.08.05)***
         - jellystat: v1.1.0 *(Updated: 2024.07.24)*
@@ -62,6 +63,8 @@ Now you should be able to update your applications again.
 
 - ### Changelog:
 
+	- 2024.08.06:
+		- gamevault-backend: v12.2.0
 	- 2024.08.05:
 		- audiobookshelf: v2.12.0
 		- authelia: v4.38.10
