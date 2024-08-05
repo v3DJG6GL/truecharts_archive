@@ -30,15 +30,15 @@ Now you should be able to update your applications again.
 - ### I currently manually push updates for these applications:
     
     - **premium train:**
-        - authelia: v4.38.10 ***(Updated: 2024.08.02)***
+        - authelia: v4.38.10 ***(Updated: 2024.08.05)***
         - Nextcloud: v29.0.4 *(Updated: 2024.07.24)*
-        - traefik: v3.1.1 ***(Updated: 2024.08.02)***
+        - traefik: v3.1.1 ***(Updated: 2024.08.05)***
     - **stable train**
         - anything-llm: latest *(Updated: 2024.07.24)*
         - audiobookshelf: v2.12.0 ***(Updated: 2024.08.05)***
         - autobrr: v1.44.0 *(Updated: 2024.07.24)*
         - code-server: v4.91.1 *(Updated: 2024.07.24)*
-		- crafty-4: v4.4.0 ***(Updated: 2024.08.02)***
+		- crafty-4: v4.4.0 *(Updated: 2024.08.02)*
         - flaresolverr: v3.3.21 *(Updated: 2024.07.24)*
         - immich: v1.109.2 *(Updated: 2024.07.24)*
         - jellyfin: v10.9.9 ***(Updated: 2024.08.05)***
@@ -47,23 +47,24 @@ Now you should be able to update your applications again.
 		- local-ai: v2.19.4 ***(Updated: 2024.08.05)***
         - meshcentral: v1.1.27 *(Updated: 2024.07.24)*
         - minio: v2024.07.16 *(Updated: 2024.07.24)*
-		- Plex: v1.40.4.8679 ***(Updated: 2024.08.02)*** ***(Requested)***
+		- Plex: v1.40.4.8679 *(Updated: 2024.08.02)* ***(Requested)***
         - Prowlarr: v1.21.2.4649 *(Updated: 2024.07.27)*
         - Radarr: v5.8.3.8933 *(Updated: 2024.07.24)*
         - Readarr: v0.3.32.2587 *(Updated: 2024.07.24)*
 		- recyclarr: v7.2.1 ***(Updated: 2024.08.05)***
-		- SABnzbd: v4.3.2 ***(Updated: 2024.08.02)*** ***(Requested)***
+		- SABnzbd: v4.3.2 *(Updated: 2024.08.02)* ***(Requested)***
         - sftpgo: v2.6.2 *(Updated: 2024.07.24)*
         - Sonarr: v4.0.8.1874 *(Updated: 2024.07.24)*
         - stun-turn-server: latest *(Updated: 2024.07.24)*
-		- Tautulli: v2.14.3 ***(Updated: 2024.08.02)*** ***(Requested)***
-        - unpackerr: v0.14.5 ***(Updated: 2024.08.02)***
+		- Tautulli: v2.14.3 *(Updated: 2024.08.02)* ***(Requested)***
+        - unpackerr: v0.14.5 ***(Updated: 2024.08.05)***
 
 
 - ### Changelog:
 
 	- 2024.08.05:
 		- audiobookshelf: v2.12.0
+		- authelia: v4.38.10
 		- jellyfin: v10.9.9
 		- local-ai: v2.19.4
 		- recyclarr: v7.2.1
