@@ -44,7 +44,7 @@ Now you should be able to update your applications again.
         - jellyfin: v10.9.9 ***(Updated: 2024.08.05)***
         - jellystat: v1.1.0 *(Updated: 2024.07.24)*
         - Lidarr: v2.5.0.4277 *(Updated: 2024.07.24)*
-		- local-ai: v2.19.2 *(Updated: 2024.07.25)*
+		- local-ai: v2.19.4 ***(Updated: 2024.08.05)***
         - meshcentral: v1.1.27 *(Updated: 2024.07.24)*
         - minio: v2024.07.16 *(Updated: 2024.07.24)*
 		- Plex: v1.40.4.8679 ***(Updated: 2024.08.02)*** ***(Requested)***
@@ -65,6 +65,7 @@ Now you should be able to update your applications again.
 	- 2024.08.05:
 		- audiobookshelf: v2.12.0
 		- jellyfin: v10.9.9
+		- local-ai: v2.19.4
 		- recyclarr: v7.2.1
 	- 2024.08.02:
 		- crafty-4: v4.4.0
