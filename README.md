@@ -32,7 +32,7 @@ Now you should be able to update your applications again.
     - **premium train:**
         - authelia: v4.38.9 *(Updated: 2024.07.24)*
         - Nextcloud: v29.0.4 *(Updated: 2024.07.24)*
-        - traefik: v3.1.0 *(Updated: 2024.07.25)*
+        - traefik: v3.1.1 ***(Updated: 2024.08.02)***
     - **stable train**
         - anything-llm: latest *(Updated: 2024.07.24)*
         - audiobookshelf: v2.12.0 ***(Updated: 2024.08.05)***
@@ -57,7 +57,7 @@ Now you should be able to update your applications again.
         - Sonarr: v4.0.8.1874 *(Updated: 2024.07.24)*
         - stun-turn-server: latest *(Updated: 2024.07.24)*
 		- Tautulli: v2.14.3 ***(Updated: 2024.08.02)*** ***(Requested)***
-        - unpackerr: v0.14.0 *(Updated: 2024.07.24)*
+        - unpackerr: v0.14.5 ***(Updated: 2024.08.02)***
 
 
 - ### Changelog:
@@ -67,6 +67,8 @@ Now you should be able to update your applications again.
 		- jellyfin: v10.9.9
 		- local-ai: v2.19.4
 		- recyclarr: v7.2.1
+		- traefik: v3.1.1
+		- unpackerr: v0.14.5
 	- 2024.08.02:
 		- crafty-4: v4.4.0
 		- Plex: v1.40.4.8679
