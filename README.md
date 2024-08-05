@@ -35,13 +35,13 @@ Now you should be able to update your applications again.
         - traefik: v3.1.0 *(Updated: 2024.07.25)*
     - **stable train**
         - anything-llm: latest *(Updated: 2024.07.24)*
-        - audiobookshelf: v2.11.0 *(Updated: 2024.07.24)*
+        - audiobookshelf: v2.12.0 ***(Updated: 2024.08.05)***
         - autobrr: v1.44.0 *(Updated: 2024.07.24)*
         - code-server: v4.91.1 *(Updated: 2024.07.24)*
 		- crafty-4: v4.4.0 ***(Updated: 2024.08.02)***
         - flaresolverr: v3.3.21 *(Updated: 2024.07.24)*
         - immich: v1.109.2 *(Updated: 2024.07.24)*
-        - jellyfin: v10.9.8 *(Updated: 2024.07.24)*
+        - jellyfin: v10.9.9 ***(Updated: 2024.08.05)***
         - jellystat: v1.1.0 *(Updated: 2024.07.24)*
         - Lidarr: v2.5.0.4277 *(Updated: 2024.07.24)*
 		- local-ai: v2.19.2 *(Updated: 2024.07.25)*
@@ -61,6 +61,9 @@ Now you should be able to update your applications again.
 
 - ### Changelog:
 
+	- 2024.08.05:
+		- audiobookshelf: v2.12.0
+		- jellyfin: v10.9.9
 	- 2024.08.02:
 		- crafty-4: v4.4.0
 		- Plex: v1.40.4.8679
