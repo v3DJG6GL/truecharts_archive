@@ -30,7 +30,7 @@ Now you should be able to update your applications again.
 - ### I currently manually push updates for these applications:
     
     - **premium train:**
-        - authelia: v4.38.10 ***(Updated: 2024.08.05)***
+        - authelia: v4.38.10 *(Updated: 2024.08.05)*
         - Nextcloud: v29.0.4 *(Updated: 2024.07.24)*
         - traefik: v3.1.2 ***(Updated: 2024.08.09)***
     - **stable train**
@@ -42,10 +42,10 @@ Now you should be able to update your applications again.
         - flaresolverr: v3.3.21 *(Updated: 2024.07.24)*
 		- gamevault-backend: v12.2.0 ***(Updated: 2024.08.06)***
         - immich: v1.109.2 *(Updated: 2024.07.24)*
-        - jellyfin: v10.9.9 ***(Updated: 2024.08.05)***
+        - jellyfin: v10.9.9 *(Updated: 2024.08.05)*
         - jellystat: v1.1.0 *(Updated: 2024.07.24)*
         - Lidarr: v2.5.0.4277 *(Updated: 2024.07.24)*
-		- local-ai: v2.19.4 ***(Updated: 2024.08.05)***
+		- local-ai: v2.19.4 *(Updated: 2024.08.05)*
         - meshcentral: v1.1.27 *(Updated: 2024.07.24)*
         - minio: v2024.07.16 *(Updated: 2024.07.24)*
 		- Ollama: v0.3.4 ***(Updated: 2024.08.09)*** ***(Requested)***
@@ -54,14 +54,14 @@ Now you should be able to update your applications again.
         - Prowlarr: v1.21.2.4649 *(Updated: 2024.07.27)*
         - Radarr: v5.8.3.8933 *(Updated: 2024.07.24)*
         - Readarr: v0.3.32.2587 *(Updated: 2024.07.24)*
-		- recyclarr: v7.2.1 ***(Updated: 2024.08.05)***
+		- recyclarr: v7.2.1 *(Updated: 2024.08.05)*
 		- SABnzbd: v4.3.2 *(Updated: 2024.08.02)* ***(Requested)***
         - sftpgo: v2.6.2 *(Updated: 2024.07.24)*
         - Sonarr: v4.0.8.1874 *(Updated: 2024.07.24)*
         - stun-turn-server: latest *(Updated: 2024.07.24)*
 		- Syncthing: v1.27.10 ***(Updated: 2024.08.09)*** ***(Requested)***
 		- Tautulli: v2.14.3 *(Updated: 2024.08.02)* ***(Requested)***
-        - unpackerr: v0.14.5 ***(Updated: 2024.08.05)***
+        - unpackerr: v0.14.5 *(Updated: 2024.08.05)*
 
 
 - ### Changelog:
