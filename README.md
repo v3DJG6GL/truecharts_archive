@@ -32,13 +32,13 @@ Now you should be able to update your applications again.
     - **premium train:**
         - authelia: v4.38.10 ***(Updated: 2024.08.05)***
         - Nextcloud: v29.0.4 *(Updated: 2024.07.24)*
-        - traefik: v3.1.1 ***(Updated: 2024.08.05)***
+        - traefik: v3.1.2 ***(Updated: 2024.08.09)***
     - **stable train**
         - anything-llm: latest *(Updated: 2024.07.24)*
         - audiobookshelf: v2.12.2 ***(Updated: 2024.08.09)***
         - autobrr: v1.44.0 *(Updated: 2024.07.24)*
         - code-server: v4.91.1 *(Updated: 2024.07.24)*
-		- crafty-4: v4.4.3 *(Updated: 2024.08.09)*
+		- crafty-4: v4.4.3 ***(Updated: 2024.08.09)***
         - flaresolverr: v3.3.21 *(Updated: 2024.07.24)*
 		- gamevault-backend: v12.2.0 ***(Updated: 2024.08.06)***
         - immich: v1.109.2 *(Updated: 2024.07.24)*
@@ -66,6 +66,7 @@ Now you should be able to update your applications again.
 	- 2024.08.09:
 		- audiobookshelf: v2.12.2
 		- crafty-4: v4.4.3
+		- traefik: v3.1.2 
 	- 2024.08.06:
 		- gamevault-backend: v12.2.0
 	- 2024.08.05:
