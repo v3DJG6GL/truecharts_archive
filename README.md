@@ -48,6 +48,7 @@ Now you should be able to update your applications again.
 		- local-ai: v2.19.4 ***(Updated: 2024.08.05)***
         - meshcentral: v1.1.27 *(Updated: 2024.07.24)*
         - minio: v2024.07.16 *(Updated: 2024.07.24)*
+		- Ollama: v0.3.4 ***(Updated: 2024.08.09)*** ***(Requested)***
 		- Paperless-ngx: v2.11.3 ***(Updated: 2024.08.09)*** ***(Requested)***
 		- Plex: v1.40.4.8679 *(Updated: 2024.08.02)* ***(Requested)***
         - Prowlarr: v1.21.2.4649 *(Updated: 2024.07.27)*
@@ -68,6 +69,7 @@ Now you should be able to update your applications again.
 	- 2024.08.09:
 		- audiobookshelf: v2.12.2
 		- crafty-4: v4.4.3
+		- Ollama: v0.3.4
 		- Paperless-ngx: v2.11.3
 		- Syncthing: v1.27.10
 		- traefik: v3.1.2 
