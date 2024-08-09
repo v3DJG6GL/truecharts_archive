@@ -48,6 +48,7 @@ Now you should be able to update your applications again.
 		- local-ai: v2.19.4 ***(Updated: 2024.08.05)***
         - meshcentral: v1.1.27 *(Updated: 2024.07.24)*
         - minio: v2024.07.16 *(Updated: 2024.07.24)*
+		- Paperless-ngx: v2.11.3 ***(Updated: 2024.08.09)*** ***(Requested)***
 		- Plex: v1.40.4.8679 *(Updated: 2024.08.02)* ***(Requested)***
         - Prowlarr: v1.21.2.4649 *(Updated: 2024.07.27)*
         - Radarr: v5.8.3.8933 *(Updated: 2024.07.24)*
@@ -66,6 +67,7 @@ Now you should be able to update your applications again.
 	- 2024.08.09:
 		- audiobookshelf: v2.12.2
 		- crafty-4: v4.4.3
+		- Paperless-ngx: v2.11.3
 		- traefik: v3.1.2 
 	- 2024.08.06:
 		- gamevault-backend: v12.2.0
