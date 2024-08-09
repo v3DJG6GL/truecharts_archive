@@ -58,6 +58,7 @@ Now you should be able to update your applications again.
         - sftpgo: v2.6.2 *(Updated: 2024.07.24)*
         - Sonarr: v4.0.8.1874 *(Updated: 2024.07.24)*
         - stun-turn-server: latest *(Updated: 2024.07.24)*
+		- Syncthing: v1.27.10 ***(Updated: 2024.08.09)*** ***(Requested)***
 		- Tautulli: v2.14.3 *(Updated: 2024.08.02)* ***(Requested)***
         - unpackerr: v0.14.5 ***(Updated: 2024.08.05)***
 
@@ -68,6 +69,7 @@ Now you should be able to update your applications again.
 		- audiobookshelf: v2.12.2
 		- crafty-4: v4.4.3
 		- Paperless-ngx: v2.11.3
+		- Syncthing: v1.27.10
 		- traefik: v3.1.2 
 	- 2024.08.06:
 		- gamevault-backend: v12.2.0
