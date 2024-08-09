@@ -35,7 +35,7 @@ Now you should be able to update your applications again.
         - traefik: v3.1.1 ***(Updated: 2024.08.05)***
     - **stable train**
         - anything-llm: latest *(Updated: 2024.07.24)*
-        - audiobookshelf: v2.12.0 ***(Updated: 2024.08.05)***
+        - audiobookshelf: v2.12.2 ***(Updated: 2024.08.09)***
         - autobrr: v1.44.0 *(Updated: 2024.07.24)*
         - code-server: v4.91.1 *(Updated: 2024.07.24)*
 		- crafty-4: v4.4.0 *(Updated: 2024.08.02)*
@@ -63,6 +63,8 @@ Now you should be able to update your applications again.
 
 - ### Changelog:
 
+	- 2024.08.09:
+		- audiobookshelf: v2.12.2
 	- 2024.08.06:
 		- gamevault-backend: v12.2.0
 	- 2024.08.05:
