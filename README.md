@@ -37,6 +37,7 @@ Now you should be able to update your applications again.
         - anything-llm: latest *(Updated: 2024.07.24)*
         - audiobookshelf: v2.12.3 ***(Updated: 2024.08.26)***
         - autobrr: v1.45.0 ***(Updated: 2024.08.26)***
+		- cloudflared: v2024.8.3 ***(Updated: 2024.08.26)***
         - code-server: v4.91.1 *(Updated: 2024.07.24)*
 		- crafty-4: v4.4.3 *(Updated: 2024.08.09)*
         - flaresolverr: v3.3.21 *(Updated: 2024.07.24)*
@@ -70,6 +71,7 @@ Now you should be able to update your applications again.
 	- 2024.08.26:
 		- audiobookshelf: v2.12.3
 		- autobrr: v1.45.0
+		- cloudflared: v2024.8.3
 		- jellyfin: v10.9.10
 		- lidarr: v2.5.2.4316
 		- local-ai: v2.20.1
