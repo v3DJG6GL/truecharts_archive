@@ -31,41 +31,58 @@ Now you should be able to update your applications again.
     
     - **premium train:**
         - authelia: v4.38.10 *(Updated: 2024.08.05)*
-        - Nextcloud: v29.0.4 *(Updated: 2024.07.24)*
-        - traefik: v3.1.2 ***(Updated: 2024.08.09)***
+        - nextcloud: v29.0.5 ***(Updated: 2024.08.26)***
+        - traefik: v3.1.2 *(Updated: 2024.08.09)*
     - **stable train**
         - anything-llm: latest *(Updated: 2024.07.24)*
-        - audiobookshelf: v2.12.2 ***(Updated: 2024.08.09)***
-        - autobrr: v1.44.0 *(Updated: 2024.07.24)*
+        - audiobookshelf: v2.12.3 ***(Updated: 2024.08.26)***
+        - autobrr: v1.45.0 ***(Updated: 2024.08.26)***
         - code-server: v4.91.1 *(Updated: 2024.07.24)*
-		- crafty-4: v4.4.3 ***(Updated: 2024.08.09)***
+		- crafty-4: v4.4.3 *(Updated: 2024.08.09)*
         - flaresolverr: v3.3.21 *(Updated: 2024.07.24)*
-		- gamevault-backend: v12.2.0 ***(Updated: 2024.08.06)***
+		- gamevault-backend: v12.2.0 *(Updated: 2024.08.06)*
         - immich: v1.109.2 *(Updated: 2024.07.24)*
-        - jellyfin: v10.9.9 *(Updated: 2024.08.05)*
+        - jellyfin: v10.9.10 ***(Updated: 2024.08.26)***
         - jellystat: v1.1.0 *(Updated: 2024.07.24)*
-        - Lidarr: v2.5.0.4277 *(Updated: 2024.07.24)*
-		- local-ai: v2.19.4 *(Updated: 2024.08.05)*
+        - Lidarr: v2.5.2.4316 ***(Updated: 2024.08.26)***
+		- local-ai: v2.20.1 ***(Updated: 2024.08.26)***
         - meshcentral: v1.1.27 *(Updated: 2024.07.24)*
-        - minio: v2024.07.16 *(Updated: 2024.07.24)*
-		- Ollama: v0.3.4 ***(Updated: 2024.08.09)*** ***(Requested)***
-		- Paperless-ngx: v2.11.3 ***(Updated: 2024.08.09)*** ***(Requested)***
-		- Plex: v1.40.4.8679 *(Updated: 2024.08.02)* ***(Requested)***
+        - minio: v2024.08.17 ***(Updated: 2024.08.26)***
+		- ollama: v0.3.6 ***(Updated: 2024.08.26)*** ***(Requested)***
+		- paperless-ngx: v2.11.6 ***(Updated: 2024.08.26)*** ***(Requested)***
+		- plex: v1.40.5.8897 ***(Updated: 2024.08.26)*** ***(Requested)***
         - Prowlarr: v1.21.2.4649 *(Updated: 2024.07.27)*
-        - Radarr: v5.8.3.8933 *(Updated: 2024.07.24)*
+		- qbittorrent: v4.6.6 ***(Updated: 2024.08.26)***
+        - radarr: v5.9.1.9070 ***(Updated: 2024.08.26)***
         - Readarr: v0.3.32.2587 *(Updated: 2024.07.24)*
-		- recyclarr: v7.2.1 *(Updated: 2024.08.05)*
-		- SABnzbd: v4.3.2 *(Updated: 2024.08.02)* ***(Requested)***
+		- recyclarr: v7.2.2 ***(Updated: 2024.08.26)***
+		- sabnzbd: v4.3.3 ***(Updated: 2024.08.26)*** ***(Requested)***
         - sftpgo: v2.6.2 *(Updated: 2024.07.24)*
-        - Sonarr: v4.0.8.1874 *(Updated: 2024.07.24)*
+        - sonarr: v4.0.9.2244 ***(Updated: 2024.08.26)***
         - stun-turn-server: latest *(Updated: 2024.07.24)*
-		- Syncthing: v1.27.10 ***(Updated: 2024.08.09)*** ***(Requested)***
+		- Syncthing: v1.27.10 *(Updated: 2024.08.09)* ***(Requested)***
 		- Tautulli: v2.14.3 *(Updated: 2024.08.02)* ***(Requested)***
         - unpackerr: v0.14.5 *(Updated: 2024.08.05)*
 
 
 - ### Changelog:
 
+	- 2024.08.26:
+		- audiobookshelf: v2.12.3
+		- autobrr: v1.45.0
+		- jellyfin: v10.9.10
+		- lidarr: v2.5.2.4316
+		- local-ai: v2.20.1
+		- minio: v2024.08.17
+		- nextcloud: v29.0.5
+		- ollama: v0.3.6
+		- paperless-ngx: v2.11.6
+		- plex: v1.40.5.8897
+		- radarr: v5.9.1.9070
+		- recyclarr: v7.2.2
+		- sabnzbd: v4.3.3
+		- sonarr: v4.0.9.2244
+		- qbittorrent: v4.6.6
 	- 2024.08.09:
 		- audiobookshelf: v2.12.2
 		- crafty-4: v4.4.3
