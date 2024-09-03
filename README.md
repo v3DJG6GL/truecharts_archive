@@ -141,3 +141,59 @@ Now you should be able to update your applications again.
 		- Sonarr: v4.0.8.1874
 		- stun-turn-server: latest
 		- unpackerr: v0.14.0
+		
+# How I update this catalog:
+**I use following software to make changes to the catalog:**
+- GitHub Desktop: https://desktop.github.com/download/
+To synchronize this repository to my Computer
+- Notepad++: https://github.com/notepad-plus-plus/notepad-plus-plus
+To make changes to all the _.yaml_, _.json_ & _.md_ files
+Especially the Find (_CTRL+F_) & Replace (_CTRL+H_) functions are super helpful. Furthermore, you can use Notepad++ to fold parts within the `app_version.json` which helps a lot to copy the correct part of that file.
+
+**To update an application, these files must be modified:**
+- `truecharts_archive\catalog.json`:
+   Search for your application and update following part for your 
+   ```            "latest_version": "3.0.9",
+            "latest_app_version": "2.0.3",
+            "latest_human_version": "2.0.3_3.0.9",
+            "last_update": "2024-05-29 12:35:14",
+   ```
+   - **latest_version**: `3.0.9` --> `3.1.0` (bump the _chart_ version one version up)
+   - **latest_app_version**: `2.0.3` --> `3.1.0` (insert the _app_ version you're updating to)
+   - **latest_human_version**: `2.0.3_3.0.9` --> `2.1.0_3.1.0` (_chart_ version & _app_ version combined together)
+   - **last_update**: `2024-05-29 12:35:14` --> `2024-09-03 17:00:00` (take the approx. date & time when you're updating the app)
+- `truecharts_archive\stable\maintainerr\app_versions.json`:
+Dublicate everything between
+   ```
+    "3.0.9": {
+        "healthy": true,
+        "supported": true,
+        "healthy_error": null,
+   ```
+   and
+   ```
+    },
+   ```
+   just before these lines where the information for the next older version starts:
+   ```
+    "3.0.9": {
+        "healthy": true,
+        "supported": true,
+        "healthy_error": null,
+   ```
+   - Change these occurances:
+      - 1x `2024-05-29 12:35:14` (take the date & time value you used at step one when modifying `catalog.json`)
+      - 2x `2.0.3` (take the _app_ version value you used at step one when modifying `catalog.json`
+      - 5x `3.0.9` (take the _chart_ version value you used at step one when modifying `catalog.json`
+- Copy the folder `truecharts_archive\stable\maintainerr\3.0.9` and change the folder name to the _chart_ version value you used at step one when modifying `catalog.json`
+- Change these occurances within `truecharts_archive\stable\maintainerr\3.1.0\Chart.yaml`
+      - 1x `2.0.3` (take the _app_ version value you used at step one when modifying `catalog.json`
+      - 1x `3.0.9` (take the _chart_ version value you used at step one when modifying `catalog.json`
+- Update these lines within `truecharts_archive\stable\maintainerr\3.1.0\ix_values.yaml`
+   ```image:
+  repository: jorenn92/maintainerr
+  pullPolicy: IfNotPresent
+  tag: 2.0.3@sha256:712e990afff98767a880284eb914fd5f2f5d76c5e8838c3f003fecdeb045b912
+   ```
+With some exceptions I always use the images which TrueCharts uses. I copy them from the TrueCharts repository:
+https://github.com/truecharts/charts/blob/master/charts/stable/maintainerr/values.yaml
