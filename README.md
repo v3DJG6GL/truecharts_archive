@@ -73,7 +73,7 @@ Now you should be able to update your applications again.
 		- anything-llm: latest
 		- audiobookshelf: v2.13.3
 		- changedetection.io: v0.46.03
-		- flaresolverr: pr-1300-experimental (switched tag & to repository to "ghcr.io/alexfozor/flaresolverr" in order to get flaresolverr into a working condition again :))
+		- flaresolverr: pr-1300-experimental (switched tag & repository to "ghcr.io/alexfozor/flaresolverr" in order to get flaresolverr into a working condition again :))
 		- immich: v1.113.1
 		- minio: v2024.08.29
 		- ollama: v0.3.9
