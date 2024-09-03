@@ -34,9 +34,10 @@ Now you should be able to update your applications again.
         - nextcloud: v29.0.5 *(Updated: 2024.08.26)*
         - traefik: v3.1.2 *(Updated: 2024.08.09)*
     - **stable train**
-        - anything-llm: latest *(Updated: 2024.07.24)*
+        - anything-llm: latest ***(Updated: 2024.09.03)***
         - audiobookshelf: v2.13.3 ***(Updated: 2024.09.03)***
         - autobrr: v1.45.0 *(Updated: 2024.08.26)*
+		- changedetection.io: v0.46.03 ***(Updated: 2024.09.03)***
 		- cloudflared: v2024.8.3 *(Updated: 2024.08.26)*
         - code-server: v4.91.1 *(Updated: 2024.07.24)*
 		- crafty-4: v4.4.3 *(Updated: 2024.08.09)*
@@ -69,7 +70,9 @@ Now you should be able to update your applications again.
 
 - ### Changelog:
 	- 2024.09.03:
+		- anything-llm: latest
 		- audiobookshelf: v2.13.3
+		- changedetection.io: v0.46.03
 		- flaresolverr: pr-1300-experimental (switched tag & to repository to "ghcr.io/alexfozor/flaresolverr" in order to get flaresolverr into a working condition again :))
 		- immich: v1.113.1
 		- minio: v2024.08.29
