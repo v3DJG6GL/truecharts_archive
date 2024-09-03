@@ -152,7 +152,7 @@ Especially the Find (_CTRL+F_) & Replace (_CTRL+H_) functions are super helpful.
 
 **To update an application, these files must be modified:**
 - `truecharts_archive\catalog.json`:
-   Search for your application and update following part for your app
+    Search for your application and update following part for your app
    ```            "latest_version": "3.0.9",
             "latest_app_version": "2.0.3",
             "latest_human_version": "2.0.3_3.0.9",
@@ -163,7 +163,7 @@ Especially the Find (_CTRL+F_) & Replace (_CTRL+H_) functions are super helpful.
    - **latest_human_version**: `2.0.3_3.0.9` --> `2.1.0_3.1.0` (_chart_ version & _app_ version combined together)
    - **last_update**: `2024-05-29 12:35:14` --> `2024-09-03 17:00:00` (take the approx. date & time when you're updating the app)
 - `truecharts_archive\stable\maintainerr\app_versions.json`:
-   Dublicate everything between
+    Dublicate everything between
    ```
     "3.0.9": {
         "healthy": true,
