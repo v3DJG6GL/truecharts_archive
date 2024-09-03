@@ -42,7 +42,7 @@ Now you should be able to update your applications again.
 		- crafty-4: v4.4.3 *(Updated: 2024.08.09)*
         - flaresolverr: pr-1300-experimental ***(Updated: 2024.09.03)***
 		- gamevault-backend: v12.2.0 *(Updated: 2024.08.06)*
-        - immich: v1.113.0 ***(Updated: 2024.09.03)***
+        - immich: v1.113.1 ***(Updated: 2024.09.03)***
         - jellyfin: v10.9.10 *(Updated: 2024.08.26)*
         - jellystat: v1.1.0 *(Updated: 2024.07.24)*
         - Lidarr: v2.5.2.4316 *(Updated: 2024.08.26)*
@@ -71,7 +71,7 @@ Now you should be able to update your applications again.
 	- 2024.09.03:
 		- audiobookshelf: v2.13.3
 		- flaresolverr: pr-1300-experimental (switched tag & to repository to "ghcr.io/alexfozor/flaresolverr" in order to get flaresolverr into a working condition again :))
-		- immich: v1.113.0
+		- immich: v1.113.1
 		- minio: v2024.08.29
 		- ollama: v0.3.9
 		- prowlarr: v1.23.1.4708
