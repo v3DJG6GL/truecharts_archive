@@ -186,12 +186,12 @@ Especially the Find (_CTRL+F_) & Replace (_CTRL+H_) functions are super helpful.
    ```
    - Change these occurances:
       - 1x `2024-05-29 12:35:14` (take the date & time value you used at step one when modifying `catalog.json`)
-      - 2x `2.0.3` (take the _app_ version value you used at step one when modifying `catalog.json`
-      - 5x `3.0.9` (take the _chart_ version value you used at step one when modifying `catalog.json`
+      - 2x `2.0.3` (take the _app_ version value you used at step one when modifying `catalog.json`)
+      - 5x `3.0.9` (take the _chart_ version value you used at step one when modifying `catalog.json`)
 - Copy the folder `truecharts_archive\stable\maintainerr\3.0.9` and change the folder name to the _chart_ version value you used at step one when modifying `catalog.json`
 - Change these occurances within `truecharts_archive\stable\maintainerr\3.1.0\Chart.yaml`:
-    - 1x `2.0.3` (take the _app_ version value you used at step one when modifying `catalog.json`
-	- 1x `3.0.9` (take the _chart_ version value you used at step one when modifying `catalog.json`
+    - 1x `2.0.3` (take the _app_ version value you used at step one when modifying `catalog.json`)
+	- 1x `3.0.9` (take the _chart_ version value you used at step one when modifying `catalog.json`)
 - Update these lines within `truecharts_archive\stable\maintainerr\3.1.0\ix_values.yaml`
    ```image:
   repository: jorenn92/maintainerr
