@@ -194,10 +194,10 @@ Especially the Find (_CTRL+F_) & Replace (_CTRL+H_) functions are super helpful.
 	- 1x `3.0.9` (take the _chart_ version value you used at step one when modifying `catalog.json`)
 5. Update these lines within `truecharts_archive\stable\maintainerr\3.1.0\ix_values.yaml`
    ```
-  image:
-  repository: jorenn92/maintainerr
-  pullPolicy: IfNotPresent
-  tag: 2.0.3@sha256:712e990afff98767a880284eb914fd5f2f5d76c5e8838c3f003fecdeb045b912
+	image:
+	repository: jorenn92/maintainerr
+	pullPolicy: IfNotPresent
+	tag: 2.0.3@sha256:712e990afff98767a880284eb914fd5f2f5d76c5e8838c3f003fecdeb045b912
    ```
    With some exceptions I always use the images which TrueCharts uses. I copy them from the TrueCharts repository:
    https://github.com/truecharts/charts/blob/master/charts/stable/maintainerr/values.yaml
