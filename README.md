@@ -166,7 +166,7 @@ Especially the Find (_CTRL+F_) & Replace (_CTRL+H_) functions are super helpful.
    - **latest_human_version**: `2.0.3_3.0.9` --> `2.1.0_3.1.0` (_chart_ version & _app_ version combined together)
    - **last_update**: `2024-05-29 12:35:14` --> `2024-09-03 17:00:00` (take the approx. date & time when you're updating the app)
 2. `truecharts_archive\stable\maintainerr\app_versions.json`:
-    Dublicate everything between
+Dublicate everything between
    ```
     "3.0.9": {
         "healthy": true,
@@ -192,7 +192,8 @@ Especially the Find (_CTRL+F_) & Replace (_CTRL+H_) functions are super helpful.
 4. Change these occurances within `truecharts_archive\stable\maintainerr\3.1.0\Chart.yaml`:
     - 1x `2.0.3` (take the _app_ version value you used at step one when modifying `catalog.json`)
 	- 1x `3.0.9` (take the _chart_ version value you used at step one when modifying `catalog.json`)
-5. Update these lines within `truecharts_archive\stable\maintainerr\3.1.0\ix_values.yaml`
+5. `truecharts_archive\stable\maintainerr\3.1.0\ix_values.yaml`:
+Update these lines where the image is specified:
    ```
 	image:
 	repository: jorenn92/maintainerr
