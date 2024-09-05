@@ -31,30 +31,30 @@ Now you should be able to update your applications again.
     
     - **premium train:**
         - authelia: v4.38.10 *(Updated: 2024.08.05)*
-        - nextcloud: v29.0.5 *(Updated: 2024.08.26)*
+        - nextcloud: v29.0.6 **(Updated: 2024.09.05)***
         - traefik: v3.1.2 *(Updated: 2024.08.09)*
     - **stable train**
-        - anything-llm: latest ***(Updated: 2024.09.03)***
-        - audiobookshelf: v2.13.3 ***(Updated: 2024.09.03)***
+        - anything-llm: latest *(Updated: 2024.09.03)*
+        - audiobookshelf: v2.13.3 *(Updated: 2024.09.03)*
         - autobrr: v1.45.0 *(Updated: 2024.08.26)*
-		- changedetection.io: v0.46.03 ***(Updated: 2024.09.03)***
+		- changedetection.io: v0.46.04 ***(Updated: 2024.09.05)***
 		- cloudflared: v2024.8.3 *(Updated: 2024.08.26)*
         - code-server: v4.91.1 *(Updated: 2024.07.24)*
 		- crafty-4: v4.4.3 *(Updated: 2024.08.09)*
-        - flaresolverr: pr-1300-experimental ***(Updated: 2024.09.03)***
+        - flaresolverr: pr-1300-experimental *(Updated: 2024.09.03)*
 		- gamevault-backend: v12.2.0 *(Updated: 2024.08.06)*
-        - immich: v1.113.1 ***(Updated: 2024.09.03)***
+        - immich: v1.113.1 *(Updated: 2024.09.03)*
         - jellyfin: v10.9.10 *(Updated: 2024.08.26)*
         - jellystat: v1.1.0 *(Updated: 2024.07.24)*
         - Lidarr: v2.5.2.4316 *(Updated: 2024.08.26)*
 		- local-ai: v2.20.1 *(Updated: 2024.08.26)*
-		- maintainerr: v2.1.0 ***(Updated: 2024.09.03)*** ***(Requested)***
+		- maintainerr: v2.1.0 *(Updated: 2024.09.03)* ***(Requested)***
         - meshcentral: v1.1.27 *(Updated: 2024.07.24)*
-        - minio: v2024.08.29 ***(Updated: 2024.09.03)***
-		- ollama: v0.3.9 ***(Updated: 2024.09.03)*** ***(Requested)***
+        - minio: v2024.08.29 *(Updated: 2024.09.03)*
+		- ollama: v0.3.9 *(Updated: 2024.09.03)* ***(Requested)***
 		- paperless-ngx: v2.11.6 *(Updated: 2024.08.26)* ***(Requested)***
 		- plex: v1.40.5.8897 *(Updated: 2024.08.26)* ***(Requested)***
-        - prowlarr: v1.23.1.4708 ***(Updated: 2024.09.03)***
+        - prowlarr: v1.23.1.4708 *(Updated: 2024.09.03)*
 		- qbittorrent: v4.6.6 *(Updated: 2024.08.26)*
         - radarr: v5.9.1.9070 *(Updated: 2024.08.26)*
         - Readarr: v0.3.32.2587 *(Updated: 2024.07.24)*
@@ -63,12 +63,16 @@ Now you should be able to update your applications again.
         - sftpgo: v2.6.2 *(Updated: 2024.07.24)*
         - sonarr: v4.0.9.2244 *(Updated: 2024.08.26)*
         - stun-turn-server: latest *(Updated: 2024.07.24)*
-		- syncthing: v1.27.11 ***(Updated: 2024.09.03)*** ***(Requested)***
+		- syncthing: v1.27.11 *(Updated: 2024.09.03)* ***(Requested)***
 		- Tautulli: v2.14.3 *(Updated: 2024.08.02)* ***(Requested)***
         - unpackerr: v0.14.5 *(Updated: 2024.08.05)*
 
 
 - ### Changelog:
+	- 2024.09.03:
+		- nextcloud: v29.0.6
+		- changedetection.io: v0.46.04
+
 	- 2024.09.03:
 		- anything-llm: latest
 		- audiobookshelf: v2.13.3
