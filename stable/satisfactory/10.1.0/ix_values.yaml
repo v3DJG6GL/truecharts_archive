@@ -1,7 +1,7 @@
 image:
   repository: wolveix/satisfactory-server
   pullPolicy: IfNotPresent
-  tag: v1.7.4@sha256:2570735308d6a17876a638dda047a4effc8b02a2bdb01e83c85d4affd60f9b14
+  tag: v1.8.3@sha256:41ad06e4db8bf410639fbff882fd701f450f68ee6a7bd6223d7179712f65dc7f
 persistence:
   config:
     enabled: true
@@ -17,22 +17,11 @@ service:
         targetPort: 7777
         port: 7777
         protocol: udp
-  beacon:
-    enabled: true
-    ports:
-      beacon:
+      tcp:
         enabled: true
-        port: 15000
-        targetPort: 15000
-        protocol: udp
-  query:
-    enabled: true
-    ports:
-      query:
-        enabled: true
-        port: 15777
-        targetPort: 15777
-        protocol: udp
+        port: 7777
+        targetPort: 7777
+        protocol: tcp
 portal:
   open:
     enabled: false
@@ -63,9 +52,7 @@ workload:
             DEBUG: false
             DISABLESEASONALEVENTS: false
             MAXPLAYERS: 4
-            SERVERBEACONPORT: "{{ .Values.service.beacon.ports.beacon.targetPort }}"
             SERVERGAMEPORT: "{{ .Values.service.main.ports.main.targetPort }}"
             SERVERIP: "0.0.0.0"
-            SERVERQUERYPORT: "{{ .Values.service.query.ports.query.targetPort }}"
             SKIPUPDATE: false
             STEAMBETA: false

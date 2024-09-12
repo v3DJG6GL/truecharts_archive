@@ -4,14 +4,14 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/_work/catalog/catalog/stable/satisfactory/10.0.8",
-        "last_update": "2024-09-11 12:35:14",
+        "last_update": "2024-09-12 12:35:14",
         "required_features": [
             "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/certificate",
             "definitions/interface"
         ],
-        "human_version": "1.7.4_10.1.0",
+        "human_version": "1.8.3_10.1.0",
         "version": "10.1.0",
         "chart_metadata": {
             "annotations": {
@@ -21,7 +21,7 @@
                 "truecharts.org/train": "stable"
             },
             "apiVersion": "v2",
-            "appVersion": "1.7.4",
+            "appVersion": "1.8.3",
             "dependencies": [
                 {
                     "name": "common",
@@ -848,75 +848,10 @@
                                                                 }
                                                             ]
                                                         }
-                                                    }
-                                                ]
-                                            }
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "variable": "beacon",
-                                "label": "Beacon Service",
-                                "description": "The beacon service",
-                                "schema": {
-                                    "additional_attrs": true,
-                                    "type": "dict",
-                                    "attrs": [
-                                        {
-                                            "variable": "enabled",
-                                            "label": "Enable the Service",
-                                            "schema": {
-                                                "type": "boolean",
-                                                "default": true,
-                                                "hidden": true
-                                            }
-                                        },
-                                        {
-                                            "variable": "type",
-                                            "label": "Service Type",
-                                            "description": "ClusterIP's are only internally available and Loadbalancer exposes the service using the system loadbalancer",
-                                            "schema": {
-                                                "type": "string",
-                                                "default": "LoadBalancer",
-                                                "enum": [
-                                                    {
-                                                        "value": "LoadBalancer",
-                                                        "description": "LoadBalancer (Expose Ports)"
                                                     },
                                                     {
-                                                        "value": "ClusterIP",
-                                                        "description": "ClusterIP (Do Not Expose Ports)"
-                                                    }
-                                                ]
-                                            }
-                                        },
-                                        {
-                                            "variable": "loadBalancerIP",
-                                            "label": "LoadBalancer IP",
-                                            "description": "MetalLB Only: Selects the Loadbalancer IP to expose on. Required when using PortalButton with MetalLB",
-                                            "schema": {
-                                                "show_if": [
-                                                    [
-                                                        "type",
-                                                        "=",
-                                                        "LoadBalancer"
-                                                    ]
-                                                ],
-                                                "type": "string",
-                                                "default": ""
-                                            }
-                                        },
-                                        {
-                                            "variable": "ports",
-                                            "label": "Service's Port(s) Configuration",
-                                            "schema": {
-                                                "additional_attrs": true,
-                                                "type": "dict",
-                                                "attrs": [
-                                                    {
-                                                        "variable": "beacon",
-                                                        "label": "Beacon Service Port Configuration",
+                                                        "variable": "tcp",
+                                                        "label": "API Service Port Configuration",
                                                         "schema": {
                                                             "additional_attrs": true,
                                                             "type": "dict",
@@ -927,92 +862,7 @@
                                                                     "description": "This port exposes the container port on the service",
                                                                     "schema": {
                                                                         "type": "int",
-                                                                        "default": 15000,
-                                                                        "required": true
-                                                                    }
-                                                                }
-                                                            ]
-                                                        }
-                                                    }
-                                                ]
-                                            }
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "variable": "query",
-                                "label": "Query Service",
-                                "description": "The Primary service on which the healthcheck runs, often the webUI",
-                                "schema": {
-                                    "additional_attrs": true,
-                                    "type": "dict",
-                                    "attrs": [
-                                        {
-                                            "variable": "enabled",
-                                            "label": "Enable the Service",
-                                            "schema": {
-                                                "type": "boolean",
-                                                "default": true,
-                                                "hidden": true
-                                            }
-                                        },
-                                        {
-                                            "variable": "type",
-                                            "label": "Service Type",
-                                            "description": "ClusterIP's are only internally available and Loadbalancer exposes the service using the system loadbalancer",
-                                            "schema": {
-                                                "type": "string",
-                                                "default": "LoadBalancer",
-                                                "enum": [
-                                                    {
-                                                        "value": "LoadBalancer",
-                                                        "description": "LoadBalancer (Expose Ports)"
-                                                    },
-                                                    {
-                                                        "value": "ClusterIP",
-                                                        "description": "ClusterIP (Do Not Expose Ports)"
-                                                    }
-                                                ]
-                                            }
-                                        },
-                                        {
-                                            "variable": "loadBalancerIP",
-                                            "label": "LoadBalancer IP",
-                                            "description": "MetalLB Only: Selects the Loadbalancer IP to expose on. Required when using PortalButton with MetalLB",
-                                            "schema": {
-                                                "show_if": [
-                                                    [
-                                                        "type",
-                                                        "=",
-                                                        "LoadBalancer"
-                                                    ]
-                                                ],
-                                                "type": "string",
-                                                "default": ""
-                                            }
-                                        },
-                                        {
-                                            "variable": "ports",
-                                            "label": "Service's Port(s) Configuration",
-                                            "schema": {
-                                                "additional_attrs": true,
-                                                "type": "dict",
-                                                "attrs": [
-                                                    {
-                                                        "variable": "query",
-                                                        "label": "Query Service Port Configuration",
-                                                        "schema": {
-                                                            "additional_attrs": true,
-                                                            "type": "dict",
-                                                            "attrs": [
-                                                                {
-                                                                    "variable": "port",
-                                                                    "label": "Port",
-                                                                    "description": "This port exposes the container port on the service",
-                                                                    "schema": {
-                                                                        "type": "int",
-                                                                        "default": 15777,
+                                                                        "default": 7777,
                                                                         "required": true
                                                                     }
                                                                 }
