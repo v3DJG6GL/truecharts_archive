@@ -1,5 +1,5 @@
 image:
-  repository: ghcr.io/nzbgetcom/nzbget
+  repository: ghcr.io/geek-cookbook/nzbget
   pullPolicy: IfNotPresent
   tag: 24.1@sha256:a7ba9009d17893bfaa8ccac4bd912fedf8bd8b1752618d56f4526d6d8bd14f4a
 service:
