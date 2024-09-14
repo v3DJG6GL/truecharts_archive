@@ -1,7 +1,7 @@
 image:
   repository: ghcr.io/nzbgetcom/nzbget
   pullPolicy: IfNotPresent
-  tag: v24.3@sha256:72f2e9e28c978ceb702ca10c16e8e4e24fced589b696686e07a4d3b4a52f6150
+  tag: v24.3@sha256:33f24abc2cac6f57347aeda0edd12eaa1af5c2736fa7651db815e486ba517187
 service:
   main:
     ports:
