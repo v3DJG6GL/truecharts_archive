@@ -1,7 +1,7 @@
 image:
   repository: jorenn92/maintainerr
   pullPolicy: IfNotPresent
-  tag: latest
+  tag: 2.1.0@sha256:31f857dcd33d1583e5b8d614f7fdb4ab308964d96b0669740927de295daff947
 
 securityContext:
   container:

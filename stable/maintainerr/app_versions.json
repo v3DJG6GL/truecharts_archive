@@ -4,14 +4,14 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/_work/catalog/catalog/stable/maintainerr/3.1.0",
-        "last_update": "2024-05-29 12:35:14",
+        "last_update": "2024-09-03 17:00:00",
         "required_features": [
             "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/certificate",
             "definitions/interface"
         ],
-        "human_version": "latest_3.1.0",
+        "human_version": "2.1.0_3.1.0",
         "version": "3.1.0",
         "chart_metadata": {
             "annotations": {
@@ -21,7 +21,7 @@
                 "truecharts.org/train": "stable"
             },
             "apiVersion": "v2",
-            "appVersion": "2.0.3",
+            "appVersion": "2.1.0",
             "dependencies": [
                 {
                     "name": "common",
