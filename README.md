@@ -31,14 +31,14 @@ Now you should be able to update your applications again.
     
     - **premium train:**
         - authelia: v4.38.10 *(Updated: 2024.08.05)*
-        - nextcloud: v29.0.6 **(Updated: 2024.09.05)***
+        - nextcloud: v29.0.6 *(Updated: 2024.09.05)**
         - traefik: v3.1.2 *(Updated: 2024.08.09)*
     - **stable train**
         - anything-llm: latest *(Updated: 2024.09.03)*
         - audiobookshelf: v2.13.4 ***(Updated: 2024.09.16)***
         - autobrr: v1.46.1  ***(Updated: 2024.09.16)***
 		- bazarr: v1.4.4 ***(Updated: 2024.09.16)***
-		- changedetection.io: v0.46.04 ***(Updated: 2024.09.05)***
+		- changedetection.io: v0.46.04 *(Updated: 2024.09.05)*
 		- cloudflared: v2024.8.3 *(Updated: 2024.08.26)*
         - code-server: v4.91.1 *(Updated: 2024.07.24)*
 		- crafty-4: v4.4.3 *(Updated: 2024.08.09)*
