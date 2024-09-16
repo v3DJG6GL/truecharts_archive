@@ -86,7 +86,7 @@ Now you should be able to update your applications again.
 		- recyclarr: v7.2.4
 		- syncthing: v1.27.12
 
-	- 2024.09.04:
+	- 2024.09.05:
 		- nextcloud: v29.0.6
 		- changedetection.io: v0.46.04
 
