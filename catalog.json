@@ -15044,10 +15044,10 @@
             "healthy_error": null,
             "home": "https://truecharts.org/charts/stable/nzbget",
             "location": "/home/runner/_work/catalog/catalog/stable/nzbget",
-            "latest_version": "22.0.4",
-            "latest_app_version": "24.1.0",
-            "latest_human_version": "24.1.0_22.0.4",
-            "last_update": "2024-05-29 12:35:14",
+            "latest_version": "22.0.5",
+            "latest_app_version": "24.3.0",
+            "latest_human_version": "24.3.0_22.0.5",
+            "last_update": "2024-09-14 23:56:14",
             "name": "nzbget",
             "recommended": false,
             "title": "Nzbget",
@@ -15061,7 +15061,7 @@
             "tags": [],
             "screenshots": [],
             "sources": [
-                "https://ghcr.io/geek-cookbook/nzbget",
+                "https://github.com/nzbgetcom/nzbget/pkgs/container/nzbget",
                 "https://github.com/truecharts/charts/tree/master/charts/stable/nzbget",
                 "https://nzbget.net/"
             ],
