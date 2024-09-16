@@ -52,6 +52,7 @@ Now you should be able to update your applications again.
 		- maintainerr: v2.1.2 ***(Updated: 2024.09.16)*** ***(Requested)***
         - meshcentral: v1.1.30  ***(Updated: 2024.09.16)***
         - minio: v2024.09.13 ***(Updated: 2024.09.16)***
+		- nzbget: v24.3 ***(Updated: 2024.09.17)*** ***(Requested)***
 		- ollama: v0.3.10 ***(Updated: 2024.09.16)*** ***(Requested)***
 		- paperless-ngx: v2.12.1  ***(Updated: 2024.09.16)*** ***(Requested)***
 		- plex: v1.41.0.8992  ***(Updated: 2024.09.16)*** ***(Requested)***
@@ -70,6 +71,9 @@ Now you should be able to update your applications again.
 
 
 - ### Changelog:
+	- 2024.09.17:
+		- nzbget: v24.3 (PR #13)
+		
 	- 2024.09.16:
 		- audiobookshelf: v2.13.4
 		- autobrr: v1.46.1
