@@ -69,7 +69,23 @@ Now you should be able to update your applications again.
 
 
 - ### Changelog:
-	- 2024.09.03:
+	- 2024.09.16:
+		- audiobookshelf: v2.13.4
+		- autobrr: v1.46.1
+		- bazarr: v1.4.4
+		- immich: v1.113.1
+		- jellyfin: v10.9.11
+		- maintainerr: v2.1.2
+		- meshcentral: v1.1.30
+		- minio: v2024.09.13
+		- ollama: v0.3.10
+		- paperless-ngx: v2.12.1
+		- plex: v1.41.0.8992
+		- prowlarr: v1.24.0.4721
+		- recyclarr: v7.2.4
+		- syncthing: v1.27.12
+
+	- 2024.09.04:
 		- nextcloud: v29.0.6
 		- changedetection.io: v0.46.04
 
