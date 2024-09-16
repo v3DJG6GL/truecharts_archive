@@ -31,7 +31,7 @@ Now you should be able to update your applications again.
     
     - **premium train:**
         - authelia: v4.38.10 *(Updated: 2024.08.05)*
-        - nextcloud: v29.0.6 *(Updated: 2024.09.05)**
+        - nextcloud: v29.0.6 *(Updated: 2024.09.05)*
         - traefik: v3.1.2 *(Updated: 2024.08.09)*
     - **stable train**
         - anything-llm: latest *(Updated: 2024.09.03)*
