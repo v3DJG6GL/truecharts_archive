@@ -11,17 +11,17 @@
             "definitions/certificate",
             "definitions/interface"
         ],
-        "human_version": "stable_8.1.0",
+        "human_version": "1.1.110_8.1.0",
         "version": "8.1.0",
         "chart_metadata": {
             "annotations": {
                 "truecharts.org/category": "GameServers",
                 "truecharts.org/max_helm_version": "3.14",
                 "truecharts.org/min_helm_version": "3.11",
-                "truecharts.org/train": "stable"
+                "truecharts.org/train": "1.1.110"
             },
             "apiVersion": "v2",
-            "appVersion": "stable",
+            "appVersion": "1.1.110",
             "dependencies": [
                 {
                     "name": "common",
