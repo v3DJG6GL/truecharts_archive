@@ -4,22 +4,14 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/_work/catalog/catalog/stable/maintainerr/3.1.1",
-<<<<<<< HEAD
         "last_update": "2024-09-16 12:00:00",
-=======
-        "last_update": "2024-09-12 15:06:14",
->>>>>>> parent of c4b57875 (Fix extra folder)
         "required_features": [
             "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/certificate",
             "definitions/interface"
         ],
-<<<<<<< HEAD
         "human_version": "2.1.2_3.1.1",
-=======
-        "human_version": "2.1.1_3.1.1",
->>>>>>> parent of c4b57875 (Fix extra folder)
         "version": "3.1.1",
         "chart_metadata": {
             "annotations": {
@@ -29,7 +21,6 @@
                 "truecharts.org/train": "stable"
             },
             "apiVersion": "v2",
-<<<<<<< HEAD
             "appVersion": "2.1.2",
             "dependencies": [
                 {
@@ -5304,8 +5295,6 @@
                 "truecharts.org/train": "stable"
             },
             "apiVersion": "v2",
-=======
->>>>>>> parent of c4b57875 (Fix extra folder)
             "appVersion": "2.1.0",
             "dependencies": [
                 {
@@ -5341,11 +5330,7 @@
                 "https://hub.docker.com/r/jorenn92/maintainerr"
             ],
             "type": "application",
-<<<<<<< HEAD
             "version": "3.1.0"
-=======
-            "version": "3.1.1"
->>>>>>> parent of c4b57875 (Fix extra folder)
         },
         "app_metadata": null,
         "schema": {
