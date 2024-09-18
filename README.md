@@ -31,49 +31,62 @@ Now you should be able to update your applications again.
     
     - **premium train:**
         - authelia: v4.38.10 *(Updated: 2024.08.05)*
+		- grafana: v11.2.0 ***(Updated: 2024.09.18)*** ***(Requested)***
         - nextcloud: v29.0.6 *(Updated: 2024.09.05)*
-        - traefik: v3.1.2 *(Updated: 2024.08.09)*
+		- prometheus: v2.54.1 ***(Updated: 2024.09.18)*** ***(Requested)***
+        - traefik: v3.1.3 ***(Updated: 2024.09.18)***
     - **stable train**
         - anything-llm: latest *(Updated: 2024.09.03)*
-        - audiobookshelf: v2.13.4 ***(Updated: 2024.09.16)***
-        - autobrr: v1.46.1  ***(Updated: 2024.09.16)***
-		- bazarr: v1.4.4 ***(Updated: 2024.09.16)***
+        - audiobookshelf: v2.13.4 *(Updated: 2024.09.16)*
+        - autobrr: v1.46.1  *(Updated: 2024.09.16)*
+		- bazarr: v1.4.4 *(Updated: 2024.09.16)*
 		- changedetection.io: v0.46.04 *(Updated: 2024.09.05)*
 		- cloudflared: v2024.8.3 *(Updated: 2024.08.26)*
         - code-server: v4.91.1 *(Updated: 2024.07.24)*
 		- crafty-4: v4.4.3 *(Updated: 2024.08.09)*
+		- factorio: stable ***(Updated: 2024.09.18)***
         - flaresolverr: pr-1300-experimental *(Updated: 2024.09.03)*
 		- gamevault-backend: v12.2.0 *(Updated: 2024.08.06)*
-        - immich: v1.115.0 ***(Updated: 2024.09.16)***
-        - jellyfin: v10.9.11  ***(Updated: 2024.09.16)***
+        - immich: v1.115.0 *(Updated: 2024.09.16)*
+        - jellyfin: v10.9.11  *(Updated: 2024.09.16)*
         - jellystat: v1.1.0 *(Updated: 2024.07.24)*
         - Lidarr: v2.5.2.4316 *(Updated: 2024.08.26)*
 		- local-ai: v2.20.1 *(Updated: 2024.08.26)*
-		- maintainerr: v2.1.2 ***(Updated: 2024.09.16)*** ***(Requested)***
-        - meshcentral: v1.1.30  ***(Updated: 2024.09.16)***
-        - minio: v2024.09.13 ***(Updated: 2024.09.16)***
+		- maintainerr: v2.1.2 *(Updated: 2024.09.16)* ***(Requested)***
+        - meshcentral: v1.1.30  *(Updated: 2024.09.16)*
+        - minio: v2024.09.13 *(Updated: 2024.09.16)*
 		- nzbget: v24.3 ***(Updated: 2024.09.17)*** ***(Requested)***
-		- ollama: v0.3.10 ***(Updated: 2024.09.16)*** ***(Requested)***
-		- paperless-ngx: v2.12.1  ***(Updated: 2024.09.16)*** ***(Requested)***
-		- plex: v1.41.0.8992  ***(Updated: 2024.09.16)*** ***(Requested)***
-        - prowlarr: v1.24.0.4721 ***(Updated: 2024.09.16)***
-		- qbittorrent: v4.6.6 *(Updated: 2024.08.26)*
+		- ollama: v0.3.10 *(Updated: 2024.09.16)* ***(Requested)***
+		- paperless-ngx: v2.12.1  *(Updated: 2024.09.16)* ***(Requested)***
+		- plex: v1.41.0.8992  *(Updated: 2024.09.16)* ***(Requested)***
+        - prowlarr: v1.24.0.4721 *(Updated: 2024.09.16)*
+		- qbitmanage: v4.1.9 ***(Updated: 2024.09.18)*** ***(Requested)***
+		- qbittorrent: v4.6.7 ***(Updated: 2024.09.18)***
         - radarr: v5.9.1.9070 *(Updated: 2024.08.26)*
         - Readarr: v0.3.32.2587 *(Updated: 2024.07.24)*
-		- recyclarr: v7.2.4  ***(Updated: 2024.09.16)***
+		- recyclarr: v7.2.4  *(Updated: 2024.09.16)*
 		- sabnzbd: v4.3.3 *(Updated: 2024.08.26)* ***(Requested)***
         - sftpgo: v2.6.2 *(Updated: 2024.07.24)*
         - sonarr: v4.0.9.2244 *(Updated: 2024.08.26)*
-        - stun-turn-server: latest *(Updated: 2024.07.24)*
-		- syncthing: v1.27.12 ***(Updated: 2024.09.16)*** ***(Requested)***
+        - stun-turn-server: latest ***(Updated: 2024.09.18)***
+		- syncthing: v1.27.12 *(Updated: 2024.09.16)* ***(Requested)***
 		- Tautulli: v2.14.3 *(Updated: 2024.08.02)* ***(Requested)***
         - unpackerr: v0.14.5 *(Updated: 2024.08.05)*
 
 
 - ### Changelog:
+	- 2024.09.18:
+		- factorio: stable (PR #17)
+		- grafana: v11.2.0 (PR #17)
+		- prometheus: v2.54.1 (PR #17)
+		- qbitmanage: v4.1.9 (PR #17)
+		- qbittorrent: v4.6.7
+		- stun-turn-server: latest
+		- traefik: v3.1.3
+
 	- 2024.09.17:
 		- nzbget: v24.3 (PR #13)
-		
+
 	- 2024.09.16:
 		- audiobookshelf: v2.13.4
 		- autobrr: v1.46.1
