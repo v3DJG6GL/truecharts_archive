@@ -32,7 +32,7 @@ Now you should be able to update your applications again.
     - **premium train:**
         - authelia: v4.38.10 *(Updated: 2024.08.05)*
 		- grafana: v11.2.0 *(Updated: 2024.09.18)* ***(Requested)***
-        - nextcloud: v29.0.7 ***(Updated: 2024.09.20)***
+        - nextcloud: v30.0.0 ***(Updated: 2024.09.20)***
 		- prometheus: v2.54.1 *(Updated: 2024.09.18)* ***(Requested)***
         - traefik: v3.1.4 ***(Updated: 2024.09.20)***
     - **stable train**
@@ -76,7 +76,7 @@ Now you should be able to update your applications again.
 
 - ### Changelog:
 	- 2024.09.20:
-		- nextcloud: v29.0.7
+		- nextcloud: v30.0.0
 		- ollama: v0.3.11
 		- traefik: v3.1.4 (fixes CVE-2024-45410)
 
