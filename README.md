@@ -31,10 +31,10 @@ Now you should be able to update your applications again.
     
     - **premium train:**
         - authelia: v4.38.10 *(Updated: 2024.08.05)*
-		- grafana: v11.2.0 ***(Updated: 2024.09.18)*** ***(Requested)***
-        - nextcloud: v29.0.6 *(Updated: 2024.09.05)*
-		- prometheus: v2.54.1 ***(Updated: 2024.09.18)*** ***(Requested)***
-        - traefik: v3.1.3 ***(Updated: 2024.09.18)***
+		- grafana: v11.2.0 *(Updated: 2024.09.18)* ***(Requested)***
+        - nextcloud: v30.0.0 ***(Updated: 2024.09.20)***
+		- prometheus: v2.54.1 *(Updated: 2024.09.18)* ***(Requested)***
+        - traefik: v3.1.4 ***(Updated: 2024.09.20)***
     - **stable train**
         - anything-llm: latest *(Updated: 2024.09.03)*
         - audiobookshelf: v2.13.4 *(Updated: 2024.09.16)*
@@ -44,7 +44,7 @@ Now you should be able to update your applications again.
 		- cloudflared: v2024.8.3 *(Updated: 2024.08.26)*
         - code-server: v4.91.1 *(Updated: 2024.07.24)*
 		- crafty-4: v4.4.3 *(Updated: 2024.08.09)*
-		- factorio: stable ***(Updated: 2024.09.18)***
+		- factorio: stable *(Updated: 2024.09.18)*
         - flaresolverr: pr-1300-experimental *(Updated: 2024.09.03)*
 		- gamevault-backend: v12.2.0 *(Updated: 2024.08.06)*
         - immich: v1.115.0 *(Updated: 2024.09.16)*
@@ -56,25 +56,30 @@ Now you should be able to update your applications again.
         - meshcentral: v1.1.30  *(Updated: 2024.09.16)*
         - minio: v2024.09.13 *(Updated: 2024.09.16)*
 		- nzbget: v24.3 ***(Updated: 2024.09.17)*** ***(Requested)***
-		- ollama: v0.3.10 *(Updated: 2024.09.16)* ***(Requested)***
+		- ollama: v0.3.11 ***(Updated: 2024.09.20)*** ***(Requested)***
 		- paperless-ngx: v2.12.1  *(Updated: 2024.09.16)* ***(Requested)***
 		- plex: v1.41.0.8992  *(Updated: 2024.09.16)* ***(Requested)***
         - prowlarr: v1.24.0.4721 *(Updated: 2024.09.16)*
-		- qbitmanage: v4.1.9 ***(Updated: 2024.09.18)*** ***(Requested)***
-		- qbittorrent: v4.6.7 ***(Updated: 2024.09.18)***
+		- qbitmanage: v4.1.9 *(Updated: 2024.09.18)* ***(Requested)***
+		- qbittorrent: v4.6.7 *(Updated: 2024.09.18)*
         - radarr: v5.9.1.9070 *(Updated: 2024.08.26)*
         - Readarr: v0.3.32.2587 *(Updated: 2024.07.24)*
 		- recyclarr: v7.2.4  *(Updated: 2024.09.16)*
 		- sabnzbd: v4.3.3 *(Updated: 2024.08.26)* ***(Requested)***
         - sftpgo: v2.6.2 *(Updated: 2024.07.24)*
         - sonarr: v4.0.9.2244 *(Updated: 2024.08.26)*
-        - stun-turn-server: latest ***(Updated: 2024.09.18)***
+        - stun-turn-server: latest *(Updated: 2024.09.18)*
 		- syncthing: v1.27.12 *(Updated: 2024.09.16)* ***(Requested)***
 		- Tautulli: v2.14.3 *(Updated: 2024.08.02)* ***(Requested)***
         - unpackerr: v0.14.5 *(Updated: 2024.08.05)*
 
 
 - ### Changelog:
+	- 2024.09.20:
+		- nextcloud: v30.0.0
+		- ollama: v0.3.11
+		- traefik: v3.1.4 (fixes CVE-2024-45410)
+
 	- 2024.09.18:
 		- factorio: stable (PR #17)
 		- grafana: v11.2.0 (PR #17)
