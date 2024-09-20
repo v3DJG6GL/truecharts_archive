@@ -35,12 +35,12 @@ workload:
               custom: true
               enabled: true
               spec:
-                failureThreshold: 5
+                failureThreshold: 50
                 httpGet:
                     path: /healthz
                     port: "{{ .Values.service.metrics.ports.metrics.port }}"
-                initialDelaySeconds: 30
-                periodSeconds: 10
+                initialDelaySeconds: 120
+                periodSeconds: 300
                 timeoutSeconds: 600
             readiness:
               enabled: true
