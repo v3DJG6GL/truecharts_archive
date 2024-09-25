@@ -30,11 +30,11 @@ Now you should be able to update your applications again.
 - ### I currently manually push updates for these applications:
     
     - **premium train:**
-        - authelia: v4.38.10 *(Updated: 2024.08.05)*
+        - authelia: v4.38.12 *(Updated: 2024.09.24)*
 		- grafana: v11.2.0 *(Updated: 2024.09.18)* ***(Requested)***
-        - nextcloud: v30.0.0 ***(Updated: 2024.09.20)***
+        - nextcloud: v30.0.0 *(Updated: 2024.09.20)*
 		- prometheus: v2.54.1 *(Updated: 2024.09.18)* ***(Requested)***
-        - traefik: v3.1.4 ***(Updated: 2024.09.20)***
+        - traefik: v3.1.4 *(Updated: 2024.09.20)*
     - **stable train**
         - anything-llm: latest *(Updated: 2024.09.03)*
         - audiobookshelf: v2.13.4 *(Updated: 2024.09.16)*
@@ -54,27 +54,40 @@ Now you should be able to update your applications again.
 		- local-ai: v2.20.1 *(Updated: 2024.08.26)*
 		- maintainerr: v2.1.2 *(Updated: 2024.09.16)* ***(Requested)***
         - meshcentral: v1.1.30  *(Updated: 2024.09.16)*
-        - minio: v2024.09.13 *(Updated: 2024.09.16)*
-		- nzbget: v24.3 ***(Updated: 2024.09.17)*** ***(Requested)***
-		- ollama: v0.3.11 ***(Updated: 2024.09.20)*** ***(Requested)***
+        - minio: v2024.09.22 ***(Updated: 2024.09.25)***
+		- nzbget: v24.3 *(Updated: 2024.09.17)* ***(Requested)***
+		- ollama: v0.3.12 ***(Updated: 2024.09.25)*** ***(Requested)***
 		- paperless-ngx: v2.12.1  *(Updated: 2024.09.16)* ***(Requested)***
 		- plex: v1.41.0.8992  *(Updated: 2024.09.16)* ***(Requested)***
-        - prowlarr: v1.24.0.4721 *(Updated: 2024.09.16)*
+        - prowlarr: v1.24.1.4740 *(Updated: 2024.09.24)*
 		- qbitmanage: v4.1.9 *(Updated: 2024.09.18)* ***(Requested)***
 		- qbittorrent: v4.6.7 *(Updated: 2024.09.18)*
-        - radarr: v5.9.1.9070 *(Updated: 2024.08.26)*
+        - radarr: v5.11.0.9244 ***(Updated: 2024.09.25)***
         - Readarr: v0.3.32.2587 *(Updated: 2024.07.24)*
 		- recyclarr: v7.2.4  *(Updated: 2024.09.16)*
+		- satisfactory: v1.8.6 *(Updated: 2024.09.24)* ***(Requested)***
 		- sabnzbd: v4.3.3 *(Updated: 2024.08.26)* ***(Requested)***
         - sftpgo: v2.6.2 *(Updated: 2024.07.24)*
         - sonarr: v4.0.9.2244 *(Updated: 2024.08.26)*
         - stun-turn-server: latest *(Updated: 2024.09.18)*
 		- syncthing: v1.27.12 *(Updated: 2024.09.16)* ***(Requested)***
-		- Tautulli: v2.14.3 *(Updated: 2024.08.02)* ***(Requested)***
+		- tautulli: v2.14.5 *(Updated: 2024.09.24)* ***(Requested)***
         - unpackerr: v0.14.5 *(Updated: 2024.08.05)*
 
 
 - ### Changelog:
+
+	- 2024.09.25:
+		- minio: v2024.09.22
+		- ollama: v0.3.12
+		- radarr: v5.11.0.9244
+
+	- 2024.09.24:
+		- authelia: v4.38.12
+		- prowlarr: v1.24.1.4740 (PR #20)
+		- radarr: v5.10.4.9218
+		- satisfactory: v1.8.6 (PR #22)
+		- tautulli: v2.14.5 (PR #21)
 	- 2024.09.20:
 		- nextcloud: v30.0.0
 		- ollama: v0.3.11
