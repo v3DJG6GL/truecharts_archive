@@ -43,6 +43,7 @@ Now you should be able to update your applications again.
 		- changedetection.io: v0.46.04 *(Updated: 2024.09.05)*
 		- cloudflared: v2024.8.3 *(Updated: 2024.08.26)*
         - code-server: v4.91.1 *(Updated: 2024.07.24)*
+		- codeproject-ai-server: v2.6.5 *(Updated: 2024.09.27)*
 		- crafty-4: v4.4.3 *(Updated: 2024.08.09)*
 		- factorio: stable *(Updated: 2024.09.18)*
         - flaresolverr: pr-1300-experimental *(Updated: 2024.09.03)*
@@ -76,6 +77,9 @@ Now you should be able to update your applications again.
 
 
 - ### Changelog:
+
+	- 2024.09.27:
+		- codeproject-ai-server: v2.6.5
 
 	- 2024.09.25:
 		- minio: v2024.09.22
