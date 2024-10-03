@@ -42,8 +42,8 @@ Now you should be able to update your applications again.
 		- bazarr: v1.4.4 *(Updated: 2024.09.16)*
 		- changedetection.io: v0.46.04 *(Updated: 2024.09.05)*
 		- cloudflared: v2024.8.3 *(Updated: 2024.08.26)*
-        - code-server: v4.91.1 *(Updated: 2024.07.24)*
-		- codeproject-ai-server: v2.6.5 *(Updated: 2024.09.27)*
+        - code-server: v4.93.1 ***(Updated: 2024.10.03)***
+		- codeproject-ai-server: v2.6.5 ***(Updated: 2024.10.03)***
 		- crafty-4: v4.4.3 *(Updated: 2024.08.09)*
 		- factorio: stable *(Updated: 2024.09.18)*
         - flaresolverr: pr-1300-experimental *(Updated: 2024.09.03)*
@@ -52,18 +52,18 @@ Now you should be able to update your applications again.
         - jellyfin: v10.9.11  *(Updated: 2024.09.16)*
         - jellystat: v1.1.0 *(Updated: 2024.07.24)*
         - Lidarr: v2.5.2.4316 *(Updated: 2024.08.26)*
-		- local-ai: v2.20.1 *(Updated: 2024.08.26)*
+		- local-ai: v2.20.1 ***(Updated: 2024.10.03)***
 		- maintainerr: v2.1.2 *(Updated: 2024.09.16)* ***(Requested)***
         - meshcentral: v1.1.30  *(Updated: 2024.09.16)*
-        - minio: v2024.09.22 ***(Updated: 2024.09.25)***
+        - minio: v2024.09.22 *(Updated: 2024.09.25)*
 		- nzbget: v24.3 *(Updated: 2024.09.17)* ***(Requested)***
-		- ollama: v0.3.12 ***(Updated: 2024.09.25)*** ***(Requested)***
+		- ollama: v0.3.12 *(Updated: 2024.09.25)* ***(Requested)***
 		- paperless-ngx: v2.12.1  *(Updated: 2024.09.16)* ***(Requested)***
 		- plex: v1.41.0.8992  *(Updated: 2024.09.16)* ***(Requested)***
         - prowlarr: v1.24.1.4740 *(Updated: 2024.09.24)*
 		- qbitmanage: v4.1.9 *(Updated: 2024.09.18)* ***(Requested)***
 		- qbittorrent: v4.6.7 *(Updated: 2024.09.18)*
-        - radarr: v5.11.0.9244 ***(Updated: 2024.09.25)***
+        - radarr: v5.11.0.9244 *(Updated: 2024.09.25)*
         - Readarr: v0.3.32.2587 *(Updated: 2024.07.24)*
 		- recyclarr: v7.2.4  *(Updated: 2024.09.16)*
 		- satisfactory: v1.8.6 *(Updated: 2024.09.24)* ***(Requested)***
@@ -77,9 +77,10 @@ Now you should be able to update your applications again.
 
 
 - ### Changelog:
-
-	- 2024.09.27:
+	- 2024.10.03
 		- codeproject-ai-server: v2.6.5
+		- local-ai: v2.21.1
+		- code-server: v4.93.1
 
 	- 2024.09.25:
 		- minio: v2024.09.22
