@@ -52,7 +52,7 @@ Now you should be able to update your applications again.
     - gamevault-backend: v12.2.0 *(Updated: 2024.08.06)*
     - home-assistant: v2024.10.3 ***(Updated: 2024.10.29)*** ***(PR #29)***
     - immich: v1.119.0 ***(Updated: 2024.10.29)***
-    - jellyfin: v10.9.11 *(Updated: 2024.09.16)*
+    - jellyfin: v10.10.0 ***(Updated: 2024.10.29)***
     - jellystat: v1.1.0 *(Updated: 2024.07.24)*
     - lidarr: v2.7.1.4417 ***(Updated: 2024.10.29)***
     - local-ai: v2.22.1 ***(Updated: 2024.10.29)***
@@ -88,6 +88,7 @@ Now you should be able to update your applications again.
 	- frigate: v0.14.1 (PR #29)
 	- home-assistant: v2024.10.3 (PR #29)
 	- immich: v1.119.0
+	- jellyfin: v10.10.0
 	- lidarr: v2.7.1.4417
 	- local-ai: v2.22.1
 	- nextcloud: v30.0.1
