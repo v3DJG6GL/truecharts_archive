@@ -43,39 +43,39 @@ Now you should be able to update your applications again.
     - bazarr: v1.4.5 _(Updated: 2024.10.03)_
     - changedetection.io: v0.47.03 **_(Updated: 2024.10.13)_**
     - cloudflared: v2024.8.3 _(Updated: 2024.08.26)_
-      - code-server: v4.93.1 _(Updated: 2024.10.03)_
+    - code-server: v4.93.1 _(Updated: 2024.10.03)_
     - codeproject-ai-server: v2.6.5 _(Updated: 2024.10.03)_
     - crafty-4: v4.4.4 _(Updated: 2024.10.03)_
     - factorio: stable _(Updated: 2024.09.18)_
-      - flaresolverr: pr-1300-experimental _(Updated: 2024.09.03)_
+    - flaresolverr: pr-1300-experimental _(Updated: 2024.09.03)_
     - gamevault-backend: v12.2.0 _(Updated: 2024.08.06)_
     - home-assistant: v2024.10.3 _(Updated: 2024.10.20)_
-      - immich: v1.117.0 _(Updated: 2024.10.03)_
-      - jellyfin: v10.9.11 _(Updated: 2024.09.16)_
-      - jellystat: v1.1.0 _(Updated: 2024.07.24)_
-      - lidarr: v2.6.4.4402 **_(Updated: 2024.10.10)_**
+    - immich: v1.117.0 _(Updated: 2024.10.03)_
+    - jellyfin: v10.9.11 _(Updated: 2024.09.16)_
+    - jellystat: v1.1.0 _(Updated: 2024.07.24)_
+    - lidarr: v2.6.4.4402 **_(Updated: 2024.10.10)_**
     - local-ai: v2.22.0 **_(Updated: 2024.10.13)_**
     - maintainerr: v2.1.2 _(Updated: 2024.09.16)_ **_(Requested)_**
-      - meshcentral: v1.1.32 _(Updated: 2024.10.03)_
-      - minio: v2024.10.02 _(Updated: 2024.10.03)_
+    - meshcentral: v1.1.32 _(Updated: 2024.10.03)_
+    - minio: v2024.10.02 _(Updated: 2024.10.03)_
     - nzbget: v24.3 _(Updated: 2024.09.17)_ **_(Requested)_**
     - ollama: v0.3.13 **_(Updated: 2024.10.13)_** **_(Requested)_**
     - paperless-ngx: v2.12.1 _(Updated: 2024.09.16)_ **_(Requested)_**
     - plex: v1.41.0.8994 _(Updated: 2024.10.03)_ **_(Requested)_**
-      - prowlarr: v1.25.2.4794 **_(Updated: 2024.10.13)_**
+    - prowlarr: v1.25.2.4794 **_(Updated: 2024.10.13)_**
     - qbitmanage: v4.1.9 _(Updated: 2024.09.18)_ **_(Requested)_**
     - qbittorrent: v5.0.0 _(Updated: 2024.10.03)_
-      - radarr: v5.12.2.9335 **_(Updated: 2024.10.13)_**
-      - readarr: v0.4.0.2634 _(Updated: 2024.10.06)_
+    - radarr: v5.12.2.9335 **_(Updated: 2024.10.13)_**
+    - readarr: v0.4.0.2634 _(Updated: 2024.10.06)_
     - recyclarr: v7.2.4 _(Updated: 2024.09.16)_
     - satisfactory: v1.8.6 _(Updated: 2024.09.24)_ **_(Requested)_**
     - sabnzbd: v4.3.3 _(Updated: 2024.08.26)_ **_(Requested)_**
-      - sftpgo: v2.6.2 _(Updated: 2024.07.24)_
-      - sonarr: v4.0.9.2244 _(Updated: 2024.08.26)_
-      - stun-turn-server: latest _(Updated: 2024.09.18)_
+    - sftpgo: v2.6.2 _(Updated: 2024.07.24)_
+    - sonarr: v4.0.9.2244 _(Updated: 2024.08.26)_
+    - stun-turn-server: latest _(Updated: 2024.09.18)_
     - syncthing: v1.27.12 _(Updated: 2024.09.16)_ **_(Requested)_**
     - tautulli: v2.14.6 **_(Updated: 2024.10.13)_** **_(Requested)_**
-      - unpackerr: v0.14.5 _(Updated: 2024.08.05)_
+    - unpackerr: v0.14.5 _(Updated: 2024.08.05)_
 
 - ### Changelog:
 
