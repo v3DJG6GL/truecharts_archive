@@ -50,7 +50,7 @@ Now you should be able to update your applications again.
 	- frigate: v0.14.1 ***(Updated: 2024.10.29)*** ***(Pull Request)***
     - flaresolverr: pr-1300-experimental *(Updated: 2024.09.03)*
     - gamevault-backend: v12.2.0 *(Updated: 2024.08.06)*
-    - home-assistant: v2024.10.3 *(Updated: 2024.10.29)*
+    - home-assistant: v2024.10.3 ***(Updated: 2024.10.29)***
     - immich: v1.117.0 *(Updated: 2024.10.03)*
     - jellyfin: v10.9.11 *(Updated: 2024.09.16)*
     - jellystat: v1.1.0 *(Updated: 2024.07.24)*
@@ -79,6 +79,10 @@ Now you should be able to update your applications again.
     - unpackerr: v0.14.5 *(Updated: 2024.08.05)*
 
 - ### Changelog:
+
+  - 2024.10.29:
+	- frigate: v0.14.1
+	- home-assistant: v2024.10.3
 
   - 2024.10.17:
 	- immich: v1.118.2
