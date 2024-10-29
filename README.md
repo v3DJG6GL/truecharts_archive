@@ -38,16 +38,16 @@ Now you should be able to update your applications again.
 
   - **stable train**
     - anything-llm: latest *(Updated: 2024.09.03)*
-    - audiobookshelf: v2.15.0 ***(Updated: 2024.10.13)***
+    - audiobookshelf: v2.15.0 *(Updated: 2024.10.13)*
     - autobrr: v1.47.1 *(Updated: 2024.10.08)*
     - bazarr: v1.4.5 *(Updated: 2024.10.03)*
-    - changedetection.io: v0.47.03 ***(Updated: 2024.10.13)***
+    - changedetection.io: v0.47.03 *(Updated: 2024.10.13)*
     - cloudflared: v2024.8.3 *(Updated: 2024.08.26)*
     - code-server: v4.93.1 *(Updated: 2024.10.03)*
     - codeproject-ai-server: v2.6.5 *(Updated: 2024.10.03)*
     - crafty-4: v4.4.4 *(Updated: 2024.10.03)*
     - factorio: stable *(Updated: 2024.09.18)*
-	- frigate: v0.14.1 ***(Updated: 2024.10.13)*** ***(Requested)***
+	- frigate: v0.14.1 ***(Updated: 2024.10.29)*** ***(Pull Request)***
     - flaresolverr: pr-1300-experimental *(Updated: 2024.09.03)*
     - gamevault-backend: v12.2.0 *(Updated: 2024.08.06)*
     - home-assistant: v2024.10.3 *(Updated: 2024.10.29)*
@@ -55,18 +55,18 @@ Now you should be able to update your applications again.
     - jellyfin: v10.9.11 *(Updated: 2024.09.16)*
     - jellystat: v1.1.0 *(Updated: 2024.07.24)*
     - lidarr: v2.6.4.4402 *(Updated: 2024.10.10)*
-    - local-ai: v2.22.0 ***(Updated: 2024.10.13)***
+    - local-ai: v2.22.0 *(Updated: 2024.10.13)*
     - maintainerr: v2.1.2 *(Updated: 2024.09.16)* ***(Requested)***
     - meshcentral: v1.1.32 *(Updated: 2024.10.03)*
     - minio: v2024.10.02 *(Updated: 2024.10.03)*
     - nzbget: v24.3 *(Updated: 2024.09.17)* ***(Requested)***
-    - ollama: v0.3.13 ***(Updated: 2024.10.13)*** ***(Requested)***
+    - ollama: v0.3.13 *(Updated: 2024.10.13)* ***(Requested)***
     - paperless-ngx: v2.12.1 *(Updated: 2024.09.16)* ***(Requested)***
     - plex: v1.41.0.8994 *(Updated: 2024.10.03)* ***(Requested)***
-    - prowlarr: v1.25.2.4794 ***(Updated: 2024.10.13)***
+    - prowlarr: v1.25.2.4794 *(Updated: 2024.10.13)*
     - qbitmanage: v4.1.9 *(Updated: 2024.09.18)* ***(Requested)***
     - qbittorrent: v5.0.0 *(Updated: 2024.10.03)*
-    - radarr: v5.12.2.9335 ***(Updated: 2024.10.13)***
+    - radarr: v5.12.2.9335 *(Updated: 2024.10.13)*
     - readarr: v0.4.0.2634 *(Updated: 2024.10.06)*
     - recyclarr: v7.2.4 *(Updated: 2024.09.16)*
     - satisfactory: v1.8.6 *(Updated: 2024.09.24)* ***(Requested)***
@@ -75,7 +75,7 @@ Now you should be able to update your applications again.
     - sonarr: v4.0.9.2244 *(Updated: 2024.08.26)*
     - stun-turn-server: latest *(Updated: 2024.09.18)*
     - syncthing: v1.27.12 *(Updated: 2024.09.16)* ***(Requested)***
-    - tautulli: v2.14.6 ***(Updated: 2024.10.13)*** ***(Requested)***
+    - tautulli: v2.14.6 *(Updated: 2024.10.13)* ***(Requested)***
     - unpackerr: v0.14.5 *(Updated: 2024.08.05)*
 
 - ### Changelog:
@@ -84,8 +84,8 @@ Now you should be able to update your applications again.
 	- immich: v1.118.2
     - minio: v2024.10.13
 	- syncthing: v1.28.0
-  - 2024.10.13:
 
+  - 2024.10.13:
     - audiobookshelf: v2.15.0
     - changedetection.io: v0.47.03
     - local-ai: v2.22.0
@@ -95,24 +95,20 @@ Now you should be able to update your applications again.
     - tautulli: v2.14.6
 
   - 2024.10.10:
-
     - lidarr: v2.6.4.4402
 
   - 2024.10.08:
-
     - audiobookshelf: v2.14.0
     - authelia: v4.38.16
     - autobrr: v1.47.1
     - prowlarr: v1.25.1.4770
 
   - 2024.10.06:
-
     - lidarr: v2.5.3.4341
     - prowlarr: v1.25.0.4759
     - readarr: v0.4.0.2634
 
   - 2024.10.03
-
     - authelia: v4.38.15
     - bazarr: v1.4.5
     - code-server: v4.93.1
@@ -128,7 +124,6 @@ Now you should be able to update your applications again.
     - traefik: v3.1.5
 
   - 2024.09.25:
-
     - minio: v2024.09.22
     - ollama: v0.3.12
     - radarr: v5.11.0.9244
@@ -139,14 +134,13 @@ Now you should be able to update your applications again.
     - radarr: v5.10.4.9218
     - satisfactory: v1.8.6 (PR #22)
     - tautulli: v2.14.5 (PR #21)
-  - 2024.09.20:
 
+  - 2024.09.20:
     - nextcloud: v30.0.0
     - ollama: v0.3.11
     - traefik: v3.1.4 (fixes CVE-2024-45410)
 
   - 2024.09.18:
-
     - factorio: stable (PR #17)
     - grafana: v11.2.0 (PR #17)
     - prometheus: v2.54.1 (PR #17)
@@ -156,11 +150,9 @@ Now you should be able to update your applications again.
     - traefik: v3.1.3
 
   - 2024.09.17:
-
     - nzbget: v24.3 (PR #13)
 
   - 2024.09.16:
-
     - audiobookshelf: v2.13.4
     - autobrr: v1.46.1
     - bazarr: v1.4.4
@@ -177,7 +169,6 @@ Now you should be able to update your applications again.
     - syncthing: v1.27.12
 
   - 2024.09.05:
-
     - nextcloud: v29.0.6
     - changedetection.io: v0.46.04
 
@@ -192,6 +183,7 @@ Now you should be able to update your applications again.
     - prowlarr: v1.23.1.4708
     - syncthing: v1.27.11
     - maintainerr: v2.1.0
+
   - 2024.08.26:
     - audiobookshelf: v2.12.3
     - autobrr: v1.45.0
@@ -209,6 +201,7 @@ Now you should be able to update your applications again.
     - sabnzbd: v4.3.3
     - sonarr: v4.0.9.2244
     - qbittorrent: v4.6.6
+
   - 2024.08.09:
     - audiobookshelf: v2.12.2
     - crafty-4: v4.4.3
@@ -216,8 +209,10 @@ Now you should be able to update your applications again.
     - Paperless-ngx: v2.11.3
     - Syncthing: v1.27.10
     - traefik: v3.1.2
+
   - 2024.08.06:
     - gamevault-backend: v12.2.0
+
   - 2024.08.05:
     - audiobookshelf: v2.12.0
     - authelia: v4.38.10
@@ -226,16 +221,20 @@ Now you should be able to update your applications again.
     - recyclarr: v7.2.1
     - traefik: v3.1.1
     - unpackerr: v0.14.5
+
   - 2024.08.02:
     - crafty-4: v4.4.0
     - Plex: v1.40.4.8679
     - SABnzbd: v4.3.2
     - Tautulli: v2.14.3
+
   - 2024.07.27:
     - Prowlarr: v1.21.2.4649
+
   - 2024.07.25:
     - traefik: v3.1.0
     - local-ai: v2.19.2
+
   - 2024.07.24:
     - authelia: v4.38.9
     - Nextcloud: v29.0.4
