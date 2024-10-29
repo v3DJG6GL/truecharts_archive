@@ -32,9 +32,9 @@ Now you should be able to update your applications again.
 
     - authelia: v4.38.16 _(Updated: 2024.10.08)_
     - grafana: v11.2.0 _(Updated: 2024.09.18)_ **_(Requested)_**
-      - nextcloud: v30.0.0 _(Updated: 2024.09.20)_
+    - nextcloud: v30.0.0 _(Updated: 2024.09.20)_
     - prometheus: v2.54.1 _(Updated: 2024.09.18)_ **_(Requested)_**
-      - traefik: v3.1.5 _(Updated: 2024.10.03)_
+    - traefik: v3.1.5 _(Updated: 2024.10.03)_
 
   - **stable train**
     - anything-llm: latest _(Updated: 2024.09.03)_
