@@ -42,7 +42,7 @@ Now you should be able to update your applications again.
     - autobrr: v1.48.0 ***(Updated: 2024.10.29)***
     - bazarr: v1.4.5 *(Updated: 2024.10.03)*
     - changedetection.io: v0.47.04 ***(Updated: 2024.10.29)***
-    - cloudflared: v2024.8.3 *(Updated: 2024.08.26)*
+    - cloudflared: v2024.10.1 ***(Updated: 2024.10.29)***
     - code-server: v4.93.1 *(Updated: 2024.10.03)*
     - codeproject-ai-server: v2.6.5 *(Updated: 2024.10.03)*
     - crafty-4: v4.4.4 *(Updated: 2024.10.03)*
@@ -82,8 +82,9 @@ Now you should be able to update your applications again.
 
   - 2024.10.29:
 	- audiobookshelf: v2.16.1
-	- changedetection.io: v0.47.04
 	- autobrr: v1.48.0
+	- changedetection.io: v0.47.04
+	- cloudflared: v2024.10.1
 	- frigate: v0.14.1 (PR #29)
 	- home-assistant: v2024.10.3 (PR #29)
 	- immich: v1.119.0
