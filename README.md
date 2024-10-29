@@ -32,47 +32,47 @@ Now you should be able to update your applications again.
 
     - authelia: v4.38.16 *(Updated: 2024.10.08)*
     - grafana: v11.2.0 *(Updated: 2024.09.18)* ***(Requested)***
-    - nextcloud: v30.0.0 *(Updated: 2024.09.20)*
+    - nextcloud: v30.0.1 ***(Updated: 2024.10.29)***
     - prometheus: v2.54.1 *(Updated: 2024.09.18)* ***(Requested)***
-    - traefik: v3.1.5 *(Updated: 2024.10.03)*
+    - traefik: v3.2.0 ***(Updated: 2024.10.29)***
 
   - **stable train**
     - anything-llm: latest *(Updated: 2024.09.03)*
-    - audiobookshelf: v2.15.0 *(Updated: 2024.10.13)*
-    - autobrr: v1.47.1 *(Updated: 2024.10.08)*
+    - audiobookshelf: v2.16.1 ***(Updated: 2024.10.29)***
+    - autobrr: v1.48.0 ***(Updated: 2024.10.29)***
     - bazarr: v1.4.5 *(Updated: 2024.10.03)*
-    - changedetection.io: v0.47.03 *(Updated: 2024.10.13)*
+    - changedetection.io: v0.47.04 ***(Updated: 2024.10.29)***
     - cloudflared: v2024.8.3 *(Updated: 2024.08.26)*
     - code-server: v4.93.1 *(Updated: 2024.10.03)*
     - codeproject-ai-server: v2.6.5 *(Updated: 2024.10.03)*
     - crafty-4: v4.4.4 *(Updated: 2024.10.03)*
     - factorio: stable *(Updated: 2024.09.18)*
-	- frigate: v0.14.1 ***(Updated: 2024.10.29)*** ***(Pull Request)***
+	- frigate: v0.14.1 ***(Updated: 2024.10.29)*** ***(PR #29)***
     - flaresolverr: pr-1300-experimental *(Updated: 2024.09.03)*
     - gamevault-backend: v12.2.0 *(Updated: 2024.08.06)*
-    - home-assistant: v2024.10.3 ***(Updated: 2024.10.29)***
-    - immich: v1.117.0 *(Updated: 2024.10.03)*
+    - home-assistant: v2024.10.3 ***(Updated: 2024.10.29)*** ***(PR #29)***
+    - immich: v1.119.0 ***(Updated: 2024.10.29)***
     - jellyfin: v10.9.11 *(Updated: 2024.09.16)*
     - jellystat: v1.1.0 *(Updated: 2024.07.24)*
-    - lidarr: v2.6.4.4402 *(Updated: 2024.10.10)*
-    - local-ai: v2.22.0 *(Updated: 2024.10.13)*
+    - lidarr: v2.7.1.4417 ***(Updated: 2024.10.29)***
+    - local-ai: v2.22.1 ***(Updated: 2024.10.29)***
     - maintainerr: v2.1.2 *(Updated: 2024.09.16)* ***(Requested)***
     - meshcentral: v1.1.32 *(Updated: 2024.10.03)*
-    - minio: v2024.10.02 *(Updated: 2024.10.03)*
+    - minio: v2024.10.13 *(Updated: 2024.10.13)*
     - nzbget: v24.3 *(Updated: 2024.09.17)* ***(Requested)***
-    - ollama: v0.3.13 *(Updated: 2024.10.13)* ***(Requested)***
-    - paperless-ngx: v2.12.1 *(Updated: 2024.09.16)* ***(Requested)***
-    - plex: v1.41.0.8994 *(Updated: 2024.10.03)* ***(Requested)***
-    - prowlarr: v1.25.2.4794 *(Updated: 2024.10.13)*
+    - ollama: v0.3.14 ***(Updated: 2024.10.29)*** ***(Requested)***
+    - paperless-ngx: v2.13.1 ***(Updated: 2024.10.29)*** ***(Requested)***
+    - plex: v1.41.1.9057 ***(Updated: 2024.10.29)*** ***(Requested)***
+    - prowlarr: v1.25.4.4818 ***(Updated: 2024.10.29)***
     - qbitmanage: v4.1.9 *(Updated: 2024.09.18)* ***(Requested)***
-    - qbittorrent: v5.0.0 *(Updated: 2024.10.03)*
-    - radarr: v5.12.2.9335 *(Updated: 2024.10.13)*
-    - readarr: v0.4.0.2634 *(Updated: 2024.10.06)*
-    - recyclarr: v7.2.4 *(Updated: 2024.09.16)*
+    - qbittorrent: v5.0.1 ***(Updated: 2024.10.29)***
+    - radarr: v5.14.0.9383 ***(Updated: 2024.10.29)***
+    - readarr: v0.4.2.2653 ***(Updated: 2024.10.29)***
+    - recyclarr: v7.3.0 ***(Updated: 2024.10.29)***
     - satisfactory: v1.8.6 *(Updated: 2024.09.24)* ***(Requested)***
     - sabnzbd: v4.3.3 *(Updated: 2024.08.26)* ***(Requested)***
     - sftpgo: v2.6.2 *(Updated: 2024.07.24)*
-    - sonarr: v4.0.9.2244 *(Updated: 2024.08.26)*
+    - sonarr: v4.0.10.2544 ***(Updated: 2024.10.29)***
     - stun-turn-server: latest *(Updated: 2024.09.18)*
     - syncthing: v1.27.12 *(Updated: 2024.09.16)* ***(Requested)***
     - tautulli: v2.14.6 *(Updated: 2024.10.13)* ***(Requested)***
@@ -81,8 +81,25 @@ Now you should be able to update your applications again.
 - ### Changelog:
 
   - 2024.10.29:
-	- frigate: v0.14.1
-	- home-assistant: v2024.10.3
+	- audiobookshelf: v2.16.1
+	- changedetection.io: v0.47.04
+	- autobrr: v1.48.0
+	- frigate: v0.14.1 (PR #29)
+	- home-assistant: v2024.10.3 (PR #29)
+	- immich: v1.119.0
+	- lidarr: v2.7.1.4417
+	- local-ai: v2.22.1
+	- nextcloud: v30.0.1
+	- ollama: v0.3.14
+	- paperless-ngx: v2.13.1
+	- plex: v1.41.1.9057
+	- prowlarr: v1.25.4.4818
+	- qbittorrent: v5.0.1
+	- radarr: v5.14.0.9383
+	- readarr: v0.4.2.2653
+	- recyclarr: v7.3.0
+	- sonarr: v4.0.10.2544
+	- traefik: v3.2.0 
 
   - 2024.10.17:
 	- immich: v1.118.2
