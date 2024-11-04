@@ -63,7 +63,7 @@ Now you should be able to update your applications again.
     - ollama: v0.3.14 *(Updated: 2024.10.29)* ***(Requested)***
     - paperless-ngx: v2.13.4 ***(Updated: 2024.11.04)*** ***(Requested)***
     - plex: v1.41.1.9057 *(Updated: 2024.10.29)* ***(Requested)***
-    - prowlarr: v1.25.4.4818 *(Updated: 2024.10.29)*
+    - prowlarr: v1.26.0.4833 ***(Updated: 2024.11.04)***
     - qbitmanage: v4.1.9 *(Updated: 2024.09.18)* ***(Requested)***
     - qbittorrent: v5.0.1 *(Updated: 2024.10.29)*
     - radarr: v5.14.0.9383 *(Updated: 2024.10.29)*
@@ -88,6 +88,7 @@ Now you should be able to update your applications again.
 	- meshcentral: v1.1.33
 	- minio: v2024.10.29
 	- paperless-ngx: v2.13.4
+	- prowlarr: v1.26.0.4833
 	- readarr: v0.4.3.2665
 
   - 2024.10.29:
