@@ -30,7 +30,7 @@ Now you should be able to update your applications again.
 
   - **premium train:**
 
-    - authelia: v4.38.17 ***(Updated: 2024.11.04)***
+    - authelia: v4.38.17 *(Updated: 2024.11.04)*
     - grafana: v11.2.0 *(Updated: 2024.09.18)* ***(Requested)***
     - nextcloud: v30.0.1 *(Updated: 2024.10.29)*
     - prometheus: v2.54.1 *(Updated: 2024.09.18)* ***(Requested)***
@@ -38,10 +38,10 @@ Now you should be able to update your applications again.
 
   - **stable train**
     - anything-llm: latest *(Updated: 2024.09.03)*
-    - audiobookshelf: v2.16.2 ***(Updated: 2024.11.04)***
-    - autobrr: v1.48.0 *(Updated: 2024.10.29)*
+    - audiobookshelf: v2.16.2 *(Updated: 2024.11.04)*
+    - autobrr: v1.50.0 ***(Updated: 2024.11.14)***
     - bazarr: v1.4.5 *(Updated: 2024.10.03)*
-    - changedetection.io: v0.47.05 ***(Updated: 2024.11.04)***
+    - changedetection.io: v0.47.06 ***(Updated: 2024.11.14)***
     - cloudflared: v2024.10.1 *(Updated: 2024.10.29)*
     - code-server: v4.93.1 *(Updated: 2024.10.03)*
     - codeproject-ai-server: v2.6.5 *(Updated: 2024.10.03)*
@@ -51,24 +51,25 @@ Now you should be able to update your applications again.
     - flaresolverr: pr-1300-experimental *(Updated: 2024.09.03)*
     - gamevault-backend: v12.2.0 *(Updated: 2024.08.06)*
     - home-assistant: v2024.10.3 *(Updated: 2024.10.29)* ***(PR #29)***
-    - immich: v1.119.0 *(Updated: 2024.10.29)*
-    - jellyfin: v10.10.1 ***(Updated: 2024.11.04)***
+    - immich: v1.120.2 ***(Updated: 2024.11.14)***
+    - jellyfin: v10.10.1 *(Updated: 2024.11.04)*
     - jellystat: v1.1.0 *(Updated: 2024.07.24)*
     - lidarr: v2.7.1.4417 *(Updated: 2024.10.29)*
-    - local-ai: v2.22.1 *(Updated: 2024.10.29)*
-    - maintainerr: v2.1.2 *(Updated: 2024.09.16)* ***(Requested)***
-    - meshcentral: v1.1.33 ***(Updated: 2024.11.04)***
-    - minio: v2024.10.29 ***(Updated: 2024.11.04)***
+	- lldap: v0.6.0 ***(Updated: 2024.11.14)***
+    - local-ai: v2.23.0 ***(Updated: 2024.11.14)***
+    - maintainerr: v2.2.1 ***(Updated: 2024.11.14)*** ***(Requested)***
+    - meshcentral: v1.1.33 *(Updated: 2024.11.04)*
+    - minio: v2024.10.29 *(Updated: 2024.11.04)*
     - nzbget: v24.3 *(Updated: 2024.09.17)* ***(Requested)***
-    - ollama: v0.3.14 *(Updated: 2024.10.29)* ***(Requested)***
-    - paperless-ngx: v2.13.4 ***(Updated: 2024.11.04)*** ***(Requested)***
+    - ollama: v0.4.1 ***(Updated: 2024.11.14)*** ***(Requested)***
+    - paperless-ngx: v2.13.5 ***(Updated: 2024.11.14)*** ***(Requested)***
     - plex: v1.41.1.9057 *(Updated: 2024.10.29)* ***(Requested)***
-    - prowlarr: v1.26.0.4833 ***(Updated: 2024.11.04)***
+    - prowlarr: v1.26.0.4833 *(Updated: 2024.11.04)*
     - qbitmanage: v4.1.9 *(Updated: 2024.09.18)* ***(Requested)***
     - qbittorrent: v5.0.1 *(Updated: 2024.10.29)*
     - radarr: v5.14.0.9383 *(Updated: 2024.10.29)*
-    - readarr: v0.4.3.2665 ***(Updated: 2024.11.04)***
-    - recyclarr: v7.3.0 *(Updated: 2024.10.29)*
+    - readarr: v0.4.3.2665 *(Updated: 2024.11.04)*
+    - recyclarr: v7.4.0 ***(Updated: 2024.11.14)***
     - satisfactory: v1.8.6 *(Updated: 2024.09.24)* ***(Requested)***
     - sabnzbd: v4.3.3 *(Updated: 2024.08.26)* ***(Requested)***
     - sftpgo: v2.6.2 *(Updated: 2024.07.24)*
@@ -79,6 +80,17 @@ Now you should be able to update your applications again.
     - unpackerr: v0.14.5 *(Updated: 2024.08.05)*
 
 - ### Changelog:
+
+  - 2024.11.14:
+	- autobrr: v1.50.0
+	- changedetection.io: v0.47.06
+	- immich: v1.120.2
+	- lldap: v0.6.0
+	- local-ai: v2.23.0
+	- maintainerr: v2.2.1
+	- ollama: v0.4.1
+	- paperless-ngx: v2.13.5
+	- recyclarr: v7.4.0
 
   - 2024.11.04:
 	- audiobookshelf: v2.16.2
