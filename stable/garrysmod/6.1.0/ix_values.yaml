@@ -1,0 +1,65 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/LukasMandok/docker-steamcmd-server
+  tag: latest
+persistence:
+  serverfiles:
+    enabled: true
+    mountPath: /serverdata/serverfiles
+  steamcmd:
+    enabled: true
+    mountPath: /serverdata/steamcmd
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 27015
+        protocol: udp
+        targetPort: 27015
+  tcprcon:
+    enabled: true
+    ports:
+      tcprcon:
+        enabled: true
+        port: 27015
+        protocol: tcp
+        targetPort: 27015
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            GAME_ID: "4020"
+            GAME_NAME: garrysmod
+            GAME_PARAMS: -secure +maxplayers 12
+            GAME_PORT: "27015"
+            START_MAP: "ttt_minecraft_b5"
+            GAMEMODE: "terrortown"
+            WORKSHOP_COLLECTION: ""
+            AUTH_KEY: ""
+            PASSWRD: ""
+            USERNAME: ""
+            VALIDATE: "false"
+            MOUNT_CSSOURCE: "true"
+          probes:
+            liveness:
+              enabled: true
+              type: tcp
+              port: "{{ .Values.service.tcprcon.ports.tcprcon.targetPort }}"
+            readiness:
+              enabled: true
+              type: tcp
+              port: "{{ .Values.service.tcprcon.ports.tcprcon.targetPort }}"
+            startup:
+              enabled: true
+              type: tcp
+              port: "{{ .Values.service.tcprcon.ports.tcprcon.targetPort }}"
