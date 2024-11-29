@@ -1,6 +1,6 @@
 image:
   pullPolicy: IfNotPresent
-  repository: ghcr.io/LukasMandok/docker-steamcmd-server
+  repository: ghcr.io/lukasmandok/docker-steamcmd-server
   tag: latest
 persistence:
   serverfiles:

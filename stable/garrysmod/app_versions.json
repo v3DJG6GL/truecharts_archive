@@ -420,7 +420,7 @@
                                                                                             "description": "Enter your start up commands for the server.",
                                                                                             "schema": {
                                                                                                 "type": "string",
-                                                                                                "default": "-secure +maxplayers 12 +map gm_flatgrass"
+                                                                                                "default": "-secure +maxplayers 12"
                                                                                             }
                                                                                         },
                                                                                         {
