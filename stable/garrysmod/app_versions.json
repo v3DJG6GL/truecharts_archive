@@ -424,6 +424,42 @@
                                                                                             }
                                                                                         },
                                                                                         {
+                                                                                            "variable": "START_MAP",
+                                                                                            "label": "START_MAP",
+                                                                                            "description": "The initial map that is loaded by the game, if empty it selected by random from the maps.txt file.",
+                                                                                            "schema": {
+                                                                                                "type": "string",
+                                                                                                "default": "ttt_minecraft_b5"
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "variable": "GAMEMODE",
+                                                                                            "label": "GAMEMODE",
+                                                                                            "description": "The initial gamemode, that is run when the server is started",
+                                                                                            "schema": {
+                                                                                                "type": "string",
+                                                                                                "default": "terrortown"
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "variable": "WORKSHOP_COLLECTION",
+                                                                                            "label": "WORKSHOP_COLLECTION",
+                                                                                            "description": "A workshop collection with addons, that is downloaded by the server",
+                                                                                            "schema": {
+                                                                                                "type": "string",
+                                                                                                "default": ""
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "variable": "AUTH_KEY",
+                                                                                            "label": "AUTH_KEY",
+                                                                                            "description": "Your Steam Authentication key, that is needed if you want to add any workshop items",
+                                                                                            "schema": {
+                                                                                                "type": "string",
+                                                                                                "default": ""
+                                                                                            }
+                                                                                        },
+                                                                                        {
                                                                                             "variable": "VALIDATE",
                                                                                             "label": "VALIDATE",
                                                                                             "description": "Set the Variable to true if you want to validate the installation otherwise leave it blank.",
@@ -439,6 +475,15 @@
                                                                                             "schema": {
                                                                                                 "type": "string",
                                                                                                 "default": "27015"
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "variable": "MOUNT_CSSOURCE",
+                                                                                            "label": "MOUNT_CSSOURCE",
+                                                                                            "description": "Mount Counter Strike: Source resources",
+                                                                                            "schema": {
+                                                                                                "type": "boolean",
+                                                                                                "default": true
                                                                                             }
                                                                                         }
                                                                                     ]
