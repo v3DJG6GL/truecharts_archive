@@ -48,7 +48,7 @@ workload:
             AUTH_KEY: ""
             PASSWRD: ""
             USERNAME: ""
-            VALIDATE: "false"
+            VALIDATE: "true"
             MOUNT_CSSOURCE: "true"
           probes:
             liveness:
