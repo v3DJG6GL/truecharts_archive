@@ -346,7 +346,7 @@ questions:
                                         description: "Enter your start up commands for the server."
                                         schema:
                                           type: string
-                                          default: "-secure +maxplayers 12"
+                                          default: "+maxplayers 12"
                                       - variable: START_MAP
                                         label: "START_MAP"
                                         description: "The initial map that is loaded by the game, if empty it selected by random from the maps.txt file"

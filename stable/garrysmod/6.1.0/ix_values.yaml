@@ -40,7 +40,7 @@ workload:
           env:
             GAME_ID: "4020"
             GAME_NAME: garrysmod
-            GAME_PARAMS: -secure +maxplayers 12
+            GAME_PARAMS: +maxplayers 12
             GAME_PORT: "27015"
             START_MAP: "ttt_minecraft_b5"
             GAMEMODE: "terrortown"
