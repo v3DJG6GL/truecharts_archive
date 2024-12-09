@@ -34,14 +34,14 @@ Now you should be able to update your applications again.
     - grafana: v11.2.0 *(Updated: 2024.09.18)* ***(Requested)***
     - nextcloud: v30.0.1 *(Updated: 2024.10.29)*
     - prometheus: v2.54.1 *(Updated: 2024.09.18)* ***(Requested)***
-    - traefik: v3.2.1 ***(Updated: 2024.11.24)***
+    - traefik: v3.2.1 *(Updated: 2024.11.24)*
 
   - **stable train**
     - anything-llm: latest *(Updated: 2024.09.03)*
-    - audiobookshelf: v2.17.2 ***(Updated: 2024.11.24)***
-    - autobrr: v1.50.0 ***(Updated: 2024.11.14)***
+    - audiobookshelf: v2.17.5 ***(Updated: 2024.12.09)***
+    - autobrr: v1.53.0 ***(Updated: 2024.12.09)***
     - bazarr: v1.4.5 *(Updated: 2024.10.03)*
-    - changedetection.io: v0.47.06 ***(Updated: 2024.11.14)***
+    - changedetection.io: v0.48.01 ***(Updated: 2024.12.09)***
     - cloudflared: v2024.10.1 *(Updated: 2024.10.29)*
     - code-server: v4.93.1 *(Updated: 2024.10.03)*
     - codeproject-ai-server: v2.6.5 *(Updated: 2024.10.03)*
@@ -51,36 +51,52 @@ Now you should be able to update your applications again.
     - flaresolverr: pr-1300-experimental *(Updated: 2024.09.03)*
     - gamevault-backend: v12.2.0 *(Updated: 2024.08.06)*
     - home-assistant: v2024.10.3 *(Updated: 2024.10.29)* ***(PR #29)***
-    - immich: v1.121.0 ***(Updated: 2024.11.24)***
-    - jellyfin: v10.10.3 ***(Updated: 2024.11.24)***
-    - jellystat: v1.1.0 *(Updated: 2024.07.24)*
+    - immich: v1.122.2 ***(Updated: 2024.12.09)***
+    - jellyfin: v10.10.3 *(Updated: 2024.11.24)*
+    - jellystat: v1.1.1 ***(Updated: 2024.12.09)***
     - lidarr: v2.7.1.4417 *(Updated: 2024.10.29)*
-	- lldap: v0.6.1 ***(Updated: 2024.11.24)***
-    - local-ai: v2.23.0 ***(Updated: 2024.11.14)***
-    - maintainerr: v2.2.1 ***(Updated: 2024.11.14)*** ***(Requested)***
-    - meshcentral: v1.1.33 *(Updated: 2024.11.04)*
+	- lldap: v0.6.1 *(Updated: 2024.11.24)*
+    - local-ai: v2.24.1 ***(Updated: 2024.12.09)***
+    - maintainerr: v2.2.1 *(Updated: 2024.11.14)* ***(Requested)***
+    - meshcentral: v1.1.35 ***(Updated: 2024.12.09)***
     - minio: v2024.10.29 *(Updated: 2024.11.04)*
-    - nzbget: v24.4.0 ***(Updated: 2024.11.24)*** ***(Requested)***
-    - ollama: v0.4.4 ***(Updated: 2024.11.24)*** ***(Requested)***
-    - paperless-ngx: v2.13.5 ***(Updated: 2024.11.14)*** ***(Requested)***
-    - plex: v1.41.2.9200 ***(Updated: 2024.11.24)*** ***(Requested)***
-    - prowlarr: v1.26.1.4844 ***(Updated: 2024.11.24)***
+    - nzbget: v24.5.0 ***(Updated: 2024.12.09)*** ***(Requested)***
+    - ollama: v0.5.1 ***(Updated: 2024.12.09)*** ***(Requested)***
+    - paperless-ngx: v2.13.5 *(Updated: 2024.11.14)* ***(Requested)***
+    - plex: v1.41.2.9200 *(Updated: 2024.11.24)* ***(Requested)***
+    - prowlarr: v1.28.0.4862 ***(Updated: 2024.12.09)***
     - qbitmanage: v4.1.9 *(Updated: 2024.09.18)* ***(Requested)***
-    - qBittorrent: v5.0.2 ***(Updated: 2024.11.24)***
-    - radarr: v5.15.1.9463 ***(Updated: 2024.11.24)***
-    - readarr: v0.4.4.2686 ***(Updated: 2024.11.24)***
-    - recyclarr: v7.4.0 ***(Updated: 2024.11.14)***
+    - qBittorrent: v5.0.2 *(Updated: 2024.11.24)*
+    - radarr: v5.15.1.9463 *(Updated: 2024.11.24)*
+    - readarr: v0.4.5.2699 ***(Updated: 2024.12.09)***
+    - recyclarr: v7.4.0 *(Updated: 2024.11.14)*
     - satisfactory: v1.8.6 *(Updated: 2024.09.24)* ***(Requested)***
     - sabnzbd: v4.3.3 *(Updated: 2024.08.26)* ***(Requested)***
-    - sftpgo: v2.6.3 ***(Updated: 2024.11.24)***
-    - sonarr: v4.0.10.2544 *(Updated: 2024.10.29)*
+    - sftpgo: v2.6.4 ***(Updated: 2024.12.09)***
+    - sonarr: v4.0.11.2680 ***(Updated: 2024.12.09)***
     - stun-turn-server: latest *(Updated: 2024.09.18)*
-    - syncthing: v1.28.0 ***(Updated: 2024.10.17)*** ***(Requested)***
-    - tautulli: v2.14.6 *(Updated: 2024.10.13)* ***(Requested)***
-	- tdarr: v2.27.02 ***(Updated: 2024.11.24)*** ***(Requested)***
+    - syncthing: v1.28.1 ***(Updated: 2024.12.09)*** ***(Requested)***
+    - tautulli: v2.15.0 *(Updated: 2024.10.13)* ***(Requested)***
+	- tdarr: v2.27.02 *(Updated: 2024.11.24)* ***(Requested)***
     - unpackerr: v0.14.5 *(Updated: 2024.08.05)*
 
 - ### Changelog:
+  - 2024.12.09:
+  	- audiobookshelf: v2.17.5
+  	- autobrr: v1.53.0
+  	- changedetection.io: v0.48.01
+  	- immich: v1.122.2
+  	- jellystat: v1.1.1
+  	- local-ai: v2.24.1
+  	- meshcentral: v1.1.35
+  	- nzbget: v24.5.0
+  	- ollama: v0.5.1
+  	- prowlarr: v1.28.0.4862
+  	- readarr: v0.4.5.2699
+  	- sftpgo: v2.6.4
+  	- sonarr: v4.0.11.2680
+  	- syncthing: v1.28.1
+  	- tautulli: v2.15.0
 
   - 2024.11.24:
 	- audiobookshelf: v2.17.2
