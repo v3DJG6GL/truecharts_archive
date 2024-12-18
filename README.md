@@ -81,6 +81,10 @@ Now you should be able to update your applications again.
     - unpackerr: v0.14.5 *(Updated: 2024.08.05)*
 
 - ### Changelog:
+	- 2024.12.16 @ 10:58 PM PST:
+		- Stable:
+			- plex: v1.41.2.9200 --> v1.41.3.9292
+			- radarr: v5.15.1.9463 --> v5.16.3.9541
 	- 2024.12.12 @ 02:54 PM PST:
 		- Stable:
 			- adguard-home: v0.107.50 --> v0.107.54
