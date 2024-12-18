@@ -1,0 +1,23 @@
+# This runs every day on 1801 UTC
+on:
+  schedule:
+    - cron: '30 18 * * *'
+  push:
+    branches:
+      - main
+  # Allows manual workflow run (must in default branch to work)
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sync gitea
+        uses: Yikun/hub-mirror-action@v1.4
+        with:
+          src: github/flymin
+          dst: gitee/flyminnnnn
+          dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
+          dst_token: ${{ secrets.GITEE_TOKEN }}
+          static_list: "truecharts_archive"
+          force_update: true
