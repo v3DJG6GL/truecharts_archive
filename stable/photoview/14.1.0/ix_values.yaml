@@ -1,0 +1,43 @@
+image:
+  repository: "docker.io/viktorstrate/photoview"
+  tag: "2.4.0@sha256:f914c44b202fc8175e09bd56f35bb1a4a7c04dc451652306f240aabc3eea133e"
+  pullPolicy: "IfNotPresent"
+service:
+  main:
+    ports:
+      main:
+        port: 10159
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            PHOTOVIEW_LISTEN_PORT: "{{ .Values.service.main.ports.main.port }}"
+            PHOTOVIEW_LISTEN_IP: "127.0.0.1"
+            PHOTOVIEW_DATABASE_DRIVER: "postgres"
+            PHOTOVIEW_MEDIA_CACHE: "/cache"
+            MAPBOX_TOKEN: ""
+            PHOTOVIEW_DISABLE_FACE_RECOGNITION: false
+            PHOTOVIEW_DISABLE_VIDEO_ENCODING: false
+            PHOTOVIEW_DISABLE_RAW_PROCESSING: false
+            PHOTOVIEW_POSTGRES_URL:
+              secretKeyRef:
+                name: secrets
+                key: PHOTOVIEW_POSTGRES_URL
+persistence:
+  # Don't use emptyDir, it stores, thumbnails and optimized media
+  cache:
+    enabled: true
+    mountPath: "/cache"
+  photos:
+    enabled: true
+    mountPath: "/photos"
+cnpg:
+  main:
+    enabled: true
+    user: photoview
+    database: photoview
+portal:
+  open:
+    enabled: true

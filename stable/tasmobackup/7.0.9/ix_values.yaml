@@ -1,0 +1,40 @@
+image:
+  repository: "docker.io/danmed/tasmobackupv1"
+  tag: "1.06.09@sha256:58ef1f70773b1f75e4e3c05e314d0133d1f723c192e32f6b5bf38a9e16c56426"
+  pullPolicy: "IfNotPresent"
+
+env:
+  DBNAME: data/tasmobackup
+  DBTYPE: sqlite
+
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsNonRoot: false
+    runAsUser: 0
+    runAsGroup: 0
+
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            DBNAME: data/tasmobackup
+            DBTYPE: sqlite
+service:
+  main:
+    ports:
+      main:
+        port: 8259
+        protocol: http
+        targetPort: 80
+
+persistence:
+  data:
+    enabled: true
+    mountPath: /var/www/html/data
+
+portal:
+  open:
+    enabled: true

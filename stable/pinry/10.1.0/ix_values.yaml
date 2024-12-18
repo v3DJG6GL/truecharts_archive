@@ -1,0 +1,63 @@
+image:
+  repository: "docker.io/getpinry/pinry"
+  tag: "2.1.13@sha256:9a619749ec5246e04694adc479a135e654a7ac5f34c15d6d134d917a62b4889b"
+  pullPolicy: "IfNotPresent"
+service:
+  main:
+    ports:
+      main:
+        port: 10213
+        targetPort: 80
+persistence:
+  data:
+    enabled: true
+    mountPath: "/data"
+    targetSelectAll: true
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsNonRoot: false
+    runAsUser: 0
+    runAsGroup: 0
+workload:
+  main:
+    podSpec:
+      initContainers:
+        1-create-key-file:
+          type: install
+          enabled: true
+          imageSelector: "image"
+          env:
+            SECRET_KEY:
+              secretKeyRef:
+                name: secrets
+                key: SECRET_KEY
+          command:
+          - sh
+          - -c
+          args:
+          - |
+            keyfile="/data/production_secret_key.txt";
+            if [ ! -f ${keyfile} ]; then
+              echo "No ${keyfile} File...";
+              echo "Creating ${keyfile} file...";
+              echo "${SECRET_KEY}" > ${keyfile};
+              if [ -f ${keyfile} ];
+              then
+                echo "Success!";
+              else
+                echo "Failed.";
+              fi;
+            else
+              echo "${keyfile} File exists. Skipping...";
+            fi;
+      containers:
+        main:
+          env:
+            SECRET_KEY:
+              secretKeyRef:
+                name: secrets
+                key: SECRET_KEY

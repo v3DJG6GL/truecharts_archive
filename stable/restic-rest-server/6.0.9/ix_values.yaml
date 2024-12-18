@@ -1,0 +1,30 @@
+image:
+  pullPolicy: "IfNotPresent"
+  repository: "docker.io/restic/rest-server"
+  tag: "0.13.0@sha256:8668c235a932745585fef5cabbab9eccb501035f90138085a6e74963dcd1a71f"
+persistence:
+  data:
+    enabled: true
+    mountPath: /data
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 8000
+        protocol: tcp
+        targetPort: 8000
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            OPTIONS: ""

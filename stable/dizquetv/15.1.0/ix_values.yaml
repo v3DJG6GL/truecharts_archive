@@ -1,0 +1,42 @@
+image:
+  repository: "docker.io/vexorian/dizquetv"
+  pullPolicy: "IfNotPresent"
+  tag: "1.5.5@sha256:4e325201727f3876d10e6587e6b1e50ba839794356be0127294977f5a2c58321"
+nvidiaImage:
+  repository: vexorian/dizquetv
+  pullPolicy: IfNotPresent
+  tag: 
+    1.5.3-nvidia@sha256:883f5ebc532acfdd64aed8ee89d53ac81794edb49bbb2adfca5b274ff37ae389
+
+service:
+  main:
+    ports:
+      main:
+        port: 10071
+        targetPort: 8000
+
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          imageSelector: image
+          probes:
+            liveness:
+              type: http
+              path: /
+            readiness:
+              type: http
+              path: /
+            startup:
+              type: http
+              path: /
+
+persistence:
+  config:
+    enabled: true
+    mountPath: /home/node/app/.dizquetv
+
+portal:
+  open:
+    enabled: true
