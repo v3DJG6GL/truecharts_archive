@@ -81,6 +81,9 @@ Now you should be able to update your applications again.
     - unpackerr: v0.14.5 *(Updated: 2024.08.05)*
 
 - ### Changelog:
+	- 2024.12.17 @ 06:19 PM PST:
+		- Stable:
+			- plex: v1.41.3.9292 --> v1.41.3.9314-a0bfb8370
 	- 2024.12.16 @ 11:23 PM PST:
 		- Stable:
 			- overseerr: v1.33.2 --> v1.33.2
