@@ -4,7 +4,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/_work/catalog/catalog/stable/kitchenowl/11.0.6",
-        "last_update": "2024-05-29 12:35:14",
+        "last_update": "2024-12-21 21:32:14",
         "required_features": [
             "definitions/timezone",
             "normalize/interfaceConfiguration",
