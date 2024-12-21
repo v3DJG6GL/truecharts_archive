@@ -5,7 +5,7 @@ image:
 backendImage:
   repository: tombursch/kitchenowl
   pullPolicy: IfNotPresent
-  tag: v0.6.7@sha256:24c7dad5301baad768f7aa7b6138563c04aba349a23050b72543c969d3710ced
+  tag: v0.6.7@sha256:bacbc311da87ef8b00c6eb809b225e4a106b54f09d227941964b0aa0cb83963f
 
 service:
   main:
