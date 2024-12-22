@@ -1,18 +1,18 @@
 {
-	"11.0.6": {
+	"11.0.7": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/_work/catalog/catalog/stable/kitchenowl/11.0.6",
-        "last_update": "2024-12-21 21:32:14",
+        "location": "/home/runner/_work/catalog/catalog/stable/kitchenowl/11.0.7",
+        "last_update": "2024-12-21 23:32:14",
         "required_features": [
             "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/certificate",
             "definitions/interface"
         ],
-        "human_version": "0.6.7_11.0.6",
-        "version": "11.0.6",
+        "human_version": "0.6.7_11.0.7",
+        "version": "11.0.7",
         "chart_metadata": {
             "annotations": {
                 "truecharts.org/category": "utilities",
@@ -58,7 +58,7 @@
                 "https://tombursch.github.io/kitchenowl"
             ],
             "type": "application",
-            "version": "11.0.6"
+            "version": "11.0.7"
         },
         "app_metadata": null,
         "schema": {
