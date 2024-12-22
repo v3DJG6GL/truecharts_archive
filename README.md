@@ -81,6 +81,13 @@ Now you should be able to update your applications again.
     - unpackerr: v0.14.5 *(Updated: 2024.08.05)*
 
 - ### Changelog:
+	- 2024.12.21 @ 10:33 PM PST:
+		- Stable:
+			- dell-idrac-fan-controller: v1.7 --> vlatest
+			- prowlarr: v1.28.0.4862  --> v1.28.2.4885
+			- sabnzbd: v4.4.0 --> v4.4.1
+		- Premium:
+			- blocky: vdevelopment --> v0.24.0
 	- 2024.12.17 @ 11:38 PM PST:
 		- Stable:
 			- actualserver: v24.5.0 --> v24.11.0
