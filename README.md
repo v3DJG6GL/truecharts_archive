@@ -81,6 +81,8 @@ Now you should be able to update your applications again.
     - unpackerr: v0.14.5 *(Updated: 2024.08.05)*
 
 - ### Changelog:
+  - 2024.12.25
+    - codeproject-ai-server: v2.97
   - 2024.12.09:
   	- audiobookshelf: v2.17.5
   	- autobrr: v1.53.0
