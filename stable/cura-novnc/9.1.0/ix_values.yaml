@@ -1,0 +1,43 @@
+image:
+  pullPolicy: "IfNotPresent"
+  repository: "docker.io/mikeah/cura-novnc"
+  tag: "5.8.1@sha256:4a8f18bafc2ca343fe8498c397ab5dca8a71daa1e1472c552384abacf1c601a4"
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsNonRoot: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 16081
+        protocol: http
+        targetPort: 8080
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              type: http
+              path: /
+            readiness:
+              type: http
+              path: /
+            startup:
+              type: http
+              path: /
+          env: {}
+persistence:
+  homefolder:
+    enabled: true
+    mountPath: /home/cura/
+  prints:
+    enabled: true
+    mountPath: /prints/
+portal:
+  open:
+    enabled: true
