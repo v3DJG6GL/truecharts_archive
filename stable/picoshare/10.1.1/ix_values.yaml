@@ -1,0 +1,31 @@
+image:
+  repository: "docker.io/mtlynch/picoshare"
+  tag: "1.4.5@sha256:ad26acf987c96b8fcdeeecf9d2d661e5d91bf199675b31df8688ac119a0ac031"
+  pullPolicy: "IfNotPresent"
+service:
+  main:
+    ports:
+      main:
+        port: 10209
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            PORT: "{{ .Values.service.main.ports.main.port }}"
+            # web admin password
+            PS_SHARED_SECRET: "somesecretcode"
+            # optional
+            LITESTREAM_BUCKET: ""
+            LITESTREAM_ENDPOINT: ""
+            LITESTREAM_ACCESS_KEY_ID: ""
+            LITESTREAM_SECRET_ACCESS_KEY: ""
+            LITESTREAM_RETENTION: 72h
+persistence:
+  data:
+    enabled: true
+    mountPath: "/data"
+portal:
+  open:
+    enabled: true
