@@ -81,6 +81,48 @@ Now you should be able to update your applications again.
     - unpackerr: v0.14.5 *(Updated: 2024.08.05)*
 
 - ### Changelog:
+	- 2024.12.26 @ 12:03 AM PST:
+		- Stable:
+			- actualserver: v24.5.0 --> v24.11.0
+			- amule: latest --> v2.3.3
+			- automatic-ripping-machine: v2.6.70 --> v2.10.0
+			- baikal: v0.9.5 --> v0.10.1
+			- clickhouse: v24.4.1.2088 --> v24.10.3.21
+			- convos: stable --> v8.07.0
+			- cura-novnc: latest --> v5.8.1
+			- esphome: v2024.5.4 --> v2024.11.1
+			- flaresolverr: latest --> v3.3.21
+			- ghostfolio: v2.82.0 --> v2.123.0
+			- gravity: v0.9.0 --> v0.15.1
+			- hedgedoc: v1.9.9 --> v1.10.0
+			- impostor-server: v1.9.1 --> v1.10.1
+			- logitech-media-server: stable --> v9.0.0
+			- metube: v2024.5.28 --> v2024.10.8
+			- minecraft-java: v2024.5.0 --> v2024.10.2
+			- minetest: v5.8.0 --> v5.10.0
+			- minio: v2024.10.29 --> v2024-12-18
+			- misskey: v2024.3.1 --> v2024.11.0
+			- muse: v2.8.1 --> v2.10.0
+			- pgadmin: v8.6.0 --> v8.13.0
+			- prowlarr: v1.28.0.4862  --> v1.29.0.4897
+			- qbitmanage: v4.1.9 --> v4.1.13
+			- qinglong: v2.17.5 --> v2.17.12
+			- readarr: v0.4.5.2699 --> v0.4.6.2711
+			- sabnzbd: v4.4.0 --> v4.4.1
+			- seafile: v11.0.8 --> v11.0.12
+			- shaarli: master --> v0.14.0
+			- timetagger: v24.4.1 --> v24.07.1
+			- tinymediamanager: v5.0.5 --> v5.0.13
+			- wallos: latest --> v2.38.2
+			- youtubedl-material: v4.3.2 --> v2024.10.01
+		- Incubator:
+			- semaphore: v2.9.75 --> v2.10.43
+			- victoriametrics: v1.99.0 --> v1.107.0
+		- System:
+			- volsync: v0.9.1 --> v0.11.0
+		- Premium:
+			- blocky: v0.24.0 --> development
+			- traefik: v3.2.1 --> v3.2.3
 	- 2024.12.17 @ 06:19 PM PST:
 		- Stable:
 			- plex: v1.41.3.9292 --> v1.41.3.9314-a0bfb8370

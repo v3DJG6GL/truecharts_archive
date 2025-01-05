@@ -1,0 +1,23 @@
+image:
+  pullPolicy: "IfNotPresent"
+  repository: "ghcr.io/convos-chat/convos"
+  tag: "v8.07@sha256:d9ab6aefce1b47a1e6d10c70a558ae0120a35e32b1f92d87ca364bfa17f1f3a6"
+persistence:
+  data:
+    enabled: true
+    mountPath: /data
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 3520
+        protocol: tcp
+        targetPort: 3000
