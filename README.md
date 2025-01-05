@@ -81,6 +81,9 @@ Now you should be able to update your applications again.
     - unpackerr: v0.14.5 *(Updated: 2024.08.05)*
 
 - ### Changelog:
+	- 2025.01.04 @ 11:29 PM PST:
+		- Stable:
+			- tautulli: latest --> vnightly
 	- 2025.01.04 @ 11:24 PM PST:
 		- Stable:
 			- chroma: v0.5.23 --> v0.6.0
