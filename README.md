@@ -81,6 +81,19 @@ Now you should be able to update your applications again.
     - unpackerr: v0.14.5 *(Updated: 2024.08.05)*
 
 - ### Changelog:
+	- 2025.01.04 @ 11:24 PM PST:
+		- Stable:
+			- chroma: v0.5.23 --> v0.6.0
+			- ghostfolio: v2.131.0 --> v2.132.0
+			- gravity: v0.19.0 --> v0.19.1
+			- jackett: v0.22.1150 --> v0.22.1162
+			- jellyseerr: v2.2.2 --> v2.2.3
+			- maintainerr: v2.4.1 --> v2.5.0
+			- plextraktsync: v0.32.4 --> v0.32.5
+			- tautulli: v2.15.0 --> latest
+			- unpoller: v2.11.2 --> v2.12.0
+		- Incubator:
+			- pingvin-share: v1.7.1 --> v1.7.2
 	- 2024.12.30 @ 03:05 PM PST:
 		- Stable:
 			- actualserver: v24.11.0 --> v24.12.0
