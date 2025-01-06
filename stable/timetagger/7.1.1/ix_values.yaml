@@ -1,0 +1,28 @@
+image:
+  pullPolicy: "IfNotPresent"
+  repository: "ghcr.io/almarklein/timetagger"
+  tag: "v24.12.2-nonroot@sha256:221391e9b09a46a5c6661d8e64efa79e5b1ee743f6b8fb321d98e8137fa99f9c"
+persistence:
+  config:
+    enabled: true
+    mountPath: /opt/_timetagger
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 1000
+    runAsUser: 1000
+service:
+  main:
+    ports:
+      main:
+        port: 10286
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            TIMETAGGER_BIND: 0.0.0.0:{{ .Values.service.main.ports.main.port }}

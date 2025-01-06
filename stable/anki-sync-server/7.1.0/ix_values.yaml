@@ -1,0 +1,46 @@
+image:
+  repository: "docker.io/ankicommunity/anki-sync-server-rs"
+  tag: "1.1.4@sha256:c6e05752c62f6115eb0cb9f729ee599bb8d41a021b454a5f08bb55525894dec4"
+  pullPolicy: "IfNotPresent"
+
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsNonRoot: false
+    runAsGroup: 0
+    runAsUser: 0
+
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              type: http
+              path: /
+            readiness:
+              type: http
+              path: /
+            startup:
+              type: http
+              path: /
+          env:
+            ANKISYNCD_USERNAME: "test"
+            ANKISYNCD_PASSWORD: "123456"
+
+service:
+  main:
+    ports:
+      main:
+        port: 27701
+        targetPort: 27701
+
+persistence:
+  config:
+    enabled: true
+    mountPath: /app/data
+
+portal:
+  open:
+    enabled: true

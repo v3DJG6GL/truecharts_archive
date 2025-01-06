@@ -1,0 +1,32 @@
+image:
+  repository: "docker.io/fardjad/tagspaces-lite-web"
+  pullPolicy: "IfNotPresent"
+  tag: "6.0.2@sha256:43be8dd45512775b546f25c8b2ddeac29d2fa7680ca78387a77b490993efcbcc"
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+service:
+  main:
+    ports:
+      main:
+        protocol: http
+        targetPort: 80
+        port: 5000
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            KEY:
+              secretKeyRef:
+                name: tagspaces-secret
+                key: KEY
+persistence:
+  nginx:
+    enabled: true
+    type: emptyDir
+    mountPath: "/var/cache/nginx"
+portal:
+  open:
+    enabled: true

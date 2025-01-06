@@ -1,0 +1,23 @@
+image:
+  pullPolicy: "IfNotPresent"
+  repository: "docker.io/immybot/remotely"
+  tag: "latest"
+persistence:
+  data:
+    enabled: true
+    mountPath: /remotely-data
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 9280
+        protocol: tcp
+        targetPort: 5000

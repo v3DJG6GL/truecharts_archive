@@ -1,0 +1,48 @@
+image:
+  repository: "docker.io/xhofe/alist-aria2"
+  pullPolicy: "IfNotPresent"
+  tag: "v3.40.0@sha256:b926783665b4c73b0127a908c5947766937fee19f542979e9a6d4a4df472b79a"
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsNonRoot: false
+    runAsUser: 0
+    runAsGroup: 0
+service:
+  main:
+    ports:
+      main:
+        targetPort: 5244
+        protocol: http
+        port: 10167
+  aria2:
+    enabled: true
+    ports:
+      aria2:
+        enabled: true
+        targetPort: 6800
+        protocol: http
+        port: 6800
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              type: http
+              path: /
+            readiness:
+              type: http
+              path: /
+            startup:
+              type: http
+              path: /
+          env: {}
+persistence:
+  data:
+    enabled: true
+    mountPath: /opt/alist/data
+portal:
+  open:
+    enabled: true

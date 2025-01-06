@@ -1,0 +1,25 @@
+image:
+  repository: "ghcr.io/linuxserver/remmina"
+  pullPolicy: "IfNotPresent"
+  tag: "1.4.35@sha256:f8ad8eac632a9d75898d5b36a01526d6cbafb2135fe4da5203b840cc99060fc9"
+service:
+  main:
+    ports:
+      main:
+        port: 10042
+        targetPort: 3000
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
+  varrun:
+    enabled: true
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsNonRoot: false
+    runAsUser: 0
+    runAsGroup: 0
