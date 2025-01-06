@@ -81,6 +81,13 @@ Now you should be able to update your applications again.
     - unpackerr: v0.14.5 *(Updated: 2024.08.05)*
 
 - ### Changelog:
+	- 2025.01.06 @ 08:34 AM PST:
+		- Stable:
+			- plex: v1.41.3.9314-a0bfb8370 --> v1.41.3.9314
+			- prowlarr: v1.29.1.4903 --> v1.29.2.4915
+			- radarr: v5.16.3.9541 --> v5.17.2.9580
+			- readarr: v0.4.6.2711 --> v0.4.7.2718
+			- sonarr: v4.0.11.2680 --> v4.0.12.2823
 	- 2025.01.04 @ 11:29 PM PST:
 		- Stable:
 			- tautulli: latest --> vnightly
