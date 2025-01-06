@@ -81,17 +81,6 @@ Now you should be able to update your applications again.
     - unpackerr: v0.14.5 *(Updated: 2024.08.05)*
 
 - ### Changelog:
-	- 2025.01.07 @ 12:29 AM CET:
-		- Stable:
-			- minio: v2024-12-18 --> v2024.12.18
-			- prowlarr: v1.29.2.4915 --> v1.29.1.4903
-			- radarr: v5.17.2.9580 --> v5.16.3.9541
-			- readarr: v0.4.7.2718 --> v0.4.6.2711
-			- sonarr: v4.0.12.2823 --> v4.0.11.2680
-			- tautulli: vnightly --> v2.15.0
-		- Premium:
-			- blocky: vdevelopment --> v0.24.0
-			- nextcloud: v30.0.4 --> v30.0.4
 	- 2025.01.06 @ 08:34 AM PST:
 		- Stable:
 			- plex: v1.41.3.9314-a0bfb8370 --> v1.41.3.9314
