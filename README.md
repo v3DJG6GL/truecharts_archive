@@ -81,6 +81,9 @@ Now you should be able to update your applications again.
     - unpackerr: v0.14.5 *(Updated: 2024.08.05)*
 
 - ### Changelog:
+	- 2025.01.07 @ 01:07 AM CET:
+		- Premium:
+			- nextcloud: v30.0.4 --> v30.0.0
 	- 2025.01.07 @ 12:55 AM CET:
 		- Stable:
 			- bazarr: v1.5.0 --> v1.5.1
