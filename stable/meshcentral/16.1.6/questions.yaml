@@ -855,9 +855,9 @@ questions:
                       schema:
                         type: int
                         min: 1
-                        max: 2
+                        max: 3
                         requited: true
-                        default: 2
+                        default: 3
                     - variable: deviceMeshRouterLinks
                       label: Section <deviceMeshRouterLinks>
                       schema:

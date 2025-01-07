@@ -312,7 +312,7 @@ meshcentral:
       # - 0 = User selects day/night mode, 1 = Always night mode, 2 = Always day mode
       nightMode: 0
       # - Valid numbers are 1 and 2, changes the style of the login page and some secondary pages.
-      siteStyle: 2
+      siteStyle: 3
       # - When set to false, this setting will disable the mobile site.
       mobileSite: true
       # - Set to true to enable IP KVM device support in this domain.
