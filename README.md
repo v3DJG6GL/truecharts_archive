@@ -26,7 +26,7 @@ Therefore I decided to fork their archived chart repository and manually push so
 
 Now you should be able to update your applications again.
 
-### 2025.01.08: Thanks to @hey101, I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
+### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### I currently manually push updates for these applications:
 
