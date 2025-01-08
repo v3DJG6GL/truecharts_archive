@@ -81,6 +81,26 @@ Now you should be able to update your applications again.
     - unpackerr: v0.14.5 *(Updated: 2024.08.05)*
 
 - ### Changelog:
+	- 2025.01.08 @ 08:51 PM CET:
+		- Stable:
+			- codeproject-ai-server: v2.6.5 --> v2.9.7
+			- drawio: v26.0.0 --> v26.0.4
+			- home-assistant: v2024.12.5 --> v2025.1.1
+			- jenkins: v2.491.0 --> v2.492.0
+			- kitchenowl: vlatest --> v0.6.8
+			- komga: v1.15.1 --> v1.16.0
+			- maintainerr: v2.5.0 --> v2.7.0
+			- minecraft-java: v2024.12.1 --> v2025.1.0
+			- nocodb: v0.258.10 --> v0.258.11
+			- openhab: v4.3.0 --> v4.3.1
+			- peanut: v4.3.0 --> v4.4.0
+			- radicale: v3.3.2.0 --> v3.3.3.0
+			- sourcegraph: v5.11.0 --> v5.11.2732
+			- tandoor-recipes: v1.5.24 --> v1.5.26
+			- traggo: v0.6.0 --> v0.6.1
+			- zigbee2mqtt: v1.42.0 --> v2.0.0
+		- Premium:
+			- authelia: v4.38.17 --> v4.38.18
 	- 2025.01.07 @ 02:21 AM CET:
 		- Premium:
 			- nextcloud: v30.0.0 --> v30.0.4
