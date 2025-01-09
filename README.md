@@ -83,6 +83,9 @@ Now you should be able to update your applications again.
     - unpackerr: v0.14.5 *(Updated: 2024.08.05)*
 
 - ### Changelog:
+	- 2025.01.09 @ 03:51 AM CET:
+		- Stable:
+			- meshcentral: v1.1.37_2 --> v1.1.37_3
 	- 2025.01.08 @ 08:51 PM CET:
 		- Stable:
 			- codeproject-ai-server: v2.6.5 --> v2.9.7
