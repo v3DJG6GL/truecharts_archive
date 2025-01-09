@@ -173,7 +173,6 @@ meshcentral:
       # - Action to perform if the CrowdSec agent can't be contacted. Options: bypass | captcha | ban
       failbackRemediation: ban
     autobackup:
-      pgDumpPath: pg_dump
       backupIntervalHours: 24
       keepLastDaysBackup: 10
       zipCompression: 5

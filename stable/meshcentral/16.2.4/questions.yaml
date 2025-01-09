@@ -573,12 +573,6 @@ questions:
                   additional_attrs: true
                   type: dict
                   attrs:
-                    - variable: pgDumpPath
-                      label: pgDumpPath
-                      schema:
-                        type: string
-                        required: true
-                        default: "pg_dump"
                     - variable: backupIntervalHours
                       label: backupIntervalHours
                       schema:
