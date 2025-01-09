@@ -83,6 +83,9 @@ Now you should be able to update your applications again.
     - unpackerr: v0.14.5 *(Updated: 2024.08.05)*
 
 - ### Changelog:
+	- 2025.01.09 @ 04:09 AM CET:
+		- Stable:
+			- meshcentral: v1.1.37_3 --> v1.1.37_4
 	- 2025.01.09 @ 03:51 AM CET:
 		- Stable:
 			- meshcentral: v1.1.37_2 --> v1.1.37_3
