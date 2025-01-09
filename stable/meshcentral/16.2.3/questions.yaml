@@ -573,6 +573,12 @@ questions:
                   additional_attrs: true
                   type: dict
                   attrs:
+                    - variable: pgDumpPath
+                      label: pgDumpPath
+                      schema:
+                        type: string
+                        required: true
+                        default: pg_dump
                     - variable: backupIntervalHours
                       label: backupIntervalHours
                       schema:
@@ -585,6 +591,13 @@ questions:
                         type: int
                         required: true
                         default: 10
+                    - variable: zipCompression
+                      label: zipCompression
+                      description: Set the zip compression level, 1=fast/less small file to 9=slow/smallest file.
+                      schema:
+                        type: int
+                        required: true
+                        default: 5
                     - variable: zipPassword
                       label: zipPassword
                       description: Leave empty for no password
@@ -592,6 +605,34 @@ questions:
                         type: string
                         private: true
                         default: ""
+                    - variable: backupPath
+                      label: backupPath
+                      description: The file path where backup files are kept. The default is \"meshcentral-backups\" which sits next to \"meshcentral-data\"
+                      schema:
+                        type: string
+                        required: true
+                        default: "meshcentral-backups
+                    - variable: backupName
+                      label: backupName
+                      description: The filename of the backupfile. The default is \"meshcentral-autobackup-\", the filename is appended with the time of backup.
+                      schema:
+                        type: string
+                        required: true
+                        default: meshcentral-autobackup
+                    - variable: backupWebFolders
+                      label: backupWebFolders
+                      description: Add views, public and emails directories if overridden
+                      schema:
+                        type: boolean
+                        required: true
+                        default: true
+                    - variable: backupOtherFolders
+                      label: backupOtherFolders
+                      description: Also add files and recordings folder to the backup
+                      schema:
+                        type: boolean
+                        required: true
+                        default: true
                     - variable: _setupWebDav
                       label: Backup to Web DAV
                       description: Enabled automated upload of the server backups to a WebDAV account.

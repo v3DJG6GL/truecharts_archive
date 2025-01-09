@@ -174,7 +174,6 @@ meshcentral:
       failbackRemediation: ban
     autobackup:
       pgDumpPath: pg_dump
-      mongoDumpPath: /usr/bin/mongodump
       backupIntervalHours: 24
       keepLastDaysBackup: 10
       zipCompression: 5
