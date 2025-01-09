@@ -578,7 +578,7 @@ questions:
                       schema:
                         type: string
                         required: true
-                        default: pg_dump
+                        default: "pg_dump"
                     - variable: backupIntervalHours
                       label: backupIntervalHours
                       schema:
@@ -611,14 +611,14 @@ questions:
                       schema:
                         type: string
                         required: true
-                        default: "meshcentral-backups
+                        default: "meshcentral-backups"
                     - variable: backupName
                       label: backupName
                       description: The filename of the backupfile. The default is \"meshcentral-autobackup-\", the filename is appended with the time of backup.
                       schema:
                         type: string
                         required: true
-                        default: meshcentral-autobackup
+                        default: "meshcentral-autobackup-"
                     - variable: backupWebFolders
                       label: backupWebFolders
                       description: Add views, public and emails directories if overridden
