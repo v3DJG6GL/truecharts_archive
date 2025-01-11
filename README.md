@@ -83,6 +83,9 @@ Now you should be able to update your applications again.
     - unpackerr: v0.14.5 *(Updated: 2024.08.05)*
 
 - ### Changelog:
+	- 2025.01.11 @ 01:32 AM CET:
+		- Stable:
+			- garrysmod: vgarrysmod --> v6.0.9
 	- 2025.01.10 @ 01:04 PM CET:
 		- Stable:
 			- actualserver: v24.12.0 --> v25.1.0
