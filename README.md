@@ -83,6 +83,25 @@ Now you should be able to update your applications again.
     - unpackerr: v0.14.5 *(Updated: 2024.08.05)*
 
 - ### Changelog:
+	- 2025.01.12 @ 04:07 AM CET:
+		- Stable:
+			- borg-server: v2.6.5 --> v2.6.6
+			- collabora: v24.04.11.1.1 --> v24.04.11.2.1
+			- flexget: v3.13.5 --> v3.13.11
+			- gitea: v1.23.0 --> v1.23.1
+			- gravity: v0.21.1 --> v0.22.0
+			- jackett: v0.22.1226 --> v0.22.1229
+			- local-ai: v2.24.2 --> v2.25.0
+			- nvidia-gpu-exporter: v1.2.1 --> v1.3.0
+			- ollama: v0.5.4 --> v0.5.5
+			- owncast: v0.1.3 --> v0.2.0
+			- peanut: v4.4.1 --> v4.4.2
+			- static-web-server: v2.34.0 --> v2.35.0
+			- tautulli: v2.15.0 --> v2.15.1
+			- unpoller: v2.13.1 --> v2.14.0
+			- wallos: v2.42.2 --> v2.43.0
+		- Premium:
+			- traefik: v3.2.5 --> v3.3.1
 	- 2025.01.11 @ 01:32 AM CET:
 		- Stable:
 			- garrysmod: vgarrysmod --> v6.0.9
