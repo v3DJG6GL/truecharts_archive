@@ -29,6 +29,91 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.01.24 @ 08:33 PM CET:
+		- Stable:
+			- airdcpp-webclient: v2.13.2 --> v2.13.3
+			- ariang: v1.3.8 --> v1.3.9
+			- audiobookshelf: v2.17.7 --> v2.18.1
+			- automatic-ripping-machine: v2.10.1 --> v2.10.3
+			- changedetection-io: v0.48.06 --> v0.49.0
+			- chroma: v0.6.2 --> v0.6.3
+			- clamav: v1.4.1 --> v1.4.2
+			- clickhouse: v24.12.2.29 --> v24.12.3.47
+			- code-server: v4.96.2 --> v4.96.4
+			- collabora: v24.04.11.2.1 --> v24.04.11.3.1
+			- crafty-4: v4.4.4 --> v4.4.7
+			- ddns-go: v6.7.7 --> v6.8.0
+			- docker: v27.4.1 --> v27.5.1
+			- drawio: v26.0.4 --> v26.0.6
+			- emby: v4.9.0.35 --> v4.9.0.37
+			- ersatztv: v0.8.8 --> v25.1.0
+			- esphome: v2024.12.2 --> v2024.12.4
+			- flaresolverr: vexperimental --> vexperimental
+			- flexget: v3.13.11 --> v3.13.17
+			- flood: v4.8.5 --> v4.9.0
+			- flowise: v2.2.3 --> v2.2.4
+			- foldingathome: v8.3.18 --> v8.4.9
+			- game-server-watcher: v3.1.21 --> v3.1.22
+			- ghostfolio: v2.133.1 --> v2.135.0
+			- gravity: v0.22.0 --> v0.26.1
+			- home-assistant: v2025.1.2 --> v2025.1.3
+			- immich: v1.124.2 --> v1.125.1
+			- ispy-agent-dvr: v5.8.4.0 --> v6.0.3.0
+			- jackett: v0.22.1229 --> v0.22.1305
+			- jellyfin: v10.10.3 --> v10.10.4
+			- jellyseerr: v2.2.3 --> v2.3.0
+			- jenkins: v2.492.0 --> v2.494.0
+			- komga: v1.17.0 --> v1.18.0
+			- linkwarden: v2.9.2 --> v2.9.3
+			- maintainerr: v2.7.0 --> v2.8.0
+			- mealie: v2.4.2 --> v2.5.0
+			- metabase: v0.52.5 --> v0.52.7
+			- miniflux: v2.2.4 --> v2.2.5
+			- mysql-workbench: v8.0.40 --> v8.0.41
+			- n8n: v1.74.1 --> v1.76.1
+			- navidrome: v0.54.3 --> v0.54.4
+			- netdata: v2.1.1 --> v2.2.0
+			- nexus-oss: v3.76.0 --> v3.76.1
+			- nocodb: v0.260.1 --> v0.260.2
+			- ollama: v0.5.5 --> v0.5.7
+			- openhab: v4.3.1 --> v4.3.2
+			- owncast: v0.2.0 --> v0.2.1
+			- paperless-ngx: v2.13.5 --> v2.14.5
+			- pasta: v1.6.2 --> v1.6.4
+			- peanut: v4.4.2 --> v4.4.4
+			- phpmyadmin: v5.2.1 --> v5.2.2
+			- plexanisync: v1.4.1 --> v1.4.2
+			- plextraktsync: v0.32.7 --> v0.32.8
+			- pocketmine-mp: v5.23.2 --> v5.23.3
+			- portainer: v2.25.1 --> v2.26.1
+			- prowlarr: v1.29.2.4915 --> v1.30.1.4928
+			- qinglong: v2.18.0 --> v2.18.1
+			- radicale: v3.3.3.0 --> v3.4.0.0
+			- rdtclient: v2.0.94 --> v2.0.95
+			- readarr: v0.4.7.2718 --> v0.4.9.2730
+			- satisfactory: v1.9.1 --> v1.9.3
+			- shoko-server: v5.0.0 --> v5.1.0
+			- smtp-relay: v0.7.0 --> v0.7.1
+			- sourcegraph: v5.11.3601 --> v5.11.6271
+			- speedtest-tracker: v1.0.3 --> v1.2.0
+			- syncthing: v1.29.1 --> v1.29.2
+			- tandoor-recipes: v1.5.27 --> v1.5.30
+			- tasmoadmin: v4.2.1 --> v4.2.2
+			- tauticord: v5.10.0 --> v5.11.0
+			- tdarr: v2.27.02 --> v2.28.01
+			- tdarr-node: v2.27.02 --> v2.28.01
+			- traccar: v6.5.0 --> v6.6.0
+			- unpoller: v2.14.0 --> v2.14.1
+			- wallos: v2.43.0 --> v2.45.0
+			- whoogle: v0.9.1 --> v0.9.3
+			- zwavejs2mqtt: v9.29.0 --> v9.29.1
+		- Incubator:
+			- docuseal: v1.8.6 --> v1.8.8
+			- pingvin-share: v1.8.1 --> v1.8.2
+			- victoriametrics: v1.108.1 --> v1.109.1
+		- Premium:
+			- blocky: v0.24.0 --> v0.25.0
+			- traefik: v3.3.1 --> v3.3.2
 	- 2025.01.12 @ 04:24 AM CET:
 		- Stable:
 			- flaresolverr: vpr-1300-experimental --> vexperimental

@@ -1,0 +1,58 @@
+image:
+  repository: "docker.io/gangefors/airdcpp-webclient"
+  pullPolicy: "IfNotPresent"
+  tag: "2.13.3@sha256:bd7e071edd6c3a5d0f7bc1f3beb5d2a5ed1068f78ab29ccccf50969ab26cc9de"
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              type: tcp
+              path: /
+            readiness:
+              type: tcp
+              path: /
+            startup:
+              type: tcp
+              path: /
+          env: {}
+service:
+  main:
+    ports:
+      main:
+        protocol: tcp
+        port: 10155
+        targetPort: 5600
+  unencrypted-tcp:
+    enabled: true
+    ports:
+      unencrypted-tcp:
+        enabled: true
+        protocol: tcp
+        port: 21248
+        targetPort: 21248
+  encrypted-tcp:
+    enabled: true
+    ports:
+      encrypted-tcp:
+        enabled: true
+        protocol: tcp
+        port: 21249
+        targetPort: 21249
+  search-udp:
+    enabled: true
+    ports:
+      search-udp:
+        enabled: true
+        protocol: udp
+        port: 21248
+        targetPort: 21248
+persistence:
+  config:
+    enabled: true
+    mountPath: /.airdcpp
+portal:
+  open:
+    enabled: true
