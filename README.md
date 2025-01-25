@@ -29,6 +29,9 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.01.25 @ 01:10 PM CET:
+		- Stable:
+			- gamevault-backend: v7.2.2 --> v7.2.3
 	- 2025.01.25 @ 01:00 PM CET:
 		- Stable:
 			- gamevault-backend: v13.1.3 --> v7.2.2
