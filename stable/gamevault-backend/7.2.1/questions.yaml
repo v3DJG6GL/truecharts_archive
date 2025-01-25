@@ -1285,9 +1285,9 @@ questions:
                               type: string
                               default: ""
 
-        - variable: images
-          label: "App Images Storage"
-          description: "Stores the Application Images."
+        - variable: media
+          label: "App Media Storage"
+          description: "Stores the Application Media."
           schema:
             additional_attrs: true
             type: dict

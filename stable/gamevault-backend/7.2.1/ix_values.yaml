@@ -54,7 +54,7 @@ workload:
           env:
             # manually set and change to /games so its easy for users to know where to place their game files.
             VOLUMES_FILES: "{{.Values.persistence.games.mountPath }}"
-            VOLUMES_IMAGES: "{{.Values.persistence.images.mountPath }}"
+            VOLUMES_MEDIA: "{{.Values.persistence.media.mountPath }}"
             VOLUMES_LOG: "{{.Values.persistence.logs.mountPath }}"
             # DB
             DB_SYSTEM: POSTGRESQL
@@ -92,9 +92,9 @@ persistence:
   logs:
     enabled: true
     mountPath: /logs
-  images:
+  media:
     enabled: true
-    mountPath: /images
+    mountPath: /media
   games:
     enabled: true
     mountPath: /games
