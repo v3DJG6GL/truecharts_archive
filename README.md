@@ -29,6 +29,24 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.01.25 @ 12:08 PM CET:
+		- Stable:
+			- ddclient: v3.11.2 --> v4.0.0
+			- fileflows: v24.12.0 --> v25.01.0
+			- firefox: v133.0.3 --> v134.0.2
+			- gamevault-backend: v12.2.0 --> v13.1.3
+			- grocy: v4.3.0 --> v4.4.0
+			- immich: v1.125.1 --> v1.125.2
+			- matomo: v5.2.1 --> v5.2.2
+			- minio: v2024.12.18 --> v2025.01.20
+			- plexripper: v0.23.2 --> v0.29.1
+			- plextraktsync: v0.32.8 --> v0.33.0
+			- pocketmine-mp: v5.23.3 --> v5.24.0
+			- prowlarr: v1.30.1.4928 --> v1.30.2.4939
+			- redmine: v5.1.5 --> v6.0.2
+			- satisfactory: v1.9.3 --> v1.9.5
+			- solr: v9.7.0 --> v9.8.0
+			- watcharr: v1.44.2 --> v2.0.0
 	- 2025.01.24 @ 08:33 PM CET:
 		- Stable:
 			- airdcpp-webclient: v2.13.2 --> v2.13.3
