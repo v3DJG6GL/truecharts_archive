@@ -29,6 +29,18 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.01.26 @ 03:11 PM CET:
+		- Stable:
+			- adguard-home: v0.107.55 --> v0.107.56
+			- collabora: v24.04.11.3.1 --> v24.04.12.1.1
+			- ddns-go: v6.8.0 --> v6.8.1
+			- drawio: v26.0.6 --> v26.0.7
+			- flexget: v3.13.17 --> v3.13.23
+			- jackett: v0.22.1305 --> v0.22.1309
+			- jellyfin: v10.10.4 --> v10.10.5
+			- openvscode-server: v1.96.0 --> v1.96.4
+		- Premium:
+			- vaultwarden: v1.32.7 --> v1.33.0
 	- 2025.01.25 @ 01:10 PM CET:
 		- Stable:
 			- gamevault-backend: v7.2.2 --> v7.2.3
