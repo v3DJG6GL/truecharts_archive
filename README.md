@@ -29,6 +29,22 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.01.28 @ 12:13 AM CET:
+		- Stable:
+			- ghostfolio: v2.135.0 --> v2.136.0
+			- home-assistant: v2025.1.3 --> v2025.1.4
+			- immich: v1.125.2 --> v1.125.3
+			- jackett: v0.22.1309 --> v0.22.1316
+			- kopia: v0.18.2 --> v0.19.0
+			- linkding: v1.36.0 --> v1.37.0
+			- readarr: v0.4.9.2730 --> v0.4.10.2734
+			- tdarr: v2.28.01 --> v2.29.01
+			- tdarr-node: v2.28.01 --> v2.29.01
+			- wekan: v7.61.0 --> v7.80.0
+		- Incubator:
+			- victoriametrics: v1.109.1 --> v1.110.0
+		- Premium:
+			- nextcloud: v30.0.4 --> v30.0.0
 	- 2025.01.26 @ 03:11 PM CET:
 		- Stable:
 			- adguard-home: v0.107.55 --> v0.107.56
