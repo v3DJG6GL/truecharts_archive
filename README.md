@@ -44,7 +44,7 @@ Now you should be able to update your applications again.
 		- Incubator:
 			- victoriametrics: v1.109.1 --> v1.110.0
 		- Premium:
-			- nextcloud: v30.0.4 --> v30.0.0
+			- nextcloud: v30.0.4 --> v30.0.5
 	- 2025.01.26 @ 03:11 PM CET:
 		- Stable:
 			- adguard-home: v0.107.55 --> v0.107.56
