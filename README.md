@@ -29,6 +29,29 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.01.30 @ 02:09 PM CET:
+		- Stable:
+			- authentik: v2024.12.2 --> v2024.12.3
+			- clickhouse: v24.12.3.47 --> v25.1.1.4165
+			- drawio: v26.0.7 --> v26.0.9
+			- gaseous-server: v1.7.7 --> v1.7.9
+			- immich: v1.125.3 --> v1.125.7
+			- jackett: v0.22.1316 --> v0.22.1323
+			- jenkins: v2.494.0 --> v2.495.0
+			- metabase: v0.52.7 --> v0.52.8
+			- misskey: v2024.11.0 --> v2025.1.0
+			- muse: v2.10.0 --> v2.10.1
+			- n8n: v1.76.1 --> v1.77.0
+			- paperless-ngx: v2.14.5 --> v2.14.6
+			- papermerge: v3.2.0 --> v3.3.1
+			- plextraktsync: v0.33.0 --> v0.34.0
+			- sourcegraph: v5.11.6271 --> v6.0.0
+			- wallos: v2.45.0 --> v2.45.1
+		- Incubator:
+			- docuseal: v1.8.8 --> v1.8.9
+			- semaphore: v2.11.2 --> v2.11.3
+		- Premium:
+			- grafana: v11.4.0 --> v11.5.0
 	- 2025.01.28 @ 12:13 AM CET:
 		- Stable:
 			- ghostfolio: v2.135.0 --> v2.136.0
