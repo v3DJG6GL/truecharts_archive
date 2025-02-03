@@ -29,6 +29,62 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.02.03 @ 09:15 PM CET:
+		- Stable:
+			- autobrr: v1.57.0 --> v1.58.0
+			- calibre-web: v0.6.23 --> v0.6.24
+			- clickhouse: v25.1.1.4165 --> v25.1.2.3
+			- cloudflared: v2025.1.0 --> v2025.1.1
+			- collabora: v24.04.12.1.1 --> v24.04.12.2.1
+			- filebrowser: v2.31.2 --> v2.32.0
+			- fireflyiii: v6.1.21 --> v6.1.25
+			- flexget: v3.13.23 --> v3.13.26
+			- flood: v4.9.0 --> v4.9.3
+			- ghostfolio: v2.136.0 --> v2.137.1
+			- grocy: v4.4.0 --> v4.4.1
+			- hedgedoc: v1.10.0 --> v1.10.1
+			- homebridge: v2023.12.30 --> v2025.1.11
+			- homer: v24.12.1 --> v25.02.1
+			- ipfs: v0.32.1 --> v0.33.0
+			- ispy-agent-dvr: v6.0.3.0 --> v6.0.6.0
+			- jackett: v0.22.1323 --> v0.22.1363
+			- jellystat: v1.1.2 --> vlatest
+			- komga: v1.18.0 --> v1.19.0
+			- lanraragi: v0.9.21 --> v0.9.30
+			- lidarr: v2.8.2.4493 --> v2.9.6.4552
+			- memcached: v1.6.34 --> v1.6.35
+			- metabase: v0.52.8 --> v0.52.9
+			- metube: v2024.10.8 --> v2025.1.27
+			- minecraft-java: v2025.1.0 --> v2025.2.0
+			- mylar: v0.8.0 --> v0.8.1
+			- n8n: v1.77.0 --> v1.77.1
+			- netbootxyz: v0.7.3 --> v0.7.4
+			- netdata: v2.2.0 --> v2.2.3
+			- oscam: v11856.0.0 --> v11868.0.0
+			- paperless-ngx: v2.14.6 --> v2.14.7
+			- peanut: v4.4.4 --> v5.1.0
+			- plexripper: v0.29.1 --> v0.30.0
+			- plextraktsync: v0.34.0 --> v0.34.1
+			- qbitmanage: v4.1.15 --> v4.1.16
+			- qbitrr: v4.10.10 --> v4.10.11
+			- radarr: v5.17.2.9580 --> v5.18.4.9674
+			- radicale: v3.4.0.0 --> v3.4.1.0
+			- rdtclient: v2.0.95 --> v2.0.96
+			- redisinsight: v2.64.1 --> v2.66.0
+			- redmine: v6.0.2 --> v6.0.3
+			- rss-bridge: v2024.2.2 --> v2025.1.26
+			- speedtest-tracker: v1.2.0 --> v1.2.2
+			- tandoor-recipes: v1.5.30 --> v1.5.31
+			- tdarr: v2.29.01 --> v2.30.01
+			- tdarr-node: v2.29.01 --> v2.30.01
+			- tinymediamanager: v5.0.13 --> v5.1.1
+			- wikijs: v2.5.305 --> v2.5.306
+			- xen-orchestra: v5.168.1 --> v5.169.1
+			- xwiki: v16.10.2 --> v17.0.0
+			- zigbee2mqtt: v2.0.0 --> v2.1.0
+			- zwavejs2mqtt: v9.29.1 --> v9.30.1
+		- Incubator:
+			- semaphore: v2.11.3 --> v2.12.3
 	- 2025.01.30 @ 02:09 PM CET:
 		- Stable:
 			- authentik: v2024.12.2 --> v2024.12.3
