@@ -29,6 +29,41 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.02.06 @ 07:55 PM CET:
+		- Stable:
+			- actualserver: v25.1.0 --> v25.2.0
+			- audiobookshelf: v2.18.1 --> v2.19.0
+			- automatic-ripping-machine: v2.10.3 --> v2.10.5
+			- clickhouse: v25.1.2.3 --> v25.1.3.23
+			- discordgsm: v2.17.0 --> v2.18.0
+			- flowise: v2.2.4 --> v2.2.5
+			- gitea: v1.23.1 --> v1.23.2
+			- home-assistant: v2025.1.4 --> v2025.2.0
+			- ipfs: v0.33.0 --> v0.33.1
+			- ispy-agent-dvr: v6.0.6.0 --> v6.0.8.0
+			- jackett: v0.22.1363 --> v0.22.1372
+			- jellystat: vlatest --> v2.19.0
+			- jenkins: v2.495.0 --> v2.496.0
+			- komga: v1.19.0 --> v1.19.1
+			- maintainerr: v2.8.0 --> v2.9.0
+			- mealie: v2.5.0 --> v2.6.0
+			- memcached: v1.6.35 --> v1.6.36
+			- misskey: v2025.1.0 --> v2025.2.0
+			- n8n: v1.77.1 --> v1.77.2
+			- netdata: v2.2.3 --> v2.2.4
+			- nexus-oss: v3.76.1 --> v3.77.0
+			- nocodb: v0.260.2 --> v0.260.4
+			- onlyoffice-document-server: v8.2.2 --> v8.3.0
+			- pasta: v1.6.4 --> v1.6.6
+			- photoprism: v20220121.0.0 --> v240915.0.0
+			- tailscale: v1.78.3 --> v1.80.0
+			- transmission: v4.0.5 --> v4.0.6
+			- wallos: v2.45.1 --> v2.45.2
+		- Incubator:
+			- semaphore: v2.12.3 --> v2.12.4
+		- Premium:
+			- grafana: v11.5.0 --> v11.5.1
+			- vaultwarden: v1.33.0 --> v1.33.1
 	- 2025.02.03 @ 09:15 PM CET:
 		- Stable:
 			- autobrr: v1.57.0 --> v1.58.0
