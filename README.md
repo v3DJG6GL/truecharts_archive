@@ -29,6 +29,9 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.02.06 @ 10:29 PM CET:
+		- Stable:
+			- jellystat: v2.19.0_2 --> v1.1.3
 	- 2025.02.06 @ 09:38 PM CET:
 		- Stable:
 			- jellystat: v2.19.0_1 --> v2.19.0_2
