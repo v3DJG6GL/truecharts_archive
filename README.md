@@ -29,6 +29,51 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.02.11 @ 10:02 AM CET:
+		- Stable:
+			- actualserver: v25.2.0 --> v25.2.1
+			- baserow: v1.30.1 --> v1.31.0
+			- calibre: v7.24.0 --> v7.25.0
+			- changedetection-io: v0.49.0 --> v0.49.1
+			- cloudflared: v2025.1.1 --> v2025.2.0
+			- emby: v4.9.0.37 --> v4.9.0.38
+			- flexget: v3.13.26 --> v3.14.4
+			- fluidd: v1.31.4 --> v1.32.1
+			- gaseous-server: v1.7.9 --> v1.7.10
+			- ghostfolio: v2.137.1 --> v2.138.0
+			- gitea: v1.23.2 --> v1.23.3
+			- home-assistant: v2025.2.0 --> v2025.2.2
+			- immich: v1.125.7 --> v1.126.1
+			- ispy-agent-dvr: v6.0.8.0 --> v6.1.3.0
+			- it-tools: v2024.5.13 --> v2024.10.22
+			- jackett: v0.22.1372 --> v0.22.1393
+			- jupyter: v2023.10.20 --> v2025.2.10
+			- metabase: v0.52.9 --> v0.53.1
+			- metube: v2025.1.27 --> v2025.2.7
+			- n8n: v1.77.2 --> v1.78.0
+			- nexus-oss: v3.77.0 --> v3.77.1
+			- nginx-proxy-manager: v2.12.2 --> v2.12.3
+			- nocodb: v0.260.4 --> v0.260.6
+			- nzbhydra: v7.2.3 --> v7.12.3
+			- peanut: v5.1.0 --> v5.1.1
+			- prowlarr: v1.30.2.4939 --> v1.31.1.4959
+			- sftpgo: v2.6.4 --> v2.6.5
+			- speedtest-tracker: v1.2.2 --> v1.2.3
+			- static-web-server: v2.35.0 --> v2.36.0
+			- tasmoadmin: v4.2.2 --> v4.2.3
+			- tdarr: v2.30.01 --> v2.31.02
+			- tdarr-node: v2.30.01 --> v2.31.02
+			- unifi: v9.0.108 --> v9.0.114
+			- wekan: v7.80.0 --> v7.81.0
+			- whisparr: v3.0.0.621 --> v3.0.0.786
+			- xen-orchestra: v5.169.1 --> v5.170.0
+			- zigbee2mqtt: v2.1.0 --> v2.1.1
+		- Incubator:
+			- docuseal: v1.8.9 --> v1.9.0
+			- slskd: v0.22.1 --> v0.22.2
+			- victoriametrics: v1.110.0 --> v1.111.0
+		- Premium:
+			- vaultwarden: v1.33.1 --> v1.33.2
 	- 2025.02.06 @ 10:29 PM CET:
 		- Stable:
 			- jellystat: v2.19.0_2 --> v1.1.3

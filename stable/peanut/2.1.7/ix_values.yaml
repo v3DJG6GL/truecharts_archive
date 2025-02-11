@@ -1,0 +1,28 @@
+image:
+  repository: "docker.io/brandawg93/peanut"
+  tag: "5.1.1@sha256:5da0435bf2b75ce7e4b571515bd70e758cbf58ac1ed5b2c29684b725792cb2b2"
+  pullPolicy: "IfNotPresent"
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10688
+portal:
+  open:
+    enabled: true
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            NUT_HOST: "localhost"
+            NUT_PORT: 3493
+            USERNAME: ""
+            PASSWORD: ""
+            WEB_PORT: "{{ .Values.service.main.ports.main.port }}"

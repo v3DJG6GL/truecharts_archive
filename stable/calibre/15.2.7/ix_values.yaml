@@ -1,0 +1,45 @@
+image:
+  repository: "ghcr.io/linuxserver/calibre"
+  tag: "7.25.0@sha256:d8f6b1c18e616e70de71fa40bc08d2b86da459b42aa2cd7e849ec7471d72d15e"
+  pullPolicy: "IfNotPresent"
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsNonRoot: false
+    runAsUser: 0
+    runAsGroup: 0
+service:
+  main:
+    ports:
+      main:
+        port: 8084
+        protocol: http
+        targetPort: 8080
+  webserver:
+    enabled: true
+    ports:
+      webserver:
+        enabled: true
+        port: 8081
+        protocol: http
+        targetPort: 8081
+ingress:
+  webserver:
+    enabled: false
+    targetSelector:
+      webserver: webserver
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            CLI_ARGS:
+            PASSWORD: ""
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+portal:
+  open:
+    enabled: true
