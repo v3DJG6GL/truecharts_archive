@@ -29,6 +29,81 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.02.19 @ 12:02 AM CET:
+		- Stable:
+			- anonaddy: v1.3.0 --> v1.3.1
+			- ariang: v1.3.9 --> v1.3.10
+			- audiobookshelf: v2.19.0 --> v2.19.3
+			- avidemux: v24.12.1 --> v25.02.1
+			- baserow: v1.31.0 --> v1.31.1
+			- calibre: v7.25.0 --> v7.26.0
+			- clickhouse: v25.1.3.23 --> v25.1.4.53
+			- collabora: v24.04.12.2.1 --> v24.04.12.3.1
+			- czkawka: v24.12.1 --> v25.02.1
+			- external-service: v3.21.2 --> v3.21.3
+			- filebot: v24.12.1 --> v25.02.1
+			- fileflows: v25.01.0 --> v25.02.0
+			- flexget: v3.14.4 --> v3.15.6
+			- fluidd: v1.32.1 --> v1.32.2
+			- ghostfolio: v2.138.0 --> v2.139.1
+			- gravity: v0.26.1 --> v0.26.5
+			- handbrake: v24.12.1 --> v25.02.2
+			- hedgedoc: v1.10.1 --> v1.10.2
+			- home-assistant: v2025.2.2 --> v2025.2.4
+			- homebridge: v2025.1.11 --> v2025.2.16
+			- ipfs: v0.33.1 --> v0.33.2
+			- ispy-agent-dvr: v6.1.3.0 --> v6.1.8.0
+			- jackett: v0.22.1393 --> v0.22.1438
+			- jdownloader2: v24.12.1 --> v25.02.1
+			- jellyfin: v10.10.5 --> v10.10.6
+			- jenkins: v2.496.0 --> v2.497.0
+			- jupyter: v2025.2.10 --> v2025.2.18
+			- linkding: v1.37.0 --> v1.38.0
+			- local-ai: v2.25.0 --> v2.26.0
+			- makemkv: v24.12.1 --> v25.02.2
+			- mediainfo: v24.12.1 --> v25.02.1
+			- metabase: v0.53.1 --> v0.53.3
+			- mkvcleaver: v24.12.1 --> v25.02.1
+			- mkvtoolnix: v24.12.2 --> v25.02.1
+			- mymediaforalexa: v1.3.152.0 --> v1.3.152.1
+			- n8n: v1.78.0 --> v1.80.0
+			- neko: v2.8.12 --> v2.8.13
+			- netbootxyz: v0.7.4 --> v0.7.5
+			- netdata: v2.2.4 --> v2.2.5
+			- nocodb: v0.260.6 --> v0.260.7
+			- node-red: v4.0.8 --> v4.0.9
+			- ollama: v0.5.7 --> v0.5.11
+			- outline: v0.81.1 --> v0.82.0
+			- peanut: v5.1.1 --> v5.3.0
+			- pgadmin: v8.14.0 --> v9.0.0
+			- plex: v1.41.3.9314 --> v1.41.4.9463
+			- plextraktsync: v0.34.1 --> v0.34.2
+			- pocketmine-mp: v5.24.0 --> v5.25.0
+			- protonmail-bridge: v3.12.0 --> v3.16.0
+			- putty: v24.12.1 --> v25.02.1
+			- qbitmanage: v4.1.16 --> v4.1.17
+			- qbittorrent: v5.0.3 --> v5.0.4
+			- qdirstat: v24.12.1 --> v25.02.1
+			- rdtclient: v2.0.96 --> v2.0.97
+			- recyclarr: v7.4.0 --> v7.4.1
+			- seafile: v11.0.13 --> v12.0.9
+			- smtp-relay: v0.7.1 --> v0.7.3
+			- sonarr: v4.0.12.2823 --> v4.0.13.2932
+			- sourcegraph: v6.0.0 --> v6.1.0
+			- tauticord: v5.11.0 --> v5.12.0
+			- tdarr: v2.31.02 --> v2.32.01
+			- tdarr-node: v2.31.02 --> v2.32.01
+			- tinymediamanager: v5.1.1 --> v5.1.2
+			- tsmuxer: v24.12.1 --> v25.02.1
+			- watcharr: v2.0.0 --> v2.0.2
+			- whisper-asr-webservice: v1.7.1 --> v1.8.2
+			- wordpress: v6.7.1 --> v6.7.2
+		- Incubator:
+			- docuseal: v1.9.0 --> v1.9.1
+			- pingvin-share: v1.8.2 --> v1.9.1
+			- semaphore: v2.12.4 --> v2.12.14
+		- Premium:
+			- authelia: v4.38.18 --> v4.38.19
 	- 2025.02.11 @ 10:02 AM CET:
 		- Stable:
 			- actualserver: v25.2.0 --> v25.2.1
