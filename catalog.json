@@ -36,105 +36,6 @@
             ],
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/TeslaMate.webp"
         },
-        "archivebox": {
-            "app_readme": "<p>ArchiveBox is an open-source, self-hosted internet archiving solution.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/incubator/archivebox\">https://truecharts.org/charts/incubator/archivebox</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
-            "categories": [
-                "bookmarks"
-            ],
-            "description": "ArchiveBox is an open-source, self-hosted internet archiving solution.",
-            "healthy": true,
-            "healthy_error": null,
-            "home": "https://truecharts.org/charts/incubator/archivebox",
-            "location": "/home/runner/_work/catalog/catalog/incubator/archivebox",
-            "latest_version": "1.2.18",
-            "latest_app_version": "latest",
-            "latest_human_version": "latest_1.2.18",
-            "last_update": "2024-05-29 12:35:14",
-            "name": "archivebox",
-            "recommended": false,
-            "title": "Archivebox",
-            "maintainers": [
-                {
-                    "name": "TrueCharts",
-                    "email": "info@truecharts.org",
-                    "url": "https://truecharts.org"
-                }
-            ],
-            "tags": [],
-            "screenshots": [],
-            "sources": [
-                "https://github.com/ArchiveBox/ArchiveBox",
-                "https://github.com/truecharts/charts/tree/master/charts/incubator/archivebox",
-                "https://hub.docker.com/r/archivebox/archivebox"
-            ],
-            "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/archivebox.webp"
-        },
-        "atuin": {
-            "app_readme": "<p>Magical shell history.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/incubator/atuin\">https://truecharts.org/charts/incubator/atuin</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
-            "categories": [
-                "system"
-            ],
-            "description": "Magical shell history.",
-            "healthy": true,
-            "healthy_error": null,
-            "home": "https://truecharts.org/charts/incubator/atuin",
-            "location": "/home/runner/_work/catalog/catalog/incubator/atuin",
-            "latest_version": "3.0.4",
-            "latest_app_version": "18.1.0",
-            "latest_human_version": "18.1.0_3.0.4",
-            "last_update": "2024-05-29 12:35:14",
-            "name": "atuin",
-            "recommended": false,
-            "title": "Atuin",
-            "maintainers": [
-                {
-                    "name": "TrueCharts",
-                    "email": "info@truecharts.org",
-                    "url": "https://truecharts.org"
-                }
-            ],
-            "tags": [],
-            "screenshots": [],
-            "sources": [
-                "https://github.com/atuinsh/atuin",
-                "https://github.com/truecharts/charts/tree/master/charts/incubator/atuin",
-                "https://ghcr.io/atuinsh/atuin"
-            ],
-            "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/atuin.webp"
-        },
-        "dockovpn": {
-            "app_readme": "<p>DNS and Ad-filtering for your network</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/incubator/dockovpn\">https://truecharts.org/charts/incubator/dockovpn</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
-            "categories": [
-                "networking"
-            ],
-            "description": "DNS and Ad-filtering for your network",
-            "healthy": true,
-            "healthy_error": null,
-            "home": "https://truecharts.org/charts/incubator/dockovpn",
-            "location": "/home/runner/_work/catalog/catalog/incubator/dockovpn",
-            "latest_version": "0.0.3",
-            "latest_app_version": "1.14.0",
-            "latest_human_version": "1.14.0_0.0.3",
-            "last_update": "2024-05-29 12:35:14",
-            "name": "dockovpn",
-            "recommended": false,
-            "title": "Dockovpn",
-            "maintainers": [
-                {
-                    "name": "TrueCharts",
-                    "email": "info@truecharts.org",
-                    "url": "https://truecharts.org"
-                }
-            ],
-            "tags": [],
-            "screenshots": [],
-            "sources": [
-                "https://github.com/dockovpn/dockovpn",
-                "https://github.com/truecharts/charts/tree/master/charts/incubator/dockovpn",
-                "https://hub.docker.com/r/alekslitvinenk/openvpn"
-            ],
-            "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/dockovpn.webp"
-        },
         "docuseal": {
             "app_readme": "<p>Open source DocuSign alternative. Create, fill, and sign digital documents.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/incubator/docuseal\">https://truecharts.org/charts/incubator/docuseal</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
             "categories": [
@@ -202,39 +103,6 @@
             ],
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/flashpaper.webp"
         },
-        "kometa": {
-            "app_readme": "<p>Python script to update metadata and automatically build collections.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/incubator/kometa\">https://truecharts.org/charts/incubator/kometa</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
-            "categories": [
-                "media"
-            ],
-            "description": "Python script to update metadata and automatically build collections.",
-            "healthy": true,
-            "healthy_error": null,
-            "home": "https://truecharts.org/charts/incubator/kometa",
-            "location": "/home/runner/_work/catalog/catalog/incubator/kometa",
-            "latest_version": "2.0.2",
-            "latest_app_version": "2.0.1",
-            "latest_human_version": "2.0.1_2.0.2",
-            "last_update": "2024-05-29 12:35:14",
-            "name": "kometa",
-            "recommended": false,
-            "title": "Kometa",
-            "maintainers": [
-                {
-                    "name": "TrueCharts",
-                    "email": "info@truecharts.org",
-                    "url": "https://truecharts.org"
-                }
-            ],
-            "tags": [],
-            "screenshots": [],
-            "sources": [
-                "https://github.com/kometa-team/kometa",
-                "https://github.com/truecharts/charts/tree/master/charts/incubator/kometa",
-                "https://hub.docker.com/r/kometateam/kometa"
-            ],
-            "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/kometa.webp"
-        },
         "lyrion-music-server": {
             "app_readme": "<p>Lyrion Music Server is a platform for home/office audio streaming.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/incubator/lyrion-music-server\">https://truecharts.org/charts/incubator/lyrion-music-server</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
             "categories": [
@@ -298,39 +166,6 @@
                 "https://grafana.com"
             ],
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/mimir.png"
-        },
-        "nvidia-gpu-exporter": {
-            "app_readme": "<p>Prometheus exporter for Nvidia GPU's using nvidia-smi binary to gather metrics.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/incubator/nvidia-gpu-exporter\">https://truecharts.org/charts/incubator/nvidia-gpu-exporter</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
-            "categories": [
-                "metrics"
-            ],
-            "description": "Prometheus exporter for Nvidia GPU's using nvidia-smi binary to gather metrics.",
-            "healthy": true,
-            "healthy_error": null,
-            "home": "https://truecharts.org/charts/incubator/nvidia-gpu-exporter",
-            "location": "/home/runner/_work/catalog/catalog/incubator/nvidia-gpu-exporter",
-            "latest_version": "0.0.1",
-            "latest_app_version": "1.2.0",
-            "latest_human_version": "1.2.0_0.0.1",
-            "last_update": "2024-05-29 12:35:14",
-            "name": "nvidia-gpu-exporter",
-            "recommended": false,
-            "title": "Nvidia-gpu-exporter",
-            "maintainers": [
-                {
-                    "name": "TrueCharts",
-                    "email": "info@truecharts.org",
-                    "url": "https://truecharts.org"
-                }
-            ],
-            "tags": [],
-            "screenshots": [],
-            "sources": [
-                "https://github.com/truecharts/charts/tree/master/charts/incubator/nvidia-gpu-exporter",
-                "https://github.com/utkuozdemir/nvidia_gpu_exporter",
-                "https://hub.docker.com/r/utkuozdemir/nvidia_gpu_exporter"
-            ],
-            "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/nvidia-gpu-exporter.png"
         },
         "peppermint": {
             "app_readme": "<p>An open source ticket management &amp; help desk solution.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/incubator/peppermint\">https://truecharts.org/charts/incubator/peppermint</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
@@ -496,73 +331,6 @@
                 "https://github.com/truecharts/charts/tree/master/charts/incubator/slskd"
             ],
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/slskd.webp"
-        },
-        "smartctl-exporter": {
-            "app_readme": "<p>Prometheus exporter for SMART using smartctl binary to gather metrics.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/incubator/smartctl-exporter\">https://truecharts.org/charts/incubator/smartctl-exporter</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
-            "categories": [
-                "metrics"
-            ],
-            "description": "Prometheus exporter for SMART using smartctl binary to gather metrics.",
-            "healthy": true,
-            "healthy_error": null,
-            "home": "https://truecharts.org/charts/incubator/smartctl-exporter",
-            "location": "/home/runner/_work/catalog/catalog/incubator/smartctl-exporter",
-            "latest_version": "0.0.1",
-            "latest_app_version": "0.11.0",
-            "latest_human_version": "0.11.0_0.0.1",
-            "last_update": "2024-05-29 12:35:14",
-            "name": "smartctl-exporter",
-            "recommended": false,
-            "title": "Smartctl-exporter",
-            "maintainers": [
-                {
-                    "name": "TrueCharts",
-                    "email": "info@truecharts.org",
-                    "url": "https://truecharts.org"
-                }
-            ],
-            "tags": [],
-            "screenshots": [],
-            "sources": [
-                "https://github.com/truecharts/charts/tree/master/charts/incubator/smartctl-exporter",
-                "https://github.com/prometheus-community/smartctl_exporter",
-                "https://hub.docker.com/r/prometheuscommunity/smartctl-exporter"
-            ],
-            "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/smartctl-exporter.png"
-        },
-        "speedtest-tracker": {
-            "app_readme": "<p>Speedtest Tracker is a self-hosted internet performance tracking application that runs speedtest checks against Ookla's Speedtest service.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/incubator/speedtest-tracker\">https://truecharts.org/charts/incubator/speedtest-tracker</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
-            "categories": [
-                "metrics"
-            ],
-            "description": "Speedtest Tracker is a self-hosted internet performance tracking application that runs speedtest checks against Ookla's Speedtest service.",
-            "healthy": true,
-            "healthy_error": null,
-            "home": "https://truecharts.org/charts/incubator/speedtest-tracker",
-            "location": "/home/runner/_work/catalog/catalog/incubator/speedtest-tracker",
-            "latest_version": "0.0.3",
-            "latest_app_version": "0.17.2",
-            "latest_human_version": "0.17.2_0.0.3",
-            "last_update": "2024-05-29 12:35:14",
-            "name": "speedtest-tracker",
-            "recommended": false,
-            "title": "Speedtest-tracker",
-            "maintainers": [
-                {
-                    "name": "TrueCharts",
-                    "email": "info@truecharts.org",
-                    "url": "https://truecharts.org"
-                }
-            ],
-            "tags": [],
-            "screenshots": [],
-            "sources": [
-                "https://github.com/alexjustesen/speedtest-tracker",
-                "https://github.com/linuxserver/docker-speedtest-tracker",
-                "https://github.com/truecharts/charts/tree/master/charts/incubator/speedtest-tracker",
-                "https://ghcr.io/linuxserver/speedtest-tracker"
-            ],
-            "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/speedtest-tracker.png"
         },
         "teslamate": {
             "app_readme": "<p>A self-hosted data logger for your Tesla</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/incubator/teslamate\">https://truecharts.org/charts/incubator/teslamate</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
