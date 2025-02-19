@@ -29,6 +29,12 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.02.19 @ 02:39 AM CET:
+		- Premium:
+			- traefik: v3.3.2 --> v3.3.3
+	- 2025.02.19 @ 02:35 AM CET:
+		- Stable:
+			- fluidd: v1.32.2 --> v1.32.3
 	- 2025.02.19 @ 01:36 AM CET:
 		- Premium:
 			- nextcloud: v30.0.5 --> v30.0.6
