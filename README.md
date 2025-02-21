@@ -29,6 +29,47 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.02.21 @ 08:21 PM CET:
+		- Stable:
+			- adguard-home: v0.107.56 --> v0.107.57
+			- audiobookshelf: v2.19.3 --> v2.19.4
+			- borg-server: v2.6.6 --> v2.6.7
+			- changedetection-io: v0.49.1 --> v0.49.2
+			- clickhouse: v25.1.4.53 --> v25.1.5.31
+			- cloudcommander: vlatest --> v18.5.1
+			- code-server: v4.96.4 --> v4.97.2
+			- collabora: v24.04.12.3.1 --> v24.04.12.4.1
+			- ctfd: v3.7.5 --> v3.7.6
+			- deconz: v2.29.1 --> v2.29.2
+			- fireflyiii: v6.1.25 --> v6.2.7
+			- gitea: v1.23.3 --> v1.23.4
+			- jackett: v0.22.1438 --> v0.22.1447
+			- jenkins: v2.497.0 --> v2.498.0
+			- joplin-server: v3.0.1 --> v3.3.2
+			- jupyter: v2025.2.18 --> v2025.2.21
+			- komga: v1.19.1 --> v1.20.0
+			- maintainerr: v2.9.0 --> v2.10.0
+			- memcached: v1.6.36 --> v1.6.37
+			- metube: v2025.2.7 --> v2025.2.20
+			- n8n: v1.80.0 --> v1.80.2
+			- navidrome: v0.54.4 --> v0.54.5
+			- netdata: v2.2.5 --> v2.2.6
+			- nocodb: v0.260.7 --> v0.262.0
+			- openhab: v4.3.2 --> v4.3.3
+			- oscam: v11868.0.0 --> v11869.0.0
+			- peanut: v5.3.0 --> v5.4.2
+			- pihole: v2024.07.0 --> v2025.02.3
+			- piwigo: v15.3.0 --> v15.4.0
+			- plextraktsync: v0.34.2 --> v0.34.3
+			- portainer: v2.26.1 --> v2.27.0
+			- protonmail-bridge: v3.16.0 --> v3.17.0
+			- shlink: v4.4.0 --> v4.4.4
+			- smtp-relay: v0.7.3 --> v0.7.4
+			- sourcegraph: v6.1.0 --> v6.1.376
+		- Incubator:
+			- docuseal: v1.9.1 --> v1.9.2
+		- Premium:
+			- grafana: v11.5.1 --> v11.5.2
 	- 2025.02.19 @ 02:39 AM CET:
 		- Premium:
 			- traefik: v3.3.2 --> v3.3.3

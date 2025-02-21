@@ -1,0 +1,36 @@
+image:
+  repository: "docker.io/gotson/komga"
+  tag: "1.20.0@sha256:90511b6c191d306ada2f75f5cfff2271979fadfc4c2feab9e0ce72cf8b46831a"
+  pullPolicy: "IfNotPresent"
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            SERVER_PORT: "{{ .Values.service.main.ports.main.port }}"
+          probes:
+            liveness:
+              port: "{{ .Values.service.main.ports.main.port }}"
+              path: /actuator/health
+            readiness:
+              port: "{{ .Values.service.main.ports.main.port }}"
+              path: /actuator/health
+            startup:
+              type: tcp
+              port: "{{ .Values.service.main.ports.main.port }}"
+service:
+  main:
+    ports:
+      main:
+        port: 10085
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
+  data:
+    enabled: true
+    mountPath: "/data"
+portal:
+  open:
+    enabled: true
