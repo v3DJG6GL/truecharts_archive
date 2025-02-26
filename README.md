@@ -29,6 +29,52 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.02.26 @ 10:58 PM CET:
+		- Stable:
+			- adguardhome-sync: v0.6.17 --> v0.7.1
+			- audiobookshelf: v2.19.4 --> v2.19.5
+			- authentik: v2024.12.3 --> v2025.2.0
+			- babybuddy: v2.7.0 --> v2.7.1
+			- changedetection-io: v0.49.2 --> v0.49.3
+			- docker: v27.5.1 --> v28.0.0
+			- esphome: v2024.12.4 --> v2025.2.0
+			- fireflyiii: v6.2.7 --> v6.2.9
+			- firefox: v134.0.2 --> v135.0.1
+			- flexget: v3.15.6 --> v3.15.11
+			- freshrss: v1.25.0 --> v1.26.0
+			- ghostfolio: v2.139.1 --> v2.140.0
+			- handbrake: v25.02.2 --> v25.02.3
+			- home-assistant: v2025.2.4 --> v2025.2.5
+			- immich: v1.126.1 --> v1.127.0
+			- jackett: v0.22.1447 --> v0.22.1459
+			- joplin-server: v3.3.2 --> v3.3.3
+			- jupyter: v2025.2.21 --> v2025.2.24
+			- linkding: v1.38.0 --> v1.38.1
+			- meshcentral: v1.1.38 --> v1.1.39
+			- minecraft-java: v2025.2.0 --> v2025.2.1
+			- miniflux: v2.2.5 --> v2.2.6
+			- mongodb: v8.0.4 --> v8.0.5
+			- n8n: v1.80.2 --> v1.80.3
+			- neko: v2.8.13 --> v2.9.0
+			- nzbget: v24.5.0 --> v24.6.0
+			- ollama: v0.5.11 --> v0.5.12
+			- pihole: v2025.02.3 --> v2025.02.6
+			- pocketmine-mp: v5.25.0 --> v5.25.1
+			- prowlarr: v1.31.1.4959 --> v1.31.2.4975
+			- qbitmanage: v4.1.17 --> v4.1.18
+			- qbitrr: v4.10.11 --> v4.10.12
+			- radarr: v5.18.4.9674 --> v5.19.3.9730
+			- rcon-webadmin: v0.14.1 --> vlatest
+			- sftpgo: v2.6.5 --> v2.6.6
+			- speedtest-tracker: v1.2.3 --> v1.2.5
+			- storj-node: v1.71.2 --> vlatest
+			- strapi: v4.25.11 --> v5.10.3
+			- tdarr: v2.32.01 --> v2.33.01
+			- tdarr-node: v2.32.01 --> v2.33.01
+			- unmanic: v0.2.7 --> v0.2.8
+			- wallos: v2.45.2 --> v2.46.0
+			- xen-orchestra: v5.170.0 --> v5.171.0
+			- xwiki: v17.0.0 --> v17.1.0
 	- 2025.02.21 @ 08:21 PM CET:
 		- Stable:
 			- adguard-home: v0.107.56 --> v0.107.57

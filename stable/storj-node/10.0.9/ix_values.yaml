@@ -1,0 +1,53 @@
+image:
+  repository: docker.io/storjlabs/storagenode
+  tag: latest@sha256:21ca0ac819d1d66240830d28097eeb693923e51383aa3bb07bf823f9fad1f6e9
+  pullPolicy: IfNotPresent
+service:
+  main:
+    ports:
+      main:
+        port: 14002
+        targetPort: 14002
+  coretcp:
+    enabled: true
+    ports:
+      coretcp:
+        enabled: true
+        protocol: tcp
+        port: 28967
+        targetPort: 28967
+  coreudp:
+    enabled: true
+    ports:
+      coreudp:
+        enabled: true
+        protocol: udp
+        port: 28967
+        targetPort: 28967
+persistence:
+  identity:
+    enabled: true
+    mountPath: "/app/identity"
+  storage:
+    enabled: true
+    mountPath: "/app/config"
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    runAsNonRoot: false
+    readOnlyRootFilesystem: false
+    runAsUser: 0
+    runAsGroup: 0
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            SETUP: true
+            EMAIL: ""
+            ADDRESS: ""
+            STORAGE: "500GB"
+            WALLET: "walletaddress"
