@@ -29,6 +29,70 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.03.03 @ 09:10 PM CET:
+		- Stable:
+			- actualserver: v25.2.1 --> v25.3.1
+			- authentik: v2025.2.0 --> v2025.2.1
+			- autobrr: v1.58.0 --> v1.59.0
+			- bitmagnet: v0.9.5 --> v0.10.0
+			- bookstack: v24.12.20241223 --> v25.02.20250226
+			- cloudflared: v2025.2.0 --> v2025.2.1
+			- docker: v28.0.0 --> v28.0.1
+			- emby: v4.9.0.38 --> v4.9.0.41
+			- esphome: v2025.2.0 --> v2025.2.1
+			- flexget: v3.15.11 --> v3.15.17
+			- flowise: v2.2.5 --> v2.2.6
+			- ghostfolio: v2.140.0 --> v2.143.0
+			- grocy: v4.4.1 --> v4.4.2
+			- hasty-paste: v1.10.0 --> v2.0.0
+			- homebridge: v2025.2.16 --> v2025.2.26
+			- homer: v25.02.1 --> v25.03.1
+			- immich: v1.127.0 --> v1.128.0
+			- ispy-agent-dvr: v6.1.8.0 --> v6.2.1.0
+			- jackett: v0.22.1459 --> v0.22.1468
+			- jenkins: v2.498.0 --> v2.499.0
+			- jupyter: v2025.2.24 --> v2025.3.3
+			- makemkv: v25.02.2 --> v25.02.3
+			- mariadb: v11.6.2 --> v11.7.2
+			- mealie: v2.6.0 --> v2.7.1
+			- meshcentral: v1.1.39 --> v1.1.40
+			- metabase: v0.53.3 --> v0.53.4
+			- misskey: v2025.2.0 --> v2025.2.1
+			- n8n: v1.80.3 --> v1.81.2
+			- nexus-oss: v3.77.1 --> v3.77.2
+			- nocodb: v0.262.0 --> v0.262.1
+			- onlyoffice-document-server: v8.3.0 --> v8.3.1
+			- openvscode-server: v1.96.4 --> v1.97.2
+			- oscam: v11869.0.0 --> v11871.0.0
+			- peanut: v5.4.2 --> v5.5.0
+			- pgadmin: v9.0.0 --> v9.1.0
+			- piaware: v9.0.0 --> v10.0.0
+			- pihole: v2025.02.6 --> v2025.02.7
+			- plextraktsync: v0.34.3 --> v0.34.4
+			- portainer: v2.27.0 --> v2.27.1
+			- qbitmanage: v4.1.18 --> v4.2.0
+			- qbitrr: v4.10.12 --> v4.10.13
+			- qinglong: v2.18.1 --> v2.18.2
+			- radicale: v3.4.1.0 --> v3.4.1.1
+			- readarr: v0.4.10.2734 --> v0.4.11.2747
+			- rstudio: v4.4.2 --> v4.4.3
+			- seafile: v12.0.9 --> v12.0.10
+			- shlink: v4.4.4 --> v4.4.5
+			- sourcegraph: v6.1.376 --> v6.1.1295
+			- splunk: v9.4.0 --> v9.4.1
+			- strapi: v5.10.3 --> v5.10.4
+			- tauticord: v5.12.0 --> v5.12.1
+			- tdarr: v2.33.01 --> v2.35.02
+			- tdarr-node: v2.33.01 --> v2.35.02
+			- tinymediamanager: v5.1.2 --> v5.1.3
+			- vocechat-server: v0.4.0 --> v0.4.1
+			- wekan: v7.81.0 --> v7.82.0
+			- xen-orchestra: v5.171.0 --> v5.173.0
+			- zigbee2mqtt: v2.1.1 --> v2.1.3
+			- zwavejs2mqtt: v9.30.1 --> v9.31.0
+		- System:
+			- snapshot-controller: v8.2.0 --> v8.2.1
+			- volsync: v0.11.0 --> v0.12.0
 	- 2025.02.26 @ 10:58 PM CET:
 		- Stable:
 			- adguardhome-sync: v0.6.17 --> v0.7.1
