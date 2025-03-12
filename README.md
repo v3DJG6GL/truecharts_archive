@@ -29,6 +29,21 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.03.12 @ 11:27 AM CET:
+		- Stable:
+			- automatic-ripping-machine: v2.10.5 --> v2.11.0
+			- ddns-go: v6.9.0 --> v6.9.1
+			- home-assistant: v2025.3.1 --> v2025.3.2
+			- ispy-agent-dvr: v6.2.6.0 --> v6.2.7.0
+			- komga: v1.21.1 --> v1.21.2
+			- metabase: v0.53.5 --> v0.53.6
+			- nocodb: v0.262.1 --> v0.262.2
+			- qbitrr: v4.10.15 --> v4.10.16
+			- redmine: v6.0.3 --> v6.0.4
+			- solr: v9.8.0 --> v9.8.1
+	- 2025.03.12 @ 11:25 AM CET:
+		- Stable:
+			- immich: v1.129.0 --> v1.129.0
 	- 2025.03.12 @ 09:59 AM CET:
 		- Stable:
 			- bookstack: v25.02.20250226 --> v25.02.20250309
