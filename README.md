@@ -29,6 +29,9 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.03.12 @ 11:42 AM CET:
+		- Stable:
+			- photoprism: v240915.0.0_1 --> v250228.0.0
 	- 2025.03.12 @ 11:27 AM CET:
 		- Stable:
 			- automatic-ripping-machine: v2.10.5 --> v2.11.0
