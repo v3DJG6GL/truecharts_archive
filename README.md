@@ -29,6 +29,72 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.03.12 @ 09:59 AM CET:
+		- Stable:
+			- bookstack: v25.02.20250226 --> v25.02.20250309
+			- clickhouse: v25.1.5.31 --> v25.2.1.3085
+			- code-server: v4.97.2 --> v4.98.0
+			- collabora: v24.04.12.4.1 --> v24.04.13.1.1
+			- cops: v3.5.4 --> v3.5.7
+			- czkawka: v25.02.1 --> v25.03.1
+			- ddns-go: v6.8.1 --> v6.9.0
+			- drawio: v26.0.9 --> v26.1.0
+			- esphome: v2025.2.1 --> v2025.2.2
+			- flexget: v3.15.17 --> v3.15.22
+			- flowise: v2.2.6 --> v2.2.7
+			- fluidd: v1.32.3 --> v1.32.6
+			- frigate: v0.14.1 --> v0.15.0
+			- ghostfolio: v2.143.0 --> v2.145.1
+			- gitea: v1.23.4 --> v1.23.5
+			- home-assistant: v2025.2.5 --> v2025.3.1
+			- homebox: v0.17.2 --> v0.18.0
+			- homer: v25.03.1 --> v25.03.2
+			- immich: v1.128.0 --> v1.129.0
+			- ispy-agent-dvr: v6.2.1.0 --> v6.2.6.0
+			- jackett: v0.22.1468 --> v0.22.1576
+			- jellyseerr: v2.3.0 --> v2.5.0
+			- jenkins: v2.499.0 --> v2.501.0
+			- joplin-server: v3.3.3 --> v3.3.4
+			- jupyter: v2025.3.3 --> v2025.3.10
+			- kavita: v0.8.4 --> v0.8.5
+			- komga: v1.20.0 --> v1.21.1
+			- linkding: v1.38.1 --> v1.39.1
+			- maintainerr: v2.10.0 --> v2.11.0
+			- meshcentral: v1.1.40 --> v1.1.42
+			- metabase: v0.53.4 --> v0.53.5
+			- metube: v2025.2.20 --> v2025.3.7
+			- minecraft-java: v2025.2.1 --> v2025.3.0
+			- misskey: v2025.2.1 --> v2025.3.1
+			- mosquitto: v2.0.20 --> v2.0.21
+			- mylar: v0.8.1 --> v0.8.2
+			- n8n: v1.81.2 --> v1.82.1
+			- navidrome: v0.54.5 --> v0.55.0
+			- nexus-oss: v3.77.2 --> v3.78.1
+			- nzbget: v24.6.0 --> v24.7.0
+			- ollama: v0.5.12 --> v0.6.0
+			- openvscode-server: v1.97.2 --> v1.98.0
+			- peanut: v5.5.0 --> v5.6.0
+			- pihole: v2025.02.7 --> v2025.03.0
+			- plex: v1.41.4.9463 --> v1.41.5.9522
+			- plextraktsync: v0.34.4 --> v0.34.5
+			- pocketmine-mp: v5.25.1 --> v5.25.2
+			- protonmail-bridge: v3.17.0 --> v3.18.0
+			- prowlarr: v1.31.2.4975 --> v1.32.1.4983
+			- qbitrr: v4.10.13 --> v4.10.15
+			- rdtclient: v2.0.97 --> v2.0.102
+			- readarr: v0.4.11.2747 --> v0.4.12.2753
+			- resilio-sync: v3.0.0 --> v3.0.3
+			- romm: v3.7.0 --> v3.8.0
+			- sourcegraph: v6.1.1295 --> v6.1.2889
+			- strapi: v5.10.4 --> v5.11.0
+			- tailscale: v1.80.0 --> v1.80.3
+			- tandoor-recipes: v1.5.31 --> v1.5.32
+			- tinymediamanager: v5.1.3 --> v5.1.4
+			- wallos: v2.46.0 --> v2.46.1
+			- wekan: v7.82.0 --> v7.83.0
+			- whisparr: v3.0.0.786 --> v3.0.0.828
+			- xen-orchestra: v5.173.0 --> v5.174.0
+			- zwavejs2mqtt: v9.31.0 --> v9.32.0
 	- 2025.03.03 @ 09:10 PM CET:
 		- Stable:
 			- actualserver: v25.2.1 --> v25.3.1

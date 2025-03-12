@@ -1,0 +1,56 @@
+image:
+  repository: "docker.io/collabora/code"
+  pullPolicy: "IfNotPresent"
+  tag: "24.04.13.1.1@sha256:0398c25fa8e787d6a4480ef30ffac5a9e13943945e8c2484b331c53855bb928f"
+collabora:
+  username: admin
+  password: changeme
+  interface: default
+  dictionaries:
+  - de_DE
+  - en_GB
+  - en_US
+  - el_GR
+  - es_ES
+  - fr_FR
+  - pt_BR
+  - pt_PT
+  - it
+  - nl
+  - ru
+  server_name: example.com
+  aliasgroup1: https://cloud.example.com
+  ssl_enable: false
+  ssl_termination: true
+  no_gen_ssl: true
+  extra_params:
+  - --o:welcome.enable=false
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          envFrom:
+          - configMapRef:
+              name: collabora-config
+          securityContext:
+            runAsUser: 100
+            runAsGroup: 102
+            readOnlyRootFilesystem: false
+            allowPrivilegeEscalation: true
+            capabilities:
+              add:
+              - CHOWN
+              - FOWNER
+              - SYS_CHROOT
+              - MKNOD
+service:
+  main:
+    ports:
+      main:
+        protocol: http
+        targetPort: 9980
+        port: 9980
+portal:
+  open:
+    enabled: true
