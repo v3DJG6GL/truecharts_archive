@@ -27,6 +27,23 @@ workload:
             startup:
               type: http
               path: "/api/health"
+          env:
+            # Update the following secrets with your own values
+            AUTHELIA_SESSION_SECRET: some-secret-replace-me
+            AUTHELIA_IDENTITY_VALIDATION_RESET_PASSWORD_JWT_SECRET: some-secret-replace-me
+            AUTHELIA_STORAGE_ENCRYPTION_KEY: some-secret-replace-me
+            # Don't change the following envs
+            X_AUTHELIA_CONFIG: "{{ .Values.persistence.configfile.mountPath }}"
+            AUTHELIA_SERVER_DISABLE_HEALTHCHECK: "true"
+            AUTHELIA_SERVER_ADDRESS: "tcp://:{{ .Values.service.main.ports.main.port }}/"
+            AUTHELIA_STORAGE_POSTGRES_ADDRESS: "tcp://{{ .Values.cnpg.main.creds.host }}:{{ .Values.cnpg.main.creds.port }}"
+            AUTHELIA_STORAGE_POSTGRES_DATABASE: "{{ .Values.cnpg.main.database }}"
+            AUTHELIA_STORAGE_POSTGRES_USERNAME: "{{ .Values.cnpg.main.user }}"
+            AUTHELIA_STORAGE_POSTGRES_PASSWORD: '{{ .Values.cnpg.main.creds.password | trimAll "\"" }}'
+            AUTHELIA_SESSION_REDIS_HOST: '{{ .Values.redis.creds.plain | trimAll "\"" }}'
+            AUTHELIA_SESSION_REDIS_PORT: "{{ .Values.redis.service.main.ports.main.port }}"
+            AUTHELIA_SESSION_REDIS_DATABASE_INDEX: "0"
+            AUTHELIA_SESSION_REDIS_PASSWORD: '{{ .Values.redis.creds.redisPassword | trimAll "\"" }}'
 service:
   main:
     ports:
@@ -372,6 +389,9 @@ session:
   ## Longer periods are considered less secure because a stolen cookie will last longer giving attackers more time to
   ## spy or attack. Currently the default is 1M or 1 month.
   remember_me_duration: 1M
+  redis:
+    host: redis
+    port: 6379
 ##
 ## Redis Provider
 ##
