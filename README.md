@@ -29,6 +29,9 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.03.19 @ 08:01 PM CET:
+		- Stable:
+			- netdata: v2.2.6 --> v2.3.0
 	- 2025.03.19 @ 07:21 PM CET:
 		- Premium:
 			- authelia: v4.39.1_3 --> v4.39.1
