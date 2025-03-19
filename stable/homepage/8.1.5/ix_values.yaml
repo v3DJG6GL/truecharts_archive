@@ -11,7 +11,7 @@ workload:
         main:
           env:
             # Set this to your host (example: home.mydomain.com)
-            HOMEPAGE_ALLOWED_HOSTS: "{{ $.Values.chartContext.appUrl }}"
+            HOMEPAGE_ALLOWED_HOSTS: "https://{{ $.Values.chartContext.appUrl }}"
       initContainers:
         init-config:
           enabled: true
