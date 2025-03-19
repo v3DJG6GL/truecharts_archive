@@ -1,0 +1,23 @@
+image:
+  repository: "docker.io/ixsystems/truecommand"
+  pullPolicy: "IfNotPresent"
+  tag: "3.1.0@sha256:59022b7f39ef3d0f6a2f9ac727ee9ce1abb29817bca8c67abd9ab5e58082d481"
+service:
+  main:
+    ports:
+      main:
+        port: 10031
+        targetPort: 80
+persistence:
+  data:
+    enabled: true
+    mountPath: "/data"
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsNonRoot: false
+    runAsUser: 0
+    runAsGroup: 0

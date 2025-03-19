@@ -29,6 +29,62 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.03.19 @ 05:05 PM CET:
+		- Stable:
+			- adguardhome-sync: v0.7.1 --> v0.7.2
+			- audiobookshelf: v2.19.5 --> v2.20.0
+			- authentik: v2025.2.1 --> v2025.2.2
+			- autobrr: v1.59.0 --> v1.60.0
+			- borg-server: v2.6.7 --> v2.6.8
+			- changedetection-io: v0.49.3 --> v0.49.4
+			- clickhouse: v25.2.1.3085 --> v25.2.2.39
+			- code-server: v4.98.0 --> v4.98.2
+			- collabora: v24.04.13.1.1 --> v24.04.13.2.1
+			- drawio: v26.1.0 --> v26.1.1
+			- emby: v4.9.0.41 --> v4.9.0.42
+			- external-dns: v0.15.1 --> v0.16.1
+			- firefox: v135.0.1 --> v136.0.2
+			- flexget: v3.15.22 --> v3.15.26
+			- fluidd: v1.32.6 --> v1.33.0
+			- freshrss: v1.26.0 --> v1.26.1
+			- gaseous-server: v1.7.10 --> v1.7.11
+			- ghostfolio: v2.145.1 --> v2.146.0
+			- home-assistant: v2025.3.2 --> v2025.3.3
+			- homepage: v0.10.9 --> v1.0.4
+			- homer: v25.03.2 --> v25.03.3
+			- jackett: v0.22.1576 --> v0.22.1665
+			- jellyseerr: v2.5.0 --> v2.5.1
+			- jenkins: v2.501.0 --> v2.502.0
+			- jupyter: v2025.3.10 --> v2025.3.17
+			- matomo: v5.2.2 --> v5.3.1
+			- mealie: v2.7.1 --> v2.8.0
+			- metabase: v0.53.6 --> v0.53.7
+			- n8n: v1.82.1 --> v1.84.1
+			- navidrome: v0.55.0 --> v0.55.1
+			- nexus-oss: v3.78.1 --> v3.78.2
+			- nzbget: v24.7.0 --> v24.8.0
+			- ollama: v0.6.0 --> v0.6.2
+			- oscam: v11871.0.0 --> v11874.0.0
+			- papermerge: v3.3.1 --> v3.4.1
+			- piwigo: v15.4.0 --> v15.5.0
+			- prowlarr: v1.32.1.4983 --> v1.32.2.4987
+			- qbitmanage: v4.2.0 --> v4.2.1
+			- qbitrr: v4.10.16 --> v4.10.20
+			- qinglong: v2.18.2 --> v2.18.3
+			- radarr: v5.19.3.9730 --> v5.20.1.9773
+			- radicale: v3.4.1.1 --> v3.5.0.1
+			- servas: v0.4.1 --> v0.5.0
+			- sonarr: v4.0.13.2932 --> v4.0.14.2938
+			- sourcegraph: v6.1.2889 --> v6.1.4020
+			- speedtest-tracker: v1.2.5 --> v1.3.0
+			- strapi: v5.11.0 --> v5.11.2
+			- syncthing: v1.29.2 --> v1.29.3
+			- tandoor-recipes: v1.5.32 --> v1.5.33
+			- truecommand: v3.0.2 --> v3.1.0
+			- vocechat-server: v0.4.1 --> v0.4.2
+			- webgrabplus: v5.3.0 --> v5.3.1
+			- whisparr: v3.0.0.828 --> v3.0.0.877
+			- zwavejs2mqtt: v9.32.0 --> v9.33.1
 	- 2025.03.12 @ 11:42 AM CET:
 		- Stable:
 			- photoprism: v240915.0.0_1 --> v250228.0.0
