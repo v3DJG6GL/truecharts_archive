@@ -1,7 +1,7 @@
 image:
-  repository: "ghcr.io/gethomepage/homepage"
-  tag: "v1.0.4@sha256:78a34acb9ca1e63eecf12919fc9fb6c91f5dea748395172d7c1904db4c5bc973"
-  pullPolicy: "IfNotPresent"
+  repository: ghcr.io/gethomepage/homepage
+  tag: v1.0.4@sha256:78a34acb9ca1e63eecf12919fc9fb6c91f5dea748395172d7c1904db4c5bc973
+  pullPolicy: IfNotPresent
 
 workload:
   main:
@@ -12,45 +12,46 @@ workload:
           env:
             # Set this to your host (example: home.mydomain.com)
             HOMEPAGE_ALLOWED_HOSTS: "localhost"
+      initContainers:
         init-config:
           enabled: true
           type: init
           imageSelector: alpineImage
           command:
-          - /bin/sh
-          - -c
-          - |
-            mkdir -p /app/config
-            if [ ! -f /app/config/bookmarks.yaml ]; then
-              echo "Bookmarks file not found, copying dummy..."
-              cp /dummy-config/bookmarks.yaml /app/config/bookmarks.yaml
-              echo "Config file copied, you can now edit it at /app/config/bookmarks.yaml"
-            fi
-            if [ ! -f /app/config/services.yaml ]; then
-              echo "services file not found, copying dummy..."
-              cp /dummy-config/services.yaml /app/config/services.yaml
-              echo "Config file copied, you can now edit it at /app/config/services.yaml"
-            fi
-            if [ ! -f /app/config/settings.yaml ]; then
-              echo "settings file not found, copying dummy..."
-              cp /dummy-config/settings.yaml /app/config/settings.yaml
-              echo "Config file copied, you can now edit it at /app/config/settings.yaml"
-            fi
-            if [ ! -f /app/config/widgets.yaml ]; then
-              echo "widgets file not found, copying dummy..."
-              cp /dummy-config/widgets.yaml /app/config/widgets.yaml
-              echo "Config file copied, you can now edit it at /app/config/widgets.yaml"
-            fi
-            if [ ! -f /app/config/custom.css ]; then
-              echo "custom.css file not found, copying dummy..."
-              cp /dummy-config/custom.css /app/config/custom.css
-              echo "Config file copied, you can now edit it at /app/config/custom.css"
-            fi
-            if [ ! -f /app/config/custom.js ]; then
-              echo "custom.js file not found, copying dummy..."
-              cp /dummy-config/custom.js /app/config/custom.js
-              echo "Config file copied, you can now edit it at /app/config/custom.js"
-            fi
+            - /bin/sh
+            - -c
+            - |
+              mkdir -p /app/config
+              if [ ! -f /app/config/bookmarks.yaml ]; then
+                echo "Bookmarks file not found, copying dummy..."
+                cp /dummy-config/bookmarks.yaml /app/config/bookmarks.yaml
+                echo "Config file copied, you can now edit it at /app/config/bookmarks.yaml"
+              fi
+              if [ ! -f /app/config/services.yaml ]; then
+                echo "services file not found, copying dummy..."
+                cp /dummy-config/services.yaml /app/config/services.yaml
+                echo "Config file copied, you can now edit it at /app/config/services.yaml"
+              fi
+              if [ ! -f /app/config/settings.yaml ]; then
+                echo "settings file not found, copying dummy..."
+                cp /dummy-config/settings.yaml /app/config/settings.yaml
+                echo "Config file copied, you can now edit it at /app/config/settings.yaml"
+              fi
+              if [ ! -f /app/config/widgets.yaml ]; then
+                echo "widgets file not found, copying dummy..."
+                cp /dummy-config/widgets.yaml /app/config/widgets.yaml
+                echo "Config file copied, you can now edit it at /app/config/widgets.yaml"
+              fi
+              if [ ! -f /app/config/custom.css ]; then
+                echo "custom.css file not found, copying dummy..."
+                cp /dummy-config/custom.css /app/config/custom.css
+                echo "Config file copied, you can now edit it at /app/config/custom.css"
+              fi
+              if [ ! -f /app/config/custom.js ]; then
+                echo "custom.js file not found, copying dummy..."
+                cp /dummy-config/custom.js /app/config/custom.js
+                echo "Config file copied, you can now edit it at /app/config/custom.js"
+              fi
 service:
   main:
     ports:
@@ -199,8 +200,8 @@ serviceAccount:
 podOptions:
   dnsConfig:
     options:
-    - name: ndots
-      value: "3"
+      - name: ndots
+        value: "3"
 
 configmap:
   config:
@@ -301,42 +302,42 @@ rbac:
     primary: true
     clusterWide: true
     rules:
-    - apiGroups:
-      - ""
-      resources:
-      - namespaces
-      - pods
-      - nodes
-      verbs:
-      - get
-      - list
-    - apiGroups:
-      - extensions
-      - networking.k8s.io
-      resources:
-      - ingresses
-      verbs:
-      - get
-      - list
-    - apiGroups:
-      - traefik.containo.us
-      - traefik.io
-      resources:
-      - ingressroutes
-      verbs:
-      - get
-      - list
-    - apiGroups:
-      - metrics.k8s.io
-      resources:
-      - nodes
-      - pods
-      verbs:
-      - get
-      - list
-    - apiGroups:
-      - apiextensions.k8s.io
-      resources:
-      - customresourcedefinitions/status
-      verbs:
-      - get
+      - apiGroups:
+          - ""
+        resources:
+          - namespaces
+          - pods
+          - nodes
+        verbs:
+          - get
+          - list
+      - apiGroups:
+          - extensions
+          - networking.k8s.io
+        resources:
+          - ingresses
+        verbs:
+          - get
+          - list
+      - apiGroups:
+          - traefik.containo.us
+          - traefik.io
+        resources:
+          - ingressroutes
+        verbs:
+          - get
+          - list
+      - apiGroups:
+          - metrics.k8s.io
+        resources:
+          - nodes
+          - pods
+        verbs:
+          - get
+          - list
+      - apiGroups:
+          - apiextensions.k8s.io
+        resources:
+          - customresourcedefinitions/status
+        verbs:
+          - get
