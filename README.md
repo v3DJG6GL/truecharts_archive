@@ -29,6 +29,9 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.03.20 @ 04:44 PM CET:
+		- Stable:
+			- homepage: v0.10.9 --> v1.0.4
 	- 2025.03.20 @ 04:36 PM CET:
 		- Stable:
 			- jackett: v0.22.1665 --> v0.22.1669
