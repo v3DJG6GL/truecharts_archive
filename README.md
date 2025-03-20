@@ -29,6 +29,15 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.03.20 @ 12:55 PM CET:
+		- Stable:
+			- homepage: v0.10.9 --> v1.0.4
+			- memcached: v1.6.37 --> v1.6.38
+			- oscam: v11874.0.0 --> v11876.0.0
+			- radarr: v5.20.1.9773 --> v5.20.2.9777
+			- strapi: v5.11.2 --> v5.11.3
+			- theme-park: v1.18.0 --> v1.20.0
+			- wallos: v2.46.1 --> v2.47.1
 	- 2025.03.19 @ 10:38 PM CET:
 		- Stable:
 			- homepage: v1.0.4_10 --> v1.0.4_12
