@@ -29,6 +29,18 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.03.28 @ 11:47 PM CET:
+		- Stable:
+			- authentik: v2025.2.2 --> v2025.2.3
+			- baserow: v1.32.3 --> v1.32.5
+			- calibre: v8.1.0 --> v8.1.1
+			- firefox: v136.0.2 --> v136.0.4
+			- jackett: v0.22.1699 --> v0.22.1702
+			- jupyter: v2025.3.27 --> v2025.3.28
+			- portainer: v2.27.3 --> v2.28.1
+			- slskd: v0.22.2_04 --> v0.22.2
+		- Premium:
+			- grafana: v11.5.2 --> v11.6.0
 	- 2025.03.28 @ 08:33 PM CET:
 		- Stable:
 			- slskd: v0.22.2 --> v0.22.2_04
