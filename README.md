@@ -29,6 +29,68 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.03.28 @ 12:22 PM CET:
+		- Stable:
+			- adguard-home: v0.107.57 --> v0.107.59
+			- automatic-ripping-machine: v2.11.0 --> v2.12.0
+			- baserow: v1.31.1 --> v1.32.3
+			- calibre: v7.26.0 --> v8.1.0
+			- changedetection-io: v0.49.4 --> v0.49.9
+			- clickhouse: v25.2.2.39 --> v25.3.2.39
+			- dashdot: v5.9.0 --> v5.9.2
+			- digikam: v8.5.0 --> v8.6.0
+			- docker: v28.0.1 --> v28.0.4
+			- esphome: v2025.2.2 --> v2025.3.2
+			- fireflyiii: v6.2.9 --> v6.2.10
+			- flexget: v3.15.26 --> v3.15.29
+			- ghostfolio: v2.146.0 --> v2.148.0
+			- gitea: v1.23.5 --> v1.23.6
+			- home-assistant: v2025.3.3 --> v2025.3.4
+			- homepage: v1.0.4 --> v1.1.1
+			- humhub: v1.16.2 --> v1.17.1
+			- immich: v1.129.0 --> v1.130.3
+			- ipfs: v0.33.2 --> v0.34.1
+			- jackett: v0.22.1669 --> v0.22.1699
+			- jenkins: v2.502.0 --> v2.503.0
+			- jupyter: v2025.3.20 --> v2025.3.27
+			- kanboard: v1.2.43 --> v1.2.44
+			- lidarr: v2.9.6.4552 --> v2.10.3.4602
+			- maintainerr: v2.11.0 --> v2.12.0
+			- meshcentral: v1.1.42 --> v1.1.43
+			- metabase: v0.53.7 --> v0.53.8
+			- metube: v2025.3.7 --> v2025.3.28
+			- mkvtoolnix: v25.02.1 --> v25.03.1
+			- mongodb: v8.0.5 --> v8.0.6
+			- n8n: v1.84.1 --> v1.85.4
+			- netdata: v2.3.0 --> v2.3.1
+			- nocodb: v0.262.2 --> v0.262.5
+			- ollama: v0.6.2 --> v0.6.3
+			- onlyoffice-document-server: v8.3.1 --> v8.3.2
+			- oscam: v11876.0.0 --> v11878.0.0
+			- overseerr: v1.33.2 --> v1.34.0
+			- photoprism: v250228.0.0 --> v250321.0.0
+			- pocketmine-mp: v5.25.2 --> v5.27.0
+			- portainer: v2.27.1 --> v2.27.3
+			- prowlarr: v1.32.2.4987 --> v1.33.0.4994
+			- radarr: v5.20.2.9777 --> v5.21.1.9799
+			- seafile: v12.0.10 --> v12.0.11
+			- servas: v0.5.0 --> v0.5.1
+			- shlink: v4.4.5 --> v4.4.6
+			- soft-serve: v0.8.2 --> v0.8.5
+			- sourcegraph: v6.1.4020 --> v6.1.5633
+			- stash: v0.27.2 --> v0.28.1
+			- tandoor-recipes: v1.5.33 --> v1.5.34
+			- tdarr: v2.35.02 --> v2.36.01
+			- tdarr-node: v2.35.02 --> v2.36.01
+			- twofauth: v5.4.3 --> v5.5.0
+			- wallos: v2.48.0 --> v2.48.1
+			- watchyourlan: v2.0.4 --> v2.1.1
+			- wekan: v7.83.0 --> v7.84.0
+			- whisparr: v3.0.0.877 --> v3.0.0.909
+			- wikijs: v2.5.306 --> v2.5.307
+			- zwavejs2mqtt: v9.33.1 --> v10.1.3
+		- System:
+			- volsync: v0.12.0 --> v0.12.1
 	- 2025.03.26 @ 01:28 PM CET:
 		- Premium:
 			- nextcloud: v31.0.2_03 --> v31.0.2_04

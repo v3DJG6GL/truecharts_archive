@@ -1,0 +1,59 @@
+image:
+  repository: "docker.io/aceberg/watchyourlan"
+  tag: "2.1.1@sha256:e58b3fc660ea6418c2e58a39796108f0f6713b1257fa55b2e63c9ca5efc06cb8"
+  pullPolicy: "IfNotPresent"
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsNonRoot: false
+    runAsGroup: 0
+    runAsUser: 0
+    capabilities:
+      add:
+      - NET_RAW
+podOptions:
+  hostNetwork: true
+watchyourlan:
+  gui_ip: "0.0.0.0"
+  interfaces:
+  - enp1s0
+  theme: darkly
+  timeout: 300
+  shoutrrr_url: ""
+service:
+  main:
+    ports:
+      main:
+        port: 10355
+        protocol: http
+persistence:
+  data:
+    enabled: true
+    mountPath: "/data"
+portal:
+  open:
+    enabled: true
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              type: http
+              path: /
+            readiness:
+              type: http
+              path: /
+            startup:
+              type: http
+              path: /
+          env:
+            GUIPORT: "{{ .Values.service.main.ports.main.port }}"
+            DBPATH: /data/db.sqlite
+            # User Defined
+            GUIIP: "{{ .Values.watchyourlan.gui_ip }}"
+            IFACE: '{{ join " " .Values.watchyourlan.interfaces }}'
+            THEME: "{{ .Values.watchyourlan.theme }}"
+            TIMEOUT: "{{ .Values.watchyourlan.timeout }}"
+            SHOUTRRR_URL: "{{ .Values.watchyourlan.shoutrrr_url }}"
