@@ -331,6 +331,21 @@ questions:
                                           required: true
                                           private: true
                                           default: ""
+                                      - variable: SLSKD_USERNAME
+                                        label: slskd Web UI Username
+                                        description: slskd web UI username
+                                        schema:
+                                          type: string
+                                          required: true
+                                          default: "admin"
+                                      - variable: SLSKD_PASSWORD
+                                        label: slskd Web UI Password
+                                        description: slskd web UI password
+                                        schema:
+                                          type: string
+                                          required: true
+                                          private: true
+                                          default: "admin123"
 
                                 - variable: envList
                                   label: Extra Environment Variables

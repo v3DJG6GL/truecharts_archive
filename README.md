@@ -29,6 +29,9 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.03.28 @ 04:24 PM CET:
+		- Stable:
+			- slskd: v0.22.2_03 --> v0.22.2
 	- 2025.03.28 @ 03:45 PM CET:
 		- Stable:
 			- slskd: v0.22.2 --> v0.22.2_03
