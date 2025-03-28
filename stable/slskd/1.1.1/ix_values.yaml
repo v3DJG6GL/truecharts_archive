@@ -24,8 +24,8 @@ workload:
             # listens on any interface
             SLSKD_SLSK_LISTEN_IP_ADDRESS: 0.0.0.0
             # sets the port internally
-            SLSKD_SLSK_LISTEN_PORT: "{{ .Values.service.main.ports.main.port }}"
-            SLSKD_HTTP_PORT: "{{ .Values.service.main.ports.main.port }}"
+            SLSKD_SLSK_LISTEN_PORT: "{{ .Values.service.main.ports.main.listenPort }}"
+            SLSKD_HTTP_PORT: "{{ .Values.service.main.ports.main.httpPort }}"
             APP_DIR: "{{.Values.persistence.data.mountPath }}"
             SLSKD_SHARED_DIR: "{{.Values.persistence.share.mountPath }}"
             SLSKD_DOWNLOADS_DIR: "{{ .Values.persistence.complete.mountPath }}"

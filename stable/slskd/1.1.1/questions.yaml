@@ -565,12 +565,19 @@ questions:
                         additional_attrs: true
                         type: dict
                         attrs:
-                          - variable: port
-                            label: "Port"
-                            description: "This port exposes the container port on the service"
+                          - variable: httpPort
+                            label: "HTTP Port"
+                            description: "The HTTP port for the slskd web UI (defaults 500)"
                             schema:
                               type: int
                               default: 5030
+                              required: true
+                          - variable: listenPort
+                            label: "Listen Port"
+                            description: "The port for incoming connections from the Soulseek network (default 50300)"
+                            schema:
+                              type: int
+                              default: 50300
                               required: true
   - variable: scaleExternalInterface
     description: 'Add External Interfaces (Experimental, might change or be removed without further notice)'
