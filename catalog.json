@@ -299,39 +299,6 @@
             ],
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/semaphore.webp"
         },
-        "slskd": {
-            "app_readme": "<p>Slskd is a modern client-server application for the Soulseek file sharing network.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/incubator/slskd\">https://truecharts.org/charts/incubator/slskd</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
-            "categories": [
-                "media"
-            ],
-            "description": "Slskd is a modern client-server application for the Soulseek file sharing network.",
-            "healthy": true,
-            "healthy_error": null,
-            "home": "https://truecharts.org/charts/incubator/slskd",
-            "location": "/home/runner/_work/catalog/catalog/incubator/slskd",
-            "latest_version": "1.0.7",
-            "latest_app_version": "0.22.2",
-            "latest_human_version": "0.22.2_1.0.7",
-            "last_update": "2025-02-11 10:02:02",
-            "name": "slskd",
-            "recommended": false,
-            "title": "Slskd",
-            "maintainers": [
-                {
-                    "name": "TrueCharts",
-                    "email": "info@truecharts.org",
-                    "url": "https://truecharts.org"
-                }
-            ],
-            "tags": [],
-            "screenshots": [],
-            "sources": [
-                "https://ghcr.io/slskd/slskd",
-                "https://github.com/ansible-slskd/slskd",
-                "https://github.com/truecharts/charts/tree/master/charts/incubator/slskd"
-            ],
-            "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/slskd.webp"
-        },
         "teslamate": {
             "app_readme": "<p>A self-hosted data logger for your Tesla</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/incubator/teslamate\">https://truecharts.org/charts/incubator/teslamate</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
             "categories": [
@@ -20345,6 +20312,39 @@
                 "https://hub.docker.com/r/anirdev/slink"
             ],
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/slink.webp"
+        },
+        "slskd": {
+            "app_readme": "<p>Slskd is a modern client-server application for the Soulseek file sharing network.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/incubator/slskd\">https://truecharts.org/charts/incubator/slskd</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+            "categories": [
+                "media"
+            ],
+            "description": "Slskd is a modern client-server application for the Soulseek file sharing network.",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://truecharts.org/charts/stable/slskd",
+            "location": "/home/runner/_work/catalog/catalog/stable/slskd",
+            "latest_version": "1.0.7",
+            "latest_app_version": "0.22.2",
+            "latest_human_version": "0.22.2_1.0.7",
+            "last_update": "2025-02-11 10:02:02",
+            "name": "slskd",
+            "recommended": false,
+            "title": "Slskd",
+            "maintainers": [
+                {
+                    "name": "TrueCharts",
+                    "email": "info@truecharts.org",
+                    "url": "https://truecharts.org"
+                }
+            ],
+            "tags": [],
+            "screenshots": [],
+            "sources": [
+                "https://ghcr.io/slskd/slskd",
+                "https://github.com/ansible-slskd/slskd",
+                "https://github.com/truecharts/charts/tree/master/charts/incubator/slskd"
+            ],
+            "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/slskd.webp"
         },
         "smartctl-exporter": {
             "app_readme": "<p>Prometheus exporter for SMART using smartctl binary to gather metrics.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/smartctl-exporter\">https://truecharts.org/charts/stable/smartctl-exporter</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
