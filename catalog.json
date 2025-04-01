@@ -11783,6 +11783,40 @@
             ],
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/lidarr.webp"
         },
+        "lidarr-plugins": {
+            "app_readme": "<p>Looks and smells like Sonarr but made for music</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/lidarr\">https://truecharts.org/charts/stable/lidarr</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+            "categories": [
+                "media"
+            ],
+            "description": "Looks and smells like Sonarr but made for music",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://truecharts.org/charts/stable/lidarr",
+            "location": "/home/runner/_work/catalog/catalog/stable/lidarr",
+            "latest_version": "0.0.1",
+            "latest_app_version": "2.11.0.4606 ",
+            "latest_human_version": "2.11.0.4606 _0.0.1",
+            "last_update": "2025-03-28 12:22:41",
+            "name": "lidarr",
+            "recommended": false,
+            "title": "Lidarr",
+            "maintainers": [
+                {
+                    "name": "TrueCharts",
+                    "email": "info@truecharts.org",
+                    "url": "https://truecharts.org"
+                }
+            ],
+            "tags": [],
+            "screenshots": [],
+            "sources": [
+                "https://ghcr.io/onedr0p/exportarr",
+                "https://ghcr.io/onedr0p/lidarr-develop",
+                "https://github.com/Lidarr/Lidarr",
+                "https://github.com/truecharts/charts/tree/master/charts/stable/lidarr"
+            ],
+            "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/lidarr.webp"
+        },
         "lingva": {
             "app_readme": "<p>Alternative front-end for Google Translate, serving as a Free and Open Source translator with over a hundred languages available</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/lingva\">https://truecharts.org/charts/stable/lingva</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
             "categories": [
