@@ -29,6 +29,34 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.04.01 @ 11:16 PM CEST:
+		- Stable:
+			- automatic-ripping-machine: v2.12.0 --> v2.12.1
+			- emby: v4.9.0.42 --> v4.9.0.43
+			- flexget: v3.15.29 --> v3.15.30
+			- ghostfolio: v2.148.0 --> v2.149.0
+			- grocy: v4.4.2 --> v4.5.0
+			- immich: v1.130.3 --> v1.131.2
+			- jackett: v0.22.1702 --> v0.22.1714
+			- joplin-server: v3.3.4 --> v3.3.13
+			- jupyter: v2025.3.28 --> v2025.4.1
+			- muse: v2.10.1 --> v2.11.0
+			- openhab: v4.3.3 --> v4.3.4
+			- openvscode-server: v1.98.0 --> v1.98.2
+			- peanut: v5.6.0 --> v5.6.1
+			- pihole: v2025.03.0 --> v2025.03.1
+			- prowlarr: v1.33.0.4994 --> v1.33.1.4997
+			- radarr: v5.21.1.9799 --> v5.22.0.9808
+			- readarr: v0.4.12.2753 --> v0.4.13.2760
+			- sabnzbd: v4.4.1 --> v4.5.0
+			- strapi: v5.11.3 --> v5.12.1
+			- tdarr: v2.36.01 --> v2.37.01
+			- tdarr-node: v2.36.01 --> v2.37.01
+			- vocechat-server: v0.4.2 --> v0.4.3
+			- watchyourlan: v2.1.1 --> v2.1.2
+			- whisparr: v3.0.0.909 --> v3.0.0.936
+			- xen-orchestra: v5.174.0 --> v5.175.0
+			- xwiki: v17.1.0 --> v17.2.0
 	- 2025.03.28 @ 11:47 PM CET:
 		- Stable:
 			- authentik: v2025.2.2 --> v2025.2.3

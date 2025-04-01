@@ -1,0 +1,46 @@
+image:
+  repository: "ghcr.io/museofficial/muse"
+  pullPolicy: "IfNotPresent"
+  tag: "2.11.0@sha256:f508418ec06ddf93bc3b30994de0ada0c36eabe787b957276932b60fb4c1d371"
+securityContext:
+  container:
+    runAsNonRoot: false
+    readOnlyRootFilesystem: false
+    runAsUser: 0
+    runAsGroup: 0
+service:
+  main:
+    enabled: false
+    ports:
+      main:
+        enabled: false
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false
+          env:
+            DATA_DIR: /config
+            DISCORD_TOKEN: ""
+            SPOTIFY_CLIENT_ID: ""
+            SPOTIFY_CLIENT_SECRET: ""
+            YOUTUBE_API_KEY: ""
+            # CACHE_LIMIT: 2GB
+            # BOT_STATUS: online
+            # BOT_ACTIVITY_TYPE: PLAYING
+            # BOT_ACTIVITY: A incubator app
+            # BOT_ACTIVITY_URL: https://www.youtube.com/truecharts
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+portal:
+  open:
+    enabled: false
