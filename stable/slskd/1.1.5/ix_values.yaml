@@ -65,10 +65,10 @@ persistence:
     mountPath: "/share"
   incomplete:
     enabled: true
-    mountPath: "/downloads/incomplete"
+    mountPath: "/media/downloads/slskd/incomplete"
   complete:
     enabled: true
-    mountPath: "/downloads/complete"
+    mountPath: "/media/downloads/slskd/complete"
 portal:
   open:
     enabled: true
