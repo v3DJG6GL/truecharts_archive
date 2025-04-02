@@ -26,7 +26,7 @@ maintainers:
 - name: TrueCharts
   email: info@truecharts.org
   url: https://truecharts.org
-name: lidarr
+name: lidarr-plugins
 sources:
 - https://ghcr.io/onedr0p/exportarr
 - https://ghcr.io/onedr0p/lidarr-develop
