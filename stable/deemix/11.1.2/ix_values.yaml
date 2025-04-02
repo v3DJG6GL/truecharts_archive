@@ -32,7 +32,9 @@ workload:
               type: http
               path: /
           env:
-            INTPORT: "{{ .Values.service.main.ports.main.targetPort }}"
+            DEEMIX_SERVER_PORT: "{{ .Values.service.main.ports.main.targetPort }}"
+            DEEMIX_DATA_DIR: "{{ .Values.persistence.config.mountPath }}"
+            DEEMIX_MUSIC_DIR: "{{ .Values.persistence.data.mountPath }}"
             # User Defined
             DEEMIX_SINGLE_USER: false
 persistence:
