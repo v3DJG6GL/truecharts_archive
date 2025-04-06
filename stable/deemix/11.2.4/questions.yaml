@@ -1129,30 +1129,6 @@ questions:
                               type: string
                               default: ""
 
-        - variable: data
-          label: App Downloads Storage
-          description: Stores the Application Downloads.
-          schema:
-            additional_attrs: true
-            type: dict
-            attrs:
-              - variable: type
-                label: Type of Storage
-                description: Sets the persistence type, Anything other than PVC could break rollback!
-                schema:
-                  type: string
-                  default: pvc
-                  enum:
-                    - value: pvc
-                      description: PVC
-                    - value: hostPath
-                      description: Host Path
-                    - value: emptyDir
-                      description: emptyDir
-                    - value: nfs
-                      description: NFS Share
-                    - value: iscsi
-                      description: iSCSI Share
               - variable: server
                 label: NFS Server
                 schema:
