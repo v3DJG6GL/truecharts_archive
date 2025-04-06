@@ -2360,13 +2360,13 @@ questions:
                 description: "The UserID of the user running the application"
                 schema:
                   type: int
-                  default: 0
+                  default: 568
               - variable: runAsGroup
                 label: "runAsGroup"
                 description: "The groupID this App of the user running the application"
                 schema:
                   type: int
-                  default: 0
+                  default: 568
               # Settings from questions.yaml get appended here on a per-app basis
               - variable: PUID
                 label: Process User ID - PUID

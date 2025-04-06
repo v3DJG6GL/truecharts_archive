@@ -29,6 +29,9 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.04.06 @ 08:12 PM CEST:
+		- Stable:
+			- deemix: v4.3.3 --> v4.3.3_00
 	- 2025.04.02 @ 06:32 PM CEST:
 		- Stable:
 			- lidarr-plugins: v2.11.0.4606_06 --> v2.11.0.4606
