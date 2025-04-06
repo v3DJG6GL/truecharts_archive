@@ -34,16 +34,13 @@ workload:
           env:
             DEEMIX_SERVER_PORT: "{{ .Values.service.main.ports.main.targetPort }}"
             DEEMIX_DATA_DIR: "{{ .Values.persistence.config.mountPath }}"
-            DEEMIX_MUSIC_DIR: "{{ .Values.persistence.data.mountPath }}"
+            DEEMIX_MUSIC_DIR: "{{ .Values.workload.main.podSpec.containers.main.env.DEEMIX_MUSIC_DIR }}"
             # User Defined
             DEEMIX_SINGLE_USER: false
 persistence:
   config:
     enabled: true
     mountPath: /config
-  data:
-    enabled: true
-    mountPath: /media/downloads/deemix
 portal:
   open:
     enabled: true
