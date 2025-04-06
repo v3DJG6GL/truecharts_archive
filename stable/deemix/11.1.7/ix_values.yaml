@@ -35,6 +35,9 @@ workload:
             DEEMIX_SERVER_PORT: "{{ .Values.service.main.ports.main.targetPort }}"
             DEEMIX_DATA_DIR: "{{ .Values.persistence.config.mountPath }}"
             DEEMIX_MUSIC_DIR: "{{ .Values.persistence.data.mountPath }}"
+            PUID: "{{ .Values.securityContext.container.PUID }}"
+            PGID: "{{ .Values.securityContext.container.PUID }}"
+            UMASK: "{{ .Values.securityContext.container.UMASK }}"
             # User Defined
             DEEMIX_SINGLE_USER: false
 persistence:
