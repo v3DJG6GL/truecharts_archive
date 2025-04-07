@@ -29,6 +29,12 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.04.07 @ 11:48 PM CEST:
+		- Stable:
+			- home-assistant: v2025.3.5 --> v2025.4.1
+			- jellystat: v1.1.3 --> v1.1.4
+		- Premium:
+			- nextcloud: v31.0.2_04 --> v31.0.2
 	- 2025.04.07 @ 04:35 PM CEST:
 		- Stable:
 			- actualserver: v25.3.1 --> v25.4.0
