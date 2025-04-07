@@ -29,6 +29,60 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.04.07 @ 04:35 PM CEST:
+		- Stable:
+			- actualserver: v25.3.1 --> v25.4.0
+			- calibre: v8.1.1 --> v8.2.1
+			- changedetection-io: v0.49.9 --> v0.49.12
+			- cloudflared: v2025.2.1 --> v2025.4.0
+			- discordgsm: v2.18.0 --> v2.19.0
+			- drawio: v26.1.1 --> v26.2.8
+			- esphome: v2025.3.2 --> v2025.3.3
+			- fileflows: v25.02.0 --> v25.04.0
+			- flexget: v3.15.30 --> v3.15.31
+			- fluidd: v1.33.0 --> v1.34.1
+			- ghostfolio: v2.149.0 --> v2.150.0
+			- home-assistant: v2025.3.4 --> v2025.4.1
+			- homer: v25.03.3 --> v25.04.1
+			- jackett: v0.22.1714 --> v0.22.1740
+			- jellyfin: v10.10.6 --> v10.10.7
+			- jellyseerr: v2.5.1 --> v2.5.2
+			- jenkins: v2.503.0 --> v2.504.0
+			- jupyter: v2025.4.1 --> v2025.4.4
+			- kometa: v2.1.0 --> v2.2.0
+			- local-ai: v2.26.0 --> v2.27.0
+			- maintainerr: v2.12.0 --> v2.13.1
+			- metabase: v0.53.8 --> v0.54.1
+			- metube: v2025.3.28 --> v2025.4.1
+			- minecraft-bedrock: vlatest --> v2025.4.0
+			- minecraft-java: v2025.3.0 --> v2025.4.0
+			- miniflux: v2.2.6 --> v2.2.7
+			- monero-node: v0.18.3.4 --> v0.18.4.0
+			- mymediaforalexa: v1.3.152.1 --> v1.3.152.2
+			- n8n: v1.85.4 --> v1.86.0
+			- navidrome: v0.55.1 --> v0.55.2
+			- netdata: v2.3.1 --> v2.3.2
+			- nexus-oss: v3.78.2 --> v3.79.0
+			- ollama: v0.6.3 --> v0.6.4
+			- pgadmin: v9.1.0 --> v9.2.0
+			- pihole: v2025.03.1 --> v2025.04.0
+			- plextraktsync: v0.34.5 --> v0.34.7
+			- pocketmine-mp: v5.27.0 --> v5.27.1
+			- protonmail-bridge: v3.18.0 --> v3.19.0
+			- prowlarr: v1.33.1.4997 --> v1.33.2.5002
+			- radarr: v5.22.0.9808 --> v5.22.1.9832
+			- redisinsight: v2.66.0 --> v2.68.0
+			- satisfactory: v1.9.5 --> v1.9.7
+			- slink: v1.4.6 --> v1.4.8
+			- smtp-relay: v0.7.4 --> v0.7.5
+			- sourcegraph: v6.1.5633 --> v6.2.0
+			- static-web-server: v2.36.0 --> v2.36.1
+			- strapi: v5.12.1 --> v5.12.3
+			- syncthing: v1.29.3 --> v1.29.4
+			- tailscale: v1.80.3 --> v1.82.0
+			- whisparr: v3.0.0.936 --> v3.0.0.968
+			- zigbee2mqtt: v2.1.3 --> v2.2.1
+			- zwavejs2mqtt: v10.1.3 --> v10.1.4
 	- 2025.04.07 @ 11:13 AM CEST:
 		- Stable:
 			- deemix: v4.3.3 --> v4.3.3_00

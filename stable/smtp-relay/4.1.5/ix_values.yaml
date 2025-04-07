@@ -1,0 +1,57 @@
+image:
+  repository: "ghcr.io/ix-ai/smtp"
+  pullPolicy: "IfNotPresent"
+  tag: "v0.7.5@sha256:1343c9b4ae17a89749cfa702a6736dd532fdc02f732aae5086844a80f469da8d"
+
+securityContext:
+  container:
+    runAsNonRoot: false
+    readOnlyRootFilesystem: false
+    runAsUser: 0
+    runAsGroup: 0
+
+service:
+  main:
+    ports:
+      main:
+        protocol: http
+        port: 25
+
+smtprelay:
+  networks:
+  - 172.16.0.0/16
+  domains: []
+  generic:
+    address: ""
+    port: 587
+    user: ""
+    pass: ""
+    aliases: []
+
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              type: tcp
+            readiness:
+              type: tcp
+            startup:
+              type: tcp
+          env:
+            PORT: "{{ .Values.service.main.ports.main.port }}"
+            RELAY_NETWORKS: '{{ join " : " .Values.smtprelay.networks }}'
+            RELAY_DOMAINS: '{{ join " : " .Values.smtprelay.domains }}'
+            DISABLE_IPV6: true
+            # # Generic SMTP Relay
+            SMARTHOST_ADDRESS: "{{ .Values.smtprelay.generic.address }}"
+            SMARTHOST_PORT: "{{ .Values.smtprelay.generic.port }}"
+            SMARTHOST_USER: "{{ .Values.smtprelay.generic.user }}"
+            SMARTHOST_PASSWORD: "{{ .Values.smtprelay.generic.pass }}"
+            SMARTHOST_ALIASES: '{{ join " : " .Values.smtprelay.generic.aliases }}'
+
+portal:
+  open:
+    enabled: false
