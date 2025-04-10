@@ -29,6 +29,42 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.04.10 @ 03:24 PM CEST:
+		- Stable:
+			- atuin: v18.4.0 --> v18.5.0
+			- authentik: v2025.2.3 --> v2025.2.4
+			- chroma: v0.6.3 --> v1.0.4
+			- code-server: v4.98.2 --> v4.99.1
+			- cops: v3.5.7 --> v3.6.1
+			- dashdot: v5.9.2 --> v6.0.0
+			- deconz: v2.29.2 --> v2.29.3
+			- dockerregistry: v2.0.0 --> v3.0.0
+			- emby: v4.9.0.43 --> v4.9.0.44
+			- fireshare: v1.2.20 --> v1.2.21
+			- gitea: v1.23.6 --> v1.23.7
+			- hedgedoc: v1.10.2 --> v1.10.3
+			- home-assistant: v2025.3.6 --> v2025.4.1
+			- ispy-agent-dvr: v6.2.7.0 --> v6.2.8.0
+			- jackett: v0.22.1740 --> v0.22.1756
+			- jenkins: v2.504.0 --> v2.505.0
+			- jupyter: v2025.4.4 --> v2025.4.10
+			- linkwarden: v2.9.3 --> v2.10.0
+			- metabase: v0.54.1 --> v0.54.2
+			- misskey: v2025.3.1 --> v2025.4.0
+			- muse: v2.11.0 --> v2.11.1
+			- mymediaforalexa: v1.3.152.2 --> v1.3.152.3
+			- n8n: v1.86.0 --> v1.88.0
+			- neko: v2.9.0 --> v3.0.3
+			- ollama: v0.6.4 --> v0.6.5
+			- paperless-ngx: v2.14.7 --> v2.15.1
+			- peanut: v5.6.1 --> v5.7.0
+			- prowlarr: v1.33.2.5002 --> v1.33.3.5008
+			- radicale: v3.5.0.1 --> v3.5.1.0
+			- reg: v2.0.0 --> v3.0.0
+			- slskd: v0.22.2 --> v0.22.3
+			- smtp-relay: v0.7.5 --> v0.7.6
+			- sourcegraph: v6.2.0 --> v6.2.1106
+			- zwavejs2mqtt: v10.1.4 --> v10.1.5
 	- 2025.04.07 @ 11:48 PM CEST:
 		- Stable:
 			- home-assistant: v2025.3.5 --> v2025.4.1
