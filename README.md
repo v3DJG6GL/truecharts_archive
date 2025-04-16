@@ -29,6 +29,21 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.04.16 @ 09:41 AM CEST:
+		- Stable:
+			- emby: v4.9.0.47 --> v4.9.0.48
+			- ispy-agent-dvr: v6.2.9.0 --> v6.3.2.0
+			- kavita: v0.8.5 --> v0.8.6
+			- local-ai: v2.27.0 --> v2.28.0
+			- maintainerr: v2.13.1 --> v2.14.0
+			- metabase: v0.54.2 --> v0.54.3
+			- peanut: v5.7.1 --> v5.7.2
+			- plexripper: v0.30.0 --> v0.31.0
+			- portainer: v2.28.1 --> v2.29.0
+			- speedtest-tracker: v1.4.0 --> v1.4.1
+			- tdarr: v2.37.01 --> v2.39.02
+			- tdarr-node: v2.37.01 --> v2.39.02
+			- zwavejs2mqtt: v10.1.5 --> v10.2.0
 	- 2025.04.16 @ 02:53 AM CEST:
 		- Stable:
 			- autobrr: v1.60.0 --> v1.61.0
