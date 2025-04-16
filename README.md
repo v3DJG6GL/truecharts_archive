@@ -29,6 +29,10 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.04.16 @ 09:53 AM CEST:
+		- Stable:
+			- jellystat: v1.1.4 --> v1.1.5
+			- kitchenowl: v0.6.8 --> v0.6.8
 	- 2025.04.16 @ 09:41 AM CEST:
 		- Stable:
 			- emby: v4.9.0.47 --> v4.9.0.48
