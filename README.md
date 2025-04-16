@@ -29,6 +29,51 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.04.16 @ 02:53 AM CEST:
+		- Stable:
+			- autobrr: v1.60.0 --> v1.61.0
+			- calibre: v8.2.1 --> v8.2.100
+			- changedetection-io: v0.49.12 --> v0.49.13
+			- cloudcommander: v18.5.1 --> v18.5.2
+			- code-server: v4.99.1 --> v4.99.2
+			- collabora: v24.04.13.2.1 --> v24.04.13.3.1
+			- ctfd: v3.7.6 --> v3.7.7
+			- emby: v4.9.0.44 --> v4.9.0.47
+			- ghostfolio: v2.150.0 --> v2.151.0
+			- home-assistant: v2025.4.1 --> v2025.4.2
+			- ispy-agent-dvr: v6.2.8.0 --> v6.2.9.0
+			- jackett: v0.22.1756 --> v0.22.1778
+			- jenkins: v2.505.0 --> v2.506.0
+			- jupyter: v2025.4.10 --> v2025.4.14
+			- makemkv: v25.02.3 --> v25.04.1
+			- metube: v2025.4.1 --> v2025.4.11
+			- mongodb: v8.0.6 --> v8.0.8
+			- mysql-workbench: v8.0.41 --> v8.0.42
+			- n8n: v1.88.0 --> v1.89.1
+			- neko: v3.0.3 --> v3.0.4
+			- netdata: v2.3.2 --> v2.4.0
+			- nexus-oss: v3.79.0 --> v3.79.1
+			- outline: v0.82.0 --> v0.83.0
+			- paperless-ngx: v2.15.1 --> v2.15.2
+			- peanut: v5.7.0 --> v5.7.1
+			- plex: v1.41.5.9522 --> v1.41.6.9685
+			- prowlarr: v1.33.3.5008 --> v1.34.0.5016
+			- radarr: v5.22.1.9832 --> v5.22.2.9862
+			- rdtclient: v2.0.102 --> v2.0.108
+			- readarr: v0.4.13.2760 --> v0.4.14.2782
+			- rstudio: v4.4.3 --> v4.5.0
+			- sabnzbd: v4.5.0 --> v4.5.1
+			- slskd: v0.22.3 --> v0.22.5
+			- smtp-relay: v0.7.6 --> v0.7.7
+			- speedtest-tracker: v1.3.0 --> v1.4.0
+			- syncthing: v1.29.4 --> v1.29.5
+			- tautulli: v2.15.1 --> v2.15.2
+			- tinymediamanager: v5.1.4 --> v5.1.5
+			- twofauth: v5.5.0 --> v5.5.2
+			- wallos: v2.48.1 --> v2.49.1
+			- whisparr: v3.0.0.968 --> v3.0.0.996
+			- xen-orchestra: v5.175.0 --> v5.176.0
+			- xwiki: v17.2.0 --> v17.2.1
 	- 2025.04.10 @ 04:14 PM CEST:
 		- Stable:
 			- ollama: v0.6.5 --> v0.6.5
