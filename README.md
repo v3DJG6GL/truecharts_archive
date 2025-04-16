@@ -29,6 +29,10 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.04.16 @ 06:22 PM CEST:
+		- Stable:
+			- jackett: v0.22.1778 --> v0.22.1784
+			- wallos: v2.49.1 --> v2.50.0
 	- 2025.04.16 @ 09:53 AM CEST:
 		- Stable:
 			- jellystat: v1.1.4 --> v1.1.5
