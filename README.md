@@ -29,6 +29,9 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.04.17 @ 07:24 PM CEST:
+		- Premium:
+			- traefik: v3.3.4 --> v3.3.5
 	- 2025.04.17 @ 07:12 PM CEST:
 		- Stable:
 			- adguard-home: v0.107.59 --> v0.107.60
