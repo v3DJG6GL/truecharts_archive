@@ -29,6 +29,19 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.04.17 @ 07:12 PM CEST:
+		- Stable:
+			- adguard-home: v0.107.59 --> v0.107.60
+			- adguardhome-sync: v0.7.2 --> v0.7.3
+			- changedetection-io: v0.49.13 --> v0.49.14
+			- chroma: v1.0.4 --> v1.0.5
+			- jackett: v0.22.1784 --> v0.22.1788
+			- metube: v2025.4.11 --> v2025.4.16
+			- n8n: v1.89.1 --> v1.89.2
+			- speedtest-tracker: v1.4.1 --> v1.4.2
+			- strapi: v5.12.3 --> v5.12.5
+			- wallos: v2.50.0 --> v2.50.1
+			- wordpress: v6.7.2 --> v6.8.0
 	- 2025.04.16 @ 06:22 PM CEST:
 		- Stable:
 			- jackett: v0.22.1778 --> v0.22.1784
