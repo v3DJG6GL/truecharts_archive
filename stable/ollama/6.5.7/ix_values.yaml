@@ -23,7 +23,6 @@ service:
     targetSelector: ui
     ports:
       main:
-        primary: true
         protocol: http
         port: 10686
         targetSelector: ui
@@ -33,7 +32,6 @@ service:
     ports:
       api:
         enabled: true
-        primary: true
         protocol: http
         targetPort: 11434
         port: 11434
@@ -90,8 +88,6 @@ workload:
           primary: true
           enabled: true
           imageSelector: uiImage
-          resources:
-            excludeExtra: true
           probes:
             liveness:
               enabled: true
