@@ -114,7 +114,6 @@ workload:
             ENABLE_SIGNUP: "{{ .Values.ollama.registration.enabled }}"
             DEFAULT_USER_ROLE: "{{ .Values.ollama.registration.def_user_role }}"
             WHISPER_MODEL: "{{ .Values.ollama.whisper.model }}"
-            DEVICE_TYPE: "{{ .Values.ollama.deviceType.device_type }}"
             USE_CUDA_DOCKER: "{{ .Values.ollama.use_cuda_docker }}"
             RAG_EMBEDDING_MODEL: "{{ .Values.ollama.rag.model }}"
             RAG_EMBEDDING_MODEL_DEVICE_TYPE: "{{ .Values.ollama.rag.model_device_type }}"
