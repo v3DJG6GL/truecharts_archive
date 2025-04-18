@@ -1,0 +1,143 @@
+image:
+  repository: "docker.io/ollama/ollama"
+  pullPolicy: "IfNotPresent"
+  tag: "0.6.5@sha256:96b7667cb536ab69bfd5cc0c2bd1e29602218e076fe6d34f402b786f17b4fde0"
+rocmImage:
+  repository: docker.io/ollama/ollama
+  pullPolicy: IfNotPresent
+  tag: 0.6.5-rocm@sha256:2092b61563b18fb73ae01224a28eb00d9f253248002b79eac96d237dee995c46
+uiImage:
+  repository: ghcr.io/open-webui/open-webui
+  pullPolicy: IfNotPresent
+  tag: v0.6.5@sha256:fe7a6870ec6b2fd540c0f2007e6aa812dc4bf04a2d0a305bb344eeb10de0a7b7
+
+securityContext:
+  container:
+    runAsNonRoot: false
+    readOnlyRootFilesystem: false
+    runAsUser: 0
+    runAsGroup: 0
+
+service:
+  main:
+    targetSelector: ui
+    ports:
+      main:
+        protocol: http
+        port: 10686
+        targetSelector: ui
+  api:
+    enabled: true
+    targetSelector: main
+    ports:
+      api:
+        enabled: true
+        protocol: http
+        targetPort: 11434
+        port: 11434
+        targetSelector: main
+
+ingress:
+  api:
+    enabled: false
+    targetSelector:
+      api: api
+
+ollama:
+  registration:
+    enabled: true
+    # admin | user | pending
+    def_user_role: "pending"
+  stable_diffusion:
+    base_url: ""
+  whisper:
+    model: "base"
+  rag:
+    # cpu | cuda | mps
+    model_device_type: "cpu"
+    # embedding model
+    model: "all-MiniLM-L6-v2"
+
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          imageSelector: image
+          probes:
+            liveness:
+              enabled: true
+              type: http
+              path: /api/version
+              port: "{{ .Values.service.api.ports.api.targetPort }}"
+            readiness:
+              enabled: true
+              type: http
+              path: /api/version
+              port: "{{ .Values.service.api.ports.api.targetPort }}"
+            startup:
+              enabled: true
+              type: tcp
+              port: "{{ .Values.service.api.ports.api.targetPort }}"
+  ui:
+    enabled: true
+    type: Deployment
+    podSpec:
+      containers:
+        ui:
+          primary: true
+          enabled: true
+          imageSelector: uiImage
+          resources:
+            excludeExtra: true
+          probes:
+            liveness:
+              enabled: true
+              type: http
+              path: /
+              port: "{{ .Values.service.main.ports.main.port }}"
+            readiness:
+              enabled: true
+              type: http
+              path: /
+              port: "{{ .Values.service.main.ports.main.port }}"
+            startup:
+              enabled: true
+              type: tcp
+              port: "{{ .Values.service.main.ports.main.port }}"
+          env:
+            PORT: "{{ .Values.service.main.ports.main.port }}"
+            OLLAMA_BASE_URL: '{{ printf "http://%v-api:%v" (include "tc.v1.common.lib.chart.names.fullname" $) .Values.service.api.ports.api.targetPort }}'
+            WEBUI_SECRET_KEY:
+              secretKeyRef:
+                name: ollama-secrets
+                key: WEBUI_SECRET_KEY
+            AUTOMATIC1111_BASE_URL: "{{ .Values.ollama.stable_diffusion.base_url }}"
+            ENABLE_SIGNUP: "{{ .Values.ollama.registration.enabled }}"
+            DEFAULT_USER_ROLE: "{{ .Values.ollama.registration.def_user_role }}"
+            WHISPER_MODEL: "{{ .Values.ollama.whisper.model }}"
+            DEVICE_TYPE: "{{ .Values.ollama.deviceType.device_type }}"
+            RAG_EMBEDDING_MODEL: "{{ .Values.ollama.rag.model }}"
+            RAG_EMBEDDING_MODEL_DEVICE_TYPE: "{{ .Values.ollama.rag.model_device_type }}"
+            WEBUI_AUTH_TRUSTED_EMAIL_HEADER: "{{ .Values.ollama.registration.trusted_email_header }}"
+            # OPENAI_API_BASE_URL
+            # OPENAI_API_KEY
+            # DEFAULT_MODELS
+
+persistence:
+  config:
+    enabled: true
+    targetSelector:
+      main:
+        main:
+          mountPath: "/root/.ollama"
+  data:
+    enabled: true
+    targetSelector:
+      ui:
+        ui:
+          mountPath: "/app/backend/data"
+
+portal:
+  open:
+    enabled: true

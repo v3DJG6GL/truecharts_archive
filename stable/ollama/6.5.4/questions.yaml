@@ -432,6 +432,22 @@ questions:
                 schema:
                   type: string
                   default: "base"
+        - variable: deviceType
+          label: Device Type
+          schema:
+            additional_attrs: true
+            type: dict
+            attrs:
+              - variable: device_type
+                label: Device Type
+                schema:
+                  type: string
+                  default: "cpu"
+                  enum:
+                    - value: cpu
+                      description: CPU
+                    - value: gpu
+                      description: GPU
         - variable: rag
           label: Rag Configuration
           schema:
