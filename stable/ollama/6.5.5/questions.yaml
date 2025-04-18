@@ -448,6 +448,11 @@ questions:
                       description: CPU
                     - value: gpu
                       description: GPU
+        - variable: use_cuda_docker
+          label: Use CUDA Docker
+          schema:
+            type: boolean
+            default: false
         - variable: rag
           label: Rag Configuration
           schema:
