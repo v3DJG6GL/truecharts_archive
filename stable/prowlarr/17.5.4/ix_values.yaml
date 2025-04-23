@@ -38,7 +38,7 @@ workload:
              # External | Basic | Forms
             PROWLARR__AUTH__METHOD: ""
             # DisabledForLocalAddresses | Enabled
-            PROWLARR__AUTH__REQUIRED: DisabledForLocalAddresses
+            PROWLARR__AUTH__REQUIRED: ""
             # PROWLARR__APP__THEME: dark
             # PROWLARR__APP__INSTANCENAME: Prowlarr
             # PROWLARR__LOG__LEVEL: info

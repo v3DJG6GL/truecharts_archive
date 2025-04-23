@@ -29,6 +29,53 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.04.24 @ 12:19 AM CEST:
+		- Stable:
+			- adguard-home: v0.107.60 --> v0.107.61
+			- borg-server: v2.6.8 --> v2.6.11
+			- calibre: v8.2.100 --> v8.3.0
+			- changedetection-io: v0.49.14 --> v0.49.15
+			- chroma: v1.0.5 --> v1.0.6
+			- code-server: v4.99.2 --> v4.99.3
+			- czkawka: v25.03.1 --> v25.04.1
+			- deconz: v2.29.3 --> v2.29.5
+			- deemix: v4.3.3_00 --> v4.3.3
+			- docker: v28.0.4 --> v28.1.1
+			- emby: v4.9.0.48 --> v4.9.0.50
+			- esphome: v2025.3.3 --> v2025.4.0
+			- fireflyiii: v6.2.10 --> v6.2.12
+			- flexget: v3.15.31 --> v3.15.34
+			- ghostfolio: v2.151.0 --> v2.154.0
+			- home-assistant: v2025.4.2 --> v2025.4.3
+			- immich: v1.131.3 --> v1.132.0
+			- ispy-agent-dvr: v6.3.2.0 --> v6.3.4.0
+			- jackett: v0.22.1788 --> v0.22.1815
+			- jupyter: v2025.4.14 --> v2025.4.21
+			- lidarr-plugins: v2.11.0.4606 --> v2.11.2.4623
+			- miniflux: v2.2.7 --> v2.2.8
+			- n8n: v1.89.2 --> v1.90.1
+			- nvidia-gpu-exporter: v1.3.0 --> v1.3.1
+			- onlyoffice-document-server: v8.3.2 --> v8.3.3
+			- oscam: v11878.0.0 --> v11880.0.0
+			- paperless-ngx: v2.15.2 --> v2.15.3
+			- prowlarr: v1.34.0.5016 --> v1.34.1.5021
+			- qbitrr: v4.10.20 --> v4.10.21
+			- radarr: v5.22.2.9862 --> v5.22.3.9889
+			- readarr: v0.4.14.2782 --> v0.4.15.2787
+			- redmine: v6.0.4 --> v6.0.5
+			- shlink-web-client: v4.3.0 --> v4.4.0
+			- slink: v1.4.8 --> v1.4.9
+			- smartctl-exporter: v0.13.0 --> v0.14.0
+			- sourcegraph: v6.2.1106 --> v6.2.2553
+			- tasmoadmin: v4.2.3 --> v4.3.0
+			- tdarr: v2.39.02 --> v2.40.01
+			- tdarr-node: v2.39.02 --> v2.40.01
+			- theme-park: v1.20.0 --> v1.20.1
+			- wallos: v2.50.1 --> v2.52.0
+			- wekan: v7.84.0 --> v7.85.0
+			- xwiki: v17.2.1 --> v17.2.2
+		- Premium:
+			- nextcloud: v31.0.2 --> v31.0.4
 	- 2025.04.18 @ 01:55 AM CEST:
 		- Stable:
 			- ollama: v0.6.5 --> v0.6.5

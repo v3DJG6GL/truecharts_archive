@@ -44,7 +44,7 @@ workload:
              # External | Basic | Forms
             RADARR__AUTH__METHOD: ""
             # DisabledForLocalAddresses | Enabled
-            RADARR__AUTH__REQUIRED: DisabledForLocalAddresses
+            RADARR__AUTH__REQUIRED: ""
             # RADARR__APP__THEME: dark
             # RADARR__APP__INSTANCENAME: Radarr
             # RADARR__LOG__LEVEL: info
