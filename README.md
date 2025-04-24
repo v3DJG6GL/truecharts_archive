@@ -29,6 +29,9 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.04.24 @ 12:47 PM CEST:
+		- Stable:
+			- ollama: v0.6.5 --> v0.6.6
 	- 2025.04.24 @ 10:44 AM CEST:
 		- Stable:
 			- immich: v1.132.0 --> v1.132.1
