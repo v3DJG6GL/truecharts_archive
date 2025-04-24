@@ -29,6 +29,11 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.04.24 @ 10:28 AM CEST:
+		- Stable:
+			- meshcentral: v1.1.43 --> v1.1.44
+			- radarr: v5.22.3.9889 --> v5.22.4.9896
+			- rdtclient: v2.0.108 --> v2.0.109
 	- 2025.04.24 @ 12:19 AM CEST:
 		- Stable:
 			- adguard-home: v0.107.60 --> v0.107.61
