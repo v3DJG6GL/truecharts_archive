@@ -29,6 +29,15 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.04.29 @ 02:59 PM CEST:
+		- Stable:
+			- audiobookshelf: v2.20.0 --> v2.21.0
+			- homepage: v1.1.1 --> v1.2.0
+			- jackett: v0.22.1830 --> v0.22.1831
+			- lidarr: v2.10.3.4602 --> v2.11.2.4629
+			- n8n: v1.90.2 --> v1.91.0
+			- nzbhydra: v7.12.3 --> v7.13.0
+			- plextraktsync: v0.34.7 --> v0.34.8
 	- 2025.04.28 @ 06:32 PM CEST:
 		- Stable:
 			- immich: v1.132.1 --> v1.132.3
