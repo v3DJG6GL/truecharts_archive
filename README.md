@@ -29,6 +29,32 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.05.01 @ 01:54 PM CEST:
+		- Stable:
+			- authentik: v2025.2.4 --> v2025.4.0
+			- cloudflared: v2025.4.0 --> v2025.4.2
+			- deconz: v2.29.5 --> v2.30.0
+			- emby: v4.9.0.50 --> v4.9.0.51
+			- esphome: v2025.4.0 --> v2025.4.1
+			- flowise: v2.2.7 --> v2.2.8
+			- ghostfolio: v2.156.0 --> v2.158.0
+			- jackett: v0.22.1831 --> v0.22.1837
+			- jenkins: v2.507.0 --> v2.508.0
+			- jupyter: v2025.4.28 --> v2025.4.30
+			- metabase: v0.54.4 --> v0.54.5
+			- metube: v2025.4.16 --> v2025.5.1
+			- minecraft-java: v2025.4.0 --> v2025.4.2
+			- misskey: v2025.4.0 --> v2025.4.1
+			- n8n: v1.91.0 --> v1.91.1
+			- nocodb: v0.262.5 --> v0.263.0
+			- pgadmin: v9.2.0 --> v9.3.0
+			- prowlarr: v1.34.1.5021 --> v1.35.1.5034
+			- qbittorrent: v5.0.4 --> v5.1.0
+			- sourcegraph: v6.2.3841 --> v6.3.0
+			- splunk: v9.4.1 --> v9.4.2
+			- traggo: v0.7.0 --> v0.7.1
+			- unpoller: v2.14.1 --> v2.15.3
+			- wordpress: v6.8.0 --> v6.8.1
 	- 2025.04.29 @ 02:59 PM CEST:
 		- Stable:
 			- audiobookshelf: v2.20.0 --> v2.21.0
