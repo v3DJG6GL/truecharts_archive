@@ -29,6 +29,11 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.05.05 @ 04:55 PM CEST:
+		- Stable:
+			- jellystat: v1.1.5 --> v1.1.6
+			- lidarr-plugins: v2.11.2.4623 --> v2.12.0.4634
+			- ollama: v0.6.6 --> v0.6.8
 	- 2025.05.05 @ 04:42 PM CEST:
 		- Stable:
 			- actualserver: v25.4.0 --> v25.5.0
