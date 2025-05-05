@@ -1,0 +1,31 @@
+image:
+  repository: docker.io/gabekangas/owncast
+  tag: 0.2.2@sha256:539a2b2c7daa75648dce8a9bbcde05407294626788a026c0c141c18764ed48f1
+  pullPolicy: IfNotPresent
+service:
+  main:
+    ports:
+      main:
+        port: 10088
+        targetPort: 8080
+  rtmp:
+    enabled: true
+    # externalTrafficPolicy: Local
+    ports:
+      rtmp:
+        enabled: true
+        port: 1935
+        targetPort: 1935
+persistence:
+  config:
+    enabled: true
+    mountPath: "/app/data"
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsNonRoot: false
+    runAsUser: 0
+    runAsGroup: 0

@@ -1,0 +1,26 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: docker.io/tardisx/linkwallet
+  tag: v0.1.1@sha256:5828c5f14b3dfbabbe9e194ffde3901f04d32c1206a4c84343660809e1aedc80
+persistence:
+  data:
+    enabled: true
+    mountPath: /data
+portal:
+  open:
+    enabled: true
+service:
+  main:
+    ports:
+      main:
+        port: 10353
+        protocol: http
+        targetPort: 8080
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          args:
+          - -db-path
+          - /data/linkwallet.db

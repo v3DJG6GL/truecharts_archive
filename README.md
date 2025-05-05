@@ -29,6 +29,38 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.05.05 @ 04:42 PM CEST:
+		- Stable:
+			- actualserver: v25.4.0 --> v25.5.0
+			- baserow: v1.32.5 --> v1.33.0
+			- changedetection-io: v0.49.15 --> v0.49.16
+			- chroma: v1.0.7 --> v1.0.8
+			- clickhouse: v25.4.1.2934 --> v25.4.2.31
+			- collabora: v24.04.13.3.1 --> v25.04.1.1.1
+			- deluge: v2.1.1 --> v2.2.0
+			- flexget: v3.15.37 --> v3.15.38
+			- freshrss: v1.26.1 --> v1.26.2
+			- game-server-watcher: v3.1.22 --> v3.1.23
+			- ghostfolio: v2.158.0 --> v2.159.0
+			- jackett: v0.22.1837 --> v0.22.1865
+			- jupyter: v2025.4.30 --> v2025.5.5
+			- linkwallet: v0.0.36 --> v0.1.1
+			- linkwarden: v2.10.0 --> v2.10.1
+			- matomo: v5.3.1 --> v5.3.2
+			- mediainfo: v25.02.1 --> v25.05.1
+			- minecraft-bedrock: v2025.4.0 --> v2025.5.0
+			- mkvtoolnix: v25.03.1 --> v25.05.1
+			- mongodb: v8.0.8 --> v8.0.9
+			- oscam: v11882.0.0 --> v11883.0.0
+			- owncast: v0.2.1 --> v0.2.2
+			- peanut: v5.7.2 --> v5.7.4
+			- radarr: v5.23.0.9907 --> v5.23.1.9914
+			- rdtclient: v2.0.110 --> v2.0.111
+			- satisfactory: v1.9.7 --> v1.9.8
+			- strapi: v5.12.6 --> v5.12.7
+			- wallos: v2.52.2 --> v3.0.2
+			- xen-orchestra: v5.176.1 --> v5.177.0
+			- zigbee2mqtt: v2.2.1 --> v2.3.0
 	- 2025.05.01 @ 01:54 PM CEST:
 		- Stable:
 			- authentik: v2025.2.4 --> v2025.4.0
