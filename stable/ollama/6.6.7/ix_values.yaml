@@ -120,7 +120,7 @@ workload:
             RAG_EMBEDDING_MODEL: "{{ .Values.ollama.rag.model }}"
             RAG_EMBEDDING_MODEL_DEVICE_TYPE: "{{ .Values.ollama.rag.model_device_type }}"
             WEBUI_AUTH_TRUSTED_EMAIL_HEADER: "{{ .Values.ollama.registration.trusted_email_header }}"
-            ENAABLE_OAUTH_SIGNUP: "{{ .Values.ollama.oauth.enable_oauth_signup }}"
+            ENABLE_OAUTH_SIGNUP: "{{ .Values.ollama.oauth.enable_oauth_signup }}"
             OAUTH_MERGE_ACCOUNTS_BY_EMAIL: "{{ .Values.ollama.oauth.oauth_merge_accounts_by_email }}"
             OAUTH_CLIENT_ID: "{{ .Values.ollama.oauth.oauth_client_id }}"
             OAUTH_CLIENT_SECRET: "{{ .Values.ollama.oauth.oauth_client_secret }}"
