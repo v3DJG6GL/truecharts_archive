@@ -1,0 +1,34 @@
+image:
+  repository: "docker.io/difegue/lanraragi"
+  tag: "v.0.9.40@sha256:b9bc3e51d1a90c4bb917a589ab4c7c0fc26a28ee36210a1e201565109e214a1f"
+  pullPolicy: "IfNotPresent"
+service:
+  main:
+    ports:
+      main:
+        port: 10177
+        targetPort: 3000
+persistence:
+  config:
+    enabled: true
+    mountPath: "/home/koyomi/lanraragi/database"
+  content:
+    enabled: true
+    mountPath: "/home/koyomi/lanraragi/content"
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsNonRoot: false
+    runAsUser: 0
+    runAsGroup: 0
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            LRR_UID: "{{ .Values.securityContext.container.PUID }}"
+            LRR_GID: "{{ .Values.securityContext.pod.fsGroup }}"

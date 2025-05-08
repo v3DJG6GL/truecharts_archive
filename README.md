@@ -29,6 +29,33 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.05.08 @ 01:53 PM CEST:
+		- Stable:
+			- arksurvivalevolved: varkse --> vlatest
+			- atuin: v18.5.0 --> v18.6.0
+			- autobrr: v1.61.0 --> v1.62.0
+			- code-server: v4.99.3 --> v4.99.4
+			- deconz: v2.30.0 --> v2.30.1
+			- fileflows: v25.04.0 --> v25.05.0
+			- fireshare: v1.2.21 --> v1.2.22
+			- ghostfolio: v2.159.0 --> v2.161.0
+			- homebox: v0.18.0 --> v0.19.0
+			- homer: v25.04.1 --> v25.05.1
+			- jackett: v0.22.1865 --> v0.22.1877
+			- jenkins: v2.508.0 --> v2.509.0
+			- lanraragi: v0.9.30 --> v0.9.40
+			- linkwarden: v2.10.1 --> v2.10.2
+			- metabase: v0.54.5 --> v0.54.6
+			- misskey: v2025.4.1 --> v2025.5.0
+			- n8n: v1.91.1 --> v1.92.1
+			- netdata: v2.4.0 --> v2.5.0
+			- nexus-oss: v3.79.1 --> v3.80.0
+			- nocodb: v0.263.0 --> v0.263.1
+			- oscam: v11883.0.0 --> v11884.0.0
+			- plextraktsync: v0.34.8 --> v0.34.9
+			- syncthing: v1.29.5 --> v1.29.6
+			- tailscale: v1.82.0 --> v1.82.5
+			- zwavejs2mqtt: v10.3.3 --> v10.4.1
 	- 2025.05.05 @ 04:55 PM CEST:
 		- Stable:
 			- jellystat: v1.1.5 --> v1.1.6

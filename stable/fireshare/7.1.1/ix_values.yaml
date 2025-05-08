@@ -1,0 +1,54 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: docker.io/shaneisrael/fireshare
+  tag: v1.2.22@sha256:18888755dc184c81426d1839e2ef1caba74b9950f1db8f020a66129a819b9a5f
+
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsUser: 0
+    runAsGroup: 0
+
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            SECRET_KEY:
+              secretKeyRef:
+                name: fireshare-secrets
+                key: SECRET_KEY
+            MINUTES_BETWEEN_VIDEO_SCANS: 5
+            ADMIN_PASSWORD: "changeme"
+            # TODO ADD LDAP
+            # LDAP_ENABLE: false
+            # LDAP_URL: ""
+            # LDAP_BINDDN: ""
+            # LDAP_PASSWORD: ""
+            # LDAP_BASEDN: ""
+            # LDAP_USER_FILTER: ""
+            # LDAP_ADMIN_GROUP: ""
+
+service:
+  main:
+    ports:
+      main:
+        port: 10287
+        protocol: http
+        targetPort: 80
+
+persistence:
+  data:
+    enabled: true
+    mountPath: /data
+  processeddata:
+    enabled: true
+    mountPath: /processed
+  videos:
+    enabled: true
+    mountPath: /videos
+
+portal:
+  open:
+    enabled: true
