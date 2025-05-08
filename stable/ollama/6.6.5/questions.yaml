@@ -382,6 +382,67 @@ questions:
       additional_attrs: true
       type: dict
       attrs:
+        - variable: oauth
+          label: OAuth Configuration
+          schema:
+            additional_attrs: true
+            type: dict
+            attrs:
+              - variable: enable_oauth_signup
+                label: Enable OAuth Signup
+                schema:
+                  type: boolean
+                  default: false
+              - variable: oauth_merge_accounts_by_email
+                label: OAuth Merge Existing Accounts by Email
+                schema:
+                  type: boolean
+                  default: false
+              - variable: oauth_client_id
+                label: OAuth Client ID
+                schema:
+                  type: string
+                  default: ""
+              - variable: oauth_client_secret
+                label: OAuth Client Secret
+                schema:
+                  type: string
+                  default: ""
+              - variable: openid_provider_url
+                label: OIDC well known URL
+                schema:
+                  type: string
+                  default: ""
+              - variable: oauth_provider_name
+                label: OAuth Provider Name
+                schema:
+                  type: string
+                  default: ""
+              - variable: oauth_scopes
+                label: OAuth Scopes
+                schema:
+                  type: string
+                  default: "openid email profile"
+              - variable: enable_oauth_role_management
+                label: OAuth Roles Claim
+                schema:
+                  type: boolean
+                  default: false
+              - variable: oauth_roles_claim
+                label: OAuth Roles Claim
+                schema:
+                  type: string
+                  default: "roles"
+              - variable: oauth_allowed_roles
+                label: OAuth Allowed Roles
+                schema:
+                  type: string
+                  default: ""
+              - variable: oauth_admin_roles
+                label: OAuth Admin Roles
+                schema:
+                  type: string
+                  default: ""
         - variable: registration
           label: Registration Configuration
           schema:
