@@ -424,7 +424,7 @@ questions:
                   type: string
                   default: "openid email profile"
               - variable: enable_oauth_role_management
-                label: OAuth Roles Claim
+                label: OAuth Roles Claim Management
                 schema:
                   type: boolean
                   default: false
