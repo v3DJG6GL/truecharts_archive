@@ -29,6 +29,47 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.05.11 @ 08:49 PM CEST:
+		- Stable:
+			- baserow: v1.33.0 --> v1.33.2
+			- bazarr: v1.5.1 --> v1.5.2
+			- calibre: v8.3.0 --> v8.4.0
+			- clickhouse: v25.4.2.31 --> v25.4.3.22
+			- ddns-go: v6.9.1 --> v6.9.2
+			- deconz: v2.30.1 --> v2.30.2
+			- domoticz: v2024.7.0 --> v2025.1.0
+			- drawio: v26.2.15 --> v27.0.2
+			- emby: v4.9.0.51 --> v4.9.0.53
+			- firefox: v136.0.4 --> v138.0.1
+			- fireshare: v1.2.22 --> v1.2.23
+			- flexget: v3.15.38 --> v3.15.40
+			- fluidd: v1.34.1 --> v1.34.2
+			- healthchecks: v3.9.20251230 --> v3.10.20250509
+			- home-assistant: v2025.4.4 --> v2025.5.1
+			- jackett: v0.22.1877 --> v0.22.1888
+			- kitchenowl: v0.6.8 --> v0.6.14
+			- n8n: v1.92.1 --> v1.92.2
+			- neko: v3.0.4 --> v3.0.5
+			- netdata: v2.5.0 --> v2.5.1
+			- ollama: v0.6.8 --> v0.6.8
+			- openvscode-server: v1.98.2 --> v1.99.3
+			- peanut: v5.7.4 --> v5.7.5
+			- plextraktsync: v0.34.9 --> v0.34.10
+			- pocketmine-mp: v5.27.1 --> v5.28.0
+			- prowlarr: v1.35.1.5034 --> v1.36.1.5049
+			- qbitmanage: v4.2.2 --> v4.3.0
+			- qinglong: v2.18.3 --> v2.19.0
+			- readarr: v0.4.15.2787 --> v0.4.16.2793
+			- redis: v7.4.3 --> v8.0.0
+			- strapi: v5.12.7 --> v5.13.0
+			- syslog-ng: v4.8.0 --> v4.8.2
+			- tinymediamanager: v5.1.5 --> v5.1.6
+			- wallos: v3.0.2 --> v3.1.0
+			- whisparr: v3.0.0.996 --> v3.0.0.1017
+			- zwavejs2mqtt: v10.4.1 --> v10.4.2
+		- Premium:
+			- grafana: v11.6.1 --> v12.0.0
+			- traefik: v3.3.5 --> v3.4.0
 	- 2025.05.08 @ 03:54 PM CEST:
 		- Stable:
 			- ollama: v0.6.8_02 --> v0.6.8
