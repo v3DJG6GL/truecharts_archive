@@ -29,6 +29,70 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.05.19 @ 09:04 AM CEST:
+		- Stable:
+			- adguardhome-sync: v0.7.5 --> v0.7.6
+			- atuin: v18.6.0 --> v18.6.1
+			- audiobookshelf: v2.21.0 --> v2.23.0
+			- authentik: v2025.4.0 --> v2025.4.1
+			- changedetection-io: v0.49.16 --> v0.49.17
+			- chroma: v1.0.8 --> v1.0.9
+			- clickhouse: v25.4.3.22 --> v25.4.4.25
+			- cloudflared: v2025.4.2 --> v2025.5.0
+			- code-server: v4.99.4 --> v4.100.2
+			- collabora: v25.04.1.1.1 --> v25.04.2.1.1
+			- cops: v3.6.1 --> v3.6.5
+			- crafty-4: v4.4.7 --> v4.4.8
+			- drawio: v27.0.2 --> v27.0.5
+			- emby: v4.9.0.53 --> v4.9.0.59
+			- esphome: v2025.4.1 --> v2025.4.2
+			- external-dns: v0.16.1 --> v0.17.0
+			- firefox: v138.0.1 --> v138.0.4
+			- fireshare: v1.2.23 --> v1.2.25
+			- flexget: v3.15.40 --> v3.15.42
+			- flowise: v2.2.8 --> v3.0.0
+			- gitea: v1.23.7 --> v1.23.8
+			- gravity: v0.26.5 --> v0.27.0
+			- healthchecks: v3.10.20250509 --> v3.10.20250512
+			- home-assistant: v2025.5.1 --> v2025.5.2
+			- homebridge: v2025.2.26 --> v2025.5.16
+			- jackett: v0.22.1888 --> v0.22.1917
+			- jenkins: v2.509.0 --> v2.510.0
+			- jupyter: v2025.5.5 --> v2025.5.12
+			- kanboard: v1.2.44 --> v1.2.45
+			- komga: v1.21.2 --> v1.21.3
+			- local-ai: v2.28.0 --> v2.29.0
+			- metabase: v0.54.6 --> v0.54.8
+			- minio: v2025.01.20 --> v2025.04.22
+			- n8n: v1.92.2 --> v1.93.0
+			- nocodb: v0.263.1 --> v0.263.3
+			- nvidia-gpu-exporter: v1.3.1 --> v1.3.2
+			- nzbget: v24.8.0 --> v25.0.0
+			- octoprint: v1.11.0 --> v1.11.1
+			- outline: v0.83.0 --> v0.84.0
+			- owncast: v0.2.2 --> v0.2.3
+			- papermerge: v3.4.1 --> v3.5.1
+			- plexanisync: v1.4.2 --> v1.4.3
+			- pocketmine-mp: v5.28.0 --> v5.28.2
+			- portainer: v2.29.2 --> v2.30.0
+			- prowlarr: v1.36.1.5049 --> v1.36.2.5059
+			- radarr: v5.23.1.9914 --> v5.23.3.9987
+			- rdtclient: v2.0.111 --> v2.0.112
+			- redis: v8.0.0 --> v8.0.1
+			- ring-mqtt: v5.8.0 --> v5.8.1
+			- sourcegraph: v6.3.0 --> v6.3.2692
+			- syslog-ng: v4.8.2 --> v4.8.3
+			- tauticord: v5.12.1 --> v5.13.1
+			- wallos: v3.1.0 --> v3.1.1
+			- watcharr: v2.0.2 --> v2.1.0
+			- wekan: v7.88.0 --> v7.90.0
+			- whisparr: v3.0.0.1017 --> v3.0.0.1038
+			- wyoming-piper: v1.5.0 --> v1.5.4
+			- zwavejs2mqtt: v10.4.2 --> v10.5.1
+		- System:
+			- kubernetes-reflector: v7.1.217 --> v9.1.7
+		- Premium:
+			- nextcloud: v31.0.4 --> v31.0.5
 	- 2025.05.11 @ 08:49 PM CEST:
 		- Stable:
 			- baserow: v1.33.0 --> v1.33.2

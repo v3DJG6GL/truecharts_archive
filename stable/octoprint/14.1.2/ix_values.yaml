@@ -1,0 +1,37 @@
+image:
+  repository: "docker.io/octoprint/octoprint"
+  tag: "1.11.1@sha256:4649b99ef8c3d1e135c4be822fb31de8f5fb2c86e772e8c109065e99424dbcce"
+  pullPolicy: "IfNotPresent"
+service:
+  main:
+    ports:
+      main:
+        port: 10021
+        targetPort: 80
+persistence:
+  data:
+    enabled: true
+    mountPath: "/octoprint"
+  varrun:
+    enabled: true
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    runAsNonRoot: false
+    runAsUser: 0
+    runAsGroup: 0
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            ENABLE_MJPG_STREAMER: "true"
+            # -- sets the Mjpg stream imput parameters
+            # Example "-y -n -r 640x480"
+            MJPG_STREAMER_INPUT:
+            # -- sets the camera dev parameters
+            # Example "/dev/video0"
+            CAMERA_DEV:

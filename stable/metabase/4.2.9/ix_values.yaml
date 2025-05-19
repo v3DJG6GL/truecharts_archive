@@ -1,0 +1,43 @@
+image:
+  repository: "docker.io/metabase/metabase"
+  pullPolicy: "IfNotPresent"
+  tag: "v0.54.8@sha256:7bff6a398136f6c4365d58a48cf570ab27faf64aa7f5c901099a4dc2654077a8"
+service:
+  main:
+    ports:
+      main:
+        protocol: http
+        port: 13030
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            MB_JETTY_PORT: "{{ .Values.service.main.ports.main.port }}"
+            JAVA_TIMEZONE: "{{ .Values.TZ }}"
+            MB_DB_TYPE: "postgres"
+            MB_DB_USER: "{{ .Values.cnpg.main.user }}"
+            MB_DB_DBNAME: "{{ .Values.cnpg.main.database }}"
+            MB_DB_PORT: 5432
+            MB_DB_HOST:
+              secretKeyRef:
+                name: cnpg-main-urls
+                key: host
+            MB_DB_PASS:
+              secretKeyRef:
+                name: cnpg-main-user
+                key: password
+persistence:
+  plugins:
+    enabled: true
+    mountPath: "/plugins"
+# Enabled postgres
+cnpg:
+  main:
+    enabled: true
+    user: metabase
+    database: metabase
+portal:
+  open:
+    enabled: true

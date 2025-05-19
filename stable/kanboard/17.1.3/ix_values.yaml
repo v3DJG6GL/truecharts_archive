@@ -1,0 +1,51 @@
+image:
+  repository: "quay.io/kanboard/kanboard"
+  tag: "v1.2.45@sha256:6711163886e747b5947a771426908c66bca64e4b690b6251137c54f9765a6467"
+  pullPolicy: "IfNotPresent"
+service:
+  main:
+    ports:
+      main:
+        port: 10015
+        targetPort: 80
+persistence:
+  data:
+    enabled: true
+    mountPath: "/var/www/app/data"
+  ssl:
+    enabled: true
+    mountPath: "/etc/nginx/ssl"
+cnpg:
+  main:
+    enabled: true
+    user: kanboard
+    database: kanboard
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsNonRoot: false
+    runAsUser: 0
+    runAsGroup: 0
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            MAIL_CONFIGURATION: false
+            LOG_DRIVER: stdout
+            DB_DRIVER: "postgres"
+            DB_NAME: "{{ .Values.cnpg.main.database }}"
+            DB_USERNAME: "{{ .Values.cnpg.main.user }}"
+            DB_PORT: "5432"
+            DB_PASSWORD:
+              secretKeyRef:
+                name: cnpg-main-user
+                key: password
+            DB_HOSTNAME:
+              secretKeyRef:
+                name: cnpg-main-urls
+                key: host
