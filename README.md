@@ -29,6 +29,23 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.05.21 @ 10:11 AM CEST:
+		- Stable:
+			- baserow: v1.33.2 --> v1.33.3
+			- crafty-4: v4.4.8 --> v4.4.9
+			- ddns-go: v6.9.2 --> v6.9.3
+			- healthchecks: v3.10.20250512 --> v3.10.20250519
+			- homer: v25.05.1 --> v25.05.2
+			- jackett: v0.22.1917 --> v0.22.1930
+			- jupyter: v2025.5.12 --> v2025.5.19
+			- linkding: v1.39.1 --> v1.40.0
+			- meshcentral: v1.1.44 --> v1.1.45
+			- n8n: v1.93.0 --> v1.94.0
+			- nocodb: v0.263.3 --> v0.263.4
+			- paperless-ngx: v2.15.3 --> v2.16.1
+			- plex: v1.41.6.9685 --> v1.41.7.9799
+			- portainer: v2.30.0 --> v2.30.1
+			- speedtest-tracker: v1.5.0 --> v1.6.0
 	- 2025.05.19 @ 09:11 AM CEST:
 		- Stable:
 			- ollama: v0.6.8 --> v0.7.0
