@@ -29,6 +29,64 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.05.29 @ 05:51 PM CEST:
+		- Stable:
+			- adguard-home: v0.107.61 --> v0.107.62
+			- appdaemon: v4.4.2 --> v4.5.2
+			- changedetection-io: v0.49.17 --> v0.49.18
+			- chroma: v1.0.9 --> v1.0.10
+			- clickhouse: v25.4.4.25 --> v25.5.1.2782
+			- codeproject-ai-server: v2.9.7 --> v2.9.7
+			- drawio: v27.0.5 --> v27.0.9
+			- emby: v4.9.0.59 --> v4.9.1.0
+			- esphome: v2025.4.2 --> v2025.5.1
+			- fireflyiii: v6.2.12 --> v6.2.16
+			- flexget: v3.15.42 --> v3.16.0
+			- gamevault-backend: v7.2.3 --> v14.1.1
+			- garrysmod: v6.0.9 --> vgarrysmod
+			- ghostfolio: v2.161.0 --> v2.163.0
+			- healthchecks: v3.10.20250519 --> v3.10.20250526
+			- home-assistant: v2025.5.2 --> v2025.5.3
+			- homebridge: v2025.5.16 --> v2025.5.27
+			- ipfs: v0.34.1 --> v0.35.0
+			- jackett: v0.22.1930 --> v0.22.1960
+			- jenkins: v2.510.0 --> v2.512.0
+			- jupyter: v2025.5.19 --> v2025.5.26
+			- kitchenowl: v0.6.14 --> vlatest
+			- kopia: v0.19.0 --> v0.20.1
+			- maintainerr: v2.14.0 --> v2.15.0
+			- makemkv: v25.04.1 --> v25.05.1
+			- metabase: v0.54.8 --> v0.54.10
+			- metube: v2025.5.1 --> v2025.5.27
+			- minecraft-java: v2025.4.2 --> v2025.5.1
+			- miniflux: v2.2.8 --> v2.2.9
+			- n8n: v1.94.0 --> v1.95.1
+			- neko: v3.0.5 --> v3.0.6
+			- netdata: v2.5.1 --> v2.5.2
+			- nzbhydra: v7.13.0 --> v7.13.2
+			- observium: v20241206.0.0 --> v20250519.0.0
+			- ollama: v0.7.0 --> v0.8.0
+			- paperless-ngx: v2.16.1 --> v2.16.2
+			- plex: v1.41.7.9799 --> v1.41.7.9823
+			- prowlarr: v1.36.2.5059 --> v1.36.3.5071
+			- qinglong: v2.19.0 --> v2.19.1
+			- radarr: v5.23.3.9987 --> v5.25.0.10024
+			- radicale: v3.5.2.0 --> v3.5.4.0
+			- rdtclient: v2.0.112 --> v2.0.113
+			- redis: v8.0.1 --> v8.0.2
+			- redisinsight: v2.68.0 --> v2.70.0
+			- sourcegraph: v6.3.2692 --> v6.3.4167
+			- strapi: v5.13.0 --> v5.13.1
+			- tailscale: v1.82.5 --> v1.84.0
+			- traccar: v6.6.0 --> v6.7.0
+			- wekan: v7.90.0 --> v7.91.0
+			- xen-orchestra: v5.177.0 --> v5.177.2
+			- xwiki: v17.2.2 --> v17.4.0
+		- Premium:
+			- blocky: v0.25.0 --> v0.26.0
+			- grafana: v12.0.0 --> v12.0.1
+			- traefik: v3.4.0 --> v3.4.1
+			- vaultwarden: v1.33.2 --> v1.34.1
 	- 2025.05.21 @ 10:11 AM CEST:
 		- Stable:
 			- baserow: v1.33.2 --> v1.33.3

@@ -1,0 +1,42 @@
+image:
+  pullPolicy: "IfNotPresent"
+  repository: "docker.io/sourcegraph/server"
+  tag: "6.3.4167@sha256:cc9e0c16e538e38cac3cfe3b92da60527d6b1401fbc6d5b86edaf239bcdb8349"
+persistence:
+  applicationdatastoragepath:
+    enabled: true
+    mountPath: /var/opt/sourcegraph
+  configstoragepath:
+    enabled: true
+    mountPath: /etc/sourcegraph
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  adminconsolepo:
+    enabled: true
+    ports:
+      adminconsolepo:
+        enabled: true
+        port: 2633
+        protocol: tcp
+        targetPort: 2633
+  grafanaport:
+    enabled: true
+    ports:
+      grafanaport:
+        enabled: true
+        port: 3370
+        protocol: tcp
+        targetPort: 3370
+  main:
+    ports:
+      main:
+        port: 7080
+        protocol: http
+        targetPort: 7080
