@@ -29,6 +29,11 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.05.29 @ 06:21 PM CEST:
+		- Stable:
+			- gamevault-backend: v7.2.8 --> v14.1.1
+			- garrysmod: v6.1.4 --> vgarrysmod
+			- ollama: v0.8.0 --> v0.8.0
 	- 2025.05.29 @ 06:17 PM CEST:
 		- Stable:
 			- gamevault-backend: v7.2.7 --> v14.1.1
