@@ -29,6 +29,18 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.05.29 @ 06:07 PM CEST:
+		- Stable:
+			- gamevault-backend: v7.2.5 --> v14.1.1
+			- garrysmod: v6.1.1 --> vgarrysmod
+		- Premium:
+			- traefik: v3.4.0 --> v3.4.1
+	- 2025.05.29 @ 06:05 PM CEST:
+		- Stable:
+			- gamevault-backend: v7.2.4 --> v14.1.1
+			- garrysmod: v6.1.0 --> vgarrysmod
+		- Premium:
+			- traefik: v3.4.1 --> v3.4.0
 	- 2025.05.29 @ 05:51 PM CEST:
 		- Stable:
 			- adguard-home: v0.107.61 --> v0.107.62
