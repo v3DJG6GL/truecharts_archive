@@ -1,0 +1,89 @@
+image:
+  repository: "ghcr.io/dgtlmoon/changedetection.io"
+  pullPolicy: "IfNotPresent"
+  tag: "0.49.18@sha256:f8e58266319093ef28623f599ed9f796a4aa1fd9a3aa89f6a17cfceb32aa6530"
+
+# Add browser image configuration
+browserImage:
+  repository: "dgtlmoon/sockpuppetbrowser"
+  pullPolicy: "IfNotPresent"
+  tag: "latest"
+
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            BASE_URL: ""
+            USE_X_SETTINGS: true
+            HIDE_REFERER: true
+            FETCH_WORKERS: 10
+            # Add Playwright configuration
+            PLAYWRIGHT_DRIVER_URL: '{{ printf "ws://%v-playwright-chrome:%v" $fname .Values.service.playwright-chrome.ports.playwright.port }}'
+
+  # Add browser workload
+  playwright-chrome:
+    enabled: true
+    type: Deployment
+    strategy: RollingUpdate
+    replicas: 1
+    podSpec:
+      containers:
+        playwright-chrome:
+          primary: true
+          enabled: true
+          imageSelector: browserImage
+          resources:
+            excludeExtra: true
+          env:
+            SCREEN_WIDTH: "1920"
+            SCREEN_HEIGHT: "1024"
+            SCREEN_DEPTH: "16"
+            MAX_CONCURRENT_CHROME_PROCESSES: "10"
+            STATS_REFRESH_SECONDS: "120"
+            PREBOOT_CHROME: "true"
+            CONNECTION_TIMEOUT: "300000"
+            DEFAULT_BLOCK_ADS: "true"
+            DEFAULT_STEALTH: "true"
+          probes:
+            readiness:
+              enabled: true
+              type: tcp
+              port: 3000
+            liveness:
+              enabled: true
+              type: tcp
+              port: 3000
+            startup:
+              enabled: true
+              type: tcp
+              port: 3000
+
+service:
+  main:
+    ports:
+      main:
+        protocol: http
+        targetPort: 5000
+        port: 5000
+
+  # Add browser service
+  playwright-chrome:
+    enabled: true
+    targetSelector: playwright-chrome
+    ports:
+      playwright:
+        enabled: true
+        port: 3000
+        targetPort: 3000
+        targetSelector: playwright-chrome
+
+persistence:
+  datastore:
+    enabled: true
+    mountPath: "/datastore"
+
+portal:
+  open:
+    enabled: true
