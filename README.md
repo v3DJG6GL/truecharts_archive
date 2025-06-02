@@ -29,6 +29,16 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.06.02 @ 09:09 PM CEST:
+		- Stable:
+			- jackett: v0.22.1960 --> v0.22.1971
+			- jupyter: v2025.5.26 --> v2025.5.30
+			- minio: v2025.04.22 --> v2025.05.24
+			- n8n: v1.95.1 --> v1.95.2
+			- nzbhydra: v7.13.2 --> v7.14.0
+			- tauticord: v5.13.1 --> v5.13.3
+			- wg-easy: v14.0.0 --> v15.0.0
+			- wizarr: v4.2.0 --> v2025.5.1
 	- 2025.05.31 @ 08:43 PM CEST:
 		- Stable:
 			- changedetection-io: v0.49.18 --> v0.49.18_01
