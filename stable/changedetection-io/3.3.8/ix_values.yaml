@@ -20,7 +20,7 @@ workload:
             HIDE_REFERER: true
             FETCH_WORKERS: 10
             # Add Playwright configuration
-            PLAYWRIGHT_DRIVER_URL: '{{ printf "http://%v-playwright-chrome:3000" (include "tc.v1.common.lib.chart.names.fullname" $) }}'
+            PLAYWRIGHT_DRIVER_URL: '{{ printf "ws://%v-playwright-chrome:3000" (include "tc.v1.common.lib.chart.names.fullname" $) }}'
 
   # Add browser workload
   playwright-chrome:
