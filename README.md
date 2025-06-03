@@ -29,6 +29,15 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.06.03 @ 01:46 AM CEST:
+		- Stable:
+			- bookstack: v25.02.20250309 --> v25.05.20250531
+			- docker: v28.1.1 --> v28.2.2
+			- ghostfolio: v2.163.0 --> v2.165.0
+			- homepage: v1.2.0 --> v1.3.2
+			- jackett: v0.22.1971 --> v0.22.1978
+			- misskey: v2025.5.0 --> v2025.5.1
+			- nzbhydra: v7.14.0 --> v7.14.1
 	- 2025.06.03 @ 12:35 AM CEST:
 		- Stable:
 			- appdaemon: v4.5.2 --> v4.5.7
