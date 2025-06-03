@@ -1,0 +1,30 @@
+image:
+  repository: "ghcr.io/alexta69/metube"
+  tag: "2025-06-02@sha256:4957c750a59158a6c6a4d1fae7a865784fa71432084be731cd3ae24b8e28d568"
+  pullPolicy: "IfNotPresent"
+service:
+  main:
+    ports:
+      main:
+        port: 10216
+        targetPort: 8081
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+  downloads:
+    enabled: true
+    mountPath: /downloads
+portal:
+  open:
+    enabled: true
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            STATE_DIR: /config
+            DOWNLOAD_DIR: /downloads
+            OUTPUT_TEMPLATE: "%(title)s.%(ext)s"
+            YTDL_OPTIONS: "{}"

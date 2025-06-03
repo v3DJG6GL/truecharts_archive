@@ -29,6 +29,26 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.06.03 @ 01:14 PM CEST:
+		- Stable:
+			- automatic-ripping-machine: v2.13.0 --> v2.15.0
+			- external-service: v3.21.3 --> v3.22.0
+			- freshrss: v1.26.2 --> v1.26.3
+			- metube: v2025.5.30 --> v2025.6.2
+			- misskey: v2025.5.1 --> v2025.6.0
+			- pgadmin: v9.3.0 --> v9.4.0
+			- qbitrr: v4.10.21 --> v4.10.23
+			- radarr: v5.25.0.10024 --> v5.26.0.10051
+			- restic-rest-server: v0.13.0 --> v0.14.0
+			- seafile: v12.0.11 --> v12.0.14
+			- sourcegraph: v6.3.4167 --> v6.4.0
+			- strapi: v5.13.1 --> v5.14.0
+			- syncthing: v1.29.6 --> v1.29.7
+			- tdarr: v2.40.01 --> v2.42.01
+			- tdarr-node: v2.40.01 --> v2.42.01
+			- xen-orchestra: v5.177.2 --> v5.178.1
+			- zigbee2mqtt: v2.3.0 --> v2.4.0
+			- zwavejs2mqtt: v10.5.1 --> v10.6.1
 	- 2025.06.03 @ 01:46 AM CEST:
 		- Stable:
 			- bookstack: v25.02.20250309 --> v25.05.20250531

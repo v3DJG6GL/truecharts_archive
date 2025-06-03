@@ -1,0 +1,85 @@
+image:
+  repository: "docker.io/zwavejs/zwave-js-ui"
+  pullPolicy: "IfNotPresent"
+  tag: "10.6.1@sha256:fe8166b41b7d808a2cb7b39d830db4cb5aaac0b70066552bc1fd4456fbdb3802"
+service:
+  main:
+    ports:
+      main:
+        port: 8091
+        targetPort: 8091
+  ws:
+    enabled: true
+    ports:
+      ws:
+        enabled: true
+        port: 10046
+        targetPort: 3000
+persistence:
+  config:
+    enabled: true
+    mountPath: "/usr/src/app/store"
+# affinity:
+#   nodeAffinity:
+#     requiredDuringSchedulingIgnoredDuringExecution:
+#       nodeSelectorTerms:
+#       - matchExpressions:
+#         - key: app
+#           operator: In
+#           values:
+#           - zwave-controller
+
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              enabled: true
+              # custom: true
+              # spec:
+              #   failureThreshold: 5
+              #   httpGet:
+              #     path: /health
+              #     port: http
+              #     httpHeaders:
+              #       - name: Accept
+              #         value: text/plain
+              #   initialDelaySeconds: 30
+              #   periodSeconds: 10
+              #   timeoutSeconds: 10
+            readiness:
+              enabled: true
+              # custom: true
+              # spec:
+              #   failureThreshold: 5
+              #   httpGet:
+              #     path: /health
+              #     port: http
+              #     httpHeaders:
+              #       - name: Accept
+              #         value: text/plain
+              #   initialDelaySeconds: 30
+              #   periodSeconds: 10
+              #   timeoutSeconds: 10
+            startup:
+              enabled: false
+              # custom: true
+              # spec:
+              #   failureThreshold: 5
+              #   httpGet:
+              #     path: /health
+              #     port: http
+              #     httpHeaders:
+              #       - name: Accept
+              #         value: text/plain
+              #   initialDelaySeconds: 30
+              #   periodSeconds: 10
+              #   timeoutSeconds: 10
