@@ -29,6 +29,63 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.06.09 @ 04:12 PM CEST:
+		- Stable:
+			- actualserver: v25.5.0 --> v25.6.1
+			- anonaddy: v1.3.1 --> v1.3.2
+			- appdaemon: v4.5.7 --> v4.5.10
+			- authentik: v2025.4.1 --> v2025.6.1
+			- automatic-ripping-machine: v2.15.0 --> v2.15.1
+			- baserow: v1.33.3 --> v1.33.4
+			- borg-server: v2.6.11 --> v2.6.12
+			- changedetection-io: v0.49.18 --> v0.50.2
+			- clickhouse: v25.5.1.2782 --> v25.5.2.47
+			- code-server: v4.100.2 --> v4.100.3
+			- codeproject-ai-server: v2.9.7 --> v2.9.7
+			- ddns-go: v6.9.4 --> v6.9.5
+			- esphome: v2025.5.1 --> v2025.5.2
+			- firefox: v138.0.4 --> v139.0.1
+			- flaresolverr: vexperimental --> v3.3.24
+			- flood: v4.9.3 --> v4.9.5
+			- ghostfolio: v2.165.0 --> v2.169.0
+			- healthchecks: v3.10.20250526 --> v3.10.20250609
+			- immich: v1.132.3 --> v1.134
+			- impostor-server: v1.10.2 --> v1.10.3
+			- jackett: v0.22.1978 --> v0.22.2002
+			- jenkins: v2.512.0 --> v2.513.0
+			- kasm: v1.16.1 --> v1.17.0
+			- lidarr-plugins: v2.12.0.4634 --> v2.12.3.4655
+			- metabase: v0.54.10 --> v0.55.1
+			- metube: v2025.6.2 --> v2025.6.6
+			- minio: v2025.05.24 --> v2025.04.22
+			- mongodb: v8.0.9 --> v8.0.10
+			- n8n: v1.97.0 --> v1.97.1
+			- netdata: v2.5.2 --> v2.5.3
+			- nzbhydra: v7.14.1 --> v7.14.2
+			- ollama: v0.8.0 --> v0.9.0
+			- paperless-ngx: v2.16.2 --> v2.16.3
+			- pihole: v2025.05.1 --> v2025.06.1
+			- plextraktsync: v0.34.10 --> v0.34.11
+			- prowlarr: v1.36.3.5071 --> v1.37.0.5076
+			- proxmox-backup-server: v3.3.2 --> v3.4.1
+			- qbitrr: v4.10.23 --> v4.10.24
+			- radarr: v5.26.0.10051 --> v5.26.1.10080
+			- readarr: v0.4.16.2793 --> v0.4.17.2801
+			- requestrr: v2.1.7 --> v2.1.8
+			- romm: v3.9.0 --> v3.10.0
+			- rss-bridge: v2025.1.26 --> v2025.6.3
+			- smokeping: v2.8.2 --> v2.9.0
+			- sourcegraph: v6.4.0 --> v6.4.1203
+			- splunk: v9.4.2 --> v9.4.3
+			- static-web-server: v2.36.1 --> v2.37.0
+			- strapi: v5.14.0 --> v5.15.0
+			- theme-park: v1.20.1 --> v1.21.0
+			- wallos: v3.1.1 --> v3.2.0
+			- whisparr: v3.0.0.1038 --> v3.0.0.1075
+			- wizarr: v2025.5.1 --> v2025.6.2
+			- xen-orchestra: v5.178.1 --> v5.178.2
+		- System:
+			- kubernetes-reflector: v9.1.7 --> v9.1.10
 	- 2025.06.03 @ 01:14 PM CEST:
 		- Stable:
 			- automatic-ripping-machine: v2.13.0 --> v2.15.0

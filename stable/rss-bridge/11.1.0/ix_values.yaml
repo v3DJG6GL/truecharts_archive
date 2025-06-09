@@ -1,0 +1,31 @@
+image:
+  repository: docker.io/rssbridge/rss-bridge
+  tag: 2025-06-03@sha256:0eca99b2137425c3f73f237e8ed0af676b3085e9be8b76c033da14f0531a71d0
+  pullPolicy: IfNotPresent
+service:
+  main:
+    ports:
+      main:
+        port: 10225
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
+  varrun:
+    enabled: false
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsNonRoot: false
+    runAsUser: 0
+    runAsGroup: 0
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            HTTP_PORT: "{{ .Values.service.main.ports.main.port }}"

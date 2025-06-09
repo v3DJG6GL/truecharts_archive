@@ -1,0 +1,29 @@
+image:
+  repository: "docker.io/thomst08/requestrr"
+  pullPolicy: "IfNotPresent"
+  tag: "v2.1.8@sha256:e1a46220133ae6a92ca3da749b882dcea14279600849cf4c41b4c7c140fde777"
+
+securityContext:
+  container:
+    runAsNonRoot: false
+    readOnlyRootFilesystem: false
+    runAsUser: 0
+    runAsGroup: 0
+
+service:
+  main:
+    ports:
+      main:
+        targetPort: 4545
+        port: 4545
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/root/config"
+  varrun:
+    enabled: true
+
+portal:
+  open:
+    enabled: true
