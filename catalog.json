@@ -10009,7 +10009,7 @@
             ],
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/imgpush.webp"
         },
-        "immich": {
+        "immich-new": {
             "app_readme": "<p>High performance self-hosted photo and video backup solution.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/immich\">https://truecharts.org/charts/stable/immich</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
             "categories": [
                 "media"
@@ -10018,14 +10018,14 @@
             "healthy": true,
             "healthy_error": null,
             "home": "https://truecharts.org/charts/stable/immich",
-            "location": "/home/runner/_work/catalog/catalog/stable/immich",
-            "latest_version": "15.18.8",
-            "latest_app_version": "1.134-05",
-            "latest_human_version": "1.134-05_15.18.8",
+            "location": "/home/runner/_work/catalog/catalog/stable/immich-new",
+            "latest_version": "0.0.1",
+            "latest_app_version": "1.134",
+            "latest_human_version": "1.134_0.0.1",
             "last_update": "2025-06-09 19:17:45",
-            "name": "immich",
+            "name": "immich-new",
             "recommended": false,
-            "title": "Immich",
+            "title": "immich (new)",
             "maintainers": [
                 {
                     "name": "TrueCharts",
@@ -25274,7 +25274,8 @@
                 "https://hub.docker.com/r/zwavejs/zwave-js-ui"
             ],
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/zwavejs2mqtt.webp"
-        }
+        },
+        "immich": {}
     },
     "system": {
         "cert-manager": {
