@@ -29,6 +29,19 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.06.11 @ 12:10 AM CEST:
+		- Stable:
+			- jackett: v0.22.2002 --> v0.22.2004
+			- jellyseerr: v2.5.2 --> v2.6.0
+			- lidarr: v2.11.2.4629 --> v2.12.4.4658
+			- metube: v2025.6.6 --> v2025.6.10
+			- sonarr: v4.0.14.2938 --> v4.0.15.2940
+			- timetagger: v24.12.2 --> v25.06.1
+			- whisparr: v3.0.0.1075 --> v3.0.0.1103
+			- wizarr: v2025.6.2 --> v2025.6.3
+			- znc: v1.9.1 --> v1.10.0
+		- System:
+			- kubernetes-reflector: v9.1.10 --> v9.1.11
 	- 2025.06.10 @ 05:23 PM CEST:
 		- Stable:
 			- immich: v1.134.0-03 --> v1.134.0-03
