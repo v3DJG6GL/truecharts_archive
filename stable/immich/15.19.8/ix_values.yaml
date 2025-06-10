@@ -137,7 +137,7 @@ cnpg:
     enabled: true
     user: immich
     database: immich
-    type: vectorchord
+    type: vectors
     cluster:
       initdb:
         postInitApplicationSQL:
