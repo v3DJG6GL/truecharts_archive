@@ -31,7 +31,7 @@ maintainers:
 - name: TrueCharts
   email: info@truecharts.org
   url: https://truecharts.org
-name: immich
+name: immich-new
 sources:
 - https://ghcr.io/immich-app/immich-machine-learning
 - https://ghcr.io/immich-app/immich-server
