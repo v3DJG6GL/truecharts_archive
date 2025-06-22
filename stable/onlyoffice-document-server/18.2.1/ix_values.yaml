@@ -1,0 +1,67 @@
+image:
+  repository: "docker.io/onlyoffice/documentserver"
+  tag: "9.0.0@sha256:68ef4bee1827ca4cd3dace67e127f4e796fa91303900007cd8dd97151b0e623c"
+  pullPolicy: "IfNotPresent"
+service:
+  main:
+    ports:
+      main:
+        port: 10043
+        targetPort: 80
+# Enabled postgres
+cnpg:
+  main:
+    enabled: true
+    user: onlyoffice
+    database: onlyoffice
+# Enabled redis
+redis:
+  enabled: true
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsNonRoot: false
+    runAsUser: 0
+    runAsGroup: 0
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              path: "/healthcheck"
+            readiness:
+              path: "/healthcheck"
+            startup:
+              path: "/healthcheck"
+          env:
+            WOPI_ENABLED: true
+            JWT_ENABLED: true
+            DB_TYPE: "postgres"
+            DB_PORT: 5432
+            DB_NAME: "{{ .Values.cnpg.main.database }}"
+            DB_USER: "{{ .Values.cnpg.main.user }}"
+            REDIS_SERVER_PORT: 6379
+            DB_HOST:
+              secretKeyRef:
+                name: cnpg-main-urls
+                key: host
+            DB_PWD:
+              secretKeyRef:
+                name: cnpg-main-user
+                key: password
+            REDIS_SERVER_HOST:
+              secretKeyRef:
+                expandObjectName: false
+                name: '{{ printf "%s-%s" .Release.Name "rediscreds" }}'
+                key: plainhost
+            REDIS_SERVER_PASS:
+              secretKeyRef:
+                expandObjectName: false
+                name: '{{ printf "%s-%s" .Release.Name "rediscreds" }}'
+                key: redis-password
+            JWT_SECRET: "randomgeneratedstring"

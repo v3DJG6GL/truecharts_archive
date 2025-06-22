@@ -29,6 +29,99 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.06.22 @ 09:39 PM CEST:
+		- Stable:
+			- audiobookshelf: v2.24.0 --> v2.25.1
+			- authentik: v2025.6.1 --> v2025.6.2
+			- autobrr: v1.62.0 --> v1.63.1
+			- avidemux: v25.02.1 --> v25.06.1
+			- bookstack: v25.05.20250531 --> v25.05.20250616
+			- borg-server: v2.6.12 --> v2.6.14
+			- calibre: v8.4.0 --> v8.5.0
+			- changedetection-io: v0.50.2 --> v0.50.4
+			- chroma: v1.0.12 --> v1.0.13
+			- clamav: v1.4.2 --> v1.4.3
+			- clickhouse: v25.5.2.47 --> v25.5.3.75
+			- cloudflared: v2025.5.0 --> v2025.6.1
+			- code-server: v4.100.3 --> v4.101.1
+			- collabora: v25.04.2.2.1 --> v25.04.3.1.1
+			- crafty-4: v4.4.9 --> v4.4.11
+			- czkawka: v25.04.1 --> v25.06.1
+			- ddns-go: v6.9.5 --> v6.10.0
+			- drawio: v27.0.9 --> v27.1.6
+			- emby: v4.9.1.0 --> v4.9.1.1
+			- esphome: v2025.5.2 --> v2025.6.0
+			- filebot: v25.02.1 --> v25.06.1
+			- filebrowser: v2.32.0 --> v2.33.2
+			- fileflows: v25.05.0 --> v25.06.0
+			- fireflyiii: v6.2.16 --> v6.2.18
+			- firefox: v139.0.1 --> v139.0.4
+			- flaresolverr: v3.3.24 --> v3.3.25
+			- flexget: v3.16.3 --> v3.16.6
+			- flowise: v3.0.1 --> v3.0.2
+			- fluidd: v1.34.2 --> v1.34.3
+			- ghostfolio: v2.169.0 --> v2.173.0
+			- gitea: v1.23.8 --> v1.24.2
+			- healthchecks: v3.10.20250609 --> v3.10.20250616
+			- home-assistant: v2025.5.3 --> v2025.6.1
+			- homebridge: v2025.5.27 --> v2025.6.10
+			- immich: v1.134.0-03 --> v1.135.3
+			- immich-new: v1.134.0 --> v1.135.3
+			- ispy-agent-dvr: v6.3.4.0 --> v6.4.9.0
+			- jackett: v0.22.2004 --> v0.22.2037
+			- jdownloader2: v25.02.1 --> v25.06.1
+			- jellyseerr: v2.6.0 --> v2.7.0
+			- jenkins: v2.513.0 --> v2.515.0
+			- jupyter: v2025.6.2 --> v2025.6.16
+			- lidarr-plugins: v2.12.3.4655 --> v2.13.0.4661
+			- linkding: v1.40.0 --> v1.41.0
+			- maintainerr: v2.17.0 --> v2.18.1
+			- makemkv: v25.05.1 --> v25.06.1
+			- metabase: v0.55.1 --> v0.55.4
+			- minecraft-bedrock: v2025.5.0 --> v2025.6.0
+			- minecraft-java: v2025.5.1 --> v2025.6.0
+			- misskey: v2025.6.0 --> v2025.6.3
+			- n8n: v1.97.1 --> v1.99.1
+			- netbootxyz: v0.7.5 --> v0.7.6
+			- nexus-oss: v3.80.0 --> v3.81.1
+			- nocodb: v0.263.4 --> v0.263.8
+			- nzbhydra: v7.14.2 --> v7.15.1
+			- octoprint: v1.11.1 --> v1.11.2
+			- ollama: v0.9.0 --> v0.9.2
+			- onlyoffice-document-server: v8.3.3 --> v9.0.0
+			- paperless-ngx: v2.16.3 --> v2.17.1
+			- peanut: v5.7.5 --> v5.8.0
+			- pihole: v2025.06.1 --> v2025.06.2
+			- plex: v1.41.7.9823 --> v1.41.8.9834
+			- pocketmine-mp: v5.28.2 --> v5.30.0
+			- portainer: v2.30.1 --> v2.31.1
+			- prowlarr: v1.37.0.5076 --> v2.0.0.5094
+			- radarr: v5.26.1.10080 --> v5.27.0.10101
+			- rdtclient: v2.0.113 --> v2.0.114
+			- readarr: v0.4.17.2801 --> v0.4.18.2805
+			- rstudio: v4.5.0 --> v4.5.1
+			- satisfactory: v1.9.8 --> v1.9.9
+			- sourcegraph: v6.4.1203 --> v6.4.3889
+			- speedtest-tracker: v1.6.0 --> v1.6.1
+			- strapi: v5.15.0 --> v5.16.0
+			- tailscale: v1.84.0 --> v1.84.2
+			- tdarr: v2.42.01 --> v2.45.01
+			- tdarr-node: v2.42.01 --> v2.45.01
+			- tinymediamanager: v5.1.6 --> v5.1.7
+			- twofauth: v5.5.2 --> v5.6.0
+			- unifi: v9.1.120 --> v9.2.87
+			- wekan: v7.91.0 --> v7.92.0
+			- whisparr: v3.0.0.1103 --> v3.0.0.1139
+			- wizarr: v2025.6.3 --> v2025.6.4
+			- wyoming-whisper: v2.4.0 --> v2.5.0
+			- xwiki: v17.4.0 --> v17.4.1
+			- zwavejs2mqtt: v10.6.1 --> v10.7.0
+		- System:
+			- kubernetes-reflector: v9.1.11 --> v9.1.12
+			- snapshot-controller: v8.2.1 --> v8.3.0
+		- Premium:
+			- grafana: v12.0.1 --> v12.0.2
+			- nextcloud: v31.0.5 --> v31.0.6
 	- 2025.06.11 @ 12:10 AM CEST:
 		- Stable:
 			- jackett: v0.22.2002 --> v0.22.2004
