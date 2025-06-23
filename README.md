@@ -29,6 +29,11 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.06.23 @ 11:01 AM CEST:
+		- Stable:
+			- jupyter: v2025.6.16 --> v2025.6.23
+			- kanboard: v1.2.45 --> v1.2.46
+			- qbittorrent: v5.1.0 --> v5.1.1
 	- 2025.06.22 @ 09:39 PM CEST:
 		- Stable:
 			- audiobookshelf: v2.24.0 --> v2.25.1
