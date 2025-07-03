@@ -29,6 +29,95 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.07.03 @ 04:26 PM CEST:
+		- Stable:
+			- actualserver: v25.6.1 --> v25.7.1
+			- adguard-home: v0.107.62 --> v0.107.63
+			- appdaemon: v4.5.10 --> v4.5.11
+			- authentik: v2025.6.2 --> v2025.6.3
+			- automatic-ripping-machine: v2.15.1 --> v2.15.2
+			- avidemux: v25.06.1 --> v25.06.2
+			- changedetection-io: v0.50.4 --> v0.50.5
+			- chroma: v1.0.13 --> v1.0.15
+			- clickhouse: v25.5.3.75 --> v25.6.2.5
+			- cloudcommander: v18.5.2 --> v18.6.0
+			- cloudreve: v3.8.3 --> v4.1.3
+			- code-server: v4.101.1 --> v4.101.2
+			- czkawka: v25.06.1 --> v25.06.2
+			- ddns-go: v6.10.0 --> v6.11.0
+			- digikam: v8.6.0 --> v8.7.0
+			- docker: v28.2.2 --> v28.3.0
+			- emby: v4.9.1.1 --> v4.9.1.3
+			- ersatztv: v25.1.0 --> v25.2.0
+			- esphome: v2025.6.0 --> v2025.6.2
+			- external-dns: v0.17.0 --> v0.18.0
+			- filebot: v25.06.1 --> v25.06.2
+			- filebrowser: v2.33.2 --> v2.35.0
+			- fireflyiii: v6.2.18 --> v6.2.19
+			- flexget: v3.16.6 --> v3.16.9
+			- flowise: v3.0.2 --> v3.0.3
+			- game-server-watcher: v3.1.23 --> v3.1.24
+			- ghostfolio: v2.173.0 --> v2.176.0
+			- guacamole: v1.5.5 --> v1.6.0
+			- guacd: v1.5.5 --> v1.6.0
+			- handbrake: v25.02.3 --> v25.06.3
+			- healthchecks: v3.10.20250616 --> v3.10.20250623
+			- home-assistant: v2025.6.1 --> v2025.6.3
+			- homebox: v0.19.0 --> v0.20.2
+			- homebridge: v2025.6.10 --> v2025.6.29
+			- ispy-agent-dvr: v6.4.9.0 --> v6.5.2.0
+			- jackett: v0.22.2037 --> v0.22.2111
+			- jdownloader2: v25.06.1 --> v25.06.2
+			- jenkins: v2.515.0 --> v2.516.0
+			- jupyter: v2025.6.23 --> v2025.6.30
+			- komga: v1.21.3 --> v1.22.0
+			- linkwarden: v2.10.2 --> v2.11.2
+			- local-ai: v2.29.0 --> v3.1.1
+			- makemkv: v25.06.1 --> v25.06.2
+			- mariadb: v11.7.2 --> v11.8.2
+			- mediainfo: v25.05.1 --> v25.06.2
+			- meshcentral: v1.1.45 --> v1.1.46
+			- metabase: v0.55.4 --> v0.55.5
+			- metube: v2025.6.10 --> v2025.7.1
+			- minecraft-java: v2025.6.0 --> v2025.6.2
+			- miniflux: v2.2.9 --> v2.2.10
+			- mkvcleaver: v25.02.1 --> v25.06.2
+			- mkvtoolnix: v25.05.1 --> v25.06.2
+			- n8n: v1.99.1 --> v1.101.0
+			- netdata: v2.5.3 --> v2.5.4
+			- nginx-proxy-manager: v2.12.3 --> v2.12.4
+			- nzbget: v25.0.0 --> v25.1.0
+			- ollama: v0.9.2 --> v0.9.5
+			- onlyoffice-document-server: v9.0.0 --> v9.0.2
+			- openvscode-server: v1.99.3 --> v1.101.2
+			- pgadmin: v9.4.0 --> v9.5.0
+			- pocketmine-mp: v5.30.0 --> v5.30.1
+			- portainer: v2.31.1 --> v2.31.2
+			- putty: v25.02.1 --> v25.06.2
+			- qbitmanage: v4.3.0 --> v4.4.0
+			- qbittorrent: v5.1.1 --> v5.1.2
+			- qdirstat: v25.02.1 --> v25.06.2
+			- qinglong: v2.19.1 --> v2.19.2
+			- shlink-web-client: v4.4.0 --> v4.4.1
+			- slink: v1.4.9 --> v1.5.0
+			- sourcegraph: v6.4.3889 --> v6.5.0
+			- strapi: v5.16.0 --> v5.16.1
+			- tailscale: v1.84.2 --> v1.84.3
+			- tandoor-recipes: v1.5.34 --> v1.5.35
+			- tsmuxer: v25.04.1 --> v25.06.2
+			- unmanic: v0.2.8 --> v0.2.9
+			- wg-easy: v15.0.0 --> v15.1.0
+			- whisparr: v3.0.0.1139 --> v3.0.0.1149
+			- whisper-asr-webservice: v1.8.2 --> v1.9.0
+			- wizarr: v2025.6.4 --> v2025.6.5
+			- wyoming-piper: v1.5.4 --> v1.6.2
+			- xen-orchestra: v5.178.2 --> v5.180.0
+			- xwiki: v17.4.1 --> v17.5.0
+			- znc: v1.10.0 --> v1.10.1
+		- System:
+			- kubernetes-reflector: v9.1.12 --> v9.1.16
+		- Premium:
+			- traefik: v3.4.1 --> v3.4.2
 	- 2025.06.23 @ 11:01 AM CEST:
 		- Stable:
 			- jupyter: v2025.6.16 --> v2025.6.23

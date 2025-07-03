@@ -1,0 +1,45 @@
+image:
+  repository: "docker.io/dpage/pgadmin4"
+  pullPolicy: "IfNotPresent"
+  tag: "9.5@sha256:2a830466aafd9cbc2aea0f76ff81a80dbbba819f2f5db7e69cb40e9cbdb6bc7b"
+service:
+  main:
+    ports:
+      main:
+        port: 10024
+        targetPort: 80
+persistence:
+  config:
+    enabled: true
+    mountPath: "/var/lib/pgadmin"
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    runAsNonRoot: true
+    readOnlyRootFilesystem: false
+    runAsUser: 5050
+    runAsGroup: 5050
+    fsGroup: 5050
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              enabled: true
+              type: http
+              path: /misc/ping
+            readiness:
+              enabled: true
+              type: http
+              path: /misc/ping
+            startup:
+              enabled: true
+              type: http
+              path: /misc/ping
+          env:
+            PGADMIN_DEFAULT_EMAIL: "replace@this.now"
+            PGADMIN_DEFAULT_PASSWORD: "changeme"

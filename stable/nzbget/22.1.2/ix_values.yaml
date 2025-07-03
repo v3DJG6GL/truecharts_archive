@@ -1,0 +1,29 @@
+image:
+  repository: ghcr.io/elfhosted/nzbget
+  pullPolicy: IfNotPresent
+  tag: 25.1@sha256:77e020a307dc76853929e7ed2c47993bfc3a070d5b2205562d1dcb9510c6fedc
+service:
+  main:
+    ports:
+      main:
+        port: 10057
+        targetPort: 6789
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
+portal:
+  open:
+    enabled: true
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false
