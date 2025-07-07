@@ -1,0 +1,35 @@
+image:
+  repository: docker.io/alicevision/meshroom
+  tag: 2023.3.0-av3.2.0-centos7-cuda11.3.1@sha256:aa6750aacd95e1a0c03d4219bed49265ee46d28de565801e7a35ac46d67dbe35
+  pullPolicy: IfNotPresent
+service:
+  main:
+    ports:
+      main:
+        port: 10243
+        targetPort: 22
+persistence:
+  data:
+    enabled: true
+    mountPath: "/data"
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsNonRoot: false
+    runAsUser: 0
+    runAsGroup: 0
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false

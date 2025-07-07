@@ -29,6 +29,52 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.07.07 @ 07:57 AM CEST:
+		- Stable:
+			- automatic-ripping-machine: v2.15.2 --> v2.16.1
+			- cloudcommander: v18.6.0 --> v18.6.1
+			- cloudflared: v2025.6.1 --> v2025.7.0
+			- dashy: v3.1.0 --> vlatest
+			- ddns-go: v6.11.0 --> v6.11.1
+			- docker: v28.3.0 --> v28.3.1
+			- dokuwiki: v20240206.1.0 --> v2025.0.0
+			- esphome: v2025.6.2 --> v2025.6.3
+			- filebrowser: v2.35.0 --> v2.36.1
+			- fileflows: v25.06.0 --> v25.07.0
+			- fireflyiii: v6.2.19 --> v6.2.20
+			- firefox: v139.0.4 --> v1140.0.2
+			- frigate: v0.15.0 --> v0.15.1
+			- ghostfolio: v2.176.0 --> v2.177.0
+			- gravity: v0.27.0 --> v0.27.1
+			- handbrake: v25.06.3 --> v25.07.1
+			- healthchecks: v3.10.20250623 --> v3.10.20250705
+			- home-assistant: v2025.6.3 --> v2025.7.0
+			- ispy-agent-dvr: v6.5.2.0 --> v6.5.3.0
+			- jackett: v0.22.2111 --> v0.22.2123
+			- jenkins: v2.516.0 --> v2.517.0
+			- linkwarden: v2.11.2 --> v2.11.3
+			- makemkv: v25.06.2 --> v25.07.1
+			- meshroom: v2021.1.0 --> v2023.3.0
+			- metabase: v0.55.5 --> v0.55.6
+			- n8n: v1.101.0 --> v1.101.1
+			- navidrome: v0.56.1 --> v0.57.0
+			- nzbget: v25.1.0 --> v25.2.0
+			- nzbhydra: v7.15.1 --> v7.15.3
+			- outline: v0.84.0 --> v0.85.0
+			- portainer: v2.31.2 --> v2.31.3
+			- pwm: vlatest --> valpine
+			- redis: v8.0.2 --> v8.0.3
+			- slskd: v0.22.5 --> v0.23.1
+			- soft-serve: v0.8.5 --> v0.9.1
+			- sourcegraph: v6.5.0 --> v6.5.1211
+			- syncthing: v1.29.7 --> v1.30.0
+			- whisper-asr-webservice: v1.9.0 --> v1.9.1
+			- wizarr: v2025.6.5 --> v2025.7.1
+			- zigbee2mqtt: v2.4.0 --> v2.5.1
+		- System:
+			- kubernetes-reflector: v9.1.16 --> v9.1.17
+		- Premium:
+			- traefik: v3.4.2 --> v3.4.3
 	- 2025.07.03 @ 04:26 PM CEST:
 		- Stable:
 			- actualserver: v25.6.1 --> v25.7.1
