@@ -1,0 +1,40 @@
+image:
+  repository: "docker.io/jeessy/ddns-go"
+  pullPolicy: "IfNotPresent"
+  tag: "v6.11.3@sha256:9dbd34f9db52544c208c5838d40bb4d29346ce80e971c8df4e8df3b4900b6885"
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsNonRoot: false
+    runAsUser: 0
+    runAsGroup: 0
+service:
+  main:
+    ports:
+      main:
+        targetPort: 9876
+        protocol: http
+        port: 10168
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              type: http
+              path: /
+            readiness:
+              type: http
+              path: /
+            startup:
+              type: http
+              path: /
+          env: {}
+persistence:
+  data:
+    enabled: true
+    mountPath: /root
+portal:
+  open:
+    enabled: true

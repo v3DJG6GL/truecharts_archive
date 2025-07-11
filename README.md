@@ -29,6 +29,62 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.07.11 @ 03:51 PM CEST:
+		- Stable:
+			- avidemux: v25.06.2 --> v25.07.1
+			- baserow: v1.33.4 --> v1.34.1
+			- borg-server: v2.6.14 --> v2.6.16
+			- calibre: v8.5.0 --> v8.6.0
+			- clickhouse: v25.6.2.5 --> v25.6.3.116
+			- cloudreve: v4.1.3 --> v4.2.0
+			- collabora: v25.04.3.1.1 --> v25.04.3.2.1
+			- czkawka: v25.06.2 --> v25.07.1
+			- dashdot: v6.0.0 --> v6.1.0
+			- ddns-go: v6.11.1 --> v6.11.3
+			- emby: v4.9.1.3 --> v4.9.1.5
+			- filebot: v25.06.2 --> v25.07.1
+			- filebrowser: v2.36.1 --> v2.37.0
+			- firefox: v1140.0.2 --> v1140.0.4
+			- flexget: v3.16.9 --> v3.16.12
+			- gaseous-server: v1.7.11 --> v1.7.12
+			- ghostfolio: v2.177.0 --> v2.180.0
+			- home-assistant: v2025.7.0 --> v2025.7.1
+			- homebridge: v2025.6.29 --> v2025.7.4
+			- ispy-agent-dvr: v6.5.3.0 --> v6.5.4.0
+			- jackett: v0.22.2123 --> v0.22.2145
+			- jdownloader2: v25.06.2 --> v25.07.1
+			- jenkins: v2.517.0 --> v2.518.0
+			- jupyter: v2025.6.30 --> v2025.7.7
+			- kavita: v0.8.6 --> v0.8.7
+			- mediainfo: v25.06.2 --> v25.07.1
+			- metabase: v0.55.6 --> v0.55.7
+			- mkvcleaver: v25.06.2 --> v25.07.1
+			- mkvtoolnix: v25.06.2 --> v25.07.1
+			- n8n: v1.101.1 --> v1.102.1
+			- nexus-oss: v3.81.1 --> v3.82.0
+			- nginx-proxy-manager: v2.12.4 --> v2.12.6
+			- ollama: v0.9.5 --> v0.9.7
+			- onlyoffice-document-server: v9.0.2 --> v9.0.3
+			- photoprism: v250426.0.0 --> v250707.0.0
+			- pocketmine-mp: v5.30.1 --> v5.31.0
+			- prowlarr: v2.0.0.5094 --> v2.0.1.5101
+			- putty: v25.06.2 --> v25.07.1
+			- qdirstat: v25.06.2 --> v25.07.1
+			- redisinsight: v2.70.0 --> v2.70.1
+			- redmine: v6.0.5 --> v6.0.6
+			- sabnzbd: v4.5.1 --> v4.5.2
+			- slink: v1.5.0 --> v1.5.1
+			- sourcegraph: v6.5.1211 --> v6.5.2654
+			- speedtest-tracker: v1.6.1 --> v1.6.3
+			- theme-park: v1.21.0 --> v1.21.1
+			- traccar: v6.7.0 --> v6.8.0
+			- tsmuxer: v25.06.2 --> v25.07.1
+			- unmanic: v0.2.9 --> v0.3.0
+			- wizarr: v2025.7.1 --> v2025.7.2
+			- xen-orchestra: v5.180.0 --> v5.181.0
+			- zwavejs2mqtt: v10.7.0 --> v10.8.0
+		- System:
+			- kubernetes-reflector: v9.1.17 --> v9.1.20
 	- 2025.07.07 @ 08:22 AM CEST:
 		- Premium:
 			- authelia: v4.39.1 --> v4.39.4
