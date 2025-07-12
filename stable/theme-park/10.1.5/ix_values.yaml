@@ -1,0 +1,17 @@
+image:
+  repository: "ghcr.io/home-operations/theme-park"
+  pullPolicy: "IfNotPresent"
+  tag: "1.21.2@sha256:fd90bc7ec29641d74d89ab1cf3adf8b6264422f1384b758e1da1d91281c91bac"
+service:
+  main:
+    ports:
+      main:
+        port: 10244
+        targetPort: 8080
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
+portal:
+  open:
+    enabled: true

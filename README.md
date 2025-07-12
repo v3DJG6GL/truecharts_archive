@@ -29,6 +29,18 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.07.12 @ 10:57 AM CEST:
+		- Stable:
+			- emby: v4.9.1.5 --> v4.9.1.6
+			- frigate: v0.15.1 --> v0.15.2
+			- speedtest-tracker: v1.6.3 --> v1.6.4
+			- theme-park: v1.21.1 --> v1.21.2
+			- wizarr: v2025.7.2 --> v2025.7.3
+		- System:
+			- kubernetes-reflector: v9.1.20 --> v9.1.21
+		- Premium:
+			- nextcloud: v31.0.6 --> v31.0.7
+			- traefik: v3.4.3 --> v3.4.4
 	- 2025.07.11 @ 03:51 PM CEST:
 		- Stable:
 			- avidemux: v25.06.2 --> v25.07.1
