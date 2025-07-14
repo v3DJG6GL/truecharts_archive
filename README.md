@@ -29,6 +29,42 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.07.14 @ 09:23 PM CEST:
+		- Stable:
+			- adguardhome-sync: v0.7.6 --> v0.7.7
+			- audiobookshelf: v2.25.1 --> v2.26.0
+			- automatic-ripping-machine: v2.16.1 --> v2.17.1
+			- baserow: v1.34.1 --> v1.34.2
+			- changedetection-io: v0.50.5 --> v0.50.6
+			- docker: v28.3.1 --> v28.3.2
+			- emby: v4.9.1.6 --> v4.9.1.7
+			- filebrowser: v2.37.0 --> v2.40.0
+			- flexget: v3.16.12 --> v3.16.13
+			- flowise: v3.0.3 --> v3.0.4
+			- gaseous-server: v1.7.12 --> v1.7.13
+			- ghostfolio: v2.180.0 --> v2.181.0
+			- healthchecks: v3.10.20250705 --> v3.10.20250714
+			- homebridge: v2025.7.4 --> v2025.7.12
+			- jackett: v0.22.2145 --> v0.22.2154
+			- jupyter: v2025.7.7 --> v2025.7.14
+			- maintainerr: v2.18.1 --> v2.18.2
+			- mealie: v2.8.0 --> v3.0.1
+			- meshcentral: v1.1.46 --> v1.1.47
+			- minecraft-bedrock: v2025.6.0 --> v2025.7.0
+			- mosquitto: v2.0.21 --> v2.0.22
+			- n8n: v1.102.1 --> v1.102.3
+			- ntfy: v2.12.0 --> v2.13.0
+			- oscam: v11884.0.0 --> v11885.0.0
+			- outline: v0.85.0 --> v0.85.1
+			- qbitmanage: v4.4.0 --> v4.5.0
+			- radarr: v5.27.0.10101 --> v5.27.1.10122
+			- servas: v0.5.1 --> v1.0.0
+			- slink: v1.5.1 --> v1.6.1
+			- whisparr: v3.0.0.1149 --> v3.0.0.1163
+			- wizarr: v2025.7.3 --> v2025.7.4
+			- zwavejs2mqtt: v10.8.0 --> v10.9.0
+		- Premium:
+			- authelia: v4.39.4 --> v4.39.5
 	- 2025.07.12 @ 10:57 AM CEST:
 		- Stable:
 			- emby: v4.9.1.5 --> v4.9.1.6
