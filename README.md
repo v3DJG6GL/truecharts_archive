@@ -29,6 +29,15 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.07.16 @ 12:09 AM CEST:
+		- Stable:
+			- n8n: v1.102.3 --> v1.103.0
+			- pihole: v2025.06.2 --> v2025.07.1
+			- unifi: v9.2.87 --> v9.3.43
+		- System:
+			- kubernetes-reflector: v9.1.21 --> v9.1.22
+		- Premium:
+			- nextcloud: v31.0.7 --> v31.0.7
 	- 2025.07.14 @ 09:23 PM CEST:
 		- Stable:
 			- adguardhome-sync: v0.7.6 --> v0.7.7
