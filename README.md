@@ -29,6 +29,12 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.07.29 @ 03:25 PM CEST:
+		- Stable:
+			- flaresolverr: v3.3.25 --> v1.2.1
+			- memcached: v1.6.38 --> v1.6.39
+			- rdtclient: v2.0.114 --> v2.0.116
+			- xwiki: v17.5.0 --> v17.6.0
 	- 2025.07.28 @ 11:58 PM CEST:
 		- Stable:
 			- adguardhome-sync: v0.7.7 --> v0.7.8
