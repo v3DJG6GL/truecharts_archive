@@ -29,6 +29,9 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.07.29 @ 03:34 PM CEST:
+		- Stable:
+			- flaresolverr: v1.2.1 --> v3.3.25
 	- 2025.07.29 @ 03:25 PM CEST:
 		- Stable:
 			- flaresolverr: v3.3.25 --> v1.2.1
