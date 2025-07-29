@@ -1,0 +1,58 @@
+image:
+  repository: "docker.io/kopia/kopia"
+  tag: "0.21.1@sha256:24884f5e9e5f9c19746eddb51fb3449ceb4b6bb0ad6681e145bed53eb2d50125"
+  pullPolicy: "IfNotPresent"
+
+service:
+  main:
+    ports:
+      main:
+        protocol: http
+        port: 10238
+
+kopia:
+  user: "user"
+  password: "secret"
+  server_username: "user"
+  server_password: "password"
+
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          envFrom:
+          - secretRef:
+              name: "kopia-secrets"
+          args:
+          - server
+          - start
+          - --address=http://0.0.0.0:{{ .Values.service.main.ports.main.port }}
+          - --insecure
+          - --server-username={{ .Values.kopia.server_username }}
+          - --server-password={{ .Values.kopia.server_password }}
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/app/config"
+  cache:
+    enabled: true
+    mountPath: "/app/cache"
+  logs:
+    enabled: true
+    mountPath: "/app/logs"
+  rclone:
+    enabled: true
+    mountPath: "/app/rclone"
+
+portal:
+  open:
+    enabled: true
