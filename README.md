@@ -29,6 +29,15 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.08.02 @ 10:31 AM CEST:
+		- Stable:
+			- changedetection-io: v0.50.7 --> v0.50.8
+			- emby: v4.9.1.11 --> v4.9.1.12
+			- immich: v1.136.0 --> v1.137.3
+			- immich-new: v1.136.0 --> v1.137.3
+			- jackett: v0.22.2202 --> v0.22.2207
+			- ollama: v0.9.6 --> v0.10.1
+			- wizarr: v2025.7.7 --> v2025.7.8
 	- 2025.07.29 @ 03:34 PM CEST:
 		- Stable:
 			- flaresolverr: v1.2.1 --> v3.3.25
