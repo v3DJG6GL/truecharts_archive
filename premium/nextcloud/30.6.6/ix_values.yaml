@@ -1,7 +1,7 @@
 image:
   repository: tccr.io/tccr/nextcloud-fpm
   pullPolicy: IfNotPresent
-  tag: v31.0.7@sha256:2bcf414091f0a167d1357f2301c2d1efdcbf70c5aff4578a4b98f70035c5a01b
+  tag: v31.0.7@sha256:fdb9cf95d28ab84cc01b14d45174c606d373e0189131673f5fac95352b3693e4
 nginxImage:
   repository: docker.io/nginxinc/nginx-unprivileged
   pullPolicy: IfNotPresent
@@ -68,8 +68,8 @@ nextcloud:
     # https://github.com/nextcloud/server/blob/master/config/config.sample.php#L1269
     # Only the last part of the provider is needed
     providers:
-      - PNG
-      - JPEG
+    - PNG
+    - JPEG
   # Logging settings
   logging:
     log_level: 2
@@ -97,17 +97,17 @@ nextcloud:
     username: admin
     password: changeme
     dictionaries:
-      - de_DE
-      - en_GB
-      - en_US
-      - el_GR
-      - es_ES
-      - fr_FR
-      - pt_BR
-      - pt_PT
-      - it
-      - nl
-      - ru
+    - de_DE
+    - en_GB
+    - en_US
+    - el_GR
+    - es_ES
+    - fr_FR
+    - pt_BR
+    - pt_PT
+    - it
+    - nl
+    - ru
   onlyoffice:
     # It will not deploy the container
     # Only add the OnlyOffice settings
@@ -149,8 +149,8 @@ workload:
               cpu: 200m
               memory: 500Mi
           envFrom:
-            - configMapRef:
-                name: nextcloud-config
+          - configMapRef:
+              name: nextcloud-config
           probes:
             liveness:
               enabled: true
@@ -208,8 +208,8 @@ workload:
           resources:
             excludeExtra: true
           envFrom:
-            - configMapRef:
-                name: hpb-config
+          - configMapRef:
+              name: hpb-config
           probes:
             readiness:
               enabled: true
@@ -242,14 +242,14 @@ workload:
             excludeExtra: true
           command: imaginary
           args:
-            - -p
-            - "{{ .Values.service.imaginary.ports.imaginary.port }}"
-            - -concurrency
-            - "10"
-            - -max-allowed-resolution
-            - "{{ .Values.nextcloud.previews.max_allowed_resolution }}"
-            - -enable-url-source
-            - -return-size
+          - -p
+          - "{{ .Values.service.imaginary.ports.imaginary.port }}"
+          - -concurrency
+          - "10"
+          - -max-allowed-resolution
+          - "{{ .Values.nextcloud.previews.max_allowed_resolution }}"
+          - -enable-url-source
+          - -return-size
           probes:
             readiness:
               enabled: true
@@ -283,8 +283,8 @@ workload:
             runAsNonRoot: false
             readOnlyRootFilesystem: false
           envFrom:
-            - configMapRef:
-                name: clamav-config
+          - configMapRef:
+              name: clamav-config
           probes:
             readiness:
               enabled: true
@@ -324,13 +324,13 @@ workload:
             allowPrivilegeEscalation: true
             capabilities:
               add:
-                - CHOWN
-                - FOWNER
-                - SYS_CHROOT
-                - MKNOD
+              - CHOWN
+              - FOWNER
+              - SYS_CHROOT
+              - MKNOD
           envFrom:
-            - configMapRef:
-                name: collabora-config
+          - configMapRef:
+              name: collabora-config
           probes:
             readiness:
               enabled: true
@@ -348,20 +348,20 @@ workload:
               port: "{{ .Values.service.collabora.ports.collabora.targetPort }}"
 cronjobs:
   # Don't change names, it's used in the persistence
-  - name: nextcloud-cron
-    enabled: true
-    schedule: "*/5 * * * *"
-    cmd:
-      - echo "Running [php -f /var/www/html/cron.php] ..."
-      - php -f /var/www/html/cron.php
-      - echo "Finished [php -f /var/www/html/cron.php]"
-  - name: preview-cron
-    enabled: "{{ .Values.nextcloud.previews.cron }}"
-    schedule: "{{ .Values.nextcloud.previews.schedule }}"
-    cmd:
-      - echo "Running [occ preview:pre-generate] ..."
-      - occ preview:pre-generate
-      - echo "Finished [occ preview:pre-generate]"
+- name: nextcloud-cron
+  enabled: true
+  schedule: "*/5 * * * *"
+  cmd:
+  - echo "Running [php -f /var/www/html/cron.php] ..."
+  - php -f /var/www/html/cron.php
+  - echo "Finished [php -f /var/www/html/cron.php]"
+- name: preview-cron
+  enabled: "{{ .Values.nextcloud.previews.cron }}"
+  schedule: "{{ .Values.nextcloud.previews.schedule }}"
+  cmd:
+  - echo "Running [occ preview:pre-generate] ..."
+  - occ preview:pre-generate
+  - echo "Finished [occ preview:pre-generate]"
 service:
   # Main service links to ingress easier
   # That's why the nginx is swapped with nextcloud
@@ -549,4 +549,4 @@ ingress:
     integrations:
       traefik:
         chartMiddlewares:
-          - nextcloud-redirect
+        - nextcloud-redirect

@@ -29,6 +29,9 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.08.12 @ 12:11 AM CEST:
+		- Premium:
+			- nextcloud: v31.0.7 --> v31.0.7
 	- 2025.08.11 @ 09:56 PM CEST:
 		- Stable:
 			- ollama: v0.11.4 --> v0.11.4
