@@ -29,6 +29,13 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.08.11 @ 05:48 PM CEST:
+		- Stable:
+			- drawio: v28.0.7 --> v28.0.9
+			- flowise: v3.0.4 --> v3.0.5
+			- healthchecks: v3.10.20250804 --> v3.10.20250811
+			- n8n: v1.106.2 --> v1.107.0
+			- prowlarr: v2.0.2.5116 --> v2.0.3.5130
 	- 2025.08.11 @ 02:19 PM CEST:
 		- Stable:
 			- actualserver: v25.7.1 --> v25.8.0
