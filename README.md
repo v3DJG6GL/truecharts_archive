@@ -29,6 +29,103 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.08.11 @ 02:19 PM CEST:
+		- Stable:
+			- actualserver: v25.7.1 --> v25.8.0
+			- adguard-home: v0.107.63 --> v0.107.64
+			- atuin: v18.7.1 --> v18.8.0
+			- audiobookshelf: v2.26.3 --> v2.28.0
+			- autobrr: v1.64.0 --> v1.65.0
+			- automatic-ripping-machine: v2.17.4 --> v2.18.2
+			- bookstack: v25.05.20250616 --> v25.07.20250804
+			- borg-server: v2.6.16 --> v2.6.17
+			- calibre: v8.7.0 --> v8.8.0
+			- chroma: v1.0.15 --> v1.0.16
+			- clickhouse: v25.6.5.41 --> v25.7.2.54
+			- cloudflared: v2025.7.0 --> v2025.8.0
+			- cloudreve: v4.3.0 --> v4.4.1
+			- collabora: v25.04.4.1.1 --> v25.04.4.2.1
+			- dashdot: v6.1.0 --> v6.2.0
+			- ddns-go: v6.12.0 --> v6.12.2
+			- docker: v28.3.2 --> v28.3.3
+			- emby: v4.9.1.12 --> v4.9.1.17
+			- ersatztv: v25.3.1 --> v25.4.0
+			- esphome: v2025.7.3 --> v2025.7.5
+			- filebrowser: v2.42.0 --> v2.42.3
+			- fileflows: v25.07.0 --> v25.08.0
+			- firefox: v1140.0.4 --> v1141.0.2
+			- fireshare: v1.2.26 --> v1.2.27
+			- flexget: v3.17.0 --> v3.17.6
+			- gamevault-backend: v14.1.1 --> v15.0.2
+			- gaseous-server: v1.7.13 --> v1.7.14
+			- ghostfolio: v2.185.0 --> v2.190.0
+			- gitea: v1.24.3 --> v1.24.4
+			- healthchecks: v3.10.20250728 --> v3.10.20250804
+			- homarr: v0.15.10 --> v0.16.0
+			- home-assistant: v2025.7.3 --> v2025.8.0
+			- homepage: v1.4.0 --> v1.4.4
+			- homer: v25.05.2 --> v25.08.1
+			- ispy-agent-dvr: v6.5.5.0 --> v6.6.1.0
+			- jackett: v0.22.2207 --> v0.22.2258
+			- jdownloader2: v25.07.1 --> v25.07.2
+			- jenkins: v2.520.0 --> v2.522.0
+			- jupyter: v2025.7.28 --> v2025.8.11
+			- komga: v1.22.1 --> v1.23.1
+			- kopia: v0.21.1 --> v20250808.0.232735
+			- local-ai: v3.2.3 --> v3.3.2
+			- makemkv: v25.07.2 --> v25.08.1
+			- mariadb: v11.8.2 --> v11.8.3
+			- mediainfo: v25.07.1 --> v25.07.3
+			- metabase: v0.55.9 --> v0.56.1
+			- metube: v2025.7.27 --> v2025.7.30
+			- minecraft-java: v2025.6.2 --> v2025.8.1
+			- mkvcleaver: v25.07.1 --> v25.07.2
+			- mkvtoolnix: v25.07.1 --> v25.07.2
+			- n8n: v1.105.0 --> v1.106.2
+			- navidrome: v0.57.0 --> v0.58.0
+			- nocodb: v0.263.8 --> v0.264.4
+			- node-red: v4.0.9 --> v4.1.0
+			- ntfy: v2.13.0 --> v2.14.0
+			- ollama: v0.10.1 --> v0.11.4
+			- onlyoffice-document-server: v9.0.3 --> v9.0.4
+			- openvscode-server: v1.102.2 --> v1.102.3
+			- outline: v0.85.1 --> v0.86.1
+			- peanut: v5.10.0 --> v5.11.0
+			- pihole: v2025.07.1 --> v2025.08.0
+			- plex: v1.41.9.9961 --> v1.42.1.10054
+			- pocketmine-mp: v5.31.0 --> v5.32.0
+			- proxmox-backup-server: v3.4.1 --> v4.0.12
+			- putty: v25.07.1 --> v25.07.2
+			- qbitmanage: v4.5.1 --> v4.5.3
+			- qdirstat: v25.07.1 --> v25.07.2
+			- radarr: v5.27.2.10142 --> v5.27.3.10153
+			- redis: v8.0.3 --> v8.2.0
+			- scrypted: v0.121.0 --> v0.123.58
+			- shlink-web-client: v4.4.1 --> v4.5.0
+			- slink: v1.6.3 --> v1.6.4
+			- slskd: v0.23.1 --> v0.23.2
+			- sourcegraph: v6.6.0 --> v6.6.2517
+			- speedtest-tracker: v1.6.5 --> v1.6.6
+			- splunk: v9.4.3 --> v10.0.0
+			- strapi: v5.19.0 --> v5.21.0
+			- tailscale: v1.84.3 --> v1.86.2
+			- tandoor-recipes: v1.5.35 --> v2.0.1
+			- tautulli: v2.15.2 --> v2.15.3
+			- tsmuxer: v25.07.1 --> v25.07.2
+			- unifi: v9.3.43 --> v9.3.45
+			- whisparr: v3.0.0.1180 --> v3.0.0.1241
+			- wizarr: v2025.7.8 --> v2025.8.2
+			- wyoming-piper: v1.6.2 --> v1.6.3
+			- xen-orchestra: v5.181.0 --> v5.184.2
+			- yourls: vlatest --> v1.10.2
+			- zigbee2mqtt: v2.5.1 --> v2.6.0
+			- zwavejs2mqtt: v10.10.0 --> v11.1.0
+		- System:
+			- kubernetes-reflector: v9.1.22 --> v9.1.25
+		- Premium:
+			- authelia: v4.39.5 --> v4.39.6
+			- nextcloud: v31.0.7 --> v31.0.7
+			- vaultwarden: v1.34.2 --> v1.34.3
 	- 2025.08.02 @ 10:31 AM CEST:
 		- Stable:
 			- changedetection-io: v0.50.7 --> v0.50.8

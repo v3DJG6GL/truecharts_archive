@@ -1,0 +1,23 @@
+image:
+  repository: "docker.io/nodered/node-red"
+  pullPolicy: "IfNotPresent"
+  tag: "4.1.0@sha256:da6ac47cce14ed8df7ceddc8a15c8f4c0a41e0836c4d6e68e7a6a82329305a6b"
+service:
+  main:
+    ports:
+      main:
+        port: 1880
+        targetPort: 1880
+persistence:
+  data:
+    enabled: true
+    mountPath: "/data"
+portal:
+  open:
+    enabled: true
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env: {}

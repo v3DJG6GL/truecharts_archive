@@ -1,0 +1,28 @@
+image:
+  repository: "docker.io/b4bz/homer"
+  tag: "v25.08.1@sha256:6231e77bb62047e0849bd67960076a90e79d00ab2f8eec3e2306b28d381a7c2e"
+  pullPolicy: "IfNotPresent"
+service:
+  main:
+    ports:
+      main:
+        port: 10178
+        targetPort: 8080
+persistence:
+  config:
+    enabled: true
+    mountPath: "/www/assets"
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    runAsUser: 1000
+    runAsGroup: 1000
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            INIT_ASSETS: true
