@@ -29,6 +29,14 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.08.12 @ 02:26 AM CEST:
+		- Stable:
+			- deconz: v2.30.2 --> v2.31.0
+			- home-assistant: v2025.8.0 --> v2025.8.1
+			- kanboard: v1.2.46 --> v1.2.47
+			- plex: v1.42.1.10054 --> v1.42.1.10060
+		- Premium:
+			- nextcloud: v31.0.7 --> v31.0.7
 	- 2025.08.12 @ 01:17 AM CEST:
 		- Premium:
 			- nextcloud: v31.0.7 --> v31.0.7
