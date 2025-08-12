@@ -29,6 +29,9 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.08.13 @ 01:57 AM CEST:
+		- Stable:
+			- qbittorrent: v5.1.2 --> v5.1.2.0
 	- 2025.08.13 @ 01:56 AM CEST:
 		- Stable:
 			- automatic-ripping-machine: v2.18.2 --> v2.18.3
