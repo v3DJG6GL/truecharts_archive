@@ -29,6 +29,21 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.08.13 @ 01:56 AM CEST:
+		- Stable:
+			- automatic-ripping-machine: v2.18.2 --> v2.18.3
+			- clickhouse: v25.7.2.54 --> v25.7.3.13
+			- cloudreve: v4.4.1 --> v4.5.0
+			- firefox: v1141.0.2 --> v1141.0.3
+			- flexget: v3.17.6 --> v3.17.8
+			- jackett: v0.22.2258 --> v0.22.2280
+			- jenkins: v2.522.0 --> v2.523.0
+			- local-ai: v3.3.2 --> v3.4.0
+			- metabase: v0.56.1 --> v0.56.2
+			- nexus-oss: v3.82.0 --> v3.83.0
+			- proxmox-backup-server: v4.0.12 --> v4.0.13
+			- wallos: v4.0.0 --> v4.1.0
+			- whisparr: v3.0.0.1241 --> v3.0.0.1247
 	- 2025.08.12 @ 02:26 AM CEST:
 		- Stable:
 			- deconz: v2.30.2 --> v2.31.0

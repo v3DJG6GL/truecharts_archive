@@ -4,6 +4,7 @@ TrueCharts Application Version Cleanup Script
 
 This script cleans up old application versions in a TrueCharts-style repository,
 keeping only the 3 most recent versions for each application.
+Handles both direct version directories and charts/ subdirectories.
 """
 
 import os
@@ -23,222 +24,191 @@ logger = logging.getLogger(__name__)
 
 
 def parse_version(version_string: str) -> Tuple[version.Version, str]:
-    """
-    Parse a version string and return a Version object for sorting.
-
-    Args:
-        version_string: The version string to parse
-
-    Returns:
-        Tuple of (Version object, original string)
-    """
+    """Parse a version string and return a Version object for sorting."""
     try:
-        # Handle semantic versioning
-        return (version.parse(version_string), version_string)
+        cleaned_version = version_string.strip()
+        parsed_version = version.parse(cleaned_version)
+        return (parsed_version, version_string)
     except version.InvalidVersion:
-        # Fallback for non-standard versions
-        logger.warning(f"Invalid version format: {version_string}")
+        try:
+            import re
+            numbers = re.findall(r'\d+', version_string)
+            if len(numbers) >= 2:
+                if len(numbers) >= 3:
+                    fallback_version = f"{numbers[0]}.{numbers[1]}.{numbers[2]}"
+                else:
+                    fallback_version = f"{numbers[0]}.{numbers[1]}.0"
+
+                parsed_version = version.parse(fallback_version)
+                logger.warning(f"Using fallback version parsing for '{version_string}' -> '{fallback_version}'")
+                return (parsed_version, version_string)
+        except:
+            pass
+
+        logger.warning(f"Could not parse version: {version_string}, treating as 0.0.0")
         return (version.parse("0.0.0"), version_string)
 
 
 def get_latest_versions(versions: List[str], keep_count: int = 3) -> List[str]:
-    """
-    Get the latest N versions from a list of version strings.
-
-    Args:
-        versions: List of version strings
-        keep_count: Number of latest versions to keep (default: 3)
-
-    Returns:
-        List of the latest version strings, sorted newest to oldest
-    """
+    """Get the latest N versions from a list of version strings."""
     if not versions:
         return []
 
+    logger.debug(f"Input versions: {versions}")
+
     # Parse versions and sort by version number (newest first)
     parsed_versions = [parse_version(v) for v in versions]
+
+    # Sort by version (newest first)
     sorted_versions = sorted(parsed_versions, key=lambda x: x[0], reverse=True)
 
     # Return the latest N versions
-    return [v[1] for v in sorted_versions[:keep_count]]
+    result = [v[1] for v in sorted_versions[:keep_count]]
+    logger.debug(f"Keeping latest {keep_count} versions: {result}")
+
+    return result
 
 
-def cleanup_version_directories(app_path: Path, keep_versions: List[str]) -> List[str]:
+def get_version_directories(app_path: Path) -> Tuple[List[str], Path]:
     """
-    Remove old version directories, keeping only the specified versions.
-
-    Args:
-        app_path: Path to the application directory
-        keep_versions: List of version strings to keep
-
-    Returns:
-        List of directories that were removed
+    Get all version directories from an application directory.
+    Returns both the version list and the actual directory containing them.
     """
-    removed_dirs = []
+    version_dirs = []
 
     if not app_path.exists() or not app_path.is_dir():
         logger.warning(f"Application path does not exist: {app_path}")
-        return removed_dirs
+        return version_dirs, app_path
+
+    # Check for charts subdirectory first (common in TrueNAS/TrueCharts)
+    charts_dir = app_path / "charts"
+    search_dir = charts_dir if charts_dir.exists() else app_path
+
+    logger.debug(f"Searching for versions in: {search_dir}")
 
     # Get all subdirectories that look like version numbers
-    version_dirs = []
-    for item in app_path.iterdir():
+    for item in search_dir.iterdir():
         if item.is_dir() and item.name not in ['charts', '.git', '__pycache__']:
             # Check if directory name looks like a version
             if any(char.isdigit() for char in item.name):
-                version_dirs.append(item)
+                version_dirs.append(item.name)
+
+    return version_dirs, search_dir
+
+
+def cleanup_version_directories(app_path: Path, keep_versions: List[str], dry_run: bool = False) -> List[str]:
+    """Remove old version directories, keeping only the specified versions."""
+    removed_dirs = []
+
+    version_dirs, search_dir = get_version_directories(app_path)
+
+    if not version_dirs:
+        return removed_dirs
+
+    logger.debug(f"Processing version directories in: {search_dir}")
+
+    # Get actual directory objects for removal
+    actual_dirs = []
+    for item in search_dir.iterdir():
+        if item.is_dir() and item.name in version_dirs:
+            actual_dirs.append(item)
 
     # Remove directories for versions not in keep_versions
-    for version_dir in version_dirs:
+    for version_dir in actual_dirs:
         if version_dir.name not in keep_versions:
-            try:
-                shutil.rmtree(version_dir)
+            if dry_run:
+                logger.info(f"[DRY RUN] Would remove version directory: {version_dir}")
                 removed_dirs.append(version_dir.name)
-                logger.info(f"Removed version directory: {version_dir}")
-            except Exception as e:
-                logger.error(f"Failed to remove directory {version_dir}: {e}")
+            else:
+                try:
+                    shutil.rmtree(version_dir)
+                    removed_dirs.append(version_dir.name)
+                    logger.info(f"Removed version directory: {version_dir}")
+                except Exception as e:
+                    logger.error(f"Failed to remove directory {version_dir}: {e}")
 
     return removed_dirs
 
 
-def update_app_versions_json(app_path: Path, keep_versions: List[str]) -> bool:
-    """
-    Update app_versions.json to keep only the specified versions.
-
-    Args:
-        app_path: Path to the application directory
-        keep_versions: List of version strings to keep
-
-    Returns:
-        True if successful, False otherwise
-    """
-    json_file = app_path / "app_versions.json"
-
-    if not json_file.exists():
-        logger.warning(f"app_versions.json not found in {app_path}")
-        return False
-
-    try:
-        # Read the current JSON file
-        with open(json_file, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-
-        # Create new data with only the versions we want to keep
-        new_data = {}
-        kept_versions = []
-        removed_versions = []
-
-        for version_key in data:
-            if version_key in keep_versions:
-                new_data[version_key] = data[version_key]
-                kept_versions.append(version_key)
-            else:
-                removed_versions.append(version_key)
-
-        # Write the updated JSON file
-        with open(json_file, 'w', encoding='utf-8') as f:
-            json.dump(new_data, f, indent=4, ensure_ascii=False)
-
-        logger.info(f"Updated app_versions.json for {app_path.name}")
-        logger.info(f"  Kept versions: {kept_versions}")
-        if removed_versions:
-            logger.info(f"  Removed versions: {removed_versions}")
-
-        return True
-
-    except Exception as e:
-        logger.error(f"Failed to update app_versions.json in {app_path}: {e}")
-        return False
-
-
-def cleanup_application(app_path: Path, keep_count: int = 3) -> Dict[str, Any]:
-    """
-    Clean up an individual application directory.
-
-    Args:
-        app_path: Path to the application directory
-        keep_count: Number of versions to keep (default: 3)
-
-    Returns:
-        Dictionary with cleanup results
-    """
+def cleanup_application(app_path: Path, keep_count: int = 3, dry_run: bool = False, update_json: bool = True) -> Dict[str, Any]:
+    """Clean up an individual application directory."""
     app_name = app_path.name
-    logger.info(f"Processing application: {app_name}")
+    action = "Analyzing" if dry_run else "Processing"
+    logger.info(f"{action} application: {app_name}")
 
     result = {
         'app_name': app_name,
         'success': False,
         'kept_versions': [],
         'removed_directories': [],
-        'removed_json_entries': []
+        'removed_json_entries': [],
+        'json_updated': False,
+        'source': 'unknown'
     }
 
     try:
-        # Read current app_versions.json to get available versions
-        json_file = app_path / "app_versions.json"
-        if not json_file.exists():
-            logger.warning(f"No app_versions.json found for {app_name}")
-            return result
-
-        with open(json_file, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-
-        available_versions = list(data.keys())
+        # Get versions from directories (handles charts/ subdirectory)
+        available_versions, search_dir = get_version_directories(app_path)
+        result['source'] = 'directories'
 
         if not available_versions:
-            logger.warning(f"No versions found in app_versions.json for {app_name}")
+            logger.warning(f"No versions found for {app_name}")
             return result
+
+        logger.info(f"Found versions in {search_dir.relative_to(app_path.parent) if search_dir != app_path else app_path.name}: {sorted(available_versions)}")
 
         # Get the latest versions to keep
         keep_versions = get_latest_versions(available_versions, keep_count)
         result['kept_versions'] = keep_versions
 
-        logger.info(f"Keeping versions: {keep_versions}")
+        action_verb = "Would keep" if dry_run else "Keeping"
+        logger.info(f"{action_verb} versions: {keep_versions}")
 
         # Clean up version directories
-        removed_dirs = cleanup_version_directories(app_path, keep_versions)
+        removed_dirs = cleanup_version_directories(app_path, keep_versions, dry_run)
         result['removed_directories'] = removed_dirs
 
-        # Update app_versions.json
-        json_success = update_app_versions_json(app_path, keep_versions)
-
-        # Calculate removed JSON entries
+        # Calculate removed entries
         result['removed_json_entries'] = [v for v in available_versions if v not in keep_versions]
 
-        result['success'] = json_success
+        result['success'] = True
 
     except Exception as e:
-        logger.error(f"Failed to process application {app_name}: {e}")
+        action_verb = "analyze" if dry_run else "process"
+        logger.error(f"Failed to {action_verb} application {app_name}: {e}")
 
     return result
 
 
-def cleanup_repository(base_path: str, keep_count: int = 3) -> Dict[str, List[Dict[str, Any]]]:
-    """
-    Clean up all applications in a repository directory.
+def cleanup_repository(base_path: str, keep_count: int = 3, dry_run: bool = False, update_json: bool = True, debug: bool = False) -> Dict[str, List[Dict[str, Any]]]:
+    """Clean up all applications in a repository directory."""
+    if debug:
+        logger.setLevel(logging.DEBUG)
 
-    Args:
-        base_path: Path to the base directory (e.g., "/stable/")
-        keep_count: Number of versions to keep per application (default: 3)
-
-    Returns:
-        Dictionary with results for all processed applications
-    """
     base_dir = Path(base_path)
 
     if not base_dir.exists() or not base_dir.is_dir():
         logger.error(f"Base directory does not exist: {base_path}")
         return {'successful': [], 'failed': []}
 
-    logger.info(f"Starting cleanup of repository: {base_path}")
-    logger.info(f"Keeping {keep_count} versions per application")
+    action = "Starting dry run analysis" if dry_run else "Starting cleanup"
+    logger.info(f"{action} of repository: {base_path}")
+    logger.info(f"{'Would keep' if dry_run else 'Keeping'} {keep_count} versions per application")
+
+    if not update_json:
+        logger.info("JSON file updates are DISABLED - will process directories only")
+
+    if dry_run:
+        logger.info("="*50)
+        logger.info("DRY RUN MODE - NO FILES WILL BE MODIFIED")
+        logger.info("="*50)
 
     results = {'successful': [], 'failed': []}
 
     # Process each application directory
     for item in base_dir.iterdir():
         if item.is_dir() and not item.name.startswith('.'):
-            result = cleanup_application(item, keep_count)
+            result = cleanup_application(item, keep_count, dry_run, update_json)
 
             if result['success']:
                 results['successful'].append(result)
@@ -247,19 +217,25 @@ def cleanup_repository(base_path: str, keep_count: int = 3) -> Dict[str, List[Di
 
     # Print summary
     logger.info("\n" + "="*50)
-    logger.info("CLEANUP SUMMARY")
+    summary_title = "DRY RUN SUMMARY" if dry_run else "CLEANUP SUMMARY"
+    logger.info(summary_title)
     logger.info("="*50)
-    logger.info(f"Successfully processed: {len(results['successful'])} applications")
-    logger.info(f"Failed to process: {len(results['failed'])} applications")
+    logger.info(f"Successfully {'analyzed' if dry_run else 'processed'}: {len(results['successful'])} applications")
+    logger.info(f"Failed to {'analyze' if dry_run else 'process'}: {len(results['failed'])} applications")
 
     if results['successful']:
-        logger.info("\nSuccessful cleanups:")
+        action_verb = "Would be cleaned" if dry_run else "Successful cleanups"
+        logger.info(f"\n{action_verb}:")
         for result in results['successful']:
-            logger.info(f"  {result['app_name']}: kept {len(result['kept_versions'])} versions, "
-                       f"removed {len(result['removed_directories'])} directories")
+            verb = "would keep" if dry_run else "kept"
+            verb2 = "would remove" if dry_run else "removed"
+
+            logger.info(f"  {result['app_name']}: {verb} {len(result['kept_versions'])} versions, "
+                       f"{verb2} {len(result['removed_directories'])} directories")
 
     if results['failed']:
-        logger.info("\nFailed cleanups:")
+        action_verb = "Failed to analyze" if dry_run else "Failed cleanups"
+        logger.info(f"\n{action_verb}:")
         for result in results['failed']:
             logger.info(f"  {result['app_name']}: failed to process")
 
@@ -288,24 +264,42 @@ def main():
         action="store_true",
         help="Show what would be done without actually deleting anything"
     )
+    parser.add_argument(
+        "--no-json-update",
+        action="store_true",
+        help="Skip updating app_versions.json files (only remove directories)"
+    )
+    parser.add_argument(
+        "--debug",
+        action="store_true",
+        help="Enable debug logging to troubleshoot version parsing"
+    )
 
     args = parser.parse_args()
 
-    if args.dry_run:
-        logger.info("DRY RUN MODE - No files will be deleted")
-        # Note: You would need to implement dry-run logic in the cleanup functions
-        # This is left as an exercise for production use
-
     try:
-        results = cleanup_repository(args.directory, args.keep)
+        results = cleanup_repository(
+            args.directory,
+            args.keep,
+            args.dry_run,
+            update_json=not args.no_json_update,
+            debug=args.debug
+        )
+
+        if args.dry_run:
+            logger.info("\nDry run completed. Use without --dry-run to perform actual cleanup.")
+
+        if args.no_json_update:
+            logger.info("Note: JSON files were not modified due to --no-json-update flag")
 
         if results['failed']:
-            exit(1)  # Exit with error code if any applications failed
+            exit(1)
         else:
-            logger.info("All applications processed successfully!")
+            action = "analyzed" if args.dry_run else "processed"
+            logger.info(f"All applications {action} successfully!")
 
     except KeyboardInterrupt:
-        logger.info("Cleanup interrupted by user")
+        logger.info("Operation interrupted by user")
         exit(130)
     except Exception as e:
         logger.error(f"Unexpected error: {e}")
