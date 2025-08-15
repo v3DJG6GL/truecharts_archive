@@ -1,0 +1,50 @@
+image:
+  repository: "docker.io/requarks/wiki"
+  tag: "2.5.308@sha256:1eaa2de751c2925871a95a02e0ddbdd5c48bf2e016653b2e4a8f0c646cc4ff83"
+  pullPolicy: "IfNotPresent"
+service:
+  main:
+    ports:
+      main:
+        port: 10045
+        targetPort: 3000
+cnpg:
+  main:
+    enabled: true
+    user: wikijs
+    database: wikijs
+# /wiki/data is a temporary dir. Without mounting as emptyDir it's only writable by root.
+# https://docs.requarks.io/en/install/config#data-paths
+persistence:
+  wikicache:
+    enabled: true
+    mountPath: "/wiki/data/"
+    type: emptyDir
+portal:
+  open:
+    enabled: true
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              path: "/healthz"
+            readiness:
+              path: "/healthz"
+            startup:
+              path: "/healthz"
+          env:
+            DB_TYPE: "postgres"
+            DB_NAME: "{{ .Values.cnpg.main.database }}"
+            DB_USER: "{{ .Values.cnpg.main.user }}"
+            DB_PORT: "5432"
+            DB_PASS:
+              secretKeyRef:
+                name: cnpg-main-user
+                key: password
+            DB_HOST:
+              secretKeyRef:
+                name: cnpg-main-urls
+                key: host

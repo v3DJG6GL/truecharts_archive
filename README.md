@@ -29,6 +29,40 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.08.15 @ 10:06 PM CEST:
+		- Stable:
+			- chroma: v1.0.16 --> v1.0.17
+			- clickhouse: v25.7.3.13 --> v25.7.4.11
+			- cloudreve: v4.5.0 --> v4.5.1
+			- code-server: v4.102.2 --> v4.103.0
+			- deemix: v4.3.3 --> v4.3.5
+			- emby: v4.9.1.17 --> v4.8.11.0
+			- flexget: v3.17.8 --> v3.17.10
+			- ghostfolio: v2.190.0 --> v2.191.1
+			- gitea: v1.24.4 --> v1.24.5
+			- homepage: v1.4.4 --> v1.4.5
+			- immich: v1.137.3 --> v1.138.0
+			- immich-new: v1.137.3 --> v1.138.0
+			- jackett: v0.22.2280 --> v0.22.2288
+			- jellyseerr: v2.7.2 --> v2.7.3
+			- kometa: v2.2.0 --> v2.2.1
+			- kopia: v20250808.0.232735 --> v20250812.0.11140
+			- lidarr: v2.12.4.4658 --> v2.13.1
+			- lidarr-plugins: v2.13.1.4678 --> v2.13.2.4686
+			- linkwarden: v2.11.5 --> v2.11.7
+			- n8n: v1.107.0 --> v1.107.2
+			- netdata: v2.6.1 --> v2.6.2
+			- peanut: v5.11.0 --> v5.12.0
+			- pocketmine-mp: v5.32.0 --> v5.32.1
+			- qbittorrent: v5.1.2.0 --> v5.1.2
+			- shlink-web-client: v4.5.0 --> v4.5.1
+			- strapi: v5.21.0 --> v5.22.0
+			- syncthing: v1.30.0 --> v2.0.1
+			- wallos: v4.1.0 --> v4.1.1
+			- wikijs: v2.5.307 --> v2.5.308
+			- wizarr: v2025.8.2 --> v2025.8.3
+		- Premium:
+			- grafana: v12.1.0 --> v12.1.1
 	- 2025.08.13 @ 01:57 AM CEST:
 		- Stable:
 			- qbittorrent: v5.1.2 --> v5.1.2.0
