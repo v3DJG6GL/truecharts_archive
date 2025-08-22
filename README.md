@@ -29,6 +29,64 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.08.22 @ 07:38 PM CEST:
+		- Stable:
+			- adguard-home: v0.107.64 --> v0.107.65
+			- authentik: v2025.6.4 --> v2025.8.0
+			- calibre: v8.8.0 --> v8.9.0
+			- changedetection-io: v0.50.8 --> v0.50.10
+			- chroma: v1.0.17 --> v1.0.20
+			- cloudflared: v2025.8.0 --> v2025.8.1
+			- cloudreve: v4.5.1 --> v4.6.0
+			- code-server: v4.103.0 --> v4.103.1
+			- collabora: v25.04.4.2.1 --> v25.04.4.3.1
+			- ddns-go: v6.12.2 --> v6.12.4
+			- esphome: v2025.7.5 --> v2025.8.0
+			- filebrowser: v2.42.3 --> v2.42.5
+			- flexget: v3.17.10 --> v3.17.11
+			- freshrss: v1.26.3 --> v1.27.0
+			- frigate: v0.15.2 --> v0.16.0
+			- ghostfolio: v2.191.1 --> v2.192.0
+			- gonic: v0.16.4 --> v0.17.0
+			- hasty-paste: v2.1.0 --> v2.2.0
+			- home-assistant: v2025.8.1 --> v2025.8.3
+			- homepage: v1.4.5 --> v1.4.6
+			- immich: v1.138.0 --> v1.139.2
+			- immich-new: v1.138.0 --> v1.139.2
+			- jackett: v0.22.2288 --> v0.22.2321
+			- jenkins: v2.523.0 --> v2.524.0
+			- joplin-server: v3.4.1 --> v3.4.2
+			- jupyter: v2025.8.11 --> v2025.8.18
+			- lidarr: v2.13.1 --> v2.13.2
+			- lidarr-plugins: v2.13.2.4686 --> v2.13.3.4692
+			- linkding: v1.41.0 --> v1.42.0
+			- lldap: v0.6.1 --> v0.6.2
+			- maintainerr: v2.18.2 --> v2.19.0
+			- mealie: v3.0.2 --> v3.1.1
+			- mongodb: v8.0.12 --> v8.0.13
+			- mylar: v0.8.2 --> v0.8.3
+			- n8n: v1.107.2 --> v1.108.1
+			- nexus-oss: v3.83.0 --> v3.83.1
+			- nocodb: v0.264.4 --> v0.264.6
+			- ollama: v0.11.4 --> v0.11.4
+			- openhab: v5.0.0 --> v5.0.1
+			- openvscode-server: v1.102.3 --> v1.103.1
+			- paperless-ngx: v2.17.1 --> v2.18.1
+			- papermerge: v3.5.2 --> v3.5.3
+			- pgadmin: v9.6.0 --> v9.7.0
+			- portainer: v2.32.0 --> v2.33.0
+			- qbitmanage: v4.5.3 --> v4.5.4
+			- radarr: v5.27.3.10153 --> v5.27.4.10176
+			- redis: v8.2.0 --> v8.2.1
+			- romm: v4.0.0 --> v4.1.0
+			- shaarli: v0.14.0 --> v0.15.0
+			- sourcegraph: v6.6.2517 --> v6.7.229
+			- syncthing: v2.0.1 --> v2.0.2
+			- tandoor-recipes: v2.0.1 --> v2.0.2
+			- unpoller: v2.15.3 --> v2.15.4
+			- wekan: v7.93.0 --> v7.94.0
+		- System:
+			- kubernetes-reflector: v9.1.25 --> v9.1.26
 	- 2025.08.15 @ 10:06 PM CEST:
 		- Stable:
 			- chroma: v1.0.16 --> v1.0.17

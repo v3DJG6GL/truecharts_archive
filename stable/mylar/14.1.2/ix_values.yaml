@@ -1,0 +1,25 @@
+image:
+  repository: lscr.io/linuxserver/mylar3
+  tag: version-v0.8.3@sha256:82a5292fa0d9801bdff6f1f4c6beb4f36a94f9946985d0a4146b192e0fcc62bd
+  pullPolicy: IfNotPresent
+service:
+  main:
+    ports:
+      main:
+        port: 8090
+        targetPort: 8090
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
+  varrun:
+    enabled: true
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    runAsNonRoot: false
+    readOnlyRootFilesystem: false
+    runAsUser: 0
+    runAsGroup: 0

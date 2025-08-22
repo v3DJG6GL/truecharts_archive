@@ -1,0 +1,26 @@
+image:
+  pullPolicy: "IfNotPresent"
+  repository: "docker.io/shaarli/shaarli"
+  tag: "v0.15.0"
+persistence:
+  cache:
+    enabled: true
+    mountPath: /var/www/shaarli/cache
+  data:
+    enabled: true
+    mountPath: /var/www/shaarli/data
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 8000
+        protocol: tcp
+        targetPort: 80
