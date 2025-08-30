@@ -29,6 +29,80 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.08.30 @ 01:39 PM CEST:
+		- Stable:
+			- audiobookshelf: v2.28.0 --> v2.29.0
+			- authentik: v2025.8.0 --> v2025.8.1
+			- automatic-ripping-machine: v2.18.3 --> v2.18.4
+			- baserow: v1.34.5 --> v1.35.0
+			- calibre-web: v0.6.24 --> v0.6.25
+			- changedetection-io: v0.50.10 --> v0.50.11
+			- clickhouse: v25.7.4.11 --> v25.8.1.5101
+			- code-server: v4.103.1 --> v4.103.2
+			- collabora: v25.04.4.3.1 --> v25.04.5.1.1
+			- crafty-4: v4.4.11 --> v4.5.1
+			- czkawka: v25.07.2 --> v25.08.1
+			- drawio: v28.0.9 --> v28.1.2
+			- esphome: v2025.8.0 --> v2025.8.2
+			- firefox: v1141.0.3 --> v1142.0.1
+			- fireshare: v1.2.27 --> v1.2.30
+			- flaresolverr: v3.3.25 --> v3.4.0
+			- flexget: v3.17.11 --> v3.18.1
+			- ghostfolio: v2.192.0 --> v2.195.0
+			- gokapi: v2.0.1 --> v2.1.0
+			- grav: v1.7.48 --> v1.7.49
+			- healthchecks: v3.10.20250811 --> v3.11.20250828
+			- homebox: v0.20.2 --> v0.21.0
+			- immich: v1.139.4 --> v1.140.0
+			- immich-new: v1.139.4 --> v1.140.0
+			- ipfs: v0.36.0 --> v0.37.0
+			- jackett: v0.22.2321 --> v0.22.2374
+			- jenkins: v2.524.0 --> v2.525.0
+			- jupyter: v2025.8.18 --> v2025.8.25
+			- komga: v1.23.1 --> v1.23.3
+			- kopia: v20250812.0.11140 --> v20250822.0.54743
+			- lidarr: v2.13.2 --> v2.14.0
+			- lidarr-plugins: v2.13.3.4692 --> v2.14.1.4715
+			- linkwarden: v2.11.7 --> v2.12.2
+			- mariadb: v11.8.3 --> v12.0.2
+			- matomo: v5.3.2 --> v5.4.0
+			- mealie: v3.1.1 --> v3.1.2
+			- meshcentral: v1.1.48 --> v1.1.49
+			- metabase: v0.56.2 --> v0.56.3
+			- miniflux: v2.2.11 --> v2.2.12
+			- monero-node: v0.18.4.1 --> v0.18.4.2
+			- n8n: v1.108.1 --> v1.109.1
+			- neko: v3.0.6 --> v3.0.7
+			- netdata: v2.6.2 --> v2.6.3
+			- ollama: v0.11.7 --> v0.11.8
+			- paperless-ngx: v2.18.1 --> v2.18.2
+			- peanut: v5.12.0 --> v5.13.0
+			- picoshare: v1.4.5 --> v1.5.1
+			- plextraktsync: v0.34.12 --> v0.34.13
+			- portainer: v2.33.0 --> v2.33.1
+			- prowlarr: v2.0.3.5130 --> v2.0.5.5160
+			- qbitmanage: v4.5.4 --> v4.5.5
+			- radarr: v5.27.4.10176 --> v5.27.5.10184
+			- radicale: v3.5.4.0 --> v3.5.5.0
+			- sabnzbd: v4.5.2 --> v4.5.3
+			- shlink: v4.5.0 --> v4.5.2
+			- soft-serve: v0.9.1 --> v0.10.0
+			- sourcegraph: v6.7.229 --> v6.7.1104
+			- strapi: v5.22.0 --> v5.23.0
+			- syncthing: v2.0.2 --> v2.0.3
+			- tailscale: v1.86.2 --> v1.86.5
+			- tandoor-recipes: v2.0.2 --> v2.0.3
+			- tauticord: v5.13.3 --> v5.14.0
+			- tinymediamanager: v5.1.8 --> v5.2.0
+			- ubooquity: v2.1.5 --> v3.1.0
+			- unifi: v9.3.45 --> v9.4.19
+			- xen-orchestra: v5.184.2 --> v5.187.0
+			- xwiki: v17.6.0 --> v17.7.0
+			- zwavejs2mqtt: v11.1.0 --> v11.2.1
+		- System:
+			- kubernetes-reflector: v9.1.26 --> v9.1.29
+		- Premium:
+			- traefik: v3.5.0 --> v3.5.1
 	- 2025.08.26 @ 05:52 AM CEST:
 		- Stable:
 			- immich: v1.139.3 --> v1.139.4
