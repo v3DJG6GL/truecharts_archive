@@ -1,0 +1,40 @@
+image:
+  repository: "docker.io/traccar/traccar"
+  tag: "6.9@sha256:36be5fe02e9f77e14265c6e8bd493d557a2ec84afddeed783d4823d109d2ef53"
+  pullPolicy: "IfNotPresent"
+service:
+  main:
+    ports:
+      main:
+        port: 8082
+        targetPort: 8082
+persistence:
+  data:
+    enabled: true
+    mountPath: "/opt/traccar/data"
+cnpg:
+  main:
+    enabled: true
+    user: traccar
+    database: traccar
+portal:
+  open:
+    enabled: true
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            CONFIG_USE_ENVIRONMENT_VARIABLES: true
+            LOGGER_CONSOLE: true
+            DATABASE_DRIVER: "org.postgresql.Driver"
+            DATABASE_USER: "{{ .Values.cnpg.main.user }}"
+            DATABASE_PASSWORD:
+              secretKeyRef:
+                name: cnpg-main-user
+                key: password
+            DATABASE_URL:
+              secretKeyRef:
+                name: cnpg-main-urls
+                key: jdbc

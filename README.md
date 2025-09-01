@@ -29,6 +29,26 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.09.01 @ 09:03 AM CEST:
+		- Stable:
+			- cloudcommander: v18.7.3 --> v18.7.4
+			- crafty-4: v4.5.1 --> v4.5.2
+			- deconz: v2.31.0 --> v2.31.1
+			- jackett: v0.22.2374 --> v0.22.2384
+			- lidarr: v2.14.0 --> v2.14.1
+			- meshroom: v2023.3.0 --> v2025.1.0
+			- misskey: v2025.7.0 --> v2025.8.0
+			- outline: v0.86.1 --> v0.87.1
+			- pasta: v1.6.6 --> v1.6.7
+			- peanut: v5.13.0 --> v5.14.0
+			- plextraktsync: v0.34.13 --> v0.34.14
+			- pocketmine-mp: v5.32.1 --> v5.33.1
+			- qbitmanage: v4.5.5 --> v4.6.0
+			- tauticord: v5.14.0 --> v5.15.0
+			- tdarr: v2.45.01 --> v2.46.01
+			- tdarr-node: v2.45.01 --> v2.46.01
+			- traccar: v6.8.0 --> v6.9.0
+			- whisparr: v3.0.0.1247 --> v3.0.0.1254
 	- 2025.09.01 @ 08:54 AM CEST:
 		- Stable:
 			- immich: v1.140.0 --> v1.140.1

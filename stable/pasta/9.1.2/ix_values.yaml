@@ -1,0 +1,20 @@
+image:
+  repository: docker.io/cglatot/pasta
+  pullPolicy: IfNotPresent
+  tag: 1.6.7@sha256:92e4e9f73a3efc6d226b8f419f717bb573385912cf36e5d234de82ff0c7d46aa
+service:
+  main:
+    ports:
+      main:
+        port: 10302
+        protocol: http
+        targetPort: 80
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsNonRoot: false
+    runAsGroup: 0
+    runAsUser: 0
