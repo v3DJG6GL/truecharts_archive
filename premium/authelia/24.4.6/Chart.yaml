@@ -4,7 +4,7 @@ annotations:
   truecharts.org/min_helm_version: "3.11"
   truecharts.org/train: premium
 apiVersion: v2
-appVersion: 4.39.8.7
+appVersion: 4.39.8.5
 dependencies:
 - name: common
   version: 23.0.10
@@ -48,4 +48,4 @@ sources:
 - https://github.com/authelia/chartrepo
 - https://github.com/truecharts/charts/tree/master/charts/premium/authelia
 type: application
-version: 24.4.6
+version: 24.4.4
