@@ -389,6 +389,7 @@ session:
 ##
 ## The redis connection details
 redisProvider:
+  host: '{{ .Values.redis.creds.plain | trimAll "\"" }}'
   port: 6379
   ## Optional username to be used with authentication.
   # username: authelia
