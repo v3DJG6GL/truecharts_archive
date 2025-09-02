@@ -11,7 +11,7 @@ workload:
       containers:
         main:
           env:
-            AUTHELIA_SESSION_REDIS_HOST: '{{ printf "%v-redis.ix-%v.svc.cluster.local }}'
+            AUTHELIA_SESSION_REDIS_HOST: "authelia-redis.ix-authelia.svc.cluster.local"
             AUTHELIA_SESSION_REDIS_PORT: "{{ .Values.redis.service.main.ports.main.port }}"
             AUTHELIA_SESSION_REDIS_DATABASE_INDEX: "0"
           command:
@@ -377,7 +377,7 @@ session:
   ## spy or attack. Currently the default is 1M or 1 month.
   remember_me_duration: 1M
   redis:
-    host: '{{ printf "%v-redis.ix-%v.svc.cluster.local }}'
+    host: "authelia-redis.ix-authelia.svc.cluster.local"
     port: 6379
     database_index: 0
     maximum_active_connections: 8
@@ -389,7 +389,7 @@ session:
 ##
 ## The redis connection details
 redisProvider:
-  host: '{{ printf "%v-redis.ix-%v.svc.cluster.local }}'
+  host: "authelia-redis.ix-authelia.svc.cluster.local"
   port: 6379
   ## Optional username to be used with authentication.
   # username: authelia
