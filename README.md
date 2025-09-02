@@ -29,6 +29,18 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.09.02 @ 10:43 AM CEST:
+		- Stable:
+			- cloudcommander: v18.7.4 --> v18.8.0
+			- ersatztv: v25.4.0 --> v25.5.0
+			- jackett: v0.22.2384 --> v0.22.2390
+			- minecraft-bedrock: v2025.7.0 --> v2025.9.0
+			- n8n: v1.109.1 --> v1.110.0
+			- nzbget: v25.2.0 --> v25.3.0
+			- outline: v0.87.1 --> v0.87.3
+		- Premium:
+			- authelia: v4.39.7 --> v4.39.8
+			- traefik: v3.5.1 --> v3.5.1
 	- 2025.09.01 @ 09:03 AM CEST:
 		- Stable:
 			- cloudcommander: v18.7.3 --> v18.7.4
