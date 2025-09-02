@@ -44,10 +44,24 @@ service:
       main:
         port: 9091
         targetPort: 9091
+secret:
+  authelia-configfile:
+    enabled: true
+    data:
+      configuration.yaml: |
+        {{- $.Values.authelia | toYaml | nindent 2 }}
+
 persistence:
   config:
     enabled: true
-    mountPath: "/config"
+    mountPath: /config
+  configfile:
+    enabled: true
+    mountPath: /configuration.yaml
+    subPath: configuration.yaml
+    readOnly: true
+    type: secret
+    objectName: authelia-configfile
 cnpg:
   main:
     enabled: true
@@ -57,7 +71,6 @@ cnpg:
 # ... for more options see https://github.com/tccr.io/truecharts/charts/tree/master/tccr.io/truecharts/redis
 redis:
   enabled: true
-  includeCommon: true
 domain: example.com
 ##
 ## Server Configuration
