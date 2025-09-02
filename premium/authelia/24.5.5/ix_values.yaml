@@ -42,8 +42,6 @@ cnpg:
     enabled: true
     user: authelia
     database: authelia
-# Enabled redis
-# ... for more options see https://github.com/tccr.io/truecharts/charts/tree/master/tccr.io/truecharts/redis
 redis:
   enabled: true
   includeCommon: true
