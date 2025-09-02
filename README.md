@@ -29,6 +29,9 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.09.02 @ 08:55 PM CEST:
+		- Premium:
+			- authelia: v4.39.8.15 --> v4.39.8.16
 	- 2025.09.02 @ 06:44 PM CEST:
 		- Premium:
 			- authelia: v4.39.8.14 --> v4.39.8.15
