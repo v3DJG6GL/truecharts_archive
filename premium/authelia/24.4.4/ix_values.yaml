@@ -14,7 +14,6 @@ workload:
             AUTHELIA_SESSION_REDIS_HOST: '{{ .Values.redis.creds.plain | trimAll "\"" }}'
             AUTHELIA_SESSION_REDIS_PORT: "{{ .Values.redis.service.main.ports.main.port }}"
             AUTHELIA_SESSION_REDIS_DATABASE_INDEX: "0"
-            AUTHELIA_SESSION_REDIS_PASSWORD: '{{ .Values.redis.creds.redisPassword | trimAll "\"" }}'
           command:
           - authelia
           args:
