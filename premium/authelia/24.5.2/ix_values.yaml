@@ -51,6 +51,9 @@ cnpg:
 redis:
   enabled: true
   includeCommon: true
+  persistence:
+    enabled: true
+    mountPath: "/bitnami/redis/data"
 domain: example.com
 ##
 ## Server Configuration
