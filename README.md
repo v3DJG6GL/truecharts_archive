@@ -29,6 +29,37 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.09.05 @ 10:04 AM CEST:
+		- Stable:
+			- actualserver: v25.8.0 --> v25.9.0
+			- baserow: v1.35.0 --> v1.35.1
+			- borg-server: v2.6.17 --> v2.6.18
+			- cloudcommander: v18.8.0 --> v18.8.3
+			- crafty-4: v4.5.2 --> v4.5.3
+			- ctfd: v3.7.7 --> v3.8.0
+			- esphome: v2025.8.2 --> v2025.8.3
+			- frigate: v0.16.0 --> v0.16.1
+			- ghostfolio: v2.195.0 --> v2.196.0
+			- home-assistant: v2025.8.3 --> v2025.9.0
+			- ispy-agent-dvr: v6.6.1.0 --> v6.6.2.0
+			- jackett: v0.22.2390 --> v0.22.2418
+			- jenkins: v2.525.0 --> v2.526.0
+			- lidarr-plugins: v2.14.1.4716 --> v2.14.1.4723
+			- local-ai: v3.4.0 --> v3.5.0
+			- metabase: v0.56.3 --> v0.56.4
+			- metube: v2025.7.30 --> v2025.08.28
+			- n8n: v1.110.0 --> v1.110.1
+			- nexus-oss: v3.83.1 --> v3.83.2
+			- nzbhydra: v7.16.0 --> v7.16.2
+			- ollama: v0.11.8 --> v0.11.10
+			- peanut: v5.14.0 --> v5.14.1
+			- pgadmin: v9.7.0 --> v9.8.0
+			- radarr: v5.27.5.10184 --> v5.27.5.10198
+			- sourcegraph: v6.7.1104 --> v6.7.2720
+			- syncthing: v2.0.3 --> v2.0.6
+			- tandoor-recipes: v2.0.3 --> v2.1.0
+		- System:
+			- kubernetes-reflector: v9.1.29 --> v9.1.30
 	- 2025.09.02 @ 09:45 PM CEST:
 		- Premium:
 			- nextcloud: v31.0.8 --> v31.0.7
