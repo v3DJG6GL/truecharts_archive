@@ -29,6 +29,13 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.09.08 @ 08:48 PM CEST:
+		- Stable:
+			- immich: v1.140.1 --> v1.141.1
+			- immich-new: v1.140.1 --> v1.141.1
+			- ispy-agent-dvr: v6.6.4.0 --> v6.6.5.0
+			- misskey: v2025.8.0 --> v2025.9.0
+			- n8n: v1.110.1 --> v1.111.0
 	- 2025.09.08 @ 03:25 PM CEST:
 		- Stable:
 			- lidarr-plugins: v2.14.1.4754 --> v2.14.2.4764
