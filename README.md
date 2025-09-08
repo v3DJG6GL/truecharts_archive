@@ -29,6 +29,50 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.09.08 @ 02:51 PM CEST:
+		- Stable:
+			- airdcpp-webclient: v2.13.3 --> v2.14.0
+			- autobrr: v1.65.0 --> v1.66.1
+			- calibre: v8.9.0 --> v8.10.0
+			- changedetection-io: v0.50.11 --> v0.50.12
+			- clickhouse: v25.8.1.5101 --> v25.8.2.29
+			- cloudreve: v4.6.0 --> v4.7.0
+			- docker: v28.3.3 --> v28.4.0
+			- drawio: v28.1.2 --> v28.2.0
+			- external-dns: v0.18.0 --> v0.19.0
+			- fileflows: v25.08.0 --> v25.09.0
+			- flexget: v3.18.1 --> v3.18.5
+			- fluidd: v1.34.3 --> v1.34.4
+			- ghostfolio: v2.196.0 --> v2.197.0
+			- handbrake: v25.07.2 --> v25.09.1
+			- home-assistant: v2025.9.0 --> v2025.9.1
+			- ispy-agent-dvr: v6.6.2.0 --> v6.6.4.0
+			- jackett: v0.22.2418 --> v0.22.2441
+			- jupyter: v2025.8.25 --> v2025.9.8
+			- kopia: v20250822.0.54743 --> v20250903.0.193546
+			- lidarr-plugins: v2.14.1.4723 --> v2.14.2.4764
+			- mariadb: v12.0.2 --> vlatest
+			- memcached: v1.6.39 --> vlatest
+			- metube: v2025.08.28 --> v2025.09.06
+			- minecraft-java: v2025.8.1 --> v2025.9.2
+			- mongodb: v8.0.13 --> vlatest
+			- nzbhydra: v7.16.2 --> v7.16.3
+			- paperless-ngx: v2.18.2 --> v2.18.4
+			- peanut: v5.14.1 --> v5.14.2
+			- prowlarr: v2.0.5.5160 --> v2.1.0.5180
+			- radarr: v5.27.5.10198 --> v5.28.0.10205
+			- redis: v8.2.1 --> vlatest
+			- slink: v1.6.4 --> v1.6.5
+			- strapi: v5.23.0 --> v5.23.3
+			- syncthing: v2.0.6 --> v2.0.8
+			- tandoor-recipes: v2.1.0 --> v2.1.1
+			- tinymediamanager: v5.2.0 --> v5.2.1
+			- wizarr: v2025.8.3 --> v2025.9.1
+			- wordpress: v6.8.2 --> vlatest
+			- xen-orchestra: v5.187.0 --> v5.188.0
+			- zigbee2mqtt: v2.6.0 --> v2.6.1
+		- Premium:
+			- nextcloud: v31.0.7 --> v31.0.8
 	- 2025.09.05 @ 10:04 AM CEST:
 		- Stable:
 			- actualserver: v25.8.0 --> v25.9.0
