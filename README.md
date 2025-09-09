@@ -29,6 +29,19 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.09.09 @ 03:52 PM CEST:
+		- Stable:
+			- gamevault-backend: v15.0.2 --> v15.0.3
+			- jackett: v0.22.2441 --> v0.22.2444
+			- joplin-server: v3.4.2 --> v3.4.3
+			- komga: v1.23.3 --> v1.23.4
+			- octoprint: v1.11.2 --> v1.11.3
+			- static-web-server: v2.38.0 --> v2.38.1
+			- tandoor-recipes: v2.1.1 --> v2.1.2
+			- tautulli: v2.15.3 --> v2.16.0
+		- Premium:
+			- authelia: v4.39.8 --> v4.39.9
+			- traefik: v3.5.1 --> v3.5.2
 	- 2025.09.08 @ 08:48 PM CEST:
 		- Stable:
 			- immich: v1.140.1 --> v1.141.1

@@ -1,0 +1,30 @@
+image:
+  repository: "ghcr.io/home-operations/jackett"
+  pullPolicy: "IfNotPresent"
+  tag: "0.22.2444@sha256:5e3f2e2d68bc8a6fca8bc947d0ed3c51118921f0ef6aafbf3d3f1e979ddb36aa"
+service:
+  main:
+    ports:
+      main:
+        protocol: http
+        targetPort: 9117
+        port: 9117
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              path: "/health"
+            readiness:
+              path: "/health"
+            startup:
+              path: "/health"
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
+portal:
+  open:
+    enabled: true
