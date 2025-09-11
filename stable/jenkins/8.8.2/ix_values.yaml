@@ -1,0 +1,54 @@
+image:
+  repository: "docker.io/jenkins/jenkins"
+  pullPolicy: "IfNotPresent"
+  tag: "2.527-jdk17@sha256:47d130041f6d7a8bd84dea4d4af1145f6329d4d1954801fd3c6c15042fbbd806"
+security:
+  container:
+    runAsGroup: 1000
+    runAsUser: 1000
+  pod:
+    fsGroup: 1000
+# securityContext:
+#   readOnlyRootFilesystem: false
+jenkins:
+  java_opts: []
+  jenkins_opts: []
+  jenkins_java_opts: []
+  plugins_force_upgrade: false
+  upgrade_if_no_marker: false
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              type: http
+              path: /login
+            readiness:
+              type: http
+              path: /login
+            startup:
+              type: tcp
+          envFrom:
+          - secretRef:
+              name: "jenkins-secret"
+service:
+  main:
+    ports:
+      main:
+        protocol: http
+        port: 10280
+  agent:
+    enabled: true
+    ports:
+      agent:
+        enabled: true
+        port: 50000
+persistence:
+  data:
+    enabled: true
+    mountPath: /var/jenkins_home
+portal:
+  open:
+    enabled: true

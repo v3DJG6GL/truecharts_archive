@@ -29,6 +29,28 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.09.11 @ 01:24 PM CEST:
+		- Stable:
+			- cloudcommander: v18.8.3 --> v18.8.5
+			- collabora: v25.04.5.1.1 --> v25.04.5.2.1
+			- esphome: v2025.8.3 --> v2025.8.4
+			- gitea: v1.24.5 --> v1.24.6
+			- ispy-agent-dvr: v6.6.5.0 --> v6.6.6.0
+			- jackett: v0.22.2444 --> v0.23.8
+			- jenkins: v2.526.0 --> v2.527.0
+			- lidarr-plugins: v2.14.2.4768 --> v2.14.2.4773
+			- meshcentral: v1.1.49 --> v1.1.50
+			- metabase: v0.56.4 --> v0.56.5
+			- nexus-oss: v3.83.2 --> v3.84.0
+			- ollama: v0.11.10 --> v0.11.10
+			- qbitmanage: v4.6.0 --> v4.6.1
+			- romm: v4.1.0 --> v4.2.0
+			- tandoor-recipes: v2.1.2 --> v2.2.0
+			- watchyourlan: v2.1.3 --> v2.1.4
+		- System:
+			- kubernetes-reflector: v9.1.30 --> v9.1.31
+		- Premium:
+			- traefik: v3.5.1 --> v3.5.2
 	- 2025.09.09 @ 04:04 PM CEST:
 		- Premium:
 			- traefik: v3.5.2 --> v3.5.1
