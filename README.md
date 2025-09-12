@@ -29,6 +29,10 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.09.12 @ 10:03 PM CEST:
+		- Stable:
+			- immich: v1.141.1 --> v1.142.0
+			- immich-new: v1.141.1 --> v1.142.0
 	- 2025.09.11 @ 01:24 PM CEST:
 		- Stable:
 			- cloudcommander: v18.8.3 --> v18.8.5
