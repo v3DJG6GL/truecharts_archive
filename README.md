@@ -29,6 +29,15 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.09.12 @ 10:04 PM CEST:
+		- Stable:
+			- chroma: v1.0.20 --> v1.0.21
+			- cloudcommander: v18.8.5 --> v18.8.7
+			- cloudreve: v4.7.0 --> v4.8.0
+			- ghostfolio: v2.197.0 --> v2.198.0
+			- jackett: v0.23.8 --> v0.23.12
+			- slink: v1.6.5 --> v1.6.6
+			- strapi: v5.23.3 --> v5.23.4
 	- 2025.09.12 @ 10:03 PM CEST:
 		- Stable:
 			- immich: v1.141.1 --> v1.142.0
