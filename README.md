@@ -29,6 +29,54 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.09.16 @ 09:02 PM CEST:
+		- Stable:
+			- adguard-home: v0.107.65 --> v0.107.66
+			- adguardhome-sync: v0.7.8 --> v0.8.1
+			- authentik: v2025.8.1 --> v2025.8.3
+			- automatic-ripping-machine: v2.18.4 --> v2.19.1
+			- changedetection-io: v0.50.12 --> v0.50.13
+			- clickhouse: v25.8.2.29 --> v25.8.3.66
+			- cloudcommander: v18.8.7 --> v18.8.11
+			- code-server: v4.103.2 --> v4.104.0
+			- crafty-4: v4.5.3 --> v4.5.4
+			- emby: v4.8.11.0 --> v4.9.1.31
+			- ersatztv: v25.5.0 --> v25.6.0
+			- filebrowser: v2.42.5 --> v2.43.0
+			- flaresolverr: v3.4.0 --> v3.4.1
+			- flexget: v3.18.5 --> v3.18.7
+			- flowise: v3.0.5 --> v3.0.7
+			- ghostfolio: v2.198.0 --> v2.199.0
+			- gravity: v0.27.1 --> v0.28.1
+			- home-assistant: v2025.9.1 --> v2025.9.3
+			- immich: v1.142.0 --> v1.142.1
+			- immich-new: v1.142.0 --> v1.142.1
+			- jackett: v0.23.12 --> v0.23.28
+			- jupyter: v2025.9.8 --> v2025.9.15
+			- kopia: v20250903.0.193546 --> v20250912.0.13554
+			- lidarr: v2.14.1 --> v2.14.2
+			- lidarr-plugins: v2.14.2.4773 --> v2.14.2.4786
+			- makemkv: v25.08.1 --> v25.09.1
+			- mealie: v3.1.2 --> v3.2.1
+			- n8n: v1.111.0 --> v1.112.0
+			- neko: v3.0.7 --> v3.0.8
+			- nocodb: v0.264.6 --> v0.264.7
+			- ollama: v0.11.10 --> v0.11.11
+			- peanut: v5.14.2 --> v5.15.0
+			- pocketmine-mp: v5.33.1 --> v5.33.2
+			- prowlarr: v2.1.0.5180 --> v2.1.1.5185
+			- qbitmanage: v4.6.1 --> v4.6.2
+			- radicale: v3.5.5.0 --> v3.5.6.0
+			- slink: v1.6.6 --> v1.6.7
+			- syncthing: v2.0.8 --> v2.0.9
+			- wallos: v4.1.1 --> v4.3.0
+			- webgrabplus: v5.3.1 --> v5.5.0
+			- whisparr: v3.0.0.1254 --> v3.0.1.1264
+			- whoogle: v0.9.3 --> v0.9.4
+			- zwavejs2mqtt: v11.2.1 --> v11.3.0
+		- Premium:
+			- authelia: v4.39.9 --> v4.39.10
+			- nextcloud: v31.0.8 --> v31.0.9
 	- 2025.09.12 @ 10:04 PM CEST:
 		- Stable:
 			- chroma: v1.0.20 --> v1.0.21
