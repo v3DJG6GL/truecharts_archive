@@ -29,6 +29,60 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.09.23 @ 01:34 AM CEST:
+		- Stable:
+			- automatic-ripping-machine: v2.19.1 --> v2.20.1
+			- bazarr: v1.5.2 --> v1.5.3
+			- changedetection-io: v0.50.13 --> v0.50.14
+			- chroma: v1.0.21 --> v1.1.0
+			- clickhouse: v25.8.3.66 --> v25.8.4.13
+			- cloudflared: v2025.8.1 --> v2025.9.1
+			- code-server: v4.104.0 --> v4.104.1
+			- cops: v3.6.5 --> v3.7.2
+			- drawio: v28.2.0 --> v28.2.3
+			- emby: v4.9.1.31 --> v4.9.1.35
+			- esphome: v2025.8.4 --> v2025.9.1
+			- fileshelter: v6.2.0 --> v6.3.0
+			- flexget: v3.18.7 --> v3.18.9
+			- gamevault-backend: v15.0.3 --> v16.0.1
+			- ghostfolio: v2.199.0 --> v2.200.0
+			- gonic: v0.17.0 --> v0.18.0
+			- home-assistant: v2025.9.3 --> v2025.9.4
+			- homepage: v1.4.6 --> v1.5.0
+			- immich: v1.142.1 --> v1.143.0
+			- immich-new: v1.142.1 --> v1.143.0
+			- jackett: v0.23.28 --> v0.23.52
+			- jenkins: v2.527.0 --> v2.528.0
+			- jupyter: v2025.9.15 --> v2025.9.22
+			- kopia: v20250912.0.13554 --> v20250919.0.55521
+			- lidarr: v2.14.2 --> v2.14.3
+			- local-ai: v3.5.0 --> v3.5.4
+			- meshcentral: v1.1.50 --> v1.1.51
+			- metabase: v0.56.5 --> v0.56.6
+			- miniflux: v2.2.12 --> v2.2.13
+			- n8n: v1.112.0 --> v1.113.0
+			- nexus-oss: v3.84.0 --> v3.84.1
+			- nocodb: v0.264.7 --> v0.264.9
+			- nzbhydra: v7.16.3 --> v7.19.1
+			- odoo: v18.0.0 --> v19.0.0
+			- ollama: v0.11.11 --> v0.11.11
+			- oscam: v11886.0.0 --> v11887.0.0
+			- outline: v0.87.3 --> v0.87.4
+			- plex: v1.42.1.10060 --> v1.42.2.10156
+			- plextraktsync: v0.34.14 --> v0.34.15
+			- portainer: v2.33.1 --> v2.34.0
+			- prowlarr: v2.1.1.5185 --> v2.1.2.5186
+			- qbitmanage: v4.6.2 --> v4.6.3
+			- requestrr: v2.1.8 --> v2.1.9
+			- satisfactory: v1.9.9 --> v1.9.10
+			- sourcegraph: v6.7.2720 --> v6.8.0
+			- speedtest-tracker: v1.6.6 --> v1.6.7
+			- strapi: v5.23.4 --> v5.23.6
+			- tailscale: v1.86.5 --> v1.88.2
+			- tandoor-recipes: v2.2.0 --> v2.2.3
+			- traccar: v6.9.0 --> v6.10.0
+			- wekan: v7.94.0 --> v7.95.0
+			- whisparr: v3.0.1.1264 --> v3.0.1.1304
 	- 2025.09.16 @ 09:02 PM CEST:
 		- Stable:
 			- adguard-home: v0.107.65 --> v0.107.66
