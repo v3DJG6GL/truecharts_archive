@@ -29,6 +29,20 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.09.24 @ 11:29 AM CEST:
+		- Stable:
+			- clickhouse: v25.8.4.13 --> v25.8.5.17
+			- flexget: v3.18.9 --> v3.18.10
+			- immich: v1.143.0 --> v1.143.1
+			- immich-new: v1.143.0 --> v1.143.1
+			- jackett: v0.23.52 --> v0.23.56
+			- jenkins: v2.528.0 --> v2.529.0
+			- jupyter: v2025.9.22 --> v2025.9.23
+			- n8n: v1.113.0 --> v1.113.1
+			- ollama: v0.11.11 --> v0.12.1
+			- syslog-ng: v4.9.0 --> v4.10.0
+		- Premium:
+			- grafana: v12.1.1 --> v12.2.0
 	- 2025.09.23 @ 01:34 AM CEST:
 		- Stable:
 			- automatic-ripping-machine: v2.19.1 --> v2.20.1
