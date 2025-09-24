@@ -29,6 +29,9 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.09.24 @ 11:30 AM CEST:
+		- Stable:
+			- lidarr-plugins: v2.14.2.4786 --> v2.14.3.4793
 	- 2025.09.24 @ 11:29 AM CEST:
 		- Stable:
 			- clickhouse: v25.8.4.13 --> v25.8.5.17
