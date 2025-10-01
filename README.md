@@ -29,6 +29,67 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.10.01 @ 12:15 AM CEST:
+		- Stable:
+			- adguard-home: v0.107.66 --> v0.107.67
+			- authentik: v2025.8.3 --> v2025.8.4
+			- autobrr: v1.66.1 --> v1.67.0
+			- calibre: v8.10.0 --> v8.11.1
+			- clickhouse: v25.8.5.17 --> v25.9.2.1
+			- cloudcommander: v18.8.11 --> v19.0.13
+			- code-server: v4.104.1 --> v4.104.2
+			- collabora: v25.04.5.2.1 --> v25.04.5.3.1
+			- deconz: v2.31.1 --> v2.31.2
+			- drawio: v28.2.3 --> v28.2.5
+			- emby: v4.9.1.35 --> v4.9.1.36
+			- esphome: v2025.9.1 --> v2025.9.2
+			- filebrowser: v2.43.0 --> v2.44.0
+			- firefox: v1142.0.1 --> v1143.0.1
+			- flexget: v3.18.10 --> v3.18.11
+			- freshrss: v1.27.0 --> v1.27.1
+			- game-server-watcher: v3.1.24 --> v3.1.25
+			- ghostfolio: v2.200.0 --> v2.204.0
+			- handbrake: v25.09.1 --> v25.09.2
+			- homer: v25.08.1 --> v25.09.1
+			- immich: v1.143.1 --> v1.144.1
+			- immich-new: v1.143.1 --> v1.144.1
+			- jackett: v0.23.56 --> v0.24.7
+			- jenkins: v2.529.0 --> v2.530.0
+			- kopia: v20250919.0.55521 --> v20250925.0.175035
+			- lidarr-plugins: v2.14.3.4793 --> v2.14.4.4810
+			- linkding: v1.42.0 --> v1.43.0
+			- linkwarden: v2.12.2 --> v2.13.0
+			- mealie: v3.2.1 --> v3.3.0
+			- metabase: v0.56.6 --> v0.56.8
+			- metube: v2025.09.06 --> v2025.09.28
+			- mkvtoolnix: v25.07.2 --> v25.09.1
+			- n8n: v1.113.1 --> v1.114.0
+			- netdata: v2.6.3 --> v2.7.0
+			- nzbhydra: v7.19.1 --> v7.19.2
+			- ollama: v0.12.1 --> v0.12.3
+			- pocketmine-mp: v5.33.2 --> v5.34.1
+			- radarr: v5.28.0.10205 --> v6.0.1.10258
+			- remmina: v1.4.35 --> v1.4.40
+			- romm: v4.2.0 --> v4.3.0
+			- seafile: v12.0.14 --> v13.0.11
+			- shiori: v1.7.4 --> v1.8.0
+			- speedtest-tracker: v1.6.7 --> v1.6.8
+			- splunk: v10.0.0 --> v10.0.1
+			- strapi: v5.23.6 --> v5.24.1
+			- syncthing: v2.0.9 --> v2.0.10
+			- syslog-ng: v4.10.0 --> v4.10.1
+			- tailscale: v1.88.2 --> v1.88.3
+			- tandoor-recipes: v2.2.3 --> v2.2.7
+			- tdarr: v2.46.01 --> v2.47.01
+			- tdarr-node: v2.46.01 --> v2.47.01
+			- tinymediamanager: v5.2.1 --> v5.2.2
+			- xen-orchestra: v5.188.0 --> v5.189.0
+			- zwavejs2mqtt: v11.3.0 --> v11.3.1
+		- System:
+			- kubernetes-reflector: v9.1.31 --> v9.1.33
+			- volsync: v0.13.0 --> v0.13.1
+		- Premium:
+			- traefik: v3.5.2 --> v3.5.3
 	- 2025.09.24 @ 11:30 AM CEST:
 		- Stable:
 			- lidarr-plugins: v2.14.2.4786 --> v2.14.3.4793

@@ -1,0 +1,36 @@
+image:
+  repository: "ghcr.io/home-operations/emby"
+  pullPolicy: "IfNotPresent"
+  tag: "4.9.1.36@sha256:5c8dc62014deda173f95b9c4dcb6ba523558a8f77d34755abf1a7a75e6fddb2c"
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+service:
+  main:
+    ports:
+      main:
+        port: 10079
+        targetPort: 8096
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              type: http
+              path: /
+            readiness:
+              type: http
+              path: /
+            startup:
+              type: http
+              path: /
+          env: {}
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+portal:
+  open:
+    enabled: true
