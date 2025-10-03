@@ -29,6 +29,37 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.10.03 @ 12:32 PM CEST:
+		- Stable:
+			- actualserver: v25.9.0 --> v25.10.0
+			- automatic-ripping-machine: v2.20.1 --> v2.20.3
+			- baserow: v1.35.1 --> v1.35.2
+			- calibre: v8.11.1 --> v8.12.0
+			- ddns-go: v6.12.4 --> v6.12.5
+			- emby: v4.9.1.36 --> v4.9.1.80
+			- esphome: v2025.9.2 --> v2025.9.3
+			- firefox: v1143.0.1 --> v1143.0.3
+			- ghostfolio: v2.204.0 --> v2.205.0
+			- home-assistant: v2025.9.4 --> v2025.10.0
+			- hyperion-ng: v2.0.16 --> v2.1.1
+			- immich: v1.144.1 --> v2.0.0
+			- immich-new: v1.144.1 --> v2.0.0
+			- ipfs: v0.37.0 --> v0.38.0
+			- jackett: v0.24.7 --> v0.24.24
+			- lidarr-plugins: v2.14.4.4810 --> v2.14.4.4817
+			- makemkv: v25.09.1 --> v25.10.1
+			- mealie: v3.3.0 --> v3.3.1
+			- mediainfo: v25.07.3 --> v25.10.1
+			- metube: v2025.09.28 --> v2025.10.01
+			- n8n: v1.114.0 --> v1.114.2
+			- nocodb: v0.264.9 --> v0.265.0
+			- radicale: v3.5.6.0 --> v3.5.7.0
+			- sourcegraph: v6.8.0 --> v6.8.2313
+			- zigbee2mqtt: v2.6.1 --> v2.6.2
+		- System:
+			- kubernetes-reflector: v9.1.33 --> v9.1.34
+		- Premium:
+			- authelia: v4.39.10 --> v4.39.11
 	- 2025.10.01 @ 12:15 AM CEST:
 		- Stable:
 			- adguard-home: v0.107.66 --> v0.107.67

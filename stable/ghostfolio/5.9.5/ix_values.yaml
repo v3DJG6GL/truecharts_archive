@@ -1,0 +1,62 @@
+image:
+  repository: "docker.io/ghostfolio/ghostfolio"
+  pullPolicy: "IfNotPresent"
+  tag: "2.205.0@sha256:45ac1588539881ba8fd9ab04124d2b69eb2dd0ed3310d8600d9755d4e532994f"
+securityContext:
+  container:
+    runAsNonRoot: false
+    readOnlyRootFilesystem: false
+    runAsUser: 0
+    runAsGroup: 0
+service:
+  main:
+    ports:
+      main:
+        port: 3333
+        targetPort: 3333
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              path: "/"
+              type: http
+            readiness:
+              path: "/"
+              type: http
+            startup:
+              type: tcp
+          env:
+            ALPHA_VANTAGE_API_KEY: ""
+            ACCESS_TOKEN_SALT:
+              secretKeyRef:
+                name: ghostfolio-secrets
+                key: ACCESS_TOKEN_SALT
+            JWT_SECRET_KEY:
+              secretKeyRef:
+                name: ghostfolio-secrets
+                key: JWT_SECRET_KEY
+            DATABASE_URL:
+              secretKeyRef:
+                name: ghostfolio-secrets
+                key: DATABASE_URL
+            REDIS_HOST:
+              secretKeyRef:
+                expandObjectName: false
+                name: '{{ printf "%s-%s" .Release.Name "rediscreds" }}'
+                key: plainhost
+            REDIS_PASSWORD: "{{ .Values.redis.password }}"
+            REDIS_PORT: "6379"
+cnpg:
+  main:
+    enabled: true
+    user: ghostfolio
+    database: ghostfolio
+redis:
+  enabled: true
+  includeCommon: true
+portal:
+  open:
+    enabled: true
