@@ -29,6 +29,25 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.10.04 @ 07:18 PM CEST:
+		- Stable:
+			- collabora: v25.04.5.3.1 --> v25.04.6.1.1
+			- docker: v28.4.0 --> v28.5.0
+			- ersatztv: v25.6.0 --> v25.7.0
+			- fileflows: v25.09.0 --> v25.10.0
+			- flexget: v3.18.11 --> v3.18.13
+			- flood: v4.9.5 --> v4.10.0
+			- home-assistant: v2025.10.0 --> v2025.10.1
+			- immich: v2.0.0 --> v2.0.1
+			- immich-new: v2.0.0 --> v2.0.1
+			- jackett: v0.24.24 --> v0.24.37
+			- lidarr: v2.14.3 --> v2.14.4
+			- local-ai: v3.5.4 --> v3.6.0
+			- minecraft-java: v2025.9.2 --> v2025.10.0
+			- nocodb: v0.265.0 --> v0.265.1
+			- pocketmine-mp: v5.34.1 --> v5.35.0
+			- xen-orchestra: v5.189.0 --> v5.190.0
+			- xwiki: v17.7.0 --> v17.8.0
 	- 2025.10.03 @ 12:32 PM CEST:
 		- Stable:
 			- actualserver: v25.9.0 --> v25.10.0
