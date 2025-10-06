@@ -29,6 +29,23 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.10.06 @ 11:53 AM CEST:
+		- Stable:
+			- automatic-ripping-machine: v2.20.3 --> v2.20.4
+			- chroma: v1.1.0 --> v1.1.1
+			- cops: v3.7.2 --> v3.7.8
+			- ghostfolio: v2.205.0 --> v2.206.0
+			- jackett: v0.24.37 --> v0.24.72
+			- lidarr: v2.14.4 --> v2.14.5
+			- linkding: v1.43.0 --> v1.44.0
+			- minecraft-java: v2025.10.0 --> v2025.10.1
+			- nvidia-gpu-exporter: v1.3.2 --> v1.4.0
+			- oscam: v11887.0.0 --> v11888.0.0
+			- prowlarr: v2.1.2.5186 --> v2.1.3.5208
+			- slink: v1.6.7 --> v1.7.0
+			- tdarr: v2.47.01 --> v2.48.01
+			- tdarr-node: v2.47.01 --> v2.48.01
+			- whisparr: v3.0.1.1304 --> v3.0.1.1307
 	- 2025.10.04 @ 07:18 PM CEST:
 		- Stable:
 			- collabora: v25.04.5.3.1 --> v25.04.6.1.1
