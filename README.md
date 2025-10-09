@@ -29,6 +29,39 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.10.09 @ 11:41 AM CEST:
+		- Stable:
+			- audiobookshelf: v2.29.0 --> v2.30.0
+			- autobrr: v1.67.0 --> v1.68.0
+			- automatic-ripping-machine: v2.20.4 --> v2.20.5
+			- baserow: v1.35.2 --> v1.35.3
+			- changedetection-io: v0.50.14 --> v0.50.17
+			- clamav: v1.4.3 --> v1.5.0
+			- clickhouse: v25.9.2.1 --> v25.9.3.48
+			- code-server: v4.104.2 --> v4.104.3
+			- flowise: v3.0.7 --> v3.0.8
+			- ghostfolio: v2.206.0 --> v2.207.0
+			- homer: v25.09.1 --> v25.10.1
+			- impostor-server: v1.10.3 --> v1.10.4
+			- ipfs: v0.38.0 --> v0.38.1
+			- jackett: v0.24.72 --> v0.24.90
+			- jenkins: v2.530.0 --> v2.531.0
+			- kometa: v2.2.1 --> v2.2.2
+			- komga: v1.23.4 --> v1.23.5
+			- matomo: v5.4.0 --> v5.5.0
+			- metabase: v0.56.8 --> v0.56.9
+			- misskey: v2025.9.0 --> v2025.10.0
+			- n8n: v1.114.2 --> v1.115.1
+			- nexus-oss: v3.84.1 --> v3.85.0
+			- nvidia-gpu-exporter: v1.4.0 --> v1.4.1
+			- ollama: v0.12.3 --> v0.12.3
+			- radarr: v6.0.1.10258 --> v6.0.2.10271
+			- rdtclient: v2.0.116 --> v2.0.117
+			- tandoor-recipes: v2.2.7 --> v2.3.0
+			- wekan: v7.95.0 --> v7.97.0
+			- zwavejs2mqtt: v11.3.1 --> v11.4.1
+		- Premium:
+			- authelia: v4.39.11 --> v4.39.12
 	- 2025.10.06 @ 11:55 AM CEST:
 		- Stable:
 			- lidarr-plugins: v2.14.4.4817 --> v2.14.5.4825
