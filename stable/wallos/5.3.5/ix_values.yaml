@@ -1,0 +1,31 @@
+image:
+  repository: "ghcr.io/ellite/wallos"
+  tag: "4.4.1@sha256:6244e17d966401f86d6de724f4fcd5ef3d790156f7d8f8566f315b4da91c7c6b"
+  pullPolicy: "IfNotPresent"
+
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsNonRoot: false
+    runAsUser: 0
+    runAsGroup: 0
+
+service:
+  main:
+    ports:
+      main:
+        port: 8282
+        protocol: tcp
+        targetPort: 80
+
+persistence:
+  database:
+    enabled: true
+    mountPath: "/var/www/html/db"
+  logos:
+    enabled: true
+    mountPath: "/var/www/html/images/uploads/logos"
+
+portal:
+  open:
+    enabled: true

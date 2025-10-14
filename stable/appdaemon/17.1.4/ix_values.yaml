@@ -1,0 +1,47 @@
+image:
+  repository: docker.io/acockburn/appdaemon
+  pullPolicy: IfNotPresent
+  tag: 4.5.12@sha256:8f2babc1e73d78bef2d7f5f7198527c5b18eb9fe8cc277698741bae87f348f4f
+securityContext:
+  container:
+    runAsNonRoot: false
+    readOnlyRootFilesystem: false
+    runAsUser: 0
+    runAsGroup: 0
+service:
+  main:
+    ports:
+      main:
+        port: 5050
+        protocol: http
+        targetPort: 5050
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              type: http
+              path: /
+            readiness:
+              type: http
+              path: /
+            startup:
+              type: http
+              path: /
+          env:
+            DASH_URL: "http://$HOSTNAME:5050"
+            HA_URL: ""
+            LATITUDE: 46
+            LONGITUDE: -94
+            ELEVATION: 1217
+            TIMEZONE: "{{ .Values.TZ }}"
+            TOKEN: "REPLACETHIS"
+persistence:
+  conf:
+    enabled: true
+    mountPath: /conf
+portal:
+  open:
+    enabled: true

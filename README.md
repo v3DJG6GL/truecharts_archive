@@ -29,6 +29,43 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.10.14 @ 02:26 AM CEST:
+		- Stable:
+			- appdaemon: v4.5.11 --> v4.5.12
+			- changedetection-io: v0.50.17 --> v0.50.23
+			- docker: v28.5.0 --> v28.5.1
+			- domoticz: v2025.1.0 --> v2025.2.0
+			- ersatztv: v25.7.0 --> v25.7.1
+			- external-service: v3.22.1 --> v3.22.2
+			- flaresolverr: v3.4.1 --> v3.4.2
+			- flexget: v3.18.13 --> v3.18.14
+			- ghostfolio: v2.207.0 --> v2.208.0
+			- gonic: v0.18.0 --> v0.19.0
+			- hasty-paste: v2.2.0 --> v2.3.0
+			- home-assistant: v2025.10.1 --> v2025.10.2
+			- jackett: v0.24.90 --> v0.24.124
+			- kopia: v20250925.0.175035 --> v20251008.0.52618
+			- linkding: v1.44.0 --> v1.44.1
+			- mealie: v3.3.1 --> v3.3.2
+			- minecraft-java: v2025.10.1 --> v2025.10.2
+			- monero-node: v0.18.4.2 --> v0.18.4.3
+			- n8n: v1.115.1 --> v1.116.0
+			- node-red: v4.1.0 --> v4.1.1
+			- nzbget: v25.3.0 --> v25.4.0
+			- oscam: v11888.0.0 --> v11890.0.0
+			- peanut: v5.15.0 --> v5.16.0
+			- rdtclient: v2.0.117 --> v2.0.118
+			- shlink: v4.5.2 --> v4.5.3
+			- slink: v1.7.0 --> v1.7.3
+			- tandoor-recipes: v2.3.0 --> v2.3.2
+			- tdarr: v2.48.01 --> v2.49.01
+			- tdarr-node: v2.48.01 --> v2.49.01
+			- verysync: v2.20.1 --> v2.21.3
+			- wallos: v4.3.0 --> v4.4.1
+			- wekan: v7.97.0 --> v7.99.0
+			- whisparr: v3.0.1.1307 --> v3.0.1.1310
+			- whoogle: v0.9.4 --> v1.1.0
+			- xen-orchestra: v5.190.0 --> v5.190.1
 	- 2025.10.09 @ 11:41 AM CEST:
 		- Stable:
 			- audiobookshelf: v2.29.0 --> v2.30.0

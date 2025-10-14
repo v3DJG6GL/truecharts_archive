@@ -1,0 +1,39 @@
+image:
+  repository: "docker.io/domoticz/domoticz"
+  pullPolicy: "IfNotPresent"
+  tag: "2025.2@sha256:142181385d5420020864ca726be9a1cb48a66b61845b9c18a51864482fc02641"
+securityContext:
+  container:
+    runAsNonRoot: false
+    readOnlyRootFilesystem: false
+    runAsUser: 0
+    runAsGroup: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10144
+  comm1:
+    enabled: true
+    ports:
+      comm1:
+        enabled: true
+        targetPort: 6144
+        port: 6144
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            # Set default http port. Container also has SSL_PORT variable for SSL.
+            WWW_PORT: "{{ .Values.service.main.ports.main.port }}"
+            # Set userdata path to match previous linuxserver.io default
+            EXTRA_CMD_ARG: "-userdata {{ .Values.persistence.config.mountPath }}"
+persistence:
+  config:
+    enabled: true
+    mountPath: /opt/domoticz/userdata
+portal:
+  open:
+    enabled: true

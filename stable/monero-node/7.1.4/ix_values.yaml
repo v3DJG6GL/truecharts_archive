@@ -1,0 +1,43 @@
+image:
+  pullPolicy: "IfNotPresent"
+  repository: "ghcr.io/sethforprivacy/simple-monerod"
+  tag: "v0.18.4.3@sha256:7f4fd04d1c35299e57c1719fad23a0d058691a21304649b6986afd3b8ef7a090"
+
+monero:
+  rpcbindip: "0.0.0.0"
+  rpcbindport: "18089"
+  publicnode: true
+  noigd: true
+  enablednsblocklist: true
+  pruneblockchain: true
+
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+
+service:
+  main:
+    ports:
+      main:
+        port: 18080
+        protocol: tcp
+        targetPort: 18080
+  rpc:
+    enabled: true
+    ports:
+      rpc:
+        enabled: true
+        port: 18089
+        protocol: tcp
+        targetPort: 18089
+
+persistence:
+  blockchainstorage:
+    enabled: true
+    mountPath: /home/monero/.bitmonero
+
+portal:
+  open:
+    enabled: true
