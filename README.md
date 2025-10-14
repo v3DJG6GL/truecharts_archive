@@ -29,6 +29,11 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.10.14 @ 02:30 AM CEST:
+		- Stable:
+			- ollama: v0.12.3 --> v0.12.5
+		- Premium:
+			- authelia: v4.39.12 --> v4.39.13
 	- 2025.10.14 @ 02:26 AM CEST:
 		- Stable:
 			- appdaemon: v4.5.11 --> v4.5.12
