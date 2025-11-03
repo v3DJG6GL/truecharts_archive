@@ -1,0 +1,48 @@
+image:
+  pullPolicy: "IfNotPresent"
+  repository: "ghcr.io/miniflux/miniflux"
+  tag: "2.2.14@sha256:02e50d5b277857e3600c14ec1a6a064a82320077914d8eb546691a5f4c1d406c"
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+portal:
+  open:
+    enabled: true
+cnpg:
+  main:
+    enabled: true
+    database: miniflux
+    user: miniflux
+service:
+  main:
+    ports:
+      main:
+        port: 10091
+        targetPort: 8080
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            CREATE_ADMIN: 1
+            DATABASE_URL:
+              secretKeyRef:
+                name: cnpg-main-urls
+                key: std
+            RUN_MIGRATIONS: 1
+            ADMIN_PASSWORD: changeme
+            ADMIN_USERNAME: admin
+          probes:
+            liveness:
+              custom: true
+              enabled: true
+              spec:
+                failureThreshold: 3
+                httpGet:
+                  path: /healthcheck
+                  port: 8080
+                initialDelaySeconds: 30
+                periodSeconds: 10
+                timeoutSeconds: 1
