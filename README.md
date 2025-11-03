@@ -29,6 +29,9 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.11.03 @ 03:15 PM CET:
+		- Stable:
+			- lidarr-plugins: v3.0.0.485 --> v3.0.0.4856
 	- 2025.11.03 @ 02:43 PM CET:
 		- Premium:
 			- nextcloud: v31.0.9 --> v32.2.2
