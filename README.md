@@ -29,6 +29,43 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.11.06 @ 03:11 AM CET:
+		- Stable:
+			- actualserver: v25.10.0 --> v25.11.0
+			- authentik: v2025.10.0 --> v2025.10.1
+			- automatic-ripping-machine: v2.20.6 --> v2.20.7
+			- changedetection-io: v0.50.38 --> v0.50.39
+			- chroma: v1.3.0 --> v1.3.3
+			- collabora: v25.04.6.2.1 --> v25.04.7.1.1
+			- emby: v4.9.1.80 --> v4.9.2.6
+			- esphome: v2025.10.3 --> v2025.10.4
+			- firefox: v1143.0.3 --> v1144.0.2
+			- flaresolverr: v3.4.3 --> v3.4.4
+			- gitea: v1.25.0 --> v1.25.1
+			- home-assistant: v2025.10.4 --> v2025.11.0
+			- homepage: v1.5.0 --> v1.6.1
+			- immich: v2.2.2 --> v2.2.3
+			- immich-new: v2.2.2 --> v2.2.3
+			- jenkins: v2.534.0 --> v2.535.0
+			- jupyter: v2025.9.23 --> v7.4.7
+			- kanboard: v1.2.49 --> v1.2.48
+			- lidarr: v3.0.1 --> v3.0.0.4856
+			- metabase: v0.56.12 --> v0.56.13
+			- minecraft-bedrock: v2025.9.0 --> v2025.11.0
+			- nexus-oss: v3.85.0 --> v3.86.0
+			- nginx-proxy-manager: v2.12.6 --> v2.13.1
+			- nzbget: v25.4.0 --> v25.3.0
+			- octoprint: v1.11.3 --> v1.11.4
+			- omada-controller: v5.15.0 --> v6.0.0
+			- paperless-ngx: v2.19.3 --> v2.19.4
+			- pihole: v2025.10.3 --> v2025.11.0
+			- plextraktsync: v0.34.16 --> v0.34.17
+			- qbitrr: v5.2.0 --> v5.4.5
+			- slskd: v0.23.2 --> v0.24.0
+			- speedtest-tracker: v1.6.11 --> v1.7.0
+			- syncthing: v2.0.10 --> v2.0.11
+			- whisparr: v3.0.1.1327 --> v3.0.1.1333
+			- wizarr: v2025.10.8 --> v2025.11.1
 	- 2025.11.03 @ 03:54 PM CET:
 		- Premium:
 			- nextcloud: v32.0.1 --> v31.0.9

@@ -1,0 +1,29 @@
+image:
+  repository: oci.trueforge.org/containerforge/nzbget
+  pullPolicy: IfNotPresent
+  tag: "25.3.0"
+service:
+  main:
+    ports:
+      main:
+        port: 10057
+        targetPort: 6789
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
+portal:
+  open:
+    enabled: true
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false
