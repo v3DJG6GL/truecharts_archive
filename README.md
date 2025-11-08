@@ -29,6 +29,41 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.11.08 @ 01:59 PM CET:
+		- Stable:
+			- calibre: v8.13.0 --> v8.14.0
+			- changedetection-io: v0.50.39 --> v0.50.40
+			- cloudflared: v2025.10.1 --> v2025.11.1
+			- ctfd: v3.8.0 --> v3.8.1
+			- docker: v28.5.1 --> v28.5.2
+			- flexget: v3.18.20 --> v3.18.21
+			- flowise: v3.0.8 --> v3.0.10
+			- ghostfolio: v2.214.0 --> v2.215.0
+			- homarr: v1.43.1 --> v1.43.2
+			- home-assistant: v2025.11.0 --> v2025.11.1
+			- ispy-agent-dvr: v6.8.4.0 --> v6.8.9.0
+			- jackett: v0.24.244 --> v0.24.255
+			- metabase: v0.56.13 --> v0.57.1
+			- nzbget: v25.3.0 --> v25.4.0
+			- ollama: v0.12.9 --> v0.12.10
+			- paperless-ngx: v2.19.4 --> v2.19.5
+			- plextraktsync: v0.34.17 --> v0.34.18
+			- pocketmine-mp: v5.37.0 --> v5.37.1
+			- radicale: v3.5.7.0 --> v3.5.8.0
+			- slink: v1.7.5 --> v1.7.6
+			- soft-serve: v0.10.0 --> v0.11.0
+			- sonarr: v4.0.16.2942 --> v4.0.16.2943
+			- speedtest-tracker: v1.7.0 --> v1.7.1
+			- st-reborn-server: v1.7.1 --> v1.8.0
+			- stash: v0.29.1 --> v0.29.3
+			- strapi: v5.30.0 --> v5.30.1
+			- wekan: v8.16.0 --> v8.17.0
+			- whisparr: v3.0.1.1333 --> v3.0.1.1349
+			- wizarr: v2025.11.1 --> v2025.11.2
+			- xen-orchestra: v5.192.0 --> v5.192.1
+		- Premium:
+			- nextcloud: v31.0.9 --> v32.0.1
+			- traefik: v3.5.4 --> v3.6.0
 	- 2025.11.06 @ 03:28 AM CET:
 		- Stable:
 			- flaresolverr: v3.4.4 --> vlatest

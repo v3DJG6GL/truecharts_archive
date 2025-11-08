@@ -1,0 +1,36 @@
+image:
+  pullPolicy: "IfNotPresent"
+  repository: "docker.io/tiltedphoques/st-reborn-server"
+  tag: "v1.8.0@sha256:e30cac8cc421be151be181901427a0fb64595c999559cc430861062c22a00d44"
+persistence:
+  config:
+    enabled: true
+    mountPath: /home/server/config
+  data:
+    enabled: true
+    mountPath: /home/server/Data
+  logs:
+    enabled: true
+    mountPath: /home/server/logs
+portal:
+  open:
+    enabled: false
+service:
+  main:
+    ports:
+      main:
+        port: 10578
+        protocol: udp
+        targetPort: 10578
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false
