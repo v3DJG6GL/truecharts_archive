@@ -29,6 +29,20 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.11.10 @ 02:12 AM CET:
+		- Stable:
+			- automatic-ripping-machine: v2.20.7 --> v2.21.0
+			- bookstack: v25.07.20250804 --> v25.11.20251109
+			- borg-server: v2.6.20 --> v2.6.21
+			- jackett: v0.24.255 --> v0.24.268
+			- navidrome: v0.58.0 --> v0.58.5
+			- nginx-proxy-manager: v2.13.1 --> v2.13.2
+			- notifiarr: v0.9.0 --> v0.9.1
+			- tdarr: v2.51.03 --> v2.52.01
+			- tdarr-node: v2.51.03 --> v2.52.01
+		- Premium:
+			- authelia: v4.39.13 --> v4.39.14
+			- traefik: v3.5.4 --> v3.6.0
 	- 2025.11.08 @ 03:11 PM CET:
 		- Premium:
 			- nextcloud: v32.0.1 --> v32.0.1
