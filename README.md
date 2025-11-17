@@ -29,6 +29,69 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.11.17 @ 07:19 PM CET:
+		- Stable:
+			- autobrr: v1.68.0 --> v1.69.0
+			- changedetection-io: v0.50.40 --> v0.51.1
+			- clickhouse: v25.10.1.3832 --> v25.10.2.65
+			- cloudreve: v4.9.2 --> v4.10.1
+			- deconz: v2.32.0 --> v2.32.1
+			- docker: v28.5.2 --> v29.0.1
+			- esphome: v2025.10.4 --> v2025.10.5
+			- external-dns: v0.19.0 --> v0.20.0
+			- filebrowser: v2.45.0 --> v2.48.1
+			- fileflows: v25.10.0 --> v25.11.0
+			- flexget: v3.18.21 --> v3.18.23
+			- flowise: v3.0.10 --> v3.0.11
+			- fluidd: v1.34.4 --> v1.35.0
+			- ghostfolio: v2.215.0 --> v2.217.1
+			- homarr: v1.43.2 --> v1.43.3
+			- home-assistant: v2025.11.1 --> v2025.11.2
+			- homepage: v1.6.1 --> v1.7.0
+			- homer: v25.10.1 --> v25.11.1
+			- ispy-agent-dvr: v6.8.9.0 --> v6.9.6.0
+			- jackett: v0.24.268 --> v0.24.319
+			- jenkins: v2.535.0 --> v2.536.0
+			- maintainerr: v2.20.0 --> v2.21.0
+			- matomo: v5.5.1 --> v5.5.2
+			- mealie: v3.4.0 --> v3.5.0
+			- mediainfo: v25.10.1 --> v25.11.1
+			- medusa: v1.0.24 --> v1.0.25
+			- metabase: v0.57.1 --> v0.57.2
+			- metube: v2025.10.23 --> v2025.11.16
+			- misskey: v2025.10.2 --> v2025.11.0
+			- mkvtoolnix: v25.09.1 --> v25.11.1
+			- n8n: v1.119.0 --> v1.120.3
+			- nexus-oss: v3.86.0 --> v3.86.2
+			- nginx-proxy-manager: v2.13.2 --> v2.13.4
+			- ntfy: v2.14.0 --> v2.15.0
+			- ollama: v0.12.10 --> v0.12.11
+			- oscam: v11903.0.0 --> v11906.0.0
+			- outline: v1.0.1 --> v1.1.0
+			- paperless-ngx: v2.19.5 --> v2.19.6
+			- peanut: v5.16.0 --> v5.17.0
+			- pgadmin: v9.9.0 --> v9.10.0
+			- plextraktsync: v0.34.18 --> v0.34.19
+			- prowlarr: v2.1.5.5216 --> v2.3.0.5236
+			- qbitmanage: v4.6.3 --> v4.6.4
+			- qbittorrent: v5.1.2 --> v5.1.3
+			- radarr: v6.0.3.10276 --> v6.0.4.10291
+			- radicale: v3.5.8.0 --> v3.5.8.1
+			- resilio-sync: v3.1.0 --> v3.1.2
+			- romm: v4.3.0 --> v4.4.0
+			- shlink-web-client: v4.5.1 --> v4.6.1
+			- soft-serve: v0.11.0 --> v0.11.1
+			- sourcegraph: v6.9.2509 --> v6.10.0
+			- speedtest-tracker: v1.7.1 --> v1.7.4
+			- splunk: v10.0.1 --> v10.0.2
+			- strapi: v5.30.1 --> v5.31.0
+			- tdarr: v2.52.01 --> v2.56.01
+			- tdarr-node: v2.52.01 --> v2.56.01
+			- truecommand: v3.1.0 --> v3.2.0
+			- whisparr: v3.0.1.1349 --> v3.0.2.1383
+			- zwavejs2mqtt: v11.6.1 --> v11.7.0
+		- Premium:
+			- traefik: v3.6.0 --> v3.6.1
 	- 2025.11.10 @ 02:12 AM CET:
 		- Stable:
 			- automatic-ripping-machine: v2.20.7 --> v2.21.0

@@ -1,0 +1,56 @@
+image:
+  repository: "docker.io/vshadbolt/strapi"
+  tag: "5.31.0-alpine@sha256:63aa9b7bdf104c7aaac403d2cedfb1d859fd1203debbc10a417ce0a3471caed8"
+  pullPolicy: "Always"
+service:
+  main:
+    ports:
+      main:
+        port: 1337
+persistence:
+  data:
+    enabled: true
+    mountPath: /srv/app
+# Enabled postgres
+cnpg:
+  main:
+    enabled: true
+    user: strapi
+    database: strapi
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsNonRoot: false
+    runAsUser: 0
+    runAsGroup: 0
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            PORT: "{{ .Values.service.main.ports.main.port }}"
+            DATABASE_CLIENT: postgres
+            DATABASE_PORT: 5432
+            DATABASE_NAME: "{{ .Values.cnpg.main.database }}"
+            DATABASE_HOST:
+              secretKeyRef:
+                name: cnpg-main-urls
+                key: host
+            DATABASE_USERNAME: "{{ .Values.cnpg.main.user }}"
+            DATABASE_PASSWORD:
+              secretKeyRef:
+                name: cnpg-main-user
+                key: password
+            # STRAPI_LICENSE
+            # PUBLIC_URL
+            NODE_ENV: development
+            STRAPI_DISABLE_UPDATE_NOTIFICATION: true
+            FAST_REFRESH: false
+            EXTRA_ARGS: ""
+            JWT_SECRET: my_jwt_secret
+            ADMIN_JWT_SECRET: my_admin_jwt_secret
+            APP_KEYS: '["keya", "keyb"]'
