@@ -29,6 +29,9 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.11.17 @ 11:11 PM CET:
+		- Stable:
+			- jellyfin: v10.10.7 --> v10.11.3
 	- 2025.11.17 @ 07:19 PM CET:
 		- Stable:
 			- autobrr: v1.68.0 --> v1.69.0
