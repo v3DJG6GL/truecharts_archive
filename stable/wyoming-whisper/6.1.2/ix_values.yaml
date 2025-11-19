@@ -1,0 +1,47 @@
+image:
+  repository: "docker.io/rhasspy/wyoming-whisper"
+  pullPolicy: "IfNotPresent"
+  tag: "3.0.2@sha256:995b37523bc422f4f7649e50ccded97a5b9bf6d1d0420591183a778dd5d7d3f2"
+
+service:
+  main:
+    ports:
+      main:
+        port: 10300
+        protocol: tcp
+        targetPort: 10300
+
+wyoming_whisper:
+  language: en
+  model: tiny-int8
+  #  custom_model: ""
+  beam_size: 1
+  initial_prompt: ""
+
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              port: 10300
+              type: tcp
+            readiness:
+              port: 10300
+              type: tcp
+            startup:
+              port: 10300
+              type: tcp
+
+persistence:
+  config:
+    enabled: true
+    mountPath: /data
+  cache:
+    enabled: true
+    mountPath: /.cache/huggingface/hub
+
+portal:
+  open:
+    enabled: false

@@ -1,0 +1,46 @@
+image:
+  repository: docker.io/rhasspy/wyoming-piper
+  pullPolicy: IfNotPresent
+  tag: 2.1.2@sha256:54c511aa81d3b9f1e02216e30d08c948bd0b145f3eea1e7b0461c8c4645e2864
+
+service:
+  main:
+    ports:
+      main:
+        port: 10200
+        protocol: tcp
+        targetPort: 10200
+
+wyoming_piper:
+  voice: en_US-lessac-medium
+  # custom_voice: ""
+  speaker: 0
+  length_scale: "1.0"
+  noise_scale: "0.667"
+  noise_w: "0.333"
+  max_piper_procs: 1
+
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              port: 10200
+              type: tcp
+            readiness:
+              port: 10200
+              type: tcp
+            startup:
+              port: 10200
+              type: tcp
+
+persistence:
+  config:
+    enabled: true
+    mountPath: /data
+
+portal:
+  open:
+    enabled: false

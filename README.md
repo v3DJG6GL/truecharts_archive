@@ -29,6 +29,41 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.11.19 @ 11:51 PM CET:
+		- Stable:
+			- authentik: v2025.10.1 --> v2025.10.2
+			- changedetection-io: v0.51.1 --> v0.51.3
+			- chroma: v1.3.3 --> v1.3.5
+			- code-server: v4.105.1 --> v4.106.0
+			- collabora: v25.04.7.1.1 --> v25.04.7.2.1
+			- docker: v29.0.1 --> v29.0.2
+			- filebrowser: v2.48.1 --> v2.48.2
+			- flaresolverr: vlatest --> v3.4.5
+			- immich: v2.2.3 --> v2.3.0
+			- immich-new: v2.2.3 --> v2.3.0
+			- ispy-agent-dvr: v6.9.6.0 --> v6.9.7.0
+			- jackett: v0.24.319 --> v0.24.327
+			- jenkins: v2.536.0 --> v2.538.0
+			- lidarr: v3.0.0.4856 --> v3.1.1.4881
+			- metabase: v0.57.2 --> v0.57.3
+			- monero-node: v0.18.4.3 --> v0.18.4.4
+			- n8n: v1.120.3 --> v1.121.1
+			- netdata: v2.7.3 --> v2.8.0
+			- nginx-proxy-manager: v2.13.4 --> v2.13.5
+			- ollama: v0.12.11 --> v0.13.0
+			- radicale: v3.5.8.1 --> v3.5.8.2
+			- rdesktop: vlatest --> vubuntu-kde
+			- servas: v1.0.0 --> v1.1.0
+			- speedtest-tracker: v1.7.4 --> v1.8.0
+			- tailscale: v1.90.6 --> v1.90.8
+			- tandoor-recipes: v2.3.3 --> v2.3.5
+			- tdarr: v2.56.01 --> v2.57.01
+			- tdarr-node: v2.56.01 --> v2.57.01
+			- whisparr: v3.0.2.1383 --> v3.0.2.1394
+			- wyoming-piper: v1.6.3 --> v2.1.2
+			- wyoming-whisper: v2.5.0 --> v3.0.2
+		- Premium:
+			- traefik: v3.6.1 --> v3.6.2
 	- 2025.11.17 @ 11:11 PM CET:
 		- Stable:
 			- jellyfin: v10.10.7 --> v10.11.3
