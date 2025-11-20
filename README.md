@@ -29,6 +29,13 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.11.20 @ 04:36 AM CET:
+		- Stable:
+			- code-server: v4.106.0 --> v4.106.2
+			- esphome: v2025.10.5 --> v2025.11.0
+			- immich: v2.3.0 --> v2.3.1
+			- immich-new: v2.3.0 --> v2.3.1
+			- qbittorrent: v5.1.3 --> v5.1.4
 	- 2025.11.19 @ 11:52 PM CET:
 		- Stable:
 			- lidarr-plugins: v3.0.0.4856 --> v3.1.1.4881

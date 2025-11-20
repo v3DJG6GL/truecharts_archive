@@ -1,0 +1,88 @@
+image:
+  repository: oci.trueforge.org/containerforge/qbittorrent
+  pullPolicy: IfNotPresent
+  tag: 5.1.4
+qbitportforwardImage:
+  repository: docker.io/mjmeli/qbittorrent-port-forward-gluetun-server
+  pullPolicy: IfNotPresent
+  tag: latest@sha256:4bd94ad0d289d3d52facdcb708a019e693c8df41e386f6aee80b870fa90baeec
+
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+qbitportforward:
+  enabled: false
+  QBT_USERNAME: "admin"
+  QBT_PASSWORD: "adminadmin"
+service:
+  main:
+    ports:
+      main:
+        port: 10095
+  torrent:
+    enabled: true
+    ports:
+      torrent:
+        enabled: true
+        port: 6881
+        protocol: tcp
+      torrentudp:
+        enabled: true
+        port: "{{ .Values.service.torrent.ports.torrent.port }}"
+        protocol: udp
+  gluetun:
+    enabled: true
+    type: ClusterIP
+    ports:
+      gluetun:
+        enabled: true
+        port: 8000
+        targetPort: 8000
+        protocol: http
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            QBT_WEBUI_PORT: "{{ .Values.service.main.ports.main.port }}"
+            QBT_TORRENTING_PORT: "{{ .Values.service.torrent.ports.torrent.port }}"
+
+            # deprecated https://github.com/onedr0p/containers/pull/1109
+            # set the default port
+            # QBITTORRENT__PORT: "{{ .Values.service.main.ports.main.port }}"
+            # stops users from bricking their chart from setting the ip to a random ip when its a container.
+            # QBT_Preferences__WebUI__Address: "*"
+            # set port from gui.
+            # QBT_BitTorrent__Session__Port: "{{ .Values.service.torrent.ports.torrent.port }}"
+            # legacy ini key
+            # key deprecated https://github.com/qbittorrent/qBittorrent/issues/8324
+            # QBT_Preferences__Connection__PortRangeMin: "{{ .Values.service.torrent.ports.torrent.port }}"
+  qbitportforward:
+    enabled: true
+    type: CronJob
+    schedule: "*/5 * * * *"
+    podSpec:
+      restartPolicy: OnFailure
+      containers:
+        qbitportforward:
+          primary: true
+          enabled: true
+          imageSelector: qbitportforwardImage
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false
+          env:
+            QBT_USERNAME: "{{ .Values.qbitportforward.QBT_USERNAME }}"
+            QBT_PASSWORD: "{{ .Values.qbitportforward.QBT_PASSWORD }}"
+            QBT_ADDR: '{{ printf "http://%v:%v" (include "tc.v1.common.lib.chart.names.fullname" $) .Values.service.main.ports.main.port }}'
+            GTN_ADDR: '{{ printf "http://%v-gluetun:8000" (include "tc.v1.common.lib.chart.names.fullname" $) }}'
+          command: /usr/src/app/main.sh
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
