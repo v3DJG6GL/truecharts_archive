@@ -1,0 +1,37 @@
+image:
+  repository: "docker.io/anirdev/slink"
+  pullPolicy: "IfNotPresent"
+  tag: "v1.7.7@sha256:9459c465bee286306009159f6a04bbf822f050d2e412907bfc841f8f5de5fe81"
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        protocol: http
+        port: 3000
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            ORIGIN: "{{ .Values.chartContext.appUrl }}"
+            USER_APPROVAL_REQUIRED: true
+            IMAGE_MAX_SIZE: "15M"
+persistence:
+  database:
+    enabled: true
+    mountPath: "/app/var/data"
+  images:
+    enabled: true
+    mountPath: "/app/slink/images"
+portal:
+  open:
+    enabled: true
+ingress:
+  main:
+    required: true

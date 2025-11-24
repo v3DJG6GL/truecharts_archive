@@ -1,0 +1,51 @@
+image:
+  repository: "ghcr.io/pmmp/pocketmine-mp"
+  pullPolicy: "IfNotPresent"
+  tag: "5.37.3@sha256:e077fab03bf8e75ecb7ce7be5335562d81c7966bcbc87aa52d5442d81452495d"
+
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsUser: 0
+    runAsGroup: 0
+
+service:
+  main:
+    ports:
+      main:
+        protocol: udp
+        targetPort: 19132
+        port: 19132
+
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          tty: true
+          stdin: true
+          probes:
+            # -- Liveness probe configuration
+            # @default -- See below
+            liveness:
+              enabled: false
+            # -- Redainess probe configuration
+            # @default -- See below
+            readiness:
+              enabled: false
+            # -- Startup probe configuration
+            # @default -- See below
+            startup:
+              enabled: false
+
+persistence:
+  data:
+    enabled: true
+    mountPath: "/data"
+  plugins:
+    enabled: true
+    mountPath: "/plugins"
+
+portal:
+  open:
+    enabled: false

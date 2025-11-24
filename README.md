@@ -29,6 +29,35 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.11.24 @ 02:13 PM CET:
+		- Stable:
+			- baserow: v1.35.3 --> v2.0.1
+			- borg-server: v2.6.21 --> v2.6.22
+			- calibre: v8.14.0 --> v8.15.0
+			- crafty-4: v4.5.5 --> v4.6.1
+			- drawio: v28.2.9 --> v29.0.3
+			- filebrowser: v2.48.2 --> v2.49.0
+			- firefox: v1144.0.2 --> v1145.0.1
+			- flexget: v3.18.23 --> v3.18.24
+			- ghostfolio: v2.217.1 --> v2.219.0
+			- gitea: v1.25.1 --> v1.25.2
+			- grav: v1.7.50 --> v1.8.0
+			- homarr: v1.43.3 --> v1.44.0
+			- home-assistant: v2025.11.2 --> v2025.11.3
+			- jackett: v0.24.327 --> v0.24.348
+			- kopia: v20251023.0.52914 --> v20251120.0.54628
+			- n8n: v1.121.1 --> v1.121.2
+			- netdata: v2.8.0 --> v2.8.1
+			- openhab: v5.0.2 --> v5.0.3
+			- paperless-ngx: v2.19.6 --> v2.20.0
+			- pocketmine-mp: v5.37.1 --> v5.37.3
+			- qbitrr: v5.4.5 --> v5.5.2
+			- slink: v1.7.6 --> v1.7.7
+			- tdarr: v2.57.01 --> v2.58.02
+			- tdarr-node: v2.57.01 --> v2.58.02
+			- twofauth: v5.6.0 --> v5.6.1
+			- whisparr: v3.0.2.1394 --> v3.0.2.1433
+			- zwavejs2mqtt: v11.7.0 --> v11.8.0
 	- 2025.11.20 @ 04:36 AM CET:
 		- Stable:
 			- code-server: v4.106.0 --> v4.106.2
