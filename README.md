@@ -29,6 +29,26 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.11.26 @ 11:52 AM CET:
+		- Stable:
+			- docker: v29.0.2 --> v29.0.4
+			- esphome: v2025.11.0 --> v2025.11.1
+			- firefox: v1145.0.1 --> v1145.0.2
+			- flexget: v3.18.24 --> v3.18.26
+			- ispy-agent-dvr: v6.9.7.0 --> v6.9.8.0
+			- jenkins: v2.538.0 --> v2.539.0
+			- meshcentral: v1.1.53 --> v1.1.54
+			- metabase: v0.57.3 --> v0.57.4
+			- mysql-workbench: v8.0.44 --> v8.0.45
+			- n8n: v1.121.2 --> v1.122.2
+			- qbitrr: v5.5.2 --> v5.5.5
+			- sourcegraph: v6.10.0 --> v6.10.3349
+			- speedtest-tracker: v1.8.0 --> v1.9.0
+			- tailscale: v1.90.8 --> v1.90.9
+			- tandoor-recipes: v2.3.5 --> v2.3.6
+			- whisparr: v3.0.2.1433 --> v3.0.2.1452
+			- wizarr: v2025.11.2 --> v2025.11.3
+			- zwavejs2mqtt: v11.8.0 --> v11.8.1
 	- 2025.11.25 @ 07:04 PM CET:
 		- Stable:
 			- jellyfin: v10.11.3.1 --> v10.11.3.1
