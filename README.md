@@ -29,6 +29,76 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.12.02 @ 12:09 PM CET:
+		- Stable:
+			- airsonic-advanced: vedge-latest --> v11.1.4
+			- audiobookshelf: v2.30.0 --> v2.31.0
+			- autobrr: v1.69.0 --> v1.70.0
+			- autoscan: vlatest --> v1.4.0
+			- avidemux: v25.07.2 --> v25.11.1
+			- baserow: v2.0.1 --> v2.0.2
+			- changedetection-io: v0.51.3 --> v0.51.4
+			- clickhouse: v25.10.2.65 --> v25.11.1.558
+			- cloudcommander: v19.0.13 --> v19.0.15
+			- cloudflareddns: vlatest --> v3.0.0.4856
+			- code-server: v4.106.2 --> v4.105.1
+			- collabora: v25.04.7.2.1 --> v25.04.7.3.1
+			- cops: v3.7.8 --> v3.8.2
+			- czkawka: v25.08.1 --> v25.12.1
+			- ddns-go: v6.13.2 --> v6.13.3
+			- dizquetv: v1.5.5 --> v1.6.0
+			- duplicacy: v1.7.2 --> v1.8.0
+			- duplicati: vlatest --> v2.2.0
+			- ersatztv: v25.8.0 --> v25.9.0
+			- esphome: v2025.11.1 --> v2025.11.2
+			- filebrowser: v2.49.0 --> v2.50.0
+			- flaresolverr: v3.4.5 --> v3.4.6
+			- flexget: v3.18.26 --> v3.18.27
+			- fluidd: v1.35.0 --> v1.35.1
+			- ghostfolio: v2.219.0 --> v2.221.0
+			- healthchecks: v3.11.20250828 --> v3.13.20251130
+			- homarr: v1.44.0 --> v1.45.0
+			- ipfs: v0.38.2 --> v0.39.0
+			- ispy-agent-dvr: v6.9.8.0 --> v6.9.9.0
+			- jackett: v0.24.348 --> v0.24.394
+			- jellyfin: v10.11.3.1 --> v10.11.4
+			- kavita: v0.8.8 --> v0.8.8.3
+			- kiwix-serve: v3.8.0 --> v3.8.1
+			- komga: v1.23.5 --> v1.23.6
+			- kopia: v20251120.0.54628 --> v0.22.2
+			- lazylibrarian: vlatest --> v7.0.0
+			- lidarr: v3.1.1.4881 --> v3.1.1.4884
+			- lidarr-plugins: v3.1.1.4881 --> v3.1.1.4884
+			- local-ai: v3.7.0 --> v3.8.0
+			- maintainerr: v2.21.0 --> v2.22.1
+			- matomo: v5.5.2 --> v5.6.1
+			- mealie: v3.5.0 --> v3.6.0
+			- metube: v2025.11.16 --> v2025.11.29
+			- misskey: v2025.11.0 --> v2025.11.1
+			- n8n: v1.122.2 --> v1.123.0
+			- nzbhydra: v7.19.2 --> v8.1.0
+			- octoprint: v1.11.4 --> v1.11.5
+			- onlyoffice-document-server: v9.1.0 --> v9.2.0
+			- paperless-ngx: v2.20.0 --> v2.20.1
+			- pasta: v1.6.7 --> v2.2.2
+			- peanut: v5.17.0 --> v5.18.0
+			- pihole: v2025.11.0 --> v2025.11.1
+			- piwigo: v15.7.0 --> v16.0.0
+			- portainer: v2.35.0 --> v2.36.0
+			- qbitmanage: v4.6.4 --> v4.6.5
+			- radarr: v6.0.4.10291 --> v6.1.0.10293
+			- recyclarr: v7.4.1 --> v7.5.2
+			- slskd: v0.24.0 --> v0.24.1
+			- speedtest-tracker: v1.9.0 --> v1.10.3
+			- static-web-server: v2.39.0 --> v2.40.0
+			- tinymediamanager: v5.2.3 --> v5.2.4
+			- whisparr: v3.0.2.1452 --> v3.0.2.1509
+			- whoogle: v1.1.0 --> v1.1.2
+			- xen-orchestra: v5.192.1 --> v5.193.1
+			- zigbee2mqtt: v2.6.3 --> v2.7.0
+			- zwavejs2mqtt: v11.8.1 --> v11.8.2
+		- Premium:
+			- authelia: v4.39.14 --> v4.39.15
 	- 2025.11.26 @ 11:52 AM CET:
 		- Stable:
 			- docker: v29.0.2 --> v29.0.4

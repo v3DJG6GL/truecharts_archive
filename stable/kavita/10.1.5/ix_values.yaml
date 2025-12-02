@@ -1,0 +1,28 @@
+image:
+  repository: "oci.trueforge.org/containerforge/kavita"
+  pullPolicy: "IfNotPresent"
+  tag: "0.8.8.3@sha256:e2608ab43a522cd17efaa1fda67721821e06c9dd3c9496ba0f3788b8a8525649"
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsNonRoot: false
+    runAsUser: 0
+    runAsGroup: 0
+service:
+  main:
+    ports:
+      main:
+        targetPort: 5000
+        port: 10189
+persistence:
+  config:
+    enabled: true
+    mountPath: "/kavita/config"
+  manga:
+    enabled: true
+    mountPath: "/manga"
+  tmp:
+    enabled: false
+portal:
+  open:
+    enabled: true

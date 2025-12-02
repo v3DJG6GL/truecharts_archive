@@ -1,0 +1,29 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: oci.trueforge.org/containerforge/duplicacy
+  tag: 1.8.0@sha256:6d7395757fc9cff92be23b16c01469ba20ed059b92946576938279ee8ff3210f
+securityContext:
+  container:
+    runAsGroup: 0
+    runAsUser: 0
+    readOnlyRootFilesystem: false
+service:
+  main:
+    ports:
+      main:
+        port: 3875
+        protocol: http
+        targetPort: 3875
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+  cache:
+    enabled: true
+    mountPath: /cache
+  logs:
+    enabled: true
+    mountPath: /logs
+portal:
+  open:
+    enabled: true

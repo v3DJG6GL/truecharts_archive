@@ -1,0 +1,33 @@
+image:
+  repository: oci.trueforge.org/containerforge/duplicati
+  tag: 2.2.0@sha256:15ce9ee917faed14ddb8f17e4b4eba388ed6f4af34b582dcb271b29c6a710ee2
+  pullPolicy: IfNotPresent
+service:
+  main:
+    ports:
+      main:
+        port: 8200
+        targetPort: 8200
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              type: http
+              path: /
+            readiness:
+              type: http
+              path: /
+            startup:
+              type: http
+              path: /
+          env: {}
+persistence:
+  config:
+    enabled: true
+    mountPath: /data
+portal:
+  open:
+    enabled: true

@@ -1,0 +1,41 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/recyclarr/recyclarr
+  tag: 7.5.2@sha256:2550848d43a453f2c6adf3582f2198ac719f76670691d76de0819053103ef2fb
+service:
+  main:
+    enabled: false
+    ports:
+      main:
+        enabled: false
+workload:
+  main:
+    podSpec:
+      initContainers:
+        initconfig:
+          type: install
+          enabled: true
+          imageSelector: "image"
+          command:
+          - recyclarr
+          - config
+          - create
+      containers:
+        main:
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false
+          env:
+            CRON_SCHEDULE: "@daily"
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+    targetSelectAll: true
+portal:
+  open:
+    enabled: false

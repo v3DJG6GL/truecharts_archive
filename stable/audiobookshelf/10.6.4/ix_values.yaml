@@ -1,0 +1,48 @@
+image:
+  repository: docker.io/advplyr/audiobookshelf
+  tag: 2.31.0@sha256:e23adb24848d99d19cd1e251aee4e1e12ed4f5effc8ccb21754b062b6a06cf66
+  pullPolicy: IfNotPresent
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsNonRoot: false
+    runAsUser: 0
+    runAsGroup: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10223
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              path: "/ping"
+            readiness:
+              path: "/ping"
+            startup:
+              path: "/ping"
+          env:
+            AUDIOBOOKSHELF_UID: "{{ .Values.securityContext.container.PUID }}"
+            AUDIOBOOKSHELF_GID: "{{ .Values.securityContext.pod.fsGroup }}"
+            PORT: "{{ .Values.service.main.ports.main.port }}"
+            TOKEN_SECRET:
+              secretKeyRef:
+                name: secrets
+                key: TOKEN_SECRET
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+  audiobooks:
+    enabled: true
+    mountPath: /audiobooks
+  metadata:
+    enabled: true
+    mountPath: /metadata
+portal:
+  open:
+    enabled: true
