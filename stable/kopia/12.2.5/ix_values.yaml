@@ -1,0 +1,58 @@
+image:
+  repository: "oci.trueforge.org/containerforge/kopia"
+  tag: "0.22.3@sha256:fe261e9e8fa31369d86663941edc616523e3bfe7f5b4064c5bdfb700fdb6c9ec"
+  pullPolicy: "IfNotPresent"
+
+service:
+  main:
+    ports:
+      main:
+        protocol: http
+        port: 10238
+
+kopia:
+  user: "user"
+  password: "secret"
+  server_username: "user"
+  server_password: "password"
+
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          envFrom:
+          - secretRef:
+              name: "kopia-secrets"
+          args:
+          - server
+          - start
+          - --address=http://0.0.0.0:{{ .Values.service.main.ports.main.port }}
+          - --insecure
+          - --server-username={{ .Values.kopia.server_username }}
+          - --server-password={{ .Values.kopia.server_password }}
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/app/config"
+  cache:
+    enabled: true
+    mountPath: "/app/cache"
+  logs:
+    enabled: true
+    mountPath: "/app/logs"
+  rclone:
+    enabled: true
+    mountPath: "/app/rclone"
+
+portal:
+  open:
+    enabled: true

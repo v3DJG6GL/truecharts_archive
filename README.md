@@ -29,6 +29,79 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.12.09 @ 01:50 PM CET:
+		- Stable:
+			- actualserver: v25.11.0 --> v25.12.0
+			- adguard-home: v0.107.69 --> v0.107.71
+			- avidemux: v25.11.1 --> v25.12.2
+			- baserow: v2.0.2 --> v2.0.3
+			- borg-server: v2.6.22 --> v2.8.0
+			- calibre: v8.15.0 --> v8.16.2
+			- clickhouse: v25.11.1.558 --> v25.11.2.24
+			- cloudcommander: v19.0.15 --> v19.0.16
+			- code-server: v4.105.1 --> v4.106.3
+			- czkawka: v25.12.1 --> v25.12.3
+			- ddns-go: v6.13.3 --> v6.14.0
+			- deconz: v2.32.1 --> v2.32.2
+			- docker: v29.0.4 --> v29.1.2
+			- drawio: v29.0.3 --> v29.2.2
+			- esphome: v2025.11.2 --> v2025.11.4
+			- filebot: v25.07.2 --> v25.12.1
+			- filebrowser: v2.50.0 --> v2.51.2
+			- fileflows: v25.11.0 --> v25.12.0
+			- fireshare: v1.2.30 --> v1.3.2
+			- flexget: v3.18.27 --> v3.18.29
+			- flowise: v3.0.11 --> v3.0.12
+			- frigate: v0.16.2 --> v0.16.3
+			- ghostfolio: v2.221.0 --> v2.222.0
+			- handbrake: v25.10.1 --> v25.12.1
+			- healthchecks: v3.13.20251130 --> v3.13.20251208
+			- homarr: v1.45.0 --> v1.45.3
+			- home-assistant: v2025.11.3 --> v2025.12.2
+			- jackett: v0.24.394 --> v0.24.425
+			- jdownloader2: v25.07.2 --> v25.12.1
+			- jenkins: v2.539.0 --> v2.540.0
+			- joplin-server: v3.4.3 --> v3.5.1
+			- kopia: v0.22.2 --> v0.22.3
+			- maintainerr: v2.22.1 --> v2.24.0
+			- makemkv: v25.10.1 --> v25.12.1
+			- mealie: v3.6.0 --> v3.6.1
+			- mediainfo: v25.11.1 --> v25.12.1
+			- metabase: v0.57.4 --> v0.57.5
+			- metube: v2025.11.29 --> v2025.12.09
+			- misskey: v2025.11.1 --> v2025.12.0
+			- mkvcleaver: v25.07.2 --> v25.12.1
+			- mkvtoolnix: v25.11.1 --> v25.12.1
+			- n8n: v1.123.0 --> v1.123.4
+			- navidrome: v0.58.5 --> v0.59.0
+			- neko: v3.0.8 --> v3.0.9
+			- netdata: v2.8.1 --> v2.8.2
+			- nexus-oss: v3.86.2 --> v3.87.1
+			- node-red: v4.1.1 --> v4.1.2
+			- nzbhydra: v8.1.0 --> v8.1.2
+			- ollama: v0.13.0 --> v0.13.2
+			- openvscode-server: v1.105.1 --> v1.106.3
+			- peanut: v5.18.0 --> v5.19.2
+			- piwigo: v16.0.0 --> v16.1.0
+			- putty: v25.07.2 --> v25.12.1
+			- qdirstat: v25.07.2 --> v25.12.1
+			- radicale: v3.5.8.2 --> v3.5.9.0
+			- ring-mqtt: v5.8.1 --> v5.9.1
+			- slink: v1.7.7 --> v1.8.1
+			- sourcegraph: v6.10.3349 --> v6.11.0
+			- speedtest-tracker: v1.10.3 --> v1.12.3
+			- static-web-server: v2.40.0 --> v2.40.1
+			- syncthing: v2.0.11 --> v2.0.12
+			- timetagger: v25.06.1 --> v25.12.1
+			- traccar: v6.10.0 --> v6.11.0
+			- tsmuxer: v25.07.2 --> v25.12.1
+			- unpoller: v2.15.4 --> v2.17.0
+			- vocechat-server: v0.5.0 --> v0.5.3
+			- whisparr: v3.0.2.1509 --> v3.0.2.1620
+			- zigbee2mqtt: v2.7.0 --> v2.7.1
+		- Premium:
+			- nextcloud: v32.0.1 --> v32.0.1
+			- traefik: v3.6.2 --> v3.6.4
 	- 2025.12.02 @ 12:09 PM CET:
 		- Stable:
 			- airsonic-advanced: vedge-latest --> v11.1.4
