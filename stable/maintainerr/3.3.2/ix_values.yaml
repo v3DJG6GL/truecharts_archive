@@ -1,0 +1,27 @@
+image:
+  repository: "docker.io/jorenn92/maintainerr"
+  pullPolicy: "IfNotPresent"
+  tag: "2.25.0@sha256:7c2899994a471df176b685c751b48f8881abe0fd8f2f14c8301532b3d963cb6d"
+
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsUser: 0
+    runAsGroup: 0
+
+service:
+  main:
+    ports:
+      main:
+        protocol: http
+        targetPort: 6246
+        port: 6246
+
+persistence:
+  data:
+    enabled: true
+    mountPath: "/opt/data"
+
+portal:
+  open:
+    enabled: true

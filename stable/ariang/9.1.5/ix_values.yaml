@@ -1,0 +1,30 @@
+image:
+  repository: "docker.io/leonismoe/ariang"
+  pullPolicy: "IfNotPresent"
+  tag: "1.3.12@sha256:892a15c9a53164636aff695ca817723ec08cdeca5c5400f7ff40f104614dfcd2"
+service:
+  main:
+    ports:
+      main:
+        targetPort: 8080
+        protocol: http
+        port: 10276
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              type: http
+              path: /
+            readiness:
+              type: http
+              path: /
+            startup:
+              type: http
+              path: /
+          env: {}
+portal:
+  open:
+    enabled: true

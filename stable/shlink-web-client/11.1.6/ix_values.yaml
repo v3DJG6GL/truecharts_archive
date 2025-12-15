@@ -1,0 +1,29 @@
+image:
+  repository: "docker.io/shlinkio/shlink-web-client"
+  pullPolicy: "IfNotPresent"
+  tag: "4.6.2@sha256:93d4c24ca33d856e8e8076232eed6f5e5b01c70d705fdeae63fc7ae4034ea07d"
+service:
+  main:
+    ports:
+      main:
+        targetPort: 80
+        port: 10154
+        protocol: http
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsNonRoot: false
+    runAsUser: 0
+    runAsGroup: 0
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            SHLINK_SERVER_URL: ""
+            SHLINK_SERVER_API_KEY: ""
+            SHLINK_SERVER_NAME: ""

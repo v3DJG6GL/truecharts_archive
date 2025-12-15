@@ -29,6 +29,57 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.12.15 @ 08:47 AM CET:
+		- Stable:
+			- ariang: v1.3.11 --> v1.3.12
+			- autobrr: v1.70.0 --> v1.71.0
+			- chroma: v1.3.5 --> v1.3.7
+			- deemix: v4.3.5 --> v4.4.0
+			- dizquetv: v1.6.0 --> v1.7.0
+			- docker: v29.1.2 --> v29.1.3
+			- drawio: v29.2.2 --> v29.2.7
+			- esphome: v2025.11.4 --> v2025.11.5
+			- external-service: v3.22.2 --> v3.23.0
+			- filebrowser: v2.51.2 --> v2.52.0
+			- flexget: v3.18.29 --> v3.18.31
+			- fluidd: v1.35.1 --> v1.36.0
+			- ghostfolio: v2.222.0 --> v2.223.0
+			- homarr: v1.45.3 --> v1.46.0
+			- home-assistant: v2025.12 --> v2025.12.3
+			- homepage: v1.7.0 --> v1.8.0
+			- ispy-agent-dvr: v6.9.9.0 --> v7.0.5.0
+			- jackett: v0.24.425 --> v0.24.445
+			- jellyfin: v10.11.4 --> v10.11.5
+			- jenkins: v2.540.0 --> v2.541.0
+			- linkding: v1.44.1 --> v1.44.2
+			- linkwarden: v2.13.1 --> v2.13.2
+			- maintainerr: v2.24.0 --> v2.25.0
+			- matomo: v5.6.1 --> v5.6.2
+			- mealie: v3.6.1 --> v3.7.0
+			- metabase: v0.57.5 --> v0.57.6
+			- metube: v2025.12.09 --> v2025.12.14
+			- minecraft-bedrock: v2025.11.0 --> v2025.12.0
+			- minecraft-java: v2025.10.5 --> v2025.12.0
+			- miniflux: v2.2.14 --> v2.2.15
+			- misskey: v2025.12.0 --> v2025.12.1
+			- n8n: v1.123.4 --> v2.0.2
+			- ollama: v0.13.2 --> v0.13.3
+			- oscam: v11906.0.0 --> v11907.0.0
+			- paperless-ngx: v2.20.1 --> v2.20.2
+			- pgadmin: v9.10.0 --> v9.11.0
+			- portainer: v2.36.0 --> v2.37.0
+			- qbitrr: v5.5.5 --> v5.6.2
+			- qinglong: v2.19.2 --> v2.20.0
+			- ring-mqtt: v5.9.1 --> v5.9.2
+			- shlink-web-client: v4.6.1 --> v4.6.2
+			- slink: v1.8.1 --> v1.8.2
+			- unifi: v9.5.21 --> v10.0.162
+			- unpoller: v2.17.0 --> v2.19.0
+			- vocechat-server: v0.5.3 --> v0.5.5
+			- whisparr: v3.0.2.1620 --> v3.0.2.1706
+			- wizarr: v2025.11.3 --> v2025.12.0
+			- xen-orchestra: v5.193.1 --> v5.194.1
+			- xwiki: v17.9.0 --> v17.10.0
 	- 2025.12.10 @ 09:57 PM CET:
 		- Stable:
 			- home-assistant: v2025.12.2 --> v2025.12
