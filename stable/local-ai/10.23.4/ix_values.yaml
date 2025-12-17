@@ -1,0 +1,96 @@
+image:
+  repository: "docker.io/localai/localai"
+  pullPolicy: "IfNotPresent"
+  tag: "v3.8.0"
+ffmpegImage:
+  repository: docker.io/localai/localai
+  pullPolicy: IfNotPresent
+  tag: v3.8.0-ffmpeg-core
+cublasCuda12Image:
+  repository: docker.io/localai/localai
+  pullPolicy: IfNotPresent
+  tag: v3.8.0-gpu-nvidia-cuda-12
+cublasCuda12FfmpegImage:
+  repository: docker.io/localai/localai
+  pullPolicy: IfNotPresent
+  tag: v3.8.0-gpu-nvidia-cuda-12
+cublasCuda11Image:
+  repository: docker.io/localai/localai
+  pullPolicy: IfNotPresent
+  tag: v3.8.0-gpu-nvidia-cuda-11
+cublasCuda11FfmpegImage:
+  repository: docker.io/localai/localai
+  pullPolicy: IfNotPresent
+  tag: v3.8.0-gpu-nvidia-cuda-11
+allInOneCuda12Image:
+  repository: docker.io/localai/localai
+  pullPolicy: IfNotPresent
+  tag: v3.8.0-aio-gpu-nvidia-cuda-12
+allInOneCuda11Image:
+  repository: docker.io/localai/localai
+  pullPolicy: IfNotPresent
+  tag: v3.8.0-aio-gpu-nvidia-cuda-11
+allInOneCpuImage:
+  repository: docker.io/localai/localai
+  pullPolicy: IfNotPresent
+  tag: v3.8.0-aio-cpu
+securityContext:
+  container:
+    runAsNonRoot: false
+    readOnlyRootFilesystem: false
+    runAsUser: 0
+    runAsGroup: 0
+service:
+  main:
+    ports:
+      main:
+        protocol: http
+        port: 8080
+localai:
+  # Specify a build type. Available: cublas, openblas, clblas.
+  build_type: "openblas"
+  debug: false
+  cors: true
+  cors_allow_origins: "*"
+  galleries: []
+  #  - name: model-gallery
+  #    url: github:go-skynet/model-gallery/index.yaml
+  preload_models: []
+  #    url: github:go-skynet/model-gallery/gpt4all-j.yaml
+  # UPLOAD_LIMIT
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              enabled: true
+              type: http
+              path: /readyz
+            readiness:
+              enabled: true
+              type: http
+              path: /readyz
+            startup:
+              enabled: true
+              type: tcp
+          imageSelector: image
+          env:
+            ADDRESS: ":{{ .Values.service.main.ports.main.port }}"
+            MODELS_PATH: "{{ .Values.persistence.models.mountPath }}"
+            IMAGE_PATH: "{{ .Values.persistence.images.mountPath }}"
+            BUILD_TYPE: "{{ .Values.localai.build_type }}"
+            # breaks chart if true, keep it false.
+            REBUILD: false
+persistence:
+  models:
+    enabled: true
+    mountPath: "/models"
+  images:
+    enabled: true
+    mountPath: "/images"
+portal:
+  open:
+    enabled: false
+updated: true

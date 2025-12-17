@@ -83,11 +83,6 @@ workload:
             BUILD_TYPE: "{{ .Values.localai.build_type }}"
             # breaks chart if true, keep it false.
             REBUILD: false
-            DEBUG: "{{ .Values.localai.debug }}"
-            CORS: "{{ .Values.localai.cors }}"
-            GALLERIES: "{{ toJson .Values.localai.galleries }}"
-            PRELOAD_MODELS: "{{ toJson .Values.localai.preload_models }}"
-            CORS_ALLOW_ORIGINS: "{{ .Values.localai.cors_allow_origins }}"
 persistence:
   models:
     enabled: true
