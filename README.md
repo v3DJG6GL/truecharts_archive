@@ -29,6 +29,44 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.12.19 @ 09:08 PM CET:
+		- Stable:
+			- authentik: v2025.10.2 --> v2025.10.3
+			- baserow: v2.0.3 --> v2.0.5
+			- clickhouse: v25.11.2.24 --> v25.12.1.649
+			- collabora: v25.04.7.3.1 --> v25.04.8.1.1
+			- crafty-4: v4.6.1 --> v4.6.2
+			- czkawka: v25.12.3 --> v25.12.4
+			- drawio: v29.2.7 --> v29.2.9
+			- flexget: v3.18.31 --> v3.18.32
+			- gamevault-backend: v16.1.1 --> v16.2.0
+			- gitea: v1.25.2 --> v1.25.3
+			- handbrake: v25.12.1 --> v25.12.2
+			- healthchecks: v3.13.20251208 --> v3.13.20251215
+			- home-assistant: v2025.12.3 --> v2025.12.4
+			- immich: v2.3.1 --> v2.4.1
+			- immich-new: v2.3.1 --> v2.4.1
+			- ispy-agent-dvr: v7.0.5.0 --> v7.0.6.0
+			- mealie: v3.7.0 --> v3.8.0
+			- meshcentral: v1.1.54 --> v1.1.55
+			- metabase: v0.57.6 --> v0.57.7
+			- minecraft-bedrock: v2025.12.0 --> v2025.12.1
+			- n8n: v2.0.2 --> v2.1.1
+			- netdata: v2.8.2 --> v2.8.4
+			- ollama: v0.13.3 --> v0.13.5
+			- onlyoffice-document-server: v9.2.0 --> v9.2.1
+			- paperless-ngx: v2.20.2 --> v2.20.3
+			- pocketmine-mp: v5.37.3 --> v5.39.0
+			- sourcegraph: v6.11.0 --> v6.11.1446
+			- speedtest-tracker: v1.12.3 --> v1.13.3
+			- stash: v0.29.3 --> v0.30.1
+			- strapi: v5.31.0 --> v5.33.0
+			- tailscale: v1.90.9 --> v1.92.4
+			- vocechat-server: v0.5.5 --> v0.5.7
+			- whisparr: v3.0.2.1706 --> v3.0.2.1753
+			- zwavejs2mqtt: v11.8.2 --> v11.9.0
+		- Premium:
+			- traefik: v3.6.4 --> v3.6.5
 	- 2025.12.17 @ 03:19 PM CET:
 		- Stable:
 			- local-ai: v3.8.0.1 --> v3.8.0.2
