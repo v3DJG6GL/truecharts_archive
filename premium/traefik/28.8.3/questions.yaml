@@ -841,7 +841,7 @@ questions:
                         required: true
                     - variable: accessControlAllowOriginList
                       label: Access Control Allow Origin List
-                      description: List of allowed origins (e.g., https://fladder.DOMAIN.TLD). Use * for wildcard (not recommended with credentials).
+                      description: "List of allowed origins (e.g. https://fladder.DOMAIN.TLD). Use * for wildcard (not recommended with credentials)."
                       schema:
                         type: list
                         default: []
@@ -853,7 +853,7 @@ questions:
                               default: ""
                     - variable: accessControlAllowMethods
                       label: Access Control Allow Methods
-                      description: List of allowed HTTP methods (e.g., GET, POST, OPTIONS, PUT, DELETE)
+                      description: "List of allowed HTTP methods (e.g. GET, POST, OPTIONS, PUT, DELETE)"
                       schema:
                         type: list
                         default: []
@@ -865,7 +865,7 @@ questions:
                               default: ""
                     - variable: accessControlAllowHeaders
                       label: Access Control Allow Headers
-                      description: List of allowed headers. Use * to allow all headers, or specify individual headers.
+                      description: "List of allowed headers. Use * to allow all headers, or specify individual headers."
                       schema:
                         type: list
                         default: []
@@ -877,7 +877,7 @@ questions:
                               default: ""
                     - variable: accessControlExposeHeaders
                       label: Access Control Expose Headers
-                      description: List of headers exposed to the browser
+                      description: "List of headers exposed to the browser"
                       schema:
                         type: list
                         default: []
@@ -889,25 +889,25 @@ questions:
                               default: ""
                     - variable: accessControlAllowCredentials
                       label: Access Control Allow Credentials
-                      description: Allow credentials (cookies, authorization headers) in cross-origin requests
+                      description: "Allow credentials (cookies, authorization headers) in cross-origin requests"
                       schema:
                         type: boolean
                         default: false
                     - variable: accessControlMaxAge
                       label: Access Control Max Age
-                      description: How long (in seconds) the preflight response can be cached
+                      description: "How long (in seconds) the preflight response can be cached"
                       schema:
                         type: int
                         default: 100
                     - variable: addVaryHeader
                       label: Add Vary Header
-                      description: Add Vary: Origin header to responses (recommended with specific origins)
+                      description: "Add Vary: Origin header to responses (recommended with specific origins)"
                       schema:
                         type: boolean
                         default: true
                     - variable: accessControlAllowOriginListRegex
                       label: Access Control Allow Origin List (Regex)
-                      description: List of allowed origins using regex patterns
+                      description: "List of allowed origins using regex patterns"
                       schema:
                         type: list
                         default: []
