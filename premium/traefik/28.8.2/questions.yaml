@@ -822,6 +822,102 @@ questions:
                         type: string
                         default: ""
 
+        - variable: corsHeaders
+          label: CORS Headers
+          schema:
+            type: list
+            default: []
+            items:
+              - variable: corsHeadersEntry
+                label: ""
+                schema:
+                  additional_attrs: true
+                  type: dict
+                  attrs:
+                    - variable: name
+                      label: Name
+                      schema:
+                        type: string
+                        required: true
+                    - variable: accessControlAllowOriginList
+                      label: Access Control Allow Origin List
+                      description: List of allowed origins (e.g., https://fladder.DOMAIN.TLD). Use * for wildcard (not recommended with credentials).
+                      schema:
+                        type: list
+                        default: []
+                        items:
+                          - variable: origin
+                            label: Origin
+                            schema:
+                              type: string
+                              default: ""
+                    - variable: accessControlAllowMethods
+                      label: Access Control Allow Methods
+                      description: List of allowed HTTP methods (e.g., GET, POST, OPTIONS, PUT, DELETE)
+                      schema:
+                        type: list
+                        default: []
+                        items:
+                          - variable: method
+                            label: Method
+                            schema:
+                              type: string
+                              default: ""
+                    - variable: accessControlAllowHeaders
+                      label: Access Control Allow Headers
+                      description: List of allowed headers. Use * to allow all headers, or specify individual headers.
+                      schema:
+                        type: list
+                        default: []
+                        items:
+                          - variable: header
+                            label: Header
+                            schema:
+                              type: string
+                              default: ""
+                    - variable: accessControlExposeHeaders
+                      label: Access Control Expose Headers
+                      description: List of headers exposed to the browser
+                      schema:
+                        type: list
+                        default: []
+                        items:
+                          - variable: header
+                            label: Header
+                            schema:
+                              type: string
+                              default: ""
+                    - variable: accessControlAllowCredentials
+                      label: Access Control Allow Credentials
+                      description: Allow credentials (cookies, authorization headers) in cross-origin requests
+                      schema:
+                        type: boolean
+                        default: false
+                    - variable: accessControlMaxAge
+                      label: Access Control Max Age
+                      description: How long (in seconds) the preflight response can be cached
+                      schema:
+                        type: int
+                        default: 100
+                    - variable: addVaryHeader
+                      label: Add Vary Header
+                      description: Add Vary: Origin header to responses (recommended with specific origins)
+                      schema:
+                        type: boolean
+                        default: true
+                    - variable: accessControlAllowOriginListRegex
+                      label: Access Control Allow Origin List (Regex)
+                      description: List of allowed origins using regex patterns
+                      schema:
+                        type: list
+                        default: []
+                        items:
+                          - variable: originRegex
+                            label: Origin Regex
+                            schema:
+                              type: string
+                              default: ""
+
         - variable: customRequestHeaders
           label: Custom Request Headers
           schema:
