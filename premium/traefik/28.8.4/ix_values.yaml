@@ -631,6 +631,16 @@ middlewares:
   #     - name: "Date"
   #       regex: "^[^,]+,\\s*(.+)$"
   #       replacement: "$1"
+  corsHeaders: []
+  # - name: example
+  #   accessControlAllowOriginList: []
+  #   accessControlAllowMethods: []
+  #   accessControlAllowHeaders: []
+  #   accessControlExposeHeaders: []
+  #   accessControlAllowCredentials: false
+  #   accessControlMaxAge: 100
+  #   addVaryHeader: true
+  #   accessControlAllowOriginListRegex: []
   customFrameOptionsValue: []
   # - name: customFrameOptionsValueExample
   #   value: "SAMEORIGIN"
