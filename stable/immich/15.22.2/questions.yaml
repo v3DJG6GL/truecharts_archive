@@ -362,33 +362,6 @@ questions:
                                               schema:
                                                 type: string
 
-
-  - variable: immich
-    group: App Configuration
-    label: Immich Configuration
-    schema:
-      additional_attrs: true
-      type: dict
-      attrs:
-        - variable: log_level
-          label: Log Level
-          schema:
-            type: string
-            default: log
-            enum:
-              - value: log
-                description: log
-              - value: simple
-                description: simple (Switch to log ASAP)
-              - value: warn
-                description: warn
-              - value: error
-                description: error
-              - value: verbose
-                description: verbose
-              - value: debug
-                description: debug
-
         - variable: enable_ml
           label: Enable Machine Learning Container
           schema:

@@ -29,6 +29,45 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.12.24 @ 02:14 AM CET:
+		- Stable:
+			- audiobookshelf: v2.31.0 --> v2.32.0
+			- avidemux: v25.12.2 --> v25.12.4
+			- baserow: v2.0.5 --> v2.0.6
+			- czkawka: v25.12.4 --> v25.12.6
+			- ddns-go: v6.14.0 --> v6.14.1
+			- deemix: v4.4.0 --> v4.4.1
+			- external-service: v3.23.0 --> v3.23.2
+			- filebot: v25.12.1 --> v25.12.3
+			- fluidd: v1.36.0 --> v1.36.1
+			- ghostfolio: v2.223.0 --> v2.224.2
+			- handbrake: v25.12.2 --> v25.12.4
+			- healthchecks: v3.13.20251215 --> v3.13.20251222
+			- homarr: v1.46.0 --> v1.47.0
+			- immich-new: v2.4.1 --> v2.4.1.0
+			- ispy-agent-dvr: v7.0.6.0 --> v7.0.7.0
+			- jdownloader2: v25.12.1 --> v25.12.3
+			- jenkins: v2.541.0 --> v2.543.0
+			- joplin-server: v3.5.1 --> v3.5.2
+			- linkwarden: v2.13.2 --> v2.13.3
+			- makemkv: v25.12.1 --> v25.12.3
+			- mediainfo: v25.12.1 --> v25.12.3
+			- minecraft-bedrock: v2025.12.1 --> v2025.12.2
+			- misskey: v2025.12.1 --> v2025.12.2
+			- mkvcleaver: v25.12.1 --> v25.12.3
+			- mkvtoolnix: v25.12.1 --> v25.12.3
+			- n8n: v2.1.1 --> v2.2.1
+			- openhab: v5.0.3 --> v5.1.0
+			- pocketmine-mp: v5.39.0 --> v5.39.1
+			- putty: v25.12.1 --> v25.12.3
+			- qdirstat: v25.12.1 --> v25.12.3
+			- radicale: v3.5.9.0 --> v3.5.10.0
+			- slink: v1.8.2 --> v1.8.3
+			- tsmuxer: v25.12.1 --> v25.12.3
+			- unpoller: v2.19.0 --> v2.20.0
+			- wallos: v4.5.0 --> v4.6.0
+			- whisparr: v3.0.2.1753 --> v3.0.2.1808
+			- zwavejs2mqtt: v11.9.0 --> v11.9.1
 	- 2025.12.23 @ 01:06 AM CET:
 		- Premium:
 			- traefik: v3.6.5.01 --> v3.6.5.02
