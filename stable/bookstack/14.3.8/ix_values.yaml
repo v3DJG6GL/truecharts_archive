@@ -1,0 +1,48 @@
+image:
+  repository: "ghcr.io/linuxserver/bookstack"
+  pullPolicy: "IfNotPresent"
+  tag: "25.12.20251224@sha256:597cd4fc121f1d74c40e93cf7b0d5e1b3fc61af486a87cd65e2f86b0c0a5d914"
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsNonRoot: false
+    runAsUser: 0
+    runAsGroup: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10112
+        protocol: http
+        targetPort: 80
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            DB_USER: "{{ .Values.mariadb.mariadbUsername }}"
+            DB_DATABASE: "{{ .Values.mariadb.mariadbDatabase }}"
+            APP_URL: ""
+            DB_HOST:
+              secretKeyRef:
+                expandObjectName: false
+                name: '{{ printf "%s-%s" .Release.Name "mariadbcreds" }}'
+                key: plainhost
+            DB_PASS: "{{ .Values.mariadb.password }}"
+            APP_KEY:
+              secretKeyRef:
+                name: secrets
+                key: APP_KEY
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+mariadb:
+  enabled: true
+  includeCommon: true
+  mariadbUsername: bookstack
+  mariadbDatabase: bookstack
+portal:
+  open:
+    enabled: true

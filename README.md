@@ -29,6 +29,24 @@ Now you should be able to update your applications again.
 ### 2025.01.08: Thanks to [@hey101](https://github.com/hey101/TrueCharts-Update-Script), I have now a more automated update system. All apps should now as much up-to-date as the original TrueCharts currently is. Feel free to open an issue if you miss an update!
 
 - ### Changelog:
+	- 2025.12.24 @ 10:25 PM CET:
+		- Stable:
+			- audiobookshelf: v2.32.0 --> v2.32.1
+			- bookstack: v25.11.20251109 --> v25.12.20251224
+			- chroma: v1.3.7 --> v1.4.0
+			- cloudcommander: v19.0.16 --> v19.0.17
+			- firefox: v1145.0.2 --> v1146.0.1
+			- immich-new: v2.4.1.0 --> v2.4.1.1
+			- ispy-agent-dvr: v7.0.7.0 --> v7.0.8.0
+			- lidarr: v3.1.1.4884 --> v2.8.2.4493
+			- local-ai: v3.8.0.2 --> v3.9.0
+			- prowlarr: v2.3.0.5236 --> vlatest
+			- radarr: v6.1.0.10293 --> vlatest
+			- sonarr: v4.0.16.2943 --> vlatest
+			- sourcegraph: v6.11.1446 --> v6.11.2752
+			- unpoller: v2.20.0 --> v2.20.1
+			- vocechat-server: v0.5.7 --> v0.5.8
+			- whisparr: v3.0.2.1808 --> v3.0.2.1825
 	- 2025.12.24 @ 02:14 AM CET:
 		- Stable:
 			- audiobookshelf: v2.31.0 --> v2.32.0

@@ -1,0 +1,43 @@
+image:
+  repository: "ghcr.io/chroma-core/chroma"
+  pullPolicy: "IfNotPresent"
+  tag: "1.4.0@sha256:e3f0e88393ac396a25188c430123d06cc65fe70373f4d6187ab95321c670dd72"
+
+securityContext:
+  container:
+    runAsNonRoot: false
+    readOnlyRootFilesystem: false
+    runAsUser: 0
+    runAsGroup: 0
+
+service:
+  main:
+    ports:
+      main:
+        protocol: http
+        targetPort: 8000
+        port: 10690
+
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              path: "/api/v1/heartbeat"
+            readiness:
+              path: "/api/v1/heartbeat"
+            startup:
+              path: "/api/v1/heartbeat"
+          env:
+            IS_PERSISTENT: true
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/chroma/chroma"
+
+portal:
+  open:
+    enabled: true
