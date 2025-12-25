@@ -6,17 +6,14 @@ mlImage:
   repository: ghcr.io/immich-app/immich-machine-learning
   pullPolicy: IfNotPresent
   tag: v2.4.1
-
 mlCudaImage:
   repository: ghcr.io/immich-app/immich-machine-learning
   pullPolicy: IfNotPresent
   tag: v2.4.1-cuda
-
 mlOpenvinoImage:
   repository: ghcr.io/immich-app/immich-machine-learning
   pullPolicy: IfNotPresent
   tag: v2.4.1-openvino
-
 securityContext:
   container:
     readOnlyRootFilesystem: false

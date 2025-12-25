@@ -10,9 +10,10 @@ Handles both direct version directories and charts/ subdirectories.
 import os
 import json
 import shutil
+import logging
+import re
 from pathlib import Path
 from typing import List, Tuple, Dict, Any
-import logging
 from packaging import version
 
 # Configure logging
@@ -22,7 +23,6 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-
 def parse_version(version_string: str) -> Tuple[version.Version, str]:
     """Parse a version string and return a Version object for sorting."""
     try:
@@ -31,23 +31,19 @@ def parse_version(version_string: str) -> Tuple[version.Version, str]:
         return (parsed_version, version_string)
     except version.InvalidVersion:
         try:
-            import re
             numbers = re.findall(r'\d+', version_string)
             if len(numbers) >= 2:
                 if len(numbers) >= 3:
                     fallback_version = f"{numbers[0]}.{numbers[1]}.{numbers[2]}"
                 else:
                     fallback_version = f"{numbers[0]}.{numbers[1]}.0"
-
                 parsed_version = version.parse(fallback_version)
                 logger.warning(f"Using fallback version parsing for '{version_string}' -> '{fallback_version}'")
                 return (parsed_version, version_string)
         except:
             pass
-
         logger.warning(f"Could not parse version: {version_string}, treating as 0.0.0")
         return (version.parse("0.0.0"), version_string)
-
 
 def get_latest_versions(versions: List[str], keep_count: int = 3) -> List[str]:
     """Get the latest N versions from a list of version strings."""
@@ -65,9 +61,7 @@ def get_latest_versions(versions: List[str], keep_count: int = 3) -> List[str]:
     # Return the latest N versions
     result = [v[1] for v in sorted_versions[:keep_count]]
     logger.debug(f"Keeping latest {keep_count} versions: {result}")
-
     return result
-
 
 def get_version_directories(app_path: Path) -> Tuple[List[str], Path]:
     """
@@ -95,11 +89,9 @@ def get_version_directories(app_path: Path) -> Tuple[List[str], Path]:
 
     return version_dirs, search_dir
 
-
 def cleanup_version_directories(app_path: Path, keep_versions: List[str], dry_run: bool = False) -> List[str]:
     """Remove old version directories, keeping only the specified versions."""
     removed_dirs = []
-
     version_dirs, search_dir = get_version_directories(app_path)
 
     if not version_dirs:
@@ -129,6 +121,55 @@ def cleanup_version_directories(app_path: Path, keep_versions: List[str], dry_ru
 
     return removed_dirs
 
+def cleanup_json_file(app_path: Path, keep_versions: List[str], dry_run: bool = False) -> Tuple[bool, List[str]]:
+    """
+    Update app_versions.json to only contain the specified versions.
+    Returns (success_status, list_of_removed_versions).
+    """
+    json_path = app_path / "app_versions.json"
+    removed_versions = []
+
+    if not json_path.exists():
+        logger.debug(f"No app_versions.json found at {json_path}")
+        return False, []
+
+    try:
+        with open(json_path, 'r') as f:
+            data = json.load(f)
+
+        # Validate JSON structure (expecting a dictionary keyed by version)
+        if not isinstance(data, dict):
+            logger.warning(f"app_versions.json in {app_path} is not a dictionary. Skipping JSON cleanup.")
+            return False, []
+
+        # Filter dictionary to keep only requested versions
+        new_data = {}
+        for version_key, version_data in data.items():
+            if version_key in keep_versions:
+                new_data[version_key] = version_data
+            else:
+                removed_versions.append(version_key)
+
+        if not removed_versions:
+            return True, []
+
+        if dry_run:
+            logger.info(f"[DRY RUN] Would remove from app_versions.json: {removed_versions}")
+            return True, removed_versions
+
+        # Write updated JSON back to file
+        with open(json_path, 'w') as f:
+            json.dump(new_data, f, indent=4)
+
+        logger.info(f"Updated app_versions.json, removed versions: {removed_versions}")
+        return True, removed_versions
+
+    except json.JSONDecodeError:
+        logger.error(f"Failed to decode JSON from {json_path}")
+        return False, []
+    except Exception as e:
+        logger.error(f"Error processing app_versions.json for {app_path}: {e}")
+        return False, []
 
 def cleanup_application(app_path: Path, keep_count: int = 3, dry_run: bool = False, update_json: bool = True) -> Dict[str, Any]:
     """Clean up an individual application directory."""
@@ -168,8 +209,13 @@ def cleanup_application(app_path: Path, keep_count: int = 3, dry_run: bool = Fal
         removed_dirs = cleanup_version_directories(app_path, keep_versions, dry_run)
         result['removed_directories'] = removed_dirs
 
-        # Calculate removed entries
-        result['removed_json_entries'] = [v for v in available_versions if v not in keep_versions]
+        # Clean up app_versions.json
+        if update_json:
+            json_success, json_removed = cleanup_json_file(app_path, keep_versions, dry_run)
+            result['removed_json_entries'] = json_removed
+            result['json_updated'] = json_success
+        else:
+            result['removed_json_entries'] = []
 
         result['success'] = True
 
@@ -179,14 +225,12 @@ def cleanup_application(app_path: Path, keep_count: int = 3, dry_run: bool = Fal
 
     return result
 
-
 def cleanup_repository(base_path: str, keep_count: int = 3, dry_run: bool = False, update_json: bool = True, debug: bool = False) -> Dict[str, List[Dict[str, Any]]]:
     """Clean up all applications in a repository directory."""
     if debug:
         logger.setLevel(logging.DEBUG)
 
     base_dir = Path(base_path)
-
     if not base_dir.exists() or not base_dir.is_dir():
         logger.error(f"Base directory does not exist: {base_path}")
         return {'successful': [], 'failed': []}
@@ -209,102 +253,28 @@ def cleanup_repository(base_path: str, keep_count: int = 3, dry_run: bool = Fals
     for item in base_dir.iterdir():
         if item.is_dir() and not item.name.startswith('.'):
             result = cleanup_application(item, keep_count, dry_run, update_json)
-
             if result['success']:
                 results['successful'].append(result)
             else:
                 results['failed'].append(result)
 
-    # Print summary
-    logger.info("\n" + "="*50)
-    summary_title = "DRY RUN SUMMARY" if dry_run else "CLEANUP SUMMARY"
-    logger.info(summary_title)
-    logger.info("="*50)
-    logger.info(f"Successfully {'analyzed' if dry_run else 'processed'}: {len(results['successful'])} applications")
-    logger.info(f"Failed to {'analyze' if dry_run else 'process'}: {len(results['failed'])} applications")
-
-    if results['successful']:
-        action_verb = "Would be cleaned" if dry_run else "Successful cleanups"
-        logger.info(f"\n{action_verb}:")
-        for result in results['successful']:
-            verb = "would keep" if dry_run else "kept"
-            verb2 = "would remove" if dry_run else "removed"
-
-            logger.info(f"  {result['app_name']}: {verb} {len(result['kept_versions'])} versions, "
-                       f"{verb2} {len(result['removed_directories'])} directories")
-
-    if results['failed']:
-        action_verb = "Failed to analyze" if dry_run else "Failed cleanups"
-        logger.info(f"\n{action_verb}:")
-        for result in results['failed']:
-            logger.info(f"  {result['app_name']}: failed to process")
-
     return results
 
-
-def main():
-    """Main function to run the cleanup script."""
+if __name__ == "__main__":
     import argparse
-
-    parser = argparse.ArgumentParser(
-        description="Clean up old TrueCharts application versions"
-    )
-    parser.add_argument(
-        "directory",
-        help="Base directory to scan (e.g., '/stable/' or './stable')"
-    )
-    parser.add_argument(
-        "--keep",
-        type=int,
-        default=3,
-        help="Number of versions to keep per application (default: 3)"
-    )
-    parser.add_argument(
-        "--dry-run",
-        action="store_true",
-        help="Show what would be done without actually deleting anything"
-    )
-    parser.add_argument(
-        "--no-json-update",
-        action="store_true",
-        help="Skip updating app_versions.json files (only remove directories)"
-    )
-    parser.add_argument(
-        "--debug",
-        action="store_true",
-        help="Enable debug logging to troubleshoot version parsing"
-    )
+    parser = argparse.ArgumentParser(description="Cleanup old versions of applications")
+    parser.add_argument("path", help="Path to the repository root")
+    parser.add_argument("--keep", type=int, default=3, help="Number of recent versions to keep (default: 3)")
+    parser.add_argument("--dry-run", action="store_true", help="Perform a dry run without deleting files")
+    parser.add_argument("--no-json", action="store_true", help="Skip updating app_versions.json files")
+    parser.add_argument("--debug", action="store_true", help="Enable debug logging")
 
     args = parser.parse_args()
 
-    try:
-        results = cleanup_repository(
-            args.directory,
-            args.keep,
-            args.dry_run,
-            update_json=not args.no_json_update,
-            debug=args.debug
-        )
-
-        if args.dry_run:
-            logger.info("\nDry run completed. Use without --dry-run to perform actual cleanup.")
-
-        if args.no_json_update:
-            logger.info("Note: JSON files were not modified due to --no-json-update flag")
-
-        if results['failed']:
-            exit(1)
-        else:
-            action = "analyzed" if args.dry_run else "processed"
-            logger.info(f"All applications {action} successfully!")
-
-    except KeyboardInterrupt:
-        logger.info("Operation interrupted by user")
-        exit(130)
-    except Exception as e:
-        logger.error(f"Unexpected error: {e}")
-        exit(1)
-
-
-if __name__ == "__main__":
-    main()
+    cleanup_repository(
+        args.path,
+        keep_count=args.keep,
+        dry_run=args.dry_run,
+        update_json=not args.no_json,
+        debug=args.debug
+    )
